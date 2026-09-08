@@ -1,0 +1,44 @@
+2026-05-05 00:22:40.768 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-05 00:22:41.036 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-05 00:22:41.039 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-05 00:22:41.040 +06:00 [INF] Discovered 0 plugins:
+
+2026-05-05 00:22:48.037 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-05 00:22:48.047 +06:00 [INF] Connected [4282b12c-e309-49d5-8076-14d3f5bd2f72].
+2026-05-05 00:22:48.056 +06:00 [INF] Connection approved [4282b12c-e309-49d5-8076-14d3f5bd2f72].
+2026-05-05 00:22:48.140 +06:00 [INF] Updated PermissionSet 'default'
+2026-05-05 00:22:48.140 +06:00 [INF] Updated PermissionSet 'admin'
+2026-05-05 00:22:52.140 +06:00 [INF] Updating active permission set to 'admin'
+2026-05-05 00:22:53.065 +06:00 [WRN] 'Me' is null.
+2026-05-05 00:22:53.769 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 12.5492ms
+2026-05-05 00:24:27.287 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 3.668ms
+2026-05-05 00:25:04.486 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 3.3529ms
+2026-05-05 00:25:17.656 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.2462ms
+2026-05-05 00:26:30.566 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 4.8561ms
+2026-05-05 00:27:45.942 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 1.9591ms
+2026-05-05 00:27:57.793 +06:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 8.1676ms
+2026-05-05 00:28:47.929 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 7.4909ms
+2026-05-05 00:29:45.322 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 5.5492ms
+2026-05-05 00:29:53.975 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.8507ms
+2026-05-05 00:31:09.258 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.0161ms
+2026-05-05 00:33:48.284 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.0529ms
+2026-05-05 00:38:21.963 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.0328ms
+2026-05-05 00:39:50.574 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.1015ms
+2026-05-05 00:40:33.059 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.0922ms
+2026-05-05 00:41:48.181 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.248ms
+2026-05-05 00:44:42.931 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.1021ms
+2026-05-05 00:45:00.907 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.0651ms
+2026-05-05 00:46:38.608 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.0631ms
+2026-05-05 00:47:08.370 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.1023ms
+2026-05-05 00:51:21.945 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.9333ms
+2026-05-05 00:52:56.669 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-05-05 00:52:56.674 +06:00 [INF] Disconnected [4282b12c-e309-49d5-8076-14d3f5bd2f72].
+2026-05-05 00:52:56.675 +06:00 [INF] Updating active permission set to 'default'
+2026-05-05 00:52:56.696 +06:00 [INF] Acquiring context lock... (0ms)
+2026-05-05 00:52:56.696 +06:00 [INF] Acquired. (0ms)
+2026-05-05 00:52:56.696 +06:00 [INF] Beginning context dispose. (0ms)
+2026-05-05 00:52:56.697 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-05 00:52:56.697 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-05-05 00:52:56.697 +06:00 [INF] Clearing instance... (1ms)
+2026-05-05 00:52:56.697 +06:00 [INF] Releasing context lock... (1ms)
+2026-05-05 00:52:56.697 +06:00 [INF] Released. (1ms)

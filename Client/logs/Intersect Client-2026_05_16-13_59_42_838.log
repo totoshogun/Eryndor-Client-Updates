@@ -1,0 +1,31 @@
+2026-05-16 13:59:42.999 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-16 13:59:43.203 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-16 13:59:43.206 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-16 13:59:43.207 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-16 13:59:45.143 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-16 13:59:45.152 +02:00 [INF] Connected [20c1fec8-57b4-4338-846b-3507db742730].
+2026-05-16 13:59:45.161 +02:00 [INF] Connection approved [20c1fec8-57b4-4338-846b-3507db742730].
+2026-05-16 13:59:45.256 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-16 13:59:45.256 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-16 13:59:48.877 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-16 13:59:49.434 +02:00 [WRN] 'Me' is null.
+2026-05-16 13:59:49.626 +02:00 [WRN] Tried to load entity "f748a57f-2b1b-4791-910e-91ddb85352c2" (Oran) from packet before in-game UI was ready
+2026-05-16 13:59:49.633 +02:00 [WRN] Tried to load entity "f748a57f-2b1b-4791-910e-91ddb85352c2" (Oran) from packet before in-game UI was ready
+2026-05-16 13:59:50.112 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 26.6575ms
+2026-05-16 13:59:50.187 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 38.4192ms
+2026-05-16 14:00:00.095 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 5.3492ms
+2026-05-16 14:00:52.628 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 6.1151ms
+2026-05-16 14:01:12.561 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 10.7996ms
+2026-05-16 14:01:35.610 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 6.1291ms
+2026-05-16 14:05:50.813 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-16 14:05:50.816 +02:00 [INF] Disconnected [20c1fec8-57b4-4338-846b-3507db742730].
+2026-05-16 14:05:50.817 +02:00 [INF] Updating active permission set to 'default'
+2026-05-16 14:05:50.845 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-16 14:05:50.845 +02:00 [INF] Acquired. (0ms)
+2026-05-16 14:05:50.846 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-16 14:05:50.846 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-16 14:05:50.846 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-16 14:05:50.846 +02:00 [INF] Clearing instance... (1ms)
+2026-05-16 14:05:50.846 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-16 14:05:50.846 +02:00 [INF] Released. (1ms)

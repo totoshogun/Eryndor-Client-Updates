@@ -1,0 +1,45 @@
+2026-04-24 18:51:18.800 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-24 18:51:19.002 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-24 18:51:19.005 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-24 18:51:19.006 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-24 18:51:19.196 +06:00 [WRN] LoginWindow.Server is null.
+2026-04-24 18:51:19.201 +06:00 [WRN] Missing strings, overwriting strings file:
+	LoginWindow.Server (string),
+	ServerQueue
+2026-04-24 18:51:21.248 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-24 18:51:21.267 +06:00 [INF] Connected [80e7f54d-8072-4a6a-9d51-eceaccc98797].
+2026-04-24 18:51:21.285 +06:00 [INF] Connection approved [80e7f54d-8072-4a6a-9d51-eceaccc98797].
+2026-04-24 18:51:21.374 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-24 18:51:29.813 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-24 18:51:29.813 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-24 18:51:29.979 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-24 18:51:31.086 +06:00 [WRN] 'Me' is null.
+2026-04-24 18:51:31.652 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 36.8124ms
+2026-04-24 18:51:38.822 +06:00 [INF] Disconnected [80e7f54d-8072-4a6a-9d51-eceaccc98797].
+2026-04-24 18:51:38.822 +06:00 [INF] Updating active permission set to 'default'
+2026-04-24 18:51:39.760 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-24 18:51:39.766 +06:00 [INF] Connected [c0c5a51d-dcc5-46fe-a700-1950c9fd94bb].
+2026-04-24 18:51:39.767 +06:00 [INF] Connection approved [c0c5a51d-dcc5-46fe-a700-1950c9fd94bb].
+2026-04-24 18:51:39.800 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-24 18:51:39.800 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-24 18:51:44.612 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-24 18:51:50.605 +06:00 [INF] Disconnected [c0c5a51d-dcc5-46fe-a700-1950c9fd94bb].
+2026-04-24 18:51:50.605 +06:00 [INF] Updating active permission set to 'default'
+2026-04-24 18:52:08.503 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-24 18:52:08.507 +06:00 [INF] Connected [e3fabef1-2cf3-4de0-8a92-1583b022e0f8].
+2026-04-24 18:52:08.522 +06:00 [INF] Connection approved [e3fabef1-2cf3-4de0-8a92-1583b022e0f8].
+2026-04-24 18:52:08.530 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-24 18:52:08.530 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-24 19:01:08.235 +06:00 [INF] User clicked exit button.
+2026-04-24 19:01:08.258 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-24 19:01:08.259 +06:00 [INF] Disconnected [e3fabef1-2cf3-4de0-8a92-1583b022e0f8].
+2026-04-24 19:01:08.259 +06:00 [INF] Updating active permission set to 'default'
+2026-04-24 19:01:08.290 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-24 19:01:08.290 +06:00 [INF] Acquired. (0ms)
+2026-04-24 19:01:08.291 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-24 19:01:08.291 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-24 19:01:08.291 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-24 19:01:08.291 +06:00 [INF] Clearing instance... (1ms)
+2026-04-24 19:01:08.291 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-24 19:01:08.291 +06:00 [INF] Released. (1ms)

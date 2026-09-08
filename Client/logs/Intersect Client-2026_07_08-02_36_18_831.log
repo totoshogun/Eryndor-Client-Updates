@@ -1,0 +1,72 @@
+2026-07-08 02:36:18.984 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-07-08 02:36:19.199 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-07-08 02:36:19.202 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-07-08 02:36:19.203 +02:00 [INF] Discovered 0 plugins:
+
+2026-07-08 02:36:21.362 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-07-08 02:36:21.371 +02:00 [INF] Connected [144eb44f-1f2d-4b13-827f-df06e9c1224e].
+2026-07-08 02:36:21.379 +02:00 [INF] Connection approved [144eb44f-1f2d-4b13-827f-df06e9c1224e].
+2026-07-08 02:36:21.493 +02:00 [INF] Updated PermissionSet 'default'
+2026-07-08 02:36:21.493 +02:00 [INF] Updated PermissionSet 'admin'
+2026-07-08 02:36:24.932 +02:00 [INF] Updating active permission set to 'admin'
+2026-07-08 02:36:26.958 +02:00 [WRN] 'Me' is null.
+2026-07-08 02:36:27.976 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 29.5523ms
+2026-07-08 02:36:27.986 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 8.8085ms
+2026-07-08 02:36:27.998 +02:00 [INF] Built VBO for map 000bacda-f0e9-4a92-ab09-e55bd4ad15c1 'New Map' in 8.2204ms
+2026-07-08 02:36:28.099 +02:00 [ERR] Exception thrown while trying to load 'resources/tilesets/water_shore_marker.png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass182_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 1027
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-07-08 02:36:28.100 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 100.7667ms
+2026-07-08 02:36:28.125 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 23.502ms
+2026-07-08 02:36:28.134 +02:00 [INF] Built VBO for map f519d3ea-b6f4-4b17-b87a-1dcf003cd3ec 'New Map' in 8.4418ms
+2026-07-08 02:36:28.887 +02:00 [FTL] Game is crashing due to an exception
+System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.ThrowHelper.ThrowArgumentNullException(String name)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Intersect.Client.Entities.Entity.GetFileNameWithoutExtensionCached(String fileName) in F:\game code engine\Intersect_New\Intersect.Client.Core\Entities\Entity.cs:line 276
+   at Intersect.Client.Entities.Entity.DrawEquipment(String filename, Color renderColor, Nullable`1 destinationOverride, Boolean exactDestination, ItemDescriptor itemDescriptor) in F:\game code engine\Intersect_New\Intersect.Client.Core\Entities\Entity.cs:line 5031
+   at Intersect.Client.Entities.Entity.DrawEquipmentPaperdoll(Int32 equipSlot, String spriteName, FloatRect destRectangle, Color renderColor) in F:\game code engine\Intersect_New\Intersect.Client.Core\Entities\Entity.cs:line 4338
+   at Intersect.Client.Entities.Entity.DrawAllLayers(IGameTexture texture, FloatRect srcRectangle, FloatRect destRectangle, Color renderColor, String spriteName, Nullable`1 appearanceAlphaOverride) in F:\game code engine\Intersect_New\Intersect.Client.Core\Entities\Entity.cs:line 4180
+   at Intersect.Client.Entities.Entity.Draw() in F:\game code engine\Intersect_New\Intersect.Client.Core\Entities\Entity.cs:line 1997
+   at Intersect.Client.Core.Graphics.DrawInGame(TimeSpan deltaTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Graphics.cs:line 645
+   at Intersect.Client.Core.Graphics.Render(TimeSpan deltaTime, TimeSpan totalTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Graphics.cs:line 985
+   at Intersect.Client.MonoGame.IntersectGame.Draw(GameTime gameTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 332
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 627
+2026-07-08 02:36:28.916 +02:00 [INF] Acquiring context lock... (0ms)
+2026-07-08 02:36:28.916 +02:00 [INF] Acquired. (0ms)
+2026-07-08 02:36:28.917 +02:00 [INF] Beginning context dispose. (0ms)
+2026-07-08 02:36:28.917 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-07-08 02:36:28.917 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-07-08 02:36:28.917 +02:00 [INF] Clearing instance... (1ms)
+2026-07-08 02:36:28.917 +02:00 [INF] Releasing context lock... (1ms)
+2026-07-08 02:36:28.917 +02:00 [INF] Released. (1ms)
+2026-07-08 02:36:28.917 +02:00 [ERR] Failed to start application context
+System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.ThrowHelper.ThrowArgumentNullException(String name)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Intersect.Client.Entities.Entity.GetFileNameWithoutExtensionCached(String fileName) in F:\game code engine\Intersect_New\Intersect.Client.Core\Entities\Entity.cs:line 276
+   at Intersect.Client.Entities.Entity.DrawEquipment(String filename, Color renderColor, Nullable`1 destinationOverride, Boolean exactDestination, ItemDescriptor itemDescriptor) in F:\game code engine\Intersect_New\Intersect.Client.Core\Entities\Entity.cs:line 5031
+   at Intersect.Client.Entities.Entity.DrawEquipmentPaperdoll(Int32 equipSlot, String spriteName, FloatRect destRectangle, Color renderColor) in F:\game code engine\Intersect_New\Intersect.Client.Core\Entities\Entity.cs:line 4338
+   at Intersect.Client.Entities.Entity.DrawAllLayers(IGameTexture texture, FloatRect srcRectangle, FloatRect destRectangle, Color renderColor, String spriteName, Nullable`1 appearanceAlphaOverride) in F:\game code engine\Intersect_New\Intersect.Client.Core\Entities\Entity.cs:line 4180
+   at Intersect.Client.Entities.Entity.Draw() in F:\game code engine\Intersect_New\Intersect.Client.Core\Entities\Entity.cs:line 1997
+   at Intersect.Client.Core.Graphics.DrawInGame(TimeSpan deltaTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Graphics.cs:line 645
+   at Intersect.Client.Core.Graphics.Render(TimeSpan deltaTime, TimeSpan totalTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Graphics.cs:line 985
+   at Intersect.Client.MonoGame.IntersectGame.Draw(GameTime gameTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 332
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 627
+   at Intersect.Client.Core.ClientContext.InternalStart() in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\ClientContext.cs:line 97
+   at Intersect.Core.ApplicationContext`2.Start(Boolean lockUntilShutdown) in F:\game code engine\Intersect_New\Intersect (Core)\Core\ApplicationContext`2.cs:line 245

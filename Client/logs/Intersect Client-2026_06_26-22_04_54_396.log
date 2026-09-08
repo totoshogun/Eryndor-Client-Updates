@@ -1,0 +1,59 @@
+2026-06-26 22:04:54.682 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-06-26 22:04:54.947 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-06-26 22:04:54.951 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-06-26 22:04:54.952 +02:00 [INF] Discovered 0 plugins:
+
+2026-06-26 22:04:59.949 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-06-26 22:04:59.975 +02:00 [INF] Connected [c213b1cb-216b-4f0e-918d-77bd15c93c24].
+2026-06-26 22:04:59.997 +02:00 [INF] Connection approved [c213b1cb-216b-4f0e-918d-77bd15c93c24].
+2026-06-26 22:05:00.143 +02:00 [INF] Updated PermissionSet 'default'
+2026-06-26 22:05:04.453 +02:00 [INF] Updated PermissionSet 'admin'
+2026-06-26 22:05:04.454 +02:00 [INF] Updating active permission set to 'admin'
+2026-06-26 22:05:04.634 +02:00 [FTL] Game is crashing due to an exception
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Intersect.Client.Interface.Menu.SelectCharacterWindow.UpdateDisplay() in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Menu\SelectCharacterWindow.cs:line 504
+   at Intersect.Client.Interface.Menu.SelectCharacterWindow.<Show>b__33_0(SelectCharacterWindow _) in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Menu\SelectCharacterWindow.cs:line 555
+   at Intersect.Framework.Threading.ActionQueue`2.State`1.InternalNext() in F:\game code engine\Intersect_New\Framework\Intersect.Framework\Threading\ActionQueue.State`1.cs:line 19
+   at Intersect.Framework.Threading.ActionQueue`2.InvokePending() in F:\game code engine\Intersect_New\Framework\Intersect.Framework\Threading\ActionQueue.cs:line 47
+   at Intersect.Client.Framework.Gwen.Control.Base.RecurseLayout(Base skin) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Gwen\Control\Base.cs:line 4307
+   at Intersect.Client.Framework.Gwen.Control.Base.RecurseLayout(Base skin) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Gwen\Control\Base.cs:line 4300
+   at Intersect.Client.Framework.Gwen.Control.Canvas.DoThink() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Gwen\Control\Canvas.cs:line 224
+   at Intersect.Client.Framework.Gwen.Control.Canvas.RenderCanvas(TimeSpan elapsed, TimeSpan total) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Gwen\Control\Canvas.cs:line 127
+   at Intersect.Client.Interface.Menu.MenuGuiBase.Draw(TimeSpan elapsed, TimeSpan total) in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Menu\MenuGuiBase.cs:line 67
+   at Intersect.Client.Interface.Interface.DrawGui(TimeSpan elapsed, TimeSpan total) in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Interface.cs:line 364
+   at Intersect.Client.Core.Graphics.Render(TimeSpan deltaTime, TimeSpan totalTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Graphics.cs:line 1001
+   at Intersect.Client.MonoGame.IntersectGame.Draw(GameTime gameTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 332
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 627
+2026-06-26 22:05:04.676 +02:00 [INF] Acquiring context lock... (0ms)
+2026-06-26 22:05:04.676 +02:00 [INF] Acquired. (0ms)
+2026-06-26 22:05:04.677 +02:00 [INF] Beginning context dispose. (0ms)
+2026-06-26 22:05:04.678 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-06-26 22:05:04.678 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-06-26 22:05:04.678 +02:00 [INF] Clearing instance... (2ms)
+2026-06-26 22:05:04.678 +02:00 [INF] Releasing context lock... (2ms)
+2026-06-26 22:05:04.678 +02:00 [INF] Released. (2ms)
+2026-06-26 22:05:04.678 +02:00 [ERR] Failed to start application context
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Intersect.Client.Interface.Menu.SelectCharacterWindow.UpdateDisplay() in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Menu\SelectCharacterWindow.cs:line 504
+   at Intersect.Client.Interface.Menu.SelectCharacterWindow.<Show>b__33_0(SelectCharacterWindow _) in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Menu\SelectCharacterWindow.cs:line 555
+   at Intersect.Framework.Threading.ActionQueue`2.State`1.InternalNext() in F:\game code engine\Intersect_New\Framework\Intersect.Framework\Threading\ActionQueue.State`1.cs:line 19
+   at Intersect.Framework.Threading.ActionQueue`2.InvokePending() in F:\game code engine\Intersect_New\Framework\Intersect.Framework\Threading\ActionQueue.cs:line 47
+   at Intersect.Client.Framework.Gwen.Control.Base.RecurseLayout(Base skin) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Gwen\Control\Base.cs:line 4307
+   at Intersect.Client.Framework.Gwen.Control.Base.RecurseLayout(Base skin) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Gwen\Control\Base.cs:line 4300
+   at Intersect.Client.Framework.Gwen.Control.Canvas.DoThink() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Gwen\Control\Canvas.cs:line 224
+   at Intersect.Client.Framework.Gwen.Control.Canvas.RenderCanvas(TimeSpan elapsed, TimeSpan total) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Gwen\Control\Canvas.cs:line 127
+   at Intersect.Client.Interface.Menu.MenuGuiBase.Draw(TimeSpan elapsed, TimeSpan total) in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Menu\MenuGuiBase.cs:line 67
+   at Intersect.Client.Interface.Interface.DrawGui(TimeSpan elapsed, TimeSpan total) in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Interface.cs:line 364
+   at Intersect.Client.Core.Graphics.Render(TimeSpan deltaTime, TimeSpan totalTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Graphics.cs:line 1001
+   at Intersect.Client.MonoGame.IntersectGame.Draw(GameTime gameTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 332
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 627
+   at Intersect.Client.Core.ClientContext.InternalStart() in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\ClientContext.cs:line 97
+   at Intersect.Core.ApplicationContext`2.Start(Boolean lockUntilShutdown) in F:\game code engine\Intersect_New\Intersect (Core)\Core\ApplicationContext`2.cs:line 245

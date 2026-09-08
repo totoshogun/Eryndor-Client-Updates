@@ -1,0 +1,31 @@
+2026-04-15 02:55:02.265 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-15 02:55:02.580 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-15 02:55:02.588 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-15 02:55:02.589 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-15 02:55:05.160 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-15 02:55:05.183 +06:00 [INF] Connected [c55f4f2f-8021-4372-b619-3e9d8e4c3986].
+2026-04-15 02:55:05.202 +06:00 [INF] Connection approved [c55f4f2f-8021-4372-b619-3e9d8e4c3986].
+2026-04-15 02:55:05.285 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-15 02:55:09.277 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-15 02:55:09.277 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-15 02:55:09.405 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-15 02:55:26.083 +06:00 [WRN] 'Me' is null.
+2026-04-15 02:55:26.647 +06:00 [INF] Built VBO for map 23630ac6-4461-460d-8a3b-9a0d4477096f 'test 8' in 16.6799ms
+2026-04-15 02:55:26.696 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 43.9063ms
+2026-04-15 02:55:26.704 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 7.3632ms
+2026-04-15 03:00:14.447 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 2.7792ms
+2026-04-15 03:01:17.733 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 2.7569ms
+2026-04-15 03:03:10.448 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 2.365ms
+2026-04-15 03:04:06.289 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 3.1429ms
+2026-04-15 03:04:55.424 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-15 03:04:55.427 +06:00 [INF] Disconnected [c55f4f2f-8021-4372-b619-3e9d8e4c3986].
+2026-04-15 03:04:55.428 +06:00 [INF] Updating active permission set to 'default'
+2026-04-15 03:04:55.466 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-15 03:04:55.466 +06:00 [INF] Acquired. (0ms)
+2026-04-15 03:04:55.467 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-15 03:04:55.467 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-15 03:04:55.467 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-15 03:04:55.467 +06:00 [INF] Clearing instance... (1ms)
+2026-04-15 03:04:55.467 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-15 03:04:55.467 +06:00 [INF] Released. (1ms)

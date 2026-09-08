@@ -1,0 +1,106 @@
+2026-05-01 03:32:32.904 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-01 03:32:33.098 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-01 03:32:33.102 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-01 03:32:33.103 +06:00 [INF] Discovered 0 plugins:
+
+2026-05-01 03:34:03.124 +06:00 [INF] Music volume set to 10 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:03.125 +06:00 [INF] Sound volume set to 15 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-05-01 03:34:12.015 +06:00 [INF] Music volume set to 94 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.031 +06:00 [INF] Music volume set to 93 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.047 +06:00 [INF] Music volume set to 91 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.064 +06:00 [INF] Music volume set to 90 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.081 +06:00 [INF] Music volume set to 88 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.097 +06:00 [INF] Music volume set to 87 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.114 +06:00 [INF] Music volume set to 85 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.131 +06:00 [INF] Music volume set to 84 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.147 +06:00 [INF] Music volume set to 83 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.164 +06:00 [INF] Music volume set to 82 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.181 +06:00 [INF] Music volume set to 81 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.197 +06:00 [INF] Music volume set to 80 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.214 +06:00 [INF] Music volume set to 79 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.231 +06:00 [INF] Music volume set to 78 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.247 +06:00 [INF] Music volume set to 77 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.297 +06:00 [INF] Music volume set to 76 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.397 +06:00 [INF] Music volume set to 75 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.415 +06:00 [INF] Music volume set to 74 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.781 +06:00 [INF] Music volume set to 75 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.797 +06:00 [INF] Music volume set to 77 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.815 +06:00 [INF] Music volume set to 79 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.831 +06:00 [INF] Music volume set to 81 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.847 +06:00 [INF] Music volume set to 84 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.865 +06:00 [INF] Music volume set to 87 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.881 +06:00 [INF] Music volume set to 89 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.897 +06:00 [INF] Music volume set to 91 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.914 +06:00 [INF] Music volume set to 93 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.931 +06:00 [INF] Music volume set to 95 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.947 +06:00 [INF] Music volume set to 97 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.964 +06:00 [INF] Music volume set to 98 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.981 +06:00 [INF] Music volume set to 99 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:12.998 +06:00 [INF] Music volume set to 100 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.497 +06:00 [INF] Music volume set to 98 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.514 +06:00 [INF] Music volume set to 97 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.531 +06:00 [INF] Music volume set to 95 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.547 +06:00 [INF] Music volume set to 94 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.564 +06:00 [INF] Music volume set to 92 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.582 +06:00 [INF] Music volume set to 91 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.597 +06:00 [INF] Music volume set to 90 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.614 +06:00 [INF] Music volume set to 89 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.631 +06:00 [INF] Music volume set to 88 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.664 +06:00 [INF] Music volume set to 87 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.681 +06:00 [INF] Music volume set to 86 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.697 +06:00 [INF] Music volume set to 85 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.714 +06:00 [INF] Music volume set to 84 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.730 +06:00 [INF] Music volume set to 83 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.747 +06:00 [INF] Music volume set to 82 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.764 +06:00 [INF] Music volume set to 81 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.797 +06:00 [INF] Music volume set to 80 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.814 +06:00 [INF] Music volume set to 79 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.831 +06:00 [INF] Music volume set to 78 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.864 +06:00 [INF] Music volume set to 77 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.881 +06:00 [INF] Music volume set to 76 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.897 +06:00 [INF] Music volume set to 74 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.914 +06:00 [INF] Music volume set to 73 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.931 +06:00 [INF] Music volume set to 72 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.947 +06:00 [INF] Music volume set to 71 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.981 +06:00 [INF] Music volume set to 70 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:21.998 +06:00 [INF] Music volume set to 69 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.031 +06:00 [INF] Music volume set to 68 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.048 +06:00 [INF] Music volume set to 67 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.097 +06:00 [INF] Music volume set to 66 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.131 +06:00 [INF] Music volume set to 65 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.147 +06:00 [INF] Music volume set to 64 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.164 +06:00 [INF] Music volume set to 63 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.180 +06:00 [INF] Music volume set to 62 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.197 +06:00 [INF] Music volume set to 61 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.230 +06:00 [INF] Music volume set to 60 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.264 +06:00 [INF] Music volume set to 59 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.280 +06:00 [INF] Music volume set to 58 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.314 +06:00 [INF] Music volume set to 57 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.331 +06:00 [INF] Music volume set to 56 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.364 +06:00 [INF] Music volume set to 55 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.380 +06:00 [INF] Music volume set to 54 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.397 +06:00 [INF] Music volume set to 53 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.414 +06:00 [INF] Music volume set to 52 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.431 +06:00 [INF] Music volume set to 51 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.447 +06:00 [INF] Music volume set to 49 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.464 +06:00 [INF] Music volume set to 48 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.497 +06:00 [INF] Music volume set to 47 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.614 +06:00 [INF] Music volume set to 48 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.630 +06:00 [INF] Music volume set to 51 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.647 +06:00 [INF] Music volume set to 55 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.664 +06:00 [INF] Music volume set to 61 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.680 +06:00 [INF] Music volume set to 71 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.697 +06:00 [INF] Music volume set to 79 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.714 +06:00 [INF] Music volume set to 89 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.730 +06:00 [INF] Music volume set to 98 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:22.747 +06:00 [INF] Music volume set to 100 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-01 03:34:24.531 +06:00 [INF] User clicked exit button.
+2026-05-01 03:34:24.720 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-05-01 03:34:24.769 +06:00 [INF] Acquiring context lock... (0ms)
+2026-05-01 03:34:24.769 +06:00 [INF] Acquired. (0ms)
+2026-05-01 03:34:24.769 +06:00 [INF] Beginning context dispose. (0ms)
+2026-05-01 03:34:24.770 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-01 03:34:24.770 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-05-01 03:34:24.770 +06:00 [INF] Clearing instance... (1ms)
+2026-05-01 03:34:24.770 +06:00 [INF] Releasing context lock... (1ms)
+2026-05-01 03:34:24.770 +06:00 [INF] Released. (1ms)

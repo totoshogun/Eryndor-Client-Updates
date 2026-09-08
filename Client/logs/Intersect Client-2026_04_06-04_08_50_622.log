@@ -1,0 +1,43 @@
+2026-04-06 04:08:51.015 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-06 04:08:51.293 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-06 04:08:51.297 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-06 04:08:51.298 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-06 04:08:53.497 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-06 04:08:53.520 +06:00 [INF] Connected [74babdad-5542-4381-b5f1-4a618d6136a5].
+2026-04-06 04:08:53.535 +06:00 [INF] Connection approved [74babdad-5542-4381-b5f1-4a618d6136a5].
+2026-04-06 04:08:53.612 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-06 04:09:06.190 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-06 04:09:06.190 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-06 04:09:06.297 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-06 04:09:07.314 +06:00 [WRN] 'Me' is null.
+2026-04-06 04:09:07.790 +06:00 [INF] Built VBO for map 411179b7-b772-42ef-bf66-03b7e4d7dca8 'test 5' in 12.7519ms
+2026-04-06 04:09:07.800 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'forest' in 5.7677ms
+2026-04-06 04:09:09.731 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 7.53ms
+2026-04-06 04:09:14.187 +06:00 [INF] Music volume set to 10 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-04-06 04:09:14.188 +06:00 [INF] Sound volume set to 15 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-04-06 04:10:17.812 +06:00 [INF] Disconnected [74babdad-5542-4381-b5f1-4a618d6136a5].
+2026-04-06 04:10:17.812 +06:00 [INF] Updating active permission set to 'default'
+2026-04-06 04:10:18.996 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-06 04:10:19.001 +06:00 [INF] Connected [214deb72-2aba-4473-a6cc-da366d3871cb].
+2026-04-06 04:10:19.003 +06:00 [INF] Connection approved [214deb72-2aba-4473-a6cc-da366d3871cb].
+2026-04-06 04:10:19.026 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-06 04:10:19.026 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-06 04:10:24.505 +06:00 [WRN] 'Me' is null.
+2026-04-06 04:10:24.543 +06:00 [WRN] Tried to load entity "8ccf7c97-b44d-48ab-b0e9-3474ea71773e" (test) from packet before in-game UI was ready
+2026-04-06 04:10:24.544 +06:00 [WRN] Tried to load entity "8ccf7c97-b44d-48ab-b0e9-3474ea71773e" (test) from packet before in-game UI was ready
+2026-04-06 04:10:24.690 +06:00 [INF] Built VBO for map 411179b7-b772-42ef-bf66-03b7e4d7dca8 'test 5' in 1.6649ms
+2026-04-06 04:10:24.692 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'forest' in 1.7882ms
+2026-04-06 04:10:24.695 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.4004ms
+2026-04-06 04:10:24.704 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 8.293ms
+2026-04-06 04:10:30.763 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-06 04:10:30.765 +06:00 [INF] Disconnected [214deb72-2aba-4473-a6cc-da366d3871cb].
+2026-04-06 04:10:30.765 +06:00 [INF] Updating active permission set to 'default'
+2026-04-06 04:10:30.799 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-06 04:10:30.799 +06:00 [INF] Acquired. (0ms)
+2026-04-06 04:10:30.800 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-06 04:10:30.800 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-06 04:10:30.800 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-06 04:10:30.800 +06:00 [INF] Clearing instance... (1ms)
+2026-04-06 04:10:30.800 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-06 04:10:30.800 +06:00 [INF] Released. (1ms)

@@ -1,0 +1,65 @@
+2026-07-14 03:48:21.037 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-07-14 03:48:21.315 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-07-14 03:48:21.319 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-07-14 03:48:21.320 +02:00 [INF] Discovered 0 plugins:
+
+2026-07-14 03:48:21.820 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-07-14 03:48:23.883 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-07-14 03:48:23.905 +02:00 [INF] Connected [d0184d16-284f-4bd6-a157-9cdbf270d7de].
+2026-07-14 03:48:23.927 +02:00 [INF] Connection approved [d0184d16-284f-4bd6-a157-9cdbf270d7de].
+2026-07-14 03:48:24.039 +02:00 [INF] Updated PermissionSet 'default'
+2026-07-14 03:48:29.213 +02:00 [INF] Updated PermissionSet 'admin'
+2026-07-14 03:48:29.213 +02:00 [INF] Updating active permission set to 'admin'
+2026-07-14 03:48:32.093 +02:00 [WRN] 'Me' is null.
+2026-07-14 03:48:33.256 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Deep Forest' in 58.0276ms
+2026-07-14 03:48:33.278 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 17.4684ms
+2026-07-14 03:48:33.300 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 16.0195ms
+2026-07-14 03:48:33.446 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 141.7126ms
+2026-07-14 03:48:33.521 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 68.4874ms
+2026-07-14 03:48:33.545 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 21.2271ms
+2026-07-14 03:48:38.789 +02:00 [INF] Client frame profile: measured=27.4fps counter=30 targetMode=0; interval=36.51/395.20ms avg/max; update=0.56/20.83ms (0.99 calls/frame); draw=34.91/373.87ms; world=19.49/327.65ms; gui=15.32/86.19ms; finish=0.07/1.31ms; outside-update-draw=1.04ms; draws=156, maps=2, entities=13, lights=4
+2026-07-14 03:48:43.813 +02:00 [INF] Client frame profile: measured=33.8fps counter=34 targetMode=0; interval=29.56/36.27ms avg/max; update=0.16/1.96ms (1.00 calls/frame); draw=27.18/33.92ms; world=15.95/21.46ms; gui=11.17/14.73ms; finish=0.04/0.15ms; outside-update-draw=2.22ms; draws=156, maps=2, entities=13, lights=4
+2026-07-14 03:48:48.830 +02:00 [INF] Client frame profile: measured=33.5fps counter=35 targetMode=0; interval=29.86/40.52ms avg/max; update=0.18/2.96ms (1.00 calls/frame); draw=27.52/38.16ms; world=16.11/21.08ms; gui=11.35/19.27ms; finish=0.04/0.10ms; outside-update-draw=2.16ms; draws=156, maps=2, entities=13, lights=4
+2026-07-14 03:48:53.843 +02:00 [INF] Client frame profile: measured=33.5fps counter=35 targetMode=0; interval=29.84/38.79ms avg/max; update=0.15/0.59ms (1.00 calls/frame); draw=27.51/36.10ms; world=16.16/25.20ms; gui=11.29/14.92ms; finish=0.04/0.11ms; outside-update-draw=2.18ms; draws=156, maps=2, entities=13, lights=4
+2026-07-14 03:48:58.853 +02:00 [INF] Client frame profile: measured=33.9fps counter=35 targetMode=0; interval=29.47/34.81ms avg/max; update=0.14/0.41ms (1.00 calls/frame); draw=27.15/32.61ms; world=15.89/20.30ms; gui=11.20/15.60ms; finish=0.04/0.09ms; outside-update-draw=2.17ms; draws=156, maps=2, entities=13, lights=4
+2026-07-14 03:49:03.879 +02:00 [INF] Client frame profile: measured=33.4fps counter=34 targetMode=0; interval=29.92/39.49ms avg/max; update=0.15/0.65ms (1.00 calls/frame); draw=27.53/36.67ms; world=16.09/21.09ms; gui=11.38/17.12ms; finish=0.05/0.12ms; outside-update-draw=2.23ms; draws=156, maps=2, entities=13, lights=4
+2026-07-14 03:49:08.898 +02:00 [INF] Client frame profile: measured=33.9fps counter=35 targetMode=0; interval=29.53/36.72ms avg/max; update=0.13/0.69ms (1.00 calls/frame); draw=27.16/34.40ms; world=15.89/22.01ms; gui=11.21/15.67ms; finish=0.04/0.08ms; outside-update-draw=2.24ms; draws=156, maps=2, entities=13, lights=4
+2026-07-14 03:49:13.924 +02:00 [INF] Client frame profile: measured=32.6fps counter=33 targetMode=0; interval=30.64/78.94ms avg/max; update=0.18/3.36ms (1.00 calls/frame); draw=27.92/75.93ms; world=16.43/63.40ms; gui=11.43/15.88ms; finish=0.05/0.10ms; outside-update-draw=2.54ms; draws=158, maps=2, entities=13, lights=2
+2026-07-14 03:49:18.927 +02:00 [INF] Client frame profile: measured=32.8fps counter=34 targetMode=0; interval=30.51/38.02ms avg/max; update=0.18/2.12ms (1.00 calls/frame); draw=27.30/34.41ms; world=16.01/20.55ms; gui=11.23/15.53ms; finish=0.04/0.09ms; outside-update-draw=3.02ms; draws=158, maps=2, entities=13, lights=2
+2026-07-14 03:49:23.946 +02:00 [INF] Client frame profile: measured=32.7fps counter=34 targetMode=0; interval=30.61/36.04ms avg/max; update=0.18/0.59ms (1.00 calls/frame); draw=27.31/33.07ms; world=16.07/19.96ms; gui=11.18/15.48ms; finish=0.05/0.13ms; outside-update-draw=3.12ms; draws=156, maps=2, entities=13, lights=2
+2026-07-14 03:49:28.950 +02:00 [INF] Client frame profile: measured=32.8fps counter=34 targetMode=0; interval=30.51/36.81ms avg/max; update=0.14/0.41ms (1.00 calls/frame); draw=27.34/33.36ms; world=16.10/20.18ms; gui=11.18/13.76ms; finish=0.04/0.08ms; outside-update-draw=3.03ms; draws=156, maps=2, entities=13, lights=2
+2026-07-14 03:49:33.955 +02:00 [INF] Client frame profile: measured=32.8fps counter=33 targetMode=0; interval=30.52/36.87ms avg/max; update=0.16/2.81ms (1.00 calls/frame); draw=27.42/34.00ms; world=16.10/20.31ms; gui=11.25/15.37ms; finish=0.06/2.80ms; outside-update-draw=2.94ms; draws=158, maps=2, entities=13, lights=2
+2026-07-14 03:49:38.977 +02:00 [INF] Client frame profile: measured=32.3fps counter=33 targetMode=0; interval=30.99/37.82ms avg/max; update=0.15/1.82ms (1.00 calls/frame); draw=27.87/34.71ms; world=16.36/20.68ms; gui=11.45/15.02ms; finish=0.05/0.53ms; outside-update-draw=2.97ms; draws=158, maps=2, entities=13, lights=2
+2026-07-14 03:49:43.989 +02:00 [INF] Client frame profile: measured=32.7fps counter=33 targetMode=0; interval=30.56/37.99ms avg/max; update=0.13/0.41ms (1.00 calls/frame); draw=27.45/34.88ms; world=16.23/20.96ms; gui=11.16/15.03ms; finish=0.04/0.09ms; outside-update-draw=2.98ms; draws=156, maps=2, entities=13, lights=2
+2026-07-14 03:49:48.993 +02:00 [INF] Client frame profile: measured=32.6fps counter=34 targetMode=0; interval=30.70/37.66ms avg/max; update=0.14/0.31ms (1.00 calls/frame); draw=27.60/34.47ms; world=16.16/21.42ms; gui=11.39/14.43ms; finish=0.04/0.07ms; outside-update-draw=2.96ms; draws=159, maps=2, entities=13, lights=2
+2026-07-14 03:49:54.023 +02:00 [INF] Client frame profile: measured=32.2fps counter=33 targetMode=0; interval=31.05/38.88ms avg/max; update=0.15/0.44ms (1.00 calls/frame); draw=27.92/35.51ms; world=16.52/21.80ms; gui=11.31/15.62ms; finish=0.07/3.58ms; outside-update-draw=2.98ms; draws=158, maps=2, entities=13, lights=2
+2026-07-14 03:49:59.029 +02:00 [INF] Client frame profile: measured=25.6fps counter=20 targetMode=0; interval=39.11/66.96ms avg/max; update=0.16/0.31ms (1.00 calls/frame); draw=27.67/34.53ms; world=16.35/21.33ms; gui=11.25/14.23ms; finish=0.04/0.09ms; outside-update-draw=11.29ms; draws=160, maps=2, entities=13, lights=2
+2026-07-14 03:50:04.046 +02:00 [INF] Client frame profile: measured=19.7fps counter=20 targetMode=0; interval=50.68/56.33ms avg/max; update=0.18/1.80ms (1.00 calls/frame); draw=27.06/32.67ms; world=15.93/19.53ms; gui=11.06/14.63ms; finish=0.04/0.13ms; outside-update-draw=23.44ms; draws=158, maps=2, entities=13, lights=2
+2026-07-14 03:50:09.066 +02:00 [INF] Client frame profile: measured=19.3fps counter=20 targetMode=0; interval=51.75/71.04ms avg/max; update=0.19/2.69ms (1.00 calls/frame); draw=27.30/46.94ms; world=16.00/20.20ms; gui=11.24/30.25ms; finish=0.03/0.06ms; outside-update-draw=24.27ms; draws=158, maps=2, entities=13, lights=2
+2026-07-14 03:50:14.071 +02:00 [INF] Client frame profile: measured=19.4fps counter=20 targetMode=0; interval=51.60/59.87ms avg/max; update=0.16/0.31ms (1.00 calls/frame); draw=27.19/35.11ms; world=15.98/20.59ms; gui=11.16/14.42ms; finish=0.03/0.06ms; outside-update-draw=24.25ms; draws=160, maps=2, entities=13, lights=2
+2026-07-14 03:50:19.108 +02:00 [INF] Client frame profile: measured=19.7fps counter=20 targetMode=0; interval=50.88/66.40ms avg/max; update=0.15/0.36ms (1.00 calls/frame); draw=27.14/40.12ms; world=15.85/20.33ms; gui=11.23/24.39ms; finish=0.04/0.09ms; outside-update-draw=23.59ms; draws=156, maps=2, entities=13, lights=2
+2026-07-14 03:50:24.122 +02:00 [INF] Client frame profile: measured=29.5fps counter=33 targetMode=0; interval=33.88/57.65ms avg/max; update=0.19/8.50ms (1.00 calls/frame); draw=26.85/32.92ms; world=15.80/19.55ms; gui=11.01/14.89ms; finish=0.03/0.06ms; outside-update-draw=6.83ms; draws=158, maps=2, entities=13, lights=2
+2026-07-14 03:50:29.146 +02:00 [INF] Client frame profile: measured=31.8fps counter=32 targetMode=0; interval=31.40/45.33ms avg/max; update=0.17/8.22ms (1.00 calls/frame); draw=27.44/41.30ms; world=15.68/19.88ms; gui=11.72/25.50ms; finish=0.02/0.08ms; outside-update-draw=3.79ms; draws=168, maps=2, entities=13, lights=2
+2026-07-14 03:50:34.167 +02:00 [INF] Client frame profile: measured=32.1fps counter=33 targetMode=0; interval=31.18/38.18ms avg/max; update=0.11/0.54ms (1.00 calls/frame); draw=27.20/34.28ms; world=15.70/19.65ms; gui=11.46/15.41ms; finish=0.02/0.05ms; outside-update-draw=3.87ms; draws=169, maps=2, entities=13, lights=2
+2026-07-14 03:50:36.488 +02:00 [INF] Disconnected [d0184d16-284f-4bd6-a157-9cdbf270d7de].
+2026-07-14 03:50:36.488 +02:00 [INF] Updating active permission set to 'default'
+2026-07-14 03:50:36.721 +02:00 [WRN] 'Me' is null.
+2026-07-14 03:50:36.721 +02:00 [WRN] 'Me' is null.
+2026-07-14 03:50:36.721 +02:00 [WRN] 'Me' is null.
+2026-07-14 03:50:36.721 +02:00 [WRN] 'Me' is null.
+2026-07-14 03:50:36.721 +02:00 [WRN] 'Me' is null.
+2026-07-14 03:50:36.721 +02:00 [WRN] 'Me' is null.
+2026-07-14 03:50:36.721 +02:00 [WRN] 'Me' is null.
+2026-07-14 03:50:36.721 +02:00 [WRN] 'Me' is null.
+2026-07-14 03:50:36.721 +02:00 [WRN] 'Me' is null.
+2026-07-14 03:50:36.721 +02:00 [WRN] 'Me' is null.
+2026-07-14 03:50:38.409 +02:00 [INF] User clicked exit button.
+2026-07-14 03:50:38.427 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-07-14 03:50:38.515 +02:00 [INF] Acquiring context lock... (0ms)
+2026-07-14 03:50:38.515 +02:00 [INF] Acquired. (0ms)
+2026-07-14 03:50:38.515 +02:00 [INF] Beginning context dispose. (0ms)
+2026-07-14 03:50:38.516 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-07-14 03:50:38.516 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-07-14 03:50:38.516 +02:00 [INF] Clearing instance... (1ms)
+2026-07-14 03:50:38.516 +02:00 [INF] Releasing context lock... (1ms)
+2026-07-14 03:50:38.516 +02:00 [INF] Released. (1ms)

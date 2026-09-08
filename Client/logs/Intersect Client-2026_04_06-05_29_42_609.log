@@ -1,0 +1,36 @@
+2026-04-06 05:29:43.273 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-06 05:29:43.528 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-06 05:29:43.531 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-06 05:29:43.532 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-06 05:29:48.205 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-06 05:29:48.213 +06:00 [INF] Connected [2aefbaad-e5bf-476d-8102-9bb0ba76cf61].
+2026-04-06 05:29:48.223 +06:00 [INF] Connection approved [2aefbaad-e5bf-476d-8102-9bb0ba76cf61].
+2026-04-06 05:29:48.299 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-06 05:29:48.299 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-06 05:30:02.392 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-06 05:30:02.499 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-06 05:30:03.614 +06:00 [WRN] 'Me' is null.
+2026-04-06 05:30:03.902 +06:00 [WRN] Failed to deserialized cached data for ObjectCacheKey { Id = Id { Guid = 411179b7-b772-42ef-bf66-03b7e4d7dca8 }, Checksum = , Version =  }, will fetch again
+2026-04-06 05:30:03.903 +06:00 [WRN] Failed to deserialized cached data for ObjectCacheKey { Id = Id { Guid = 73ba8458-f8de-4f78-a254-c91b18418ed0 }, Checksum = , Version =  }, will fetch again
+2026-04-06 05:30:03.903 +06:00 [WRN] Failed to deserialized cached data for ObjectCacheKey { Id = Id { Guid = 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 }, Checksum = , Version =  }, will fetch again
+2026-04-06 05:30:03.904 +06:00 [WRN] Failed to deserialized cached data for ObjectCacheKey { Id = Id { Guid = 850ddb26-5568-4376-b8e0-346c04cb81ef }, Checksum = , Version =  }, will fetch again
+2026-04-06 05:30:04.142 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'b' in 15.4343ms
+2026-04-06 05:30:04.151 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 4.3618ms
+2026-04-06 05:30:06.602 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 10.572ms
+2026-04-06 05:30:10.461 +06:00 [INF] Built VBO for map 411179b7-b772-42ef-bf66-03b7e4d7dca8 'test 5' in 3.3115ms
+2026-04-06 05:32:03.357 +06:00 [WRN] 'Me' is null.
+2026-04-06 05:32:03.573 +06:00 [INF] Built VBO for map 411179b7-b772-42ef-bf66-03b7e4d7dca8 'test 5' in 1.3791ms
+2026-04-06 05:32:03.575 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'b' in 1.4797ms
+2026-04-06 05:32:03.578 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 1.9642ms
+2026-04-06 05:32:10.999 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-06 05:32:11.002 +06:00 [INF] Disconnected [2aefbaad-e5bf-476d-8102-9bb0ba76cf61].
+2026-04-06 05:32:11.003 +06:00 [INF] Updating active permission set to 'default'
+2026-04-06 05:32:11.097 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-06 05:32:11.097 +06:00 [INF] Acquired. (0ms)
+2026-04-06 05:32:11.098 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-06 05:32:11.098 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-06 05:32:11.098 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-06 05:32:11.098 +06:00 [INF] Clearing instance... (1ms)
+2026-04-06 05:32:11.098 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-06 05:32:11.098 +06:00 [INF] Released. (1ms)

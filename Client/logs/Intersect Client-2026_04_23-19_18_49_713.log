@@ -1,0 +1,32 @@
+2026-04-23 19:18:50.065 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-23 19:18:50.267 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-23 19:18:50.270 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-23 19:18:50.271 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-23 19:18:52.180 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-23 19:18:52.188 +06:00 [INF] Connected [c1c2e1ef-f746-4a2d-9453-8129eb1cf04e].
+2026-04-23 19:18:52.193 +06:00 [INF] Connection approved [c1c2e1ef-f746-4a2d-9453-8129eb1cf04e].
+2026-04-23 19:18:52.258 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-23 19:18:52.258 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-23 19:18:56.872 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-23 19:18:57.016 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-23 19:18:57.630 +06:00 [WRN] 'Me' is null.
+2026-04-23 19:18:58.254 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 38.0679ms
+2026-04-23 19:18:58.268 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 9.277ms
+2026-04-23 19:20:08.782 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 3.979ms
+2026-04-23 19:23:21.609 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 3.1543ms
+2026-04-23 19:24:10.808 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.5484ms
+2026-04-23 19:24:22.787 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 3.4473ms
+2026-04-23 19:24:34.879 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.539ms
+2026-04-23 19:27:32.694 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.6953ms
+2026-04-23 19:27:41.767 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-23 19:27:41.770 +06:00 [INF] Disconnected [c1c2e1ef-f746-4a2d-9453-8129eb1cf04e].
+2026-04-23 19:27:41.770 +06:00 [INF] Updating active permission set to 'default'
+2026-04-23 19:27:41.814 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-23 19:27:41.814 +06:00 [INF] Acquired. (0ms)
+2026-04-23 19:27:41.815 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-23 19:27:41.815 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-23 19:27:41.815 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-23 19:27:41.816 +06:00 [INF] Clearing instance... (1ms)
+2026-04-23 19:27:41.816 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-23 19:27:41.816 +06:00 [INF] Released. (1ms)

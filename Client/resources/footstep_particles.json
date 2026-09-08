@@ -1,0 +1,7 @@
+{
+  "affectsPlayers": true,
+  "affectsNpcs": true,
+  "tilesets": {
+    "clif2.png": "#3d6b2a"
+  }
+}

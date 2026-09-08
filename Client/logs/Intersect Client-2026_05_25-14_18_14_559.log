@@ -1,0 +1,28 @@
+2026-05-25 14:18:14.932 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-25 14:18:15.151 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-25 14:18:15.155 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-25 14:18:15.156 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-25 14:18:18.538 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-25 14:18:18.560 +02:00 [INF] Connected [96ee693d-bd80-4b60-b79c-ed80029f0e4e].
+2026-05-25 14:18:18.573 +02:00 [INF] Connection approved [96ee693d-bd80-4b60-b79c-ed80029f0e4e].
+2026-05-25 14:18:18.697 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-25 14:18:22.846 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-25 14:18:22.847 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-25 14:18:23.908 +02:00 [WRN] 'Me' is null.
+2026-05-25 14:18:24.586 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 19.9135ms
+2026-05-25 14:19:04.879 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.3632ms
+2026-05-25 14:19:33.403 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.2427ms
+2026-05-25 14:19:37.938 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0604ms
+2026-05-25 14:19:47.987 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0184ms
+2026-05-25 14:22:52.993 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-25 14:22:52.996 +02:00 [INF] Disconnected [96ee693d-bd80-4b60-b79c-ed80029f0e4e].
+2026-05-25 14:22:52.996 +02:00 [INF] Updating active permission set to 'default'
+2026-05-25 14:22:53.037 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-25 14:22:53.038 +02:00 [INF] Acquired. (0ms)
+2026-05-25 14:22:53.038 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-25 14:22:53.039 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-25 14:22:53.039 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-25 14:22:53.039 +02:00 [INF] Clearing instance... (1ms)
+2026-05-25 14:22:53.039 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-25 14:22:53.039 +02:00 [INF] Released. (1ms)

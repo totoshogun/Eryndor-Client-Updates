@@ -1,0 +1,19 @@
+2026-07-14 09:29:30.500 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-07-14 09:29:30.751 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-07-14 09:29:30.755 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-07-14 09:29:30.756 +02:00 [INF] Discovered 0 plugins:
+
+2026-07-14 09:29:31.212 +02:00 [INF] Graphics pacing configured: targetMode=-1, vsync=false, fixedStep=false, backBuffer=1760x990
+2026-07-14 09:29:35.303 +02:00 [INF] Music volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-07-14 09:29:35.305 +02:00 [INF] Sound volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-07-14 09:29:35.305 +02:00 [INF] Weather sounds volume set to 80 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._weatherSoundsSlider._slider
+2026-07-14 09:29:38.896 +02:00 [INF] User clicked exit button.
+2026-07-14 09:29:39.052 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-07-14 09:29:39.081 +02:00 [INF] Acquiring context lock... (0ms)
+2026-07-14 09:29:39.081 +02:00 [INF] Acquired. (0ms)
+2026-07-14 09:29:39.081 +02:00 [INF] Beginning context dispose. (0ms)
+2026-07-14 09:29:39.082 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-07-14 09:29:39.082 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-07-14 09:29:39.082 +02:00 [INF] Clearing instance... (1ms)
+2026-07-14 09:29:39.082 +02:00 [INF] Releasing context lock... (1ms)
+2026-07-14 09:29:39.082 +02:00 [INF] Released. (1ms)

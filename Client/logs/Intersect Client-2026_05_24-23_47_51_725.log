@@ -1,0 +1,31 @@
+2026-05-24 23:47:52.136 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-24 23:47:52.356 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-24 23:47:52.360 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-24 23:47:52.361 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-24 23:47:54.479 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-24 23:47:54.501 +02:00 [INF] Connected [dbe3ee13-18a7-4214-8f15-3081e92c1834].
+2026-05-24 23:47:54.522 +02:00 [INF] Connection approved [dbe3ee13-18a7-4214-8f15-3081e92c1834].
+2026-05-24 23:47:54.621 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-24 23:48:06.828 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-24 23:48:06.829 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-24 23:48:07.471 +02:00 [WRN] 'Me' is null.
+2026-05-24 23:48:08.219 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 108.4428ms
+2026-05-24 23:48:08.312 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 57.1419ms
+2026-05-24 23:48:30.689 +02:00 [INF] Music volume set to 20 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-24 23:48:30.690 +02:00 [INF] Sound volume set to 20 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-05-24 23:53:19.943 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 35.9475ms
+2026-05-24 23:53:20.010 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 47.6807ms
+2026-05-24 23:55:18.951 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 39.7089ms
+2026-05-24 23:55:20.667 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 33.6404ms
+2026-05-25 00:00:26.610 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-25 00:00:26.613 +02:00 [INF] Disconnected [dbe3ee13-18a7-4214-8f15-3081e92c1834].
+2026-05-25 00:00:26.613 +02:00 [INF] Updating active permission set to 'default'
+2026-05-25 00:00:26.685 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-25 00:00:26.686 +02:00 [INF] Acquired. (0ms)
+2026-05-25 00:00:26.687 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-25 00:00:26.687 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-25 00:00:26.687 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-25 00:00:26.687 +02:00 [INF] Clearing instance... (1ms)
+2026-05-25 00:00:26.687 +02:00 [INF] Releasing context lock... (2ms)
+2026-05-25 00:00:26.687 +02:00 [INF] Released. (2ms)

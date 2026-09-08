@@ -1,0 +1,59 @@
+2026-08-22 07:59:46.975 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-08-22 07:59:47.227 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-08-22 07:59:47.231 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-08-22 07:59:47.232 +02:00 [INF] Discovered 0 plugins:
+
+2026-08-22 07:59:47.704 +02:00 [INF] Graphics pacing configured: targetMode=-1, vsync=false, fixedStep=false, backBuffer=1760x990
+2026-08-22 07:59:49.875 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-08-22 07:59:49.899 +02:00 [INF] Connected [ef293ec9-5897-4d91-9260-a1bde0c17d8f].
+2026-08-22 07:59:49.920 +02:00 [INF] Connection approved [ef293ec9-5897-4d91-9260-a1bde0c17d8f].
+2026-08-22 07:59:50.034 +02:00 [INF] Updated PermissionSet 'default'
+2026-08-22 07:59:55.080 +02:00 [INF] Updated PermissionSet 'admin'
+2026-08-22 07:59:55.080 +02:00 [INF] Updating active permission set to 'admin'
+2026-08-22 08:00:06.912 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:08.060 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Deep Forest' in 57.7248ms
+2026-08-22 08:00:08.074 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 11.293ms
+2026-08-22 08:00:08.097 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 18.4413ms
+2026-08-22 08:00:08.221 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 121.5538ms
+2026-08-22 08:00:08.280 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 53.658ms
+2026-08-22 08:00:08.308 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 25.9549ms
+2026-08-22 08:00:13.593 +02:00 [INF] Client frame profile: measured=77.7fps counter=123 targetMode=-1; interval=12.88/610.25ms avg/max; update=0.29/29.47ms (1.00 calls/frame); draw=13.11/579.54ms; world=10.63/551.78ms [scene=10.29/543.66, scene-detail=[tiles=1.38ms/45.9draws (geometry=0.78ms/45.9draws, water=0.59ms/0.0draws), objects=6.83ms/86.8draws, procedural=0.01ms/0.0draws, entities=0.66ms/1.1draws, effects=0.45ms/1.9draws, weather=0.86ms/0.0draws, other=0.10ms], lighting=0.05/7.70, post=0.07/14.23, overlays=0.11/7.84, other=0.12]; gui=2.43/80.86ms [update=2.27/55.32 (minimap=1.79/32.67 [compact=1.79, fullmap=0.00/0.00], other=0.48), render=0.16/25.54, other=0.00]; finish=0.03/1.05ms; outside-update-draw=0.00ms; draws=154, maps=4, entities=23, lights=3
+2026-08-22 08:00:18.596 +02:00 [INF] Client frame profile: measured=116.9fps counter=121 targetMode=-1; interval=8.55/37.91ms avg/max; update=0.08/6.17ms (1.00 calls/frame); draw=8.40/34.94ms; world=7.14/25.21ms [scene=6.94/24.95, scene-detail=[tiles=1.15ms/46.0draws (geometry=0.70ms/46.0draws, water=0.45ms/0.0draws), objects=4.72ms/87.0draws, procedural=0.00ms/0.0draws, entities=0.31ms/1.4draws, effects=0.06ms/2.0draws, weather=0.66ms/0.0draws, other=0.05ms], lighting=0.02/0.09, post=0.03/0.10, overlays=0.06/0.26, other=0.10]; gui=1.23/11.30ms [update=1.17/11.19 (minimap=0.90/10.64 [compact=0.90, fullmap=0.00/0.00], other=0.27), render=0.06/0.15, other=0.00]; finish=0.02/0.06ms; outside-update-draw=0.07ms; draws=160, maps=4, entities=17, lights=2
+2026-08-22 08:00:23.602 +02:00 [INF] Client frame profile: measured=123.3fps counter=126 targetMode=-1; interval=8.11/19.74ms avg/max; update=0.05/0.35ms (1.00 calls/frame); draw=8.01/19.61ms; world=6.91/9.61ms [scene=6.75/9.36, scene-detail=[tiles=1.11ms/46.0draws (geometry=0.67ms/46.0draws, water=0.43ms/0.0draws), objects=4.71ms/87.0draws, procedural=0.00ms/0.0draws, entities=0.21ms/3.0draws, effects=0.05ms/2.0draws, weather=0.63ms/0.0draws, other=0.04ms], lighting=0.02/0.07, post=0.03/0.10, overlays=0.04/0.11, other=0.07]; gui=1.08/11.12ms [update=1.02/10.96 (minimap=0.78/10.29 [compact=0.78, fullmap=0.00/0.00], other=0.24), render=0.06/0.25, other=0.00]; finish=0.02/0.09ms; outside-update-draw=0.05ms; draws=160, maps=4, entities=17, lights=2
+2026-08-22 08:00:28.618 +02:00 [INF] Client frame profile: measured=123.6fps counter=124 targetMode=-1; interval=8.09/20.25ms avg/max; update=0.05/2.86ms (1.00 calls/frame); draw=7.98/20.18ms; world=6.89/9.42ms [scene=6.73/9.25, scene-detail=[tiles=1.11ms/46.0draws (geometry=0.67ms/46.0draws, water=0.43ms/0.0draws), objects=4.68ms/86.9draws, procedural=0.00ms/0.0draws, entities=0.21ms/3.0draws, effects=0.05ms/2.0draws, weather=0.63ms/0.0draws, other=0.04ms], lighting=0.02/0.04, post=0.03/0.06, overlays=0.04/0.11, other=0.07]; gui=1.07/12.73ms [update=1.00/12.64 (minimap=0.75/12.19 [compact=0.75, fullmap=0.00/0.00], other=0.25), render=0.06/0.15, other=0.00]; finish=0.02/0.12ms; outside-update-draw=0.06ms; draws=156, maps=4, entities=23, lights=3
+2026-08-22 08:00:33.618 +02:00 [INF] Client frame profile: measured=110.6fps counter=109 targetMode=-1; interval=9.04/42.36ms avg/max; update=0.13/10.27ms (1.00 calls/frame); draw=8.84/38.78ms; world=7.31/37.82ms [scene=7.08/37.53, scene-detail=[tiles=1.15ms/46.0draws (geometry=0.71ms/46.0draws, water=0.44ms/0.0draws), objects=4.81ms/87.0draws, procedural=0.00ms/0.0draws, entities=0.35ms/3.0draws, effects=0.08ms/2.0draws, weather=0.64ms/0.0draws, other=0.05ms], lighting=0.02/0.05, post=0.03/0.07, overlays=0.07/4.10, other=0.10]; gui=1.50/11.28ms [update=1.23/10.86 (minimap=0.94/10.38 [compact=0.94, fullmap=0.00/0.00], other=0.29), render=0.27/3.11, other=0.00]; finish=0.02/0.08ms; outside-update-draw=0.07ms; draws=156, maps=4, entities=23, lights=3
+2026-08-22 08:00:38.619 +02:00 [INF] Client frame profile: measured=112.6fps counter=111 targetMode=-1; interval=8.88/18.63ms avg/max; update=0.08/2.09ms (1.00 calls/frame); draw=8.74/18.45ms; world=7.23/11.39ms [scene=6.99/11.13, scene-detail=[tiles=1.14ms/46.0draws (geometry=0.70ms/46.0draws, water=0.44ms/0.0draws), objects=4.80ms/87.0draws, procedural=0.00ms/0.0draws, entities=0.28ms/3.0draws, effects=0.08ms/2.0draws, weather=0.65ms/0.0draws, other=0.05ms], lighting=0.03/0.05, post=0.03/0.07, overlays=0.07/0.18, other=0.11]; gui=1.48/10.86ms [update=1.23/10.76 (minimap=0.96/10.34 [compact=0.96, fullmap=0.00/0.00], other=0.27), render=0.25/0.92, other=0.00]; finish=0.03/2.91ms; outside-update-draw=0.06ms; draws=179, maps=4, entities=23, lights=3
+2026-08-22 08:00:43.625 +02:00 [INF] Client frame profile: measured=114.9fps counter=118 targetMode=-1; interval=8.71/18.50ms avg/max; update=0.07/4.36ms (1.00 calls/frame); draw=8.59/18.32ms; world=7.15/10.50ms [scene=6.92/10.26, scene-detail=[tiles=1.13ms/46.0draws (geometry=0.69ms/46.0draws, water=0.43ms/0.0draws), objects=4.78ms/87.0draws, procedural=0.00ms/0.0draws, entities=0.25ms/2.1draws, effects=0.08ms/2.0draws, weather=0.64ms/0.0draws, other=0.05ms], lighting=0.02/0.07, post=0.03/0.08, overlays=0.07/0.16, other=0.11]; gui=1.42/11.07ms [update=1.11/10.66 (minimap=0.86/10.23 [compact=0.86, fullmap=0.00/0.00], other=0.24), render=0.31/0.65, other=0.00]; finish=0.02/0.06ms; outside-update-draw=0.04ms; draws=177, maps=4, entities=23, lights=3
+2026-08-22 08:00:48.627 +02:00 [INF] Client frame profile: measured=112.4fps counter=108 targetMode=-1; interval=8.90/35.35ms avg/max; update=0.09/5.55ms (1.00 calls/frame); draw=8.74/34.95ms; world=7.29/34.05ms [scene=7.07/33.73, scene-detail=[tiles=1.15ms/46.0draws (geometry=0.70ms/46.0draws, water=0.44ms/0.0draws), objects=4.83ms/87.0draws, procedural=0.00ms/0.0draws, entities=0.29ms/2.7draws, effects=0.10ms/1.8draws, weather=0.65ms/0.0draws, other=0.05ms], lighting=0.02/0.08, post=0.03/0.05, overlays=0.07/0.15, other=0.11]; gui=1.42/10.87ms [update=1.12/10.48 (minimap=0.82/10.01 [compact=0.82, fullmap=0.00/0.00], other=0.30), render=0.30/0.68, other=0.00]; finish=0.02/0.08ms; outside-update-draw=0.07ms; draws=183, maps=4, entities=23, lights=3
+2026-08-22 08:00:53.636 +02:00 [INF] Client frame profile: measured=107.2fps counter=112 targetMode=-1; interval=9.33/22.75ms avg/max; update=0.10/5.93ms (1.00 calls/frame); draw=8.97/21.77ms; world=7.22/10.46ms [scene=7.00/10.04, scene-detail=[tiles=1.16ms/46.0draws (geometry=0.71ms/46.0draws, water=0.44ms/0.0draws), objects=4.83ms/87.0draws, procedural=0.00ms/0.0draws, entities=0.24ms/1.6draws, effects=0.08ms/2.6draws, weather=0.64ms/0.0draws, other=0.05ms], lighting=0.02/0.08, post=0.03/0.12, overlays=0.06/0.15, other=0.10]; gui=1.70/11.25ms [update=1.53/11.00 (minimap=1.12/10.61 [compact=1.12, fullmap=0.00/0.00], other=0.41), render=0.17/8.73, other=0.00]; finish=0.04/3.43ms; outside-update-draw=0.26ms; draws=166, maps=4, entities=22, lights=3
+2026-08-22 08:00:54.581 +02:00 [INF] Disconnected [ef293ec9-5897-4d91-9260-a1bde0c17d8f].
+2026-08-22 08:00:54.582 +02:00 [INF] Updating active permission set to 'default'
+2026-08-22 08:00:54.791 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.791 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.791 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.791 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.791 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.791 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.791 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.791 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.791 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.791 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.792 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.792 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.792 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.792 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.792 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.792 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.792 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.792 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:54.792 +02:00 [WRN] 'Me' is null.
+2026-08-22 08:00:55.785 +02:00 [INF] User clicked exit button.
+2026-08-22 08:00:55.787 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-08-22 08:00:55.818 +02:00 [INF] Acquiring context lock... (0ms)
+2026-08-22 08:00:55.819 +02:00 [INF] Acquired. (0ms)
+2026-08-22 08:00:55.819 +02:00 [INF] Beginning context dispose. (0ms)
+2026-08-22 08:00:55.820 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-08-22 08:00:55.820 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-08-22 08:00:55.820 +02:00 [INF] Clearing instance... (1ms)
+2026-08-22 08:00:55.820 +02:00 [INF] Releasing context lock... (1ms)
+2026-08-22 08:00:55.820 +02:00 [INF] Released. (1ms)

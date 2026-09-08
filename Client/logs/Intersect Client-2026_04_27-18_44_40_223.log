@@ -1,0 +1,62 @@
+2026-04-27 18:44:40.477 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-27 18:44:40.685 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-27 18:44:40.688 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-27 18:44:40.689 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-27 18:44:43.269 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-27 18:44:43.290 +06:00 [INF] Connected [d87714e5-975c-465c-b9c3-b89da3640bba].
+2026-04-27 18:44:43.311 +06:00 [INF] Connection approved [d87714e5-975c-465c-b9c3-b89da3640bba].
+2026-04-27 18:44:43.393 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-27 18:44:47.482 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-27 18:44:47.482 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-27 18:44:47.622 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-27 18:44:48.208 +06:00 [WRN] 'Me' is null.
+2026-04-27 18:44:48.791 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 18.0127ms
+2026-04-27 18:44:57.457 +06:00 [FTL] Game is crashing due to an exception
+System.InvalidOperationException: String input wasn't created
+   at Intersect.Client.Interface.Shared.InputBox..ctor(String name, String title, String prompt, InputType inputType, GwenEventHandler`1 onSubmit, GwenEventHandler`1 onCancel, Object userData, Int32 quantity, Int32 maximumQuantity, Int32 minimumQuantity) in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Shared\InputBox.cs:line 652
+   at Intersect.Client.Interface.Shared.InputBox..ctor(String title, String prompt, InputType inputType, GwenEventHandler`1 onSubmit, GwenEventHandler`1 onCancel, Object userData, Int32 quantity, Int32 maximumQuantity, Int32 minimumQuantity) in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Shared\InputBox.cs:line 554
+   at Intersect.Client.Interface.Game.Admin.AdminWindow.ShowPlayerNameInputBox(String title, Action`1 onSubmit) in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Game\Admin\AdminWindow.cs:line 925
+   at Intersect.Client.Interface.Game.Admin.AdminWindow.KickPlayerButtonOnClicked(Base base, MouseButtonState mouseButtonState) in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Game\Admin\AdminWindow.cs:line 567
+   at Intersect.Client.Framework.Gwen.Control.Base.InputMouseButtonState(MouseButton mouseButton, Point mousePosition, Boolean pressed, Boolean userAction) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Gwen\Control\Base.cs:line 3510
+   at Intersect.Client.Framework.Gwen.Input.InputHandler.OnMouseButtonStateChanged(Base canvas, MouseButton mouseButton, Boolean pressed) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Gwen\Input\InputHandler.cs:line 423
+   at Intersect.Client.Framework.Gwen.Control.Canvas.Input_MouseButton(MouseButton button, Boolean down) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Gwen\Control\Canvas.cs:line 369
+   at Intersect.Client.Framework.Gwen.Input.IntersectInput.ProcessMessage(Object message) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Gwen\Input\IntersectInput.cs:line 116
+   at Intersect.Client.MonoGame.Input.MonoInput.CheckMouseButton(Keys modifier, ButtonState bs, MouseButton mb) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\Input\MonoInput.cs:line 239
+   at Intersect.Client.MonoGame.Input.MonoInput.Update(TimeSpan elapsed) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\Input\MonoInput.cs:line 507
+   at Intersect.Client.Core.Main.Update(TimeSpan deltaTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Main.cs:line 105
+   at Intersect.Client.MonoGame.IntersectGame.Update(GameTime gameTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 230
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 633
+2026-04-27 18:44:57.495 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-27 18:44:57.496 +06:00 [INF] Acquired. (0ms)
+2026-04-27 18:44:57.496 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-27 18:44:57.497 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-27 18:44:57.497 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-27 18:44:57.497 +06:00 [INF] Clearing instance... (1ms)
+2026-04-27 18:44:57.497 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-27 18:44:57.497 +06:00 [INF] Released. (1ms)
+2026-04-27 18:44:57.497 +06:00 [ERR] Failed to start application context
+System.InvalidOperationException: String input wasn't created
+   at Intersect.Client.Interface.Shared.InputBox..ctor(String name, String title, String prompt, InputType inputType, GwenEventHandler`1 onSubmit, GwenEventHandler`1 onCancel, Object userData, Int32 quantity, Int32 maximumQuantity, Int32 minimumQuantity) in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Shared\InputBox.cs:line 652
+   at Intersect.Client.Interface.Shared.InputBox..ctor(String title, String prompt, InputType inputType, GwenEventHandler`1 onSubmit, GwenEventHandler`1 onCancel, Object userData, Int32 quantity, Int32 maximumQuantity, Int32 minimumQuantity) in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Shared\InputBox.cs:line 554
+   at Intersect.Client.Interface.Game.Admin.AdminWindow.ShowPlayerNameInputBox(String title, Action`1 onSubmit) in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Game\Admin\AdminWindow.cs:line 925
+   at Intersect.Client.Interface.Game.Admin.AdminWindow.KickPlayerButtonOnClicked(Base base, MouseButtonState mouseButtonState) in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Game\Admin\AdminWindow.cs:line 567
+   at Intersect.Client.Framework.Gwen.Control.Base.InputMouseButtonState(MouseButton mouseButton, Point mousePosition, Boolean pressed, Boolean userAction) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Gwen\Control\Base.cs:line 3510
+   at Intersect.Client.Framework.Gwen.Input.InputHandler.OnMouseButtonStateChanged(Base canvas, MouseButton mouseButton, Boolean pressed) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Gwen\Input\InputHandler.cs:line 423
+   at Intersect.Client.Framework.Gwen.Control.Canvas.Input_MouseButton(MouseButton button, Boolean down) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Gwen\Control\Canvas.cs:line 369
+   at Intersect.Client.Framework.Gwen.Input.IntersectInput.ProcessMessage(Object message) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Gwen\Input\IntersectInput.cs:line 116
+   at Intersect.Client.MonoGame.Input.MonoInput.CheckMouseButton(Keys modifier, ButtonState bs, MouseButton mb) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\Input\MonoInput.cs:line 239
+   at Intersect.Client.MonoGame.Input.MonoInput.Update(TimeSpan elapsed) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\Input\MonoInput.cs:line 507
+   at Intersect.Client.Core.Main.Update(TimeSpan deltaTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Main.cs:line 105
+   at Intersect.Client.MonoGame.IntersectGame.Update(GameTime gameTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 230
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 633
+   at Intersect.Client.Core.ClientContext.InternalStart() in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\ClientContext.cs:line 97
+   at Intersect.Core.ApplicationContext`2.Start(Boolean lockUntilShutdown) in F:\game code engine\Intersect_New\Intersect (Core)\Core\ApplicationContext`2.cs:line 245

@@ -1,0 +1,38 @@
+2026-03-22 18:18:24.740 +01:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-03-22 18:18:24.991 +01:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-03-22 18:18:24.995 +01:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-03-22 18:18:24.996 +01:00 [INF] Discovered 0 plugins:
+
+2026-03-22 18:18:27.150 +01:00 [INF] Connecting to 127.0.0.1:5400...
+2026-03-22 18:18:27.159 +01:00 [INF] Connected [23a131eb-b59f-4a58-8e5f-effe1f7fd6e0].
+2026-03-22 18:18:27.177 +01:00 [INF] Connection approved [23a131eb-b59f-4a58-8e5f-effe1f7fd6e0].
+2026-03-22 18:18:27.268 +01:00 [INF] Updated PermissionSet 'default'
+2026-03-22 18:18:27.268 +01:00 [INF] Updated PermissionSet 'admin'
+2026-03-22 18:18:28.149 +01:00 [INF] Updating active permission set to 'admin'
+2026-03-22 18:18:28.228 +01:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-03-22 18:18:29.325 +01:00 [WRN] 'Me' is null.
+2026-03-22 18:18:29.857 +01:00 [ERR] Exception thrown while trying to load 'resources/tilesets/download (52).png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\download (52).png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\download (52).png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass145_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 648
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-03-22 18:18:29.870 +01:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 18.0783ms
+2026-03-22 18:18:29.882 +01:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 7.238ms
+2026-03-22 18:18:29.885 +01:00 [INF] Built VBO for map 23382d57-1bd1-403a-8f4f-50e5ad24e8a0 'test1' in 2.9674ms
+2026-03-22 18:18:40.171 +01:00 [INF] Disconnected [23a131eb-b59f-4a58-8e5f-effe1f7fd6e0].
+2026-03-22 18:18:40.171 +01:00 [INF] Updating active permission set to 'default'
+2026-03-22 18:18:43.815 +01:00 [INF] User clicked exit button.
+2026-03-22 18:18:43.844 +01:00 [INF] System window closing (due to user interaction most likely).
+2026-03-22 18:18:43.871 +01:00 [INF] Acquiring context lock... (0ms)
+2026-03-22 18:18:43.871 +01:00 [INF] Acquired. (0ms)
+2026-03-22 18:18:43.872 +01:00 [INF] Beginning context dispose. (0ms)
+2026-03-22 18:18:43.872 +01:00 [INF] GC.SuppressFinalize (0ms)
+2026-03-22 18:18:43.872 +01:00 [INF] InternalDispose() completed. (0ms)
+2026-03-22 18:18:43.872 +01:00 [INF] Clearing instance... (1ms)
+2026-03-22 18:18:43.872 +01:00 [INF] Releasing context lock... (1ms)
+2026-03-22 18:18:43.872 +01:00 [INF] Released. (1ms)

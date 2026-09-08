@@ -1,0 +1,31 @@
+2026-06-24 20:23:44.717 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-06-24 20:23:44.943 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-06-24 20:23:44.948 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-06-24 20:23:44.948 +02:00 [INF] Discovered 0 plugins:
+
+2026-06-24 20:23:46.851 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-06-24 20:23:46.876 +02:00 [INF] Connected [3ad04108-05a1-41f1-8dc0-6b0c0affa7e3].
+2026-06-24 20:23:46.901 +02:00 [INF] Connection approved [3ad04108-05a1-41f1-8dc0-6b0c0affa7e3].
+2026-06-24 20:23:46.996 +02:00 [INF] Updated PermissionSet 'default'
+2026-06-24 20:23:51.134 +02:00 [INF] Updated PermissionSet 'admin'
+2026-06-24 20:23:51.135 +02:00 [INF] Updating active permission set to 'admin'
+2026-06-24 20:23:51.364 +02:00 [INF] Disconnected [3ad04108-05a1-41f1-8dc0-6b0c0affa7e3].
+2026-06-24 20:23:51.365 +02:00 [INF] Updating active permission set to 'default'
+2026-06-24 20:24:01.734 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-06-24 20:24:01.740 +02:00 [INF] Connected [6d35c968-e2fc-4dee-a887-a2069a9a19fc].
+2026-06-24 20:24:01.748 +02:00 [INF] Connection approved [6d35c968-e2fc-4dee-a887-a2069a9a19fc].
+2026-06-24 20:24:01.760 +02:00 [INF] Updated PermissionSet 'default'
+2026-06-24 20:24:01.760 +02:00 [INF] Updated PermissionSet 'admin'
+2026-06-24 20:24:02.806 +02:00 [INF] Updating active permission set to 'admin'
+2026-06-24 20:24:02.862 +02:00 [INF] Disconnected [6d35c968-e2fc-4dee-a887-a2069a9a19fc].
+2026-06-24 20:24:02.862 +02:00 [INF] Updating active permission set to 'default'
+2026-06-24 20:24:47.878 +02:00 [INF] User clicked exit button.
+2026-06-24 20:24:47.899 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-06-24 20:24:47.938 +02:00 [INF] Acquiring context lock... (0ms)
+2026-06-24 20:24:47.938 +02:00 [INF] Acquired. (0ms)
+2026-06-24 20:24:47.939 +02:00 [INF] Beginning context dispose. (0ms)
+2026-06-24 20:24:47.939 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-06-24 20:24:47.939 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-06-24 20:24:47.939 +02:00 [INF] Clearing instance... (1ms)
+2026-06-24 20:24:47.940 +02:00 [INF] Releasing context lock... (1ms)
+2026-06-24 20:24:47.940 +02:00 [INF] Released. (1ms)

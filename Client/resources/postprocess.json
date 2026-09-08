@@ -1,0 +1,8 @@
+{
+  "enableBloom": false,
+  "enableColorGrading": false,
+  "enablePlayerFeedbackEffects": true,
+  "enableWorldDepthEnhancement": true,
+  "bloomIntensity": 0.25,
+  "colorGradingWarmth": 0.06
+}

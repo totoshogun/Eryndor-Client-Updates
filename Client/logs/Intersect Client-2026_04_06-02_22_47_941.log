@@ -1,0 +1,31 @@
+2026-04-06 02:22:48.126 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-06 02:22:48.328 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-06 02:22:48.332 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-06 02:22:48.333 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-06 02:22:50.578 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-06 02:22:50.586 +06:00 [INF] Connected [8588878c-bb97-48c5-9011-bfdca9f5e034].
+2026-04-06 02:22:50.596 +06:00 [INF] Connection approved [8588878c-bb97-48c5-9011-bfdca9f5e034].
+2026-04-06 02:22:50.671 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-06 02:22:50.672 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-06 02:22:51.564 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-06 02:22:51.677 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-06 02:22:52.620 +06:00 [WRN] 'Me' is null.
+2026-04-06 02:22:53.165 +06:00 [INF] Built VBO for map 411179b7-b772-42ef-bf66-03b7e4d7dca8 'test 5' in 12.6716ms
+2026-04-06 02:22:53.186 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'forest' in 16.3235ms
+2026-04-06 02:23:55.266 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'forest' in 5.4596ms
+2026-04-06 02:24:01.437 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 6.3975ms
+2026-04-06 02:24:13.419 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 5.3302ms
+2026-04-06 02:24:50.108 +06:00 [INF] Music volume set to 10 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-04-06 02:24:50.108 +06:00 [INF] Sound volume set to 15 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-04-06 02:45:43.087 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-06 02:45:43.091 +06:00 [INF] Disconnected [8588878c-bb97-48c5-9011-bfdca9f5e034].
+2026-04-06 02:45:43.091 +06:00 [INF] Updating active permission set to 'default'
+2026-04-06 02:45:43.129 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-06 02:45:43.129 +06:00 [INF] Acquired. (0ms)
+2026-04-06 02:45:43.130 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-06 02:45:43.130 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-06 02:45:43.130 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-06 02:45:43.130 +06:00 [INF] Clearing instance... (1ms)
+2026-04-06 02:45:43.130 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-06 02:45:43.130 +06:00 [INF] Released. (1ms)

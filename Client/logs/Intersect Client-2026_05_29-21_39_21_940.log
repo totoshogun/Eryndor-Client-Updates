@@ -1,0 +1,27 @@
+2026-05-29 21:39:22.274 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-29 21:39:22.503 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-29 21:39:22.508 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-29 21:39:22.509 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-29 21:39:24.618 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-29 21:39:24.627 +02:00 [INF] Connected [1bebd972-bf2e-49d0-9768-9646d9b1cd59].
+2026-05-29 21:39:24.639 +02:00 [INF] Connection approved [1bebd972-bf2e-49d0-9768-9646d9b1cd59].
+2026-05-29 21:39:24.733 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-29 21:39:24.733 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-29 21:39:28.413 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-29 21:39:29.238 +02:00 [WRN] 'Me' is null.
+2026-05-29 21:39:29.877 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 13.9556ms
+2026-05-29 21:39:29.907 +02:00 [INF] Window light shader 'Intersect.Client.Resources.Shaders.windowlight.mgfxo' loaded successfully with 11 parameters
+2026-05-29 21:40:25.084 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.1745ms
+2026-05-29 21:44:12.050 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0808ms
+2026-05-29 21:44:19.968 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-29 21:44:19.971 +02:00 [INF] Disconnected [1bebd972-bf2e-49d0-9768-9646d9b1cd59].
+2026-05-29 21:44:19.972 +02:00 [INF] Updating active permission set to 'default'
+2026-05-29 21:44:19.993 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-29 21:44:19.993 +02:00 [INF] Acquired. (0ms)
+2026-05-29 21:44:19.994 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-29 21:44:19.994 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-29 21:44:19.994 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-29 21:44:19.994 +02:00 [INF] Clearing instance... (1ms)
+2026-05-29 21:44:19.994 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-29 21:44:19.994 +02:00 [INF] Released. (1ms)

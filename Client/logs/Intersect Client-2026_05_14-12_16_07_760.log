@@ -1,0 +1,28 @@
+2026-05-14 12:16:08.397 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-14 12:16:08.630 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-14 12:16:08.633 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-14 12:16:08.634 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-14 12:16:26.267 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-14 12:16:26.293 +02:00 [INF] Connected [71bc7b00-bbc0-4791-ae0b-ac8d000973a5].
+2026-05-14 12:16:26.307 +02:00 [INF] Connection approved [71bc7b00-bbc0-4791-ae0b-ac8d000973a5].
+2026-05-14 12:16:26.422 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-14 12:16:30.224 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-14 12:16:30.224 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-14 12:16:30.883 +02:00 [WRN] 'Me' is null.
+2026-05-14 12:16:31.551 +02:00 [INF] Built VBO for map 24cc8989-0a45-4ecb-bf58-41efcefcaeb8 'Test' in 14.6734ms
+2026-05-14 12:17:41.620 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 28.5132ms
+2026-05-14 12:18:19.998 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 10.0771ms
+2026-05-14 12:25:37.616 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 5.4231ms
+2026-05-14 12:27:32.230 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 14.1597ms
+2026-05-14 12:32:31.164 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-14 12:32:31.168 +02:00 [INF] Disconnected [71bc7b00-bbc0-4791-ae0b-ac8d000973a5].
+2026-05-14 12:32:31.169 +02:00 [INF] Updating active permission set to 'default'
+2026-05-14 12:32:31.205 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-14 12:32:31.205 +02:00 [INF] Acquired. (0ms)
+2026-05-14 12:32:31.206 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-14 12:32:31.206 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-14 12:32:31.206 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-14 12:32:31.206 +02:00 [INF] Clearing instance... (1ms)
+2026-05-14 12:32:31.206 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-14 12:32:31.206 +02:00 [INF] Released. (1ms)

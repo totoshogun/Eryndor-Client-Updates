@@ -1,0 +1,71 @@
+2026-05-03 05:20:46.115 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-03 05:20:46.542 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-03 05:20:46.546 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-03 05:20:46.547 +06:00 [INF] Discovered 0 plugins:
+
+2026-05-03 05:21:03.987 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-03 05:21:04.008 +06:00 [INF] Connected [b66a648b-08a0-498a-9bf7-85cf4d607666].
+2026-05-03 05:21:04.020 +06:00 [INF] Connection approved [b66a648b-08a0-498a-9bf7-85cf4d607666].
+2026-05-03 05:21:04.148 +06:00 [INF] Updated PermissionSet 'default'
+2026-05-03 05:21:11.280 +06:00 [INF] Updated PermissionSet 'admin'
+2026-05-03 05:21:11.280 +06:00 [INF] Updating active permission set to 'admin'
+2026-05-03 05:21:12.156 +06:00 [WRN] 'Me' is null.
+2026-05-03 05:21:12.744 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 10.013ms
+2026-05-03 05:21:12.765 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'test' in 6.4945ms
+2026-05-03 05:21:12.767 +06:00 [INF] Built VBO for map 17031e42-3e0a-487c-ab96-b317096cd6ce 'New Map' in 1.2092ms
+2026-05-03 05:21:47.968 +06:00 [WRN] 'Me' is null.
+2026-05-03 05:21:48.001 +06:00 [WRN] Tried to load entity "8173d054-66d1-4545-81b8-ffc711efe841" (test500) from packet before in-game UI was ready
+2026-05-03 05:21:48.001 +06:00 [WRN] Tried to load entity "8173d054-66d1-4545-81b8-ffc711efe841" (test500) from packet before in-game UI was ready
+2026-05-03 05:21:48.156 +06:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 4.331ms
+2026-05-03 05:21:48.159 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.467ms
+2026-05-03 05:22:03.066 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'test' in 1.7109ms
+2026-05-03 05:22:03.068 +06:00 [INF] Built VBO for map 17031e42-3e0a-487c-ab96-b317096cd6ce 'New Map' in 1.4406ms
+2026-05-03 05:24:14.450 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:14.517 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:14.584 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:14.634 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:14.700 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:14.768 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:14.834 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:14.885 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:14.951 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:15.019 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:15.086 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:15.135 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:15.202 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:15.269 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:15.336 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:15.385 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:15.452 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:15.520 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:15.586 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:15.636 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:15.702 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:15.769 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:15.888 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:15.888 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:15.955 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:16.021 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:16.070 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:16.137 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:16.203 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:16.270 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:16.321 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:16.387 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:16.454 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:16.521 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:16.571 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:16.637 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:16.704 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:16.755 +06:00 [WRN] 'TargetBox' is null.
+2026-05-03 05:24:16.847 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-05-03 05:24:16.850 +06:00 [INF] Disconnected [b66a648b-08a0-498a-9bf7-85cf4d607666].
+2026-05-03 05:24:16.850 +06:00 [INF] Updating active permission set to 'default'
+2026-05-03 05:24:16.877 +06:00 [INF] Acquiring context lock... (0ms)
+2026-05-03 05:24:16.877 +06:00 [INF] Acquired. (0ms)
+2026-05-03 05:24:16.878 +06:00 [INF] Beginning context dispose. (0ms)
+2026-05-03 05:24:16.878 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-03 05:24:16.878 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-05-03 05:24:16.878 +06:00 [INF] Clearing instance... (1ms)
+2026-05-03 05:24:16.878 +06:00 [INF] Releasing context lock... (1ms)
+2026-05-03 05:24:16.878 +06:00 [INF] Released. (1ms)

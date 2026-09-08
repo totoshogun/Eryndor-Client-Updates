@@ -1,0 +1,35 @@
+2026-05-03 05:26:10.159 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-03 05:26:10.384 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-03 05:26:10.387 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-03 05:26:10.388 +06:00 [INF] Discovered 0 plugins:
+
+2026-05-03 05:26:27.394 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-03 05:26:27.414 +06:00 [INF] Connected [37d84269-01f4-45a7-b596-7539eac9a531].
+2026-05-03 05:26:27.434 +06:00 [INF] Connection approved [37d84269-01f4-45a7-b596-7539eac9a531].
+2026-05-03 05:26:27.529 +06:00 [INF] Updated PermissionSet 'default'
+2026-05-03 05:26:32.867 +06:00 [INF] Updated PermissionSet 'admin'
+2026-05-03 05:26:32.868 +06:00 [INF] Updating active permission set to 'admin'
+2026-05-03 05:26:34.779 +06:00 [WRN] 'Me' is null.
+2026-05-03 05:26:35.431 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 9.7598ms
+2026-05-03 05:26:35.451 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'test' in 5.6429ms
+2026-05-03 05:26:35.453 +06:00 [INF] Built VBO for map 17031e42-3e0a-487c-ab96-b317096cd6ce 'New Map' in 1.1986ms
+2026-05-03 05:30:10.040 +06:00 [WRN] 'Me' is null.
+2026-05-03 05:30:10.040 +06:00 [WRN] 'Me' is null.
+2026-05-03 05:30:10.040 +06:00 [WRN] 'Me' is null.
+2026-05-03 05:30:13.610 +06:00 [WRN] 'Me' is null.
+2026-05-03 05:30:13.685 +06:00 [WRN] Tried to load entity "f748a57f-2b1b-4791-910e-91ddb85352c2" (Oran) from packet before in-game UI was ready
+2026-05-03 05:30:13.685 +06:00 [WRN] Tried to load entity "f748a57f-2b1b-4791-910e-91ddb85352c2" (Oran) from packet before in-game UI was ready
+2026-05-03 05:30:13.830 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 2.2236ms
+2026-05-03 05:30:13.833 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'test' in 2.0527ms
+2026-05-03 05:30:13.835 +06:00 [INF] Built VBO for map 17031e42-3e0a-487c-ab96-b317096cd6ce 'New Map' in 2.1629ms
+2026-05-03 05:30:32.113 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-05-03 05:30:32.116 +06:00 [INF] Disconnected [37d84269-01f4-45a7-b596-7539eac9a531].
+2026-05-03 05:30:32.116 +06:00 [INF] Updating active permission set to 'default'
+2026-05-03 05:30:32.137 +06:00 [INF] Acquiring context lock... (0ms)
+2026-05-03 05:30:32.137 +06:00 [INF] Acquired. (0ms)
+2026-05-03 05:30:32.138 +06:00 [INF] Beginning context dispose. (0ms)
+2026-05-03 05:30:32.138 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-03 05:30:32.138 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-05-03 05:30:32.138 +06:00 [INF] Clearing instance... (1ms)
+2026-05-03 05:30:32.138 +06:00 [INF] Releasing context lock... (1ms)
+2026-05-03 05:30:32.138 +06:00 [INF] Released. (1ms)

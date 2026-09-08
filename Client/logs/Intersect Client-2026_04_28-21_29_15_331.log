@@ -1,0 +1,19 @@
+2026-04-28 21:29:17.264 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-28 21:29:17.470 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-28 21:29:17.474 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-28 21:29:17.475 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-28 21:29:37.733 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-28 21:29:37.755 +06:00 [INF] Connected [d89394c1-edbc-4281-bf49-f8d16ec8016f].
+2026-04-28 21:29:37.778 +06:00 [INF] Connection approved [d89394c1-edbc-4281-bf49-f8d16ec8016f].
+2026-04-28 21:29:37.871 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-28 21:34:06.860 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-28 21:34:06.863 +06:00 [INF] Disconnected [d89394c1-edbc-4281-bf49-f8d16ec8016f].
+2026-04-28 21:34:06.912 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-28 21:34:06.912 +06:00 [INF] Acquired. (0ms)
+2026-04-28 21:34:06.913 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-28 21:34:06.913 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-28 21:34:06.913 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-28 21:34:06.913 +06:00 [INF] Clearing instance... (2ms)
+2026-04-28 21:34:06.913 +06:00 [INF] Releasing context lock... (2ms)
+2026-04-28 21:34:06.913 +06:00 [INF] Released. (2ms)

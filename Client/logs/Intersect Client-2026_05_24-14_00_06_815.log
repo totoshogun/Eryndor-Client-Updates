@@ -1,0 +1,24 @@
+2026-05-24 14:00:06.982 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-24 14:00:07.198 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-24 14:00:07.201 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-24 14:00:07.202 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-24 14:00:09.594 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-24 14:00:09.614 +02:00 [INF] Connected [ff61dc58-f258-456a-92c6-256ecbbb8a63].
+2026-05-24 14:00:09.631 +02:00 [INF] Connection approved [ff61dc58-f258-456a-92c6-256ecbbb8a63].
+2026-05-24 14:00:09.722 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-24 14:00:14.173 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-24 14:00:14.173 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-24 14:00:14.846 +02:00 [WRN] 'Me' is null.
+2026-05-24 14:00:15.759 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 66.8452ms
+2026-05-24 14:00:21.116 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-24 14:00:21.119 +02:00 [INF] Disconnected [ff61dc58-f258-456a-92c6-256ecbbb8a63].
+2026-05-24 14:00:21.120 +02:00 [INF] Updating active permission set to 'default'
+2026-05-24 14:00:21.152 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-24 14:00:21.152 +02:00 [INF] Acquired. (0ms)
+2026-05-24 14:00:21.153 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-24 14:00:21.154 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-24 14:00:21.154 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-24 14:00:21.154 +02:00 [INF] Clearing instance... (1ms)
+2026-05-24 14:00:21.154 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-24 14:00:21.154 +02:00 [INF] Released. (1ms)

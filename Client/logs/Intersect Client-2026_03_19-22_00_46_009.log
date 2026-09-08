@@ -1,0 +1,25 @@
+2026-03-19 22:00:46.315 +01:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-03-19 22:00:46.570 +01:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-03-19 22:00:46.578 +01:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-03-19 22:00:46.579 +01:00 [INF] Discovered 0 plugins:
+
+2026-03-19 22:01:04.794 +01:00 [INF] Connecting to 127.0.0.1:5400...
+2026-03-19 22:01:04.814 +01:00 [INF] Connected [1efadd8b-7950-4911-a06d-5be4617ca2de].
+2026-03-19 22:01:04.827 +01:00 [INF] Connection approved [1efadd8b-7950-4911-a06d-5be4617ca2de].
+2026-03-19 22:01:04.904 +01:00 [INF] Updated PermissionSet 'default'
+2026-03-19 22:01:06.067 +01:00 [INF] Updated PermissionSet 'admin'
+2026-03-19 22:01:06.067 +01:00 [INF] Updating active permission set to 'admin'
+2026-03-19 22:01:06.189 +01:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-03-19 22:01:07.390 +01:00 [WRN] 'Me' is null.
+2026-03-19 22:01:07.836 +01:00 [INF] Built VBO for map a9f5fb5f-a2e8-421b-9906-03dae4b6224a 'New Map' in 15.379ms
+2026-03-19 22:02:19.665 +01:00 [INF] System window closing (due to user interaction most likely).
+2026-03-19 22:02:19.668 +01:00 [INF] Disconnected [1efadd8b-7950-4911-a06d-5be4617ca2de].
+2026-03-19 22:02:19.668 +01:00 [INF] Updating active permission set to 'default'
+2026-03-19 22:02:19.733 +01:00 [INF] Acquiring context lock... (0ms)
+2026-03-19 22:02:19.733 +01:00 [INF] Acquired. (0ms)
+2026-03-19 22:02:19.734 +01:00 [INF] Beginning context dispose. (0ms)
+2026-03-19 22:02:19.734 +01:00 [INF] GC.SuppressFinalize (0ms)
+2026-03-19 22:02:19.734 +01:00 [INF] InternalDispose() completed. (0ms)
+2026-03-19 22:02:19.734 +01:00 [INF] Clearing instance... (1ms)
+2026-03-19 22:02:19.734 +01:00 [INF] Releasing context lock... (1ms)
+2026-03-19 22:02:19.734 +01:00 [INF] Released. (1ms)

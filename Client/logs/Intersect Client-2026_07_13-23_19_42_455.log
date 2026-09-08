@@ -1,0 +1,31 @@
+2026-07-13 23:19:42.614 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-07-13 23:19:42.840 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-07-13 23:19:42.845 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-07-13 23:19:42.846 +02:00 [INF] Discovered 0 plugins:
+
+2026-07-13 23:19:44.860 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-07-13 23:19:44.879 +02:00 [INF] Connected [09207efc-438a-4109-b60e-e7960b22a39b].
+2026-07-13 23:19:44.900 +02:00 [INF] Connection approved [09207efc-438a-4109-b60e-e7960b22a39b].
+2026-07-13 23:19:45.004 +02:00 [INF] Updated PermissionSet 'default'
+2026-07-13 23:19:50.821 +02:00 [INF] Updated PermissionSet 'admin'
+2026-07-13 23:19:50.821 +02:00 [INF] Updating active permission set to 'admin'
+2026-07-13 23:19:59.598 +02:00 [WRN] 'Me' is null.
+2026-07-13 23:20:00.746 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Deep Forest' in 48.1073ms
+2026-07-13 23:20:00.760 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 11.4377ms
+2026-07-13 23:20:00.773 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 8.7517ms
+2026-07-13 23:20:00.896 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 119.7621ms
+2026-07-13 23:20:00.957 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 56.0062ms
+2026-07-13 23:20:00.980 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 19.9662ms
+2026-07-13 23:20:01.109 +02:00 [WRN] World post-process shader loaded but is missing required parameter 'DayAmount'. Falling back to legacy post-process passes.
+2026-07-13 23:20:06.709 +02:00 [WRN] Weather shader resource 'Intersect.Client.Resources.Shaders.weather.mgfxo' is missing parameter 'MapWorldOrigin'. Falling back to legacy weather particles.
+2026-07-13 23:22:46.849 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-07-13 23:22:46.852 +02:00 [INF] Disconnected [09207efc-438a-4109-b60e-e7960b22a39b].
+2026-07-13 23:22:46.852 +02:00 [INF] Updating active permission set to 'default'
+2026-07-13 23:22:46.887 +02:00 [INF] Acquiring context lock... (0ms)
+2026-07-13 23:22:46.888 +02:00 [INF] Acquired. (0ms)
+2026-07-13 23:22:46.888 +02:00 [INF] Beginning context dispose. (0ms)
+2026-07-13 23:22:46.889 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-07-13 23:22:46.889 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-07-13 23:22:46.889 +02:00 [INF] Clearing instance... (1ms)
+2026-07-13 23:22:46.889 +02:00 [INF] Releasing context lock... (1ms)
+2026-07-13 23:22:46.889 +02:00 [INF] Released. (1ms)

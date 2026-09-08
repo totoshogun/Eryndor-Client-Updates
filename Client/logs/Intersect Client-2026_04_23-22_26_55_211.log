@@ -1,0 +1,27 @@
+2026-04-23 22:26:55.379 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-23 22:26:55.645 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-23 22:26:55.649 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-23 22:26:55.650 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-23 22:26:57.497 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-23 22:26:57.506 +06:00 [INF] Connected [4f4a8453-93ed-49bd-8d3f-bed31b1c514c].
+2026-04-23 22:26:57.520 +06:00 [INF] Connection approved [4f4a8453-93ed-49bd-8d3f-bed31b1c514c].
+2026-04-23 22:26:57.601 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-23 22:26:57.601 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-23 22:27:08.857 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-23 22:27:08.969 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-23 22:27:09.498 +06:00 [WRN] 'Me' is null.
+2026-04-23 22:27:09.989 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 37.7495ms
+2026-04-23 22:27:10.002 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 8.4811ms
+2026-04-23 22:27:29.650 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 4.611ms
+2026-04-23 22:27:36.290 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-23 22:27:36.293 +06:00 [INF] Disconnected [4f4a8453-93ed-49bd-8d3f-bed31b1c514c].
+2026-04-23 22:27:36.294 +06:00 [INF] Updating active permission set to 'default'
+2026-04-23 22:27:36.321 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-23 22:27:36.322 +06:00 [INF] Acquired. (0ms)
+2026-04-23 22:27:36.322 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-23 22:27:36.323 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-23 22:27:36.323 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-23 22:27:36.323 +06:00 [INF] Clearing instance... (1ms)
+2026-04-23 22:27:36.323 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-23 22:27:36.323 +06:00 [INF] Released. (1ms)

@@ -1,0 +1,129 @@
+2026-04-18 10:35:41.334 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-18 10:35:41.584 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-18 10:35:41.588 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-18 10:35:41.589 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-18 10:35:43.811 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-18 10:35:43.820 +06:00 [INF] Connected [93e7981e-c8e2-46bd-b318-fb3d18a6b2e0].
+2026-04-18 10:35:43.827 +06:00 [INF] Connection approved [93e7981e-c8e2-46bd-b318-fb3d18a6b2e0].
+2026-04-18 10:35:43.901 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-18 10:35:43.901 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-18 10:35:47.993 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-18 10:35:48.122 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-18 10:35:48.766 +06:00 [WRN] 'Me' is null.
+2026-04-18 10:35:49.362 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 38.6788ms
+2026-04-18 10:36:13.168 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.0365ms
+2026-04-18 10:36:49.987 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.2282ms
+2026-04-18 10:37:17.821 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6011ms
+2026-04-18 10:37:56.257 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.3325ms
+2026-04-18 10:38:05.717 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5675ms
+2026-04-18 10:38:15.050 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7319ms
+2026-04-18 10:38:23.269 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.522ms
+2026-04-18 10:38:41.697 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5494ms
+2026-04-18 10:38:53.460 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7375ms
+2026-04-18 10:39:00.577 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.517ms
+2026-04-18 10:39:09.103 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5523ms
+2026-04-18 10:39:15.175 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.4981ms
+2026-04-18 10:39:20.856 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5311ms
+2026-04-18 10:39:27.374 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5302ms
+2026-04-18 10:39:34.341 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6225ms
+2026-04-18 10:39:46.764 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5582ms
+2026-04-18 10:40:01.636 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.515ms
+2026-04-18 10:41:23.282 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5587ms
+2026-04-18 10:41:48.156 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5024ms
+2026-04-18 10:42:10.159 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5933ms
+2026-04-18 10:42:18.402 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5616ms
+2026-04-18 10:42:35.457 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5193ms
+2026-04-18 10:42:50.155 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.9795ms
+2026-04-18 10:43:48.481 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5178ms
+2026-04-18 10:44:21.673 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5619ms
+2026-04-18 10:44:40.474 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5703ms
+2026-04-18 10:45:31.647 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5542ms
+2026-04-18 10:45:50.845 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5218ms
+2026-04-18 10:47:17.840 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.358ms
+2026-04-18 10:47:38.159 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5255ms
+2026-04-18 10:48:07.059 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5675ms
+2026-04-18 10:48:15.413 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7391ms
+2026-04-18 10:48:22.556 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5846ms
+2026-04-18 10:48:37.681 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5471ms
+2026-04-18 10:48:55.571 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.4734ms
+2026-04-18 10:49:10.916 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5926ms
+2026-04-18 10:49:29.252 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5216ms
+2026-04-18 10:49:47.125 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5583ms
+2026-04-18 10:49:54.857 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6419ms
+2026-04-18 10:50:07.160 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6591ms
+2026-04-18 10:50:14.811 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7767ms
+2026-04-18 10:50:55.381 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6088ms
+2026-04-18 10:51:13.079 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5571ms
+2026-04-18 10:51:55.036 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5655ms
+2026-04-18 10:52:04.450 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.465ms
+2026-04-18 10:52:27.627 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6303ms
+2026-04-18 10:52:39.736 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.6959ms
+2026-04-18 10:53:06.182 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5524ms
+2026-04-18 10:53:22.543 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5232ms
+2026-04-18 10:53:32.659 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.558ms
+2026-04-18 10:55:04.151 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.4885ms
+2026-04-18 10:55:21.477 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6222ms
+2026-04-18 10:56:58.299 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.4855ms
+2026-04-18 10:57:11.357 +06:00 [INF] Music volume set to 10 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-04-18 10:57:11.357 +06:00 [INF] Sound volume set to 15 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-04-18 10:57:34.636 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5964ms
+2026-04-18 10:57:50.125 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6757ms
+2026-04-18 10:57:56.433 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6992ms
+2026-04-18 10:58:10.810 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5767ms
+2026-04-18 10:58:19.991 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7584ms
+2026-04-18 10:58:31.810 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6228ms
+2026-04-18 10:58:38.847 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6753ms
+2026-04-18 10:58:45.392 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.8058ms
+2026-04-18 10:58:59.074 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.4439ms
+2026-04-18 10:59:13.237 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6546ms
+2026-04-18 10:59:43.581 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5757ms
+2026-04-18 11:00:08.622 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6ms
+2026-04-18 11:00:51.149 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7504ms
+2026-04-18 11:00:57.355 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5582ms
+2026-04-18 11:01:05.133 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.1605ms
+2026-04-18 11:03:41.349 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.1616ms
+2026-04-18 11:03:49.133 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5941ms
+2026-04-18 11:03:57.353 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5383ms
+2026-04-18 11:04:06.605 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5635ms
+2026-04-18 11:04:17.324 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.616ms
+2026-04-18 11:04:28.148 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5955ms
+2026-04-18 11:06:06.651 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5987ms
+2026-04-18 11:06:14.887 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.802ms
+2026-04-18 11:06:26.990 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5905ms
+2026-04-18 11:08:35.085 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6621ms
+2026-04-18 11:10:52.452 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 44.729ms
+2026-04-18 11:11:02.049 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.3837ms
+2026-04-18 11:11:20.005 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7356ms
+2026-04-18 11:12:13.326 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7211ms
+2026-04-18 11:12:29.642 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6952ms
+2026-04-18 11:12:42.584 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7074ms
+2026-04-18 11:13:07.498 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.3878ms
+2026-04-18 11:13:24.647 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7843ms
+2026-04-18 11:13:38.285 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.7511ms
+2026-04-18 11:15:15.396 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.3405ms
+2026-04-18 11:15:27.467 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.8333ms
+2026-04-18 11:15:37.305 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7037ms
+2026-04-18 11:15:51.836 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.3987ms
+2026-04-18 11:17:04.232 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7119ms
+2026-04-18 11:17:21.446 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.8211ms
+2026-04-18 11:17:46.682 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7583ms
+2026-04-18 11:18:13.488 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7382ms
+2026-04-18 11:18:20.375 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.5062ms
+2026-04-18 11:18:33.960 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7719ms
+2026-04-18 11:18:57.230 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.8257ms
+2026-04-18 11:20:34.370 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.7726ms
+2026-04-18 11:20:52.470 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.8809ms
+2026-04-18 11:22:09.411 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.876ms
+2026-04-18 11:22:29.404 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7979ms
+2026-04-18 11:23:00.881 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-18 11:23:00.884 +06:00 [INF] Disconnected [93e7981e-c8e2-46bd-b318-fb3d18a6b2e0].
+2026-04-18 11:23:00.885 +06:00 [INF] Updating active permission set to 'default'
+2026-04-18 11:23:00.920 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-18 11:23:00.920 +06:00 [INF] Acquired. (0ms)
+2026-04-18 11:23:00.921 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-18 11:23:00.921 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-18 11:23:00.921 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-18 11:23:00.921 +06:00 [INF] Clearing instance... (1ms)
+2026-04-18 11:23:00.921 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-18 11:23:00.921 +06:00 [INF] Released. (1ms)

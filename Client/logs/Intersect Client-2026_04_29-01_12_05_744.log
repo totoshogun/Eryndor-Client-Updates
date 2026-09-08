@@ -1,0 +1,28 @@
+2026-04-29 01:12:06.019 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-29 01:12:06.388 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-29 01:12:06.395 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-29 01:12:06.397 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-29 01:12:09.537 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-29 01:12:09.567 +06:00 [INF] Connected [4c260991-ac08-4caf-8846-407c1ea138fe].
+2026-04-29 01:12:09.603 +06:00 [INF] Connection approved [4c260991-ac08-4caf-8846-407c1ea138fe].
+2026-04-29 01:12:09.716 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-29 01:12:28.998 +06:00 [INF] Disconnected [4c260991-ac08-4caf-8846-407c1ea138fe].
+2026-04-29 01:12:37.396 +06:00 [INF] Music volume set to 10 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-04-29 01:12:37.397 +06:00 [INF] Sound volume set to 15 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-04-29 01:12:46.396 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-29 01:12:46.400 +06:00 [INF] Connected [c160d3be-c91c-46a7-8a49-8383879b5887].
+2026-04-29 01:12:46.424 +06:00 [INF] Connection approved [c160d3be-c91c-46a7-8a49-8383879b5887].
+2026-04-29 01:12:46.435 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-29 01:12:57.445 +06:00 [INF] Disconnected [c160d3be-c91c-46a7-8a49-8383879b5887].
+2026-04-29 01:12:57.446 +06:00 [INF] Updating active permission set to 'default'
+2026-04-29 01:12:58.027 +06:00 [INF] User clicked exit button.
+2026-04-29 01:12:58.231 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-29 01:12:58.269 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-29 01:12:58.269 +06:00 [INF] Acquired. (0ms)
+2026-04-29 01:12:58.270 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-29 01:12:58.270 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-29 01:12:58.270 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-29 01:12:58.270 +06:00 [INF] Clearing instance... (1ms)
+2026-04-29 01:12:58.271 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-29 01:12:58.271 +06:00 [INF] Released. (1ms)

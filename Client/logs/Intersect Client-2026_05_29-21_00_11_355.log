@@ -1,0 +1,26 @@
+2026-05-29 21:00:11.518 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-29 21:00:11.734 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-29 21:00:11.738 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-29 21:00:11.739 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-29 21:00:13.955 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-29 21:00:13.964 +02:00 [INF] Connected [91088e8a-9a7b-439f-bc7b-4c1530c63ad5].
+2026-05-29 21:00:13.971 +02:00 [INF] Connection approved [91088e8a-9a7b-439f-bc7b-4c1530c63ad5].
+2026-05-29 21:00:14.069 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-29 21:00:14.069 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-29 21:00:19.580 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-29 21:00:20.136 +02:00 [WRN] 'Me' is null.
+2026-05-29 21:00:20.865 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 12.4941ms
+2026-05-29 21:00:20.896 +02:00 [INF] Window light shader 'Intersect.Client.Resources.Shaders.windowlight.mgfxo' loaded successfully with 11 parameters
+2026-05-29 21:00:49.542 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0413ms
+2026-05-29 21:02:07.485 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-29 21:02:07.487 +02:00 [INF] Disconnected [91088e8a-9a7b-439f-bc7b-4c1530c63ad5].
+2026-05-29 21:02:07.488 +02:00 [INF] Updating active permission set to 'default'
+2026-05-29 21:02:07.511 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-29 21:02:07.511 +02:00 [INF] Acquired. (0ms)
+2026-05-29 21:02:07.512 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-29 21:02:07.513 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-29 21:02:07.513 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-29 21:02:07.513 +02:00 [INF] Clearing instance... (1ms)
+2026-05-29 21:02:07.513 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-29 21:02:07.513 +02:00 [INF] Released. (1ms)

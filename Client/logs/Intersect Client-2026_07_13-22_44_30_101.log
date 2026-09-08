@@ -1,0 +1,49 @@
+2026-07-13 22:44:30.264 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-07-13 22:44:30.487 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-07-13 22:44:30.491 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-07-13 22:44:30.492 +02:00 [INF] Discovered 0 plugins:
+
+2026-07-13 22:44:32.512 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-07-13 22:44:32.531 +02:00 [INF] Connected [4ae40bec-cfcd-4c28-8a9d-bbe246f20cc0].
+2026-07-13 22:44:32.545 +02:00 [INF] Connection approved [4ae40bec-cfcd-4c28-8a9d-bbe246f20cc0].
+2026-07-13 22:44:32.651 +02:00 [INF] Updated PermissionSet 'default'
+2026-07-13 22:44:37.741 +02:00 [INF] Updated PermissionSet 'admin'
+2026-07-13 22:44:37.741 +02:00 [INF] Updating active permission set to 'admin'
+2026-07-13 22:44:39.952 +02:00 [WRN] 'Me' is null.
+2026-07-13 22:44:41.088 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Deep Forest' in 49.8475ms
+2026-07-13 22:44:41.102 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 11.795ms
+2026-07-13 22:44:41.117 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 8.8006ms
+2026-07-13 22:44:41.239 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 118.5433ms
+2026-07-13 22:44:41.301 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 57.7618ms
+2026-07-13 22:44:41.324 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 19.8529ms
+2026-07-13 22:44:41.467 +02:00 [WRN] World post-process shader loaded but is missing required parameter 'DayAmount'. Falling back to legacy post-process passes.
+2026-07-13 22:46:26.876 +02:00 [WRN] Buff flourish shader resource 'Intersect.Client.Resources.Shaders.buffflourish.mgfxo' is missing parameter 'ShapeMode'. Buff flourish effects will be skipped.
+2026-07-13 22:49:52.865 +02:00 [WRN] 'Me' is null.
+2026-07-13 22:49:52.865 +02:00 [WRN] 'Me' is null.
+2026-07-13 22:49:52.865 +02:00 [WRN] 'Me' is null.
+2026-07-13 22:49:52.866 +02:00 [WRN] 'Me' is null.
+2026-07-13 22:49:52.866 +02:00 [WRN] 'Me' is null.
+2026-07-13 22:49:52.866 +02:00 [WRN] 'Me' is null.
+2026-07-13 22:49:52.866 +02:00 [WRN] 'Me' is null.
+2026-07-13 22:49:52.866 +02:00 [WRN] 'Me' is null.
+2026-07-13 22:49:52.866 +02:00 [WRN] 'Me' is null.
+2026-07-13 22:49:52.866 +02:00 [WRN] 'Me' is null.
+2026-07-13 22:49:52.866 +02:00 [WRN] 'Me' is null.
+2026-07-13 22:49:54.388 +02:00 [WRN] 'Me' is null.
+2026-07-13 22:49:54.967 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Deep Forest' in 7.3656ms
+2026-07-13 22:49:54.976 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 8.1043ms
+2026-07-13 22:49:54.987 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 7.0164ms
+2026-07-13 22:49:55.035 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 46.8476ms
+2026-07-13 22:49:55.082 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 43.1284ms
+2026-07-13 22:49:55.092 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 8.8214ms
+2026-07-13 22:53:03.086 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-07-13 22:53:03.089 +02:00 [INF] Disconnected [4ae40bec-cfcd-4c28-8a9d-bbe246f20cc0].
+2026-07-13 22:53:03.090 +02:00 [INF] Updating active permission set to 'default'
+2026-07-13 22:53:03.134 +02:00 [INF] Acquiring context lock... (0ms)
+2026-07-13 22:53:03.134 +02:00 [INF] Acquired. (0ms)
+2026-07-13 22:53:03.135 +02:00 [INF] Beginning context dispose. (0ms)
+2026-07-13 22:53:03.135 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-07-13 22:53:03.135 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-07-13 22:53:03.135 +02:00 [INF] Clearing instance... (1ms)
+2026-07-13 22:53:03.136 +02:00 [INF] Releasing context lock... (1ms)
+2026-07-13 22:53:03.136 +02:00 [INF] Released. (1ms)

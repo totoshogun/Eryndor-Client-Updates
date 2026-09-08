@@ -1,0 +1,48 @@
+2026-04-18 18:21:40.917 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-18 18:21:41.198 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-18 18:21:41.202 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-18 18:21:41.203 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-18 18:22:29.340 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-18 18:22:29.348 +06:00 [INF] Connected [dedc4d83-9cc6-4124-b1b5-830d6e9e2896].
+2026-04-18 18:22:29.359 +06:00 [INF] Connection approved [dedc4d83-9cc6-4124-b1b5-830d6e9e2896].
+2026-04-18 18:22:29.435 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-18 18:22:29.436 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-18 18:22:33.865 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-18 18:22:34.012 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-18 18:22:34.771 +06:00 [WRN] 'Me' is null.
+2026-04-18 18:22:35.350 +06:00 [ERR] Exception thrown while trying to load 'resources/tilesets/pixellab-pixel-art-asset-sheet-featurin-1775656194302.png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\pixellab-pixel-art-asset-sheet-featurin-1775656194302.png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\pixellab-pixel-art-asset-sheet-featurin-1775656194302.png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass145_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 648
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-04-18 18:22:35.368 +06:00 [ERR] Exception thrown while trying to load 'resources/tilesets/xtnn74w7jhrmw0cxdt1vtnm4bw_preview_0-ezremove (2).png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\xtnn74w7jhrmw0cxdt1vtnm4bw_preview_0-ezremove (2).png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\xtnn74w7jhrmw0cxdt1vtnm4bw_preview_0-ezremove (2).png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass145_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 648
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-04-18 18:22:35.372 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'forest' in 55.1674ms
+2026-04-18 18:22:40.926 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 9.8377ms
+2026-04-18 18:22:41.946 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 30.3993ms
+2026-04-18 18:23:32.112 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7708ms
+2026-04-18 18:23:52.678 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-18 18:23:52.681 +06:00 [INF] Disconnected [dedc4d83-9cc6-4124-b1b5-830d6e9e2896].
+2026-04-18 18:23:52.682 +06:00 [INF] Updating active permission set to 'default'
+2026-04-18 18:23:52.711 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-18 18:23:52.711 +06:00 [INF] Acquired. (0ms)
+2026-04-18 18:23:52.712 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-18 18:23:52.712 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-18 18:23:52.712 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-18 18:23:52.712 +06:00 [INF] Clearing instance... (1ms)
+2026-04-18 18:23:52.712 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-18 18:23:52.712 +06:00 [INF] Released. (1ms)

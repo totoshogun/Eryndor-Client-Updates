@@ -1,0 +1,65 @@
+2026-06-21 09:14:35.829 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-06-21 09:14:36.071 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-06-21 09:14:36.075 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-06-21 09:14:36.076 +02:00 [INF] Discovered 0 plugins:
+
+2026-06-21 09:14:38.339 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-06-21 09:14:38.362 +02:00 [INF] Connected [ef54fa94-c386-4eb7-a081-1e9e9e28edd1].
+2026-06-21 09:14:38.384 +02:00 [INF] Connection approved [ef54fa94-c386-4eb7-a081-1e9e9e28edd1].
+2026-06-21 09:14:38.481 +02:00 [INF] Updated PermissionSet 'default'
+2026-06-21 09:14:42.779 +02:00 [INF] Updated PermissionSet 'admin'
+2026-06-21 09:14:42.780 +02:00 [INF] Updating active permission set to 'admin'
+2026-06-21 09:15:27.187 +02:00 [WRN] 'Me' is null.
+2026-06-21 09:15:28.007 +02:00 [ERR] Exception thrown while trying to load 'resources/tilesets/water_shore_marker.png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass181_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 1011
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-06-21 09:15:28.020 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 46.9813ms
+2026-06-21 09:15:28.028 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 7.8452ms
+2026-06-21 09:15:28.161 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 128.5631ms
+2026-06-21 09:15:28.565 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 402.9884ms
+2026-06-21 09:15:28.578 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 8.4678ms
+2026-06-21 09:16:01.406 +02:00 [WRN] 'Me' is null.
+2026-06-21 09:16:02.825 +02:00 [WRN] 'Me' is null.
+2026-06-21 09:16:03.184 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 4.3605ms
+2026-06-21 09:16:03.188 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 3.9483ms
+2026-06-21 09:16:03.235 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 46.0651ms
+2026-06-21 09:16:03.582 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 346.3897ms
+2026-06-21 09:16:03.590 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 4.3487ms
+2026-06-21 09:20:43.241 +02:00 [INF] Disconnected [ef54fa94-c386-4eb7-a081-1e9e9e28edd1].
+2026-06-21 09:20:43.242 +02:00 [INF] Updating active permission set to 'default'
+2026-06-21 09:20:44.868 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-06-21 09:20:44.875 +02:00 [INF] Connected [979c1578-97c4-4e3d-83f6-9dfbe899fcd9].
+2026-06-21 09:20:44.877 +02:00 [INF] Connection approved [979c1578-97c4-4e3d-83f6-9dfbe899fcd9].
+2026-06-21 09:20:44.896 +02:00 [INF] Updated PermissionSet 'default'
+2026-06-21 09:20:44.896 +02:00 [INF] Updated PermissionSet 'admin'
+2026-06-21 09:20:48.988 +02:00 [INF] Updating active permission set to 'admin'
+2026-06-21 09:22:10.575 +02:00 [WRN] 'Me' is null.
+2026-06-21 09:22:10.938 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 4.3096ms
+2026-06-21 09:22:10.945 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 7.0157ms
+2026-06-21 09:22:10.995 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 46.8953ms
+2026-06-21 09:22:11.336 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 341.0663ms
+2026-06-21 09:22:11.347 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 7.132ms
+2026-06-21 09:25:02.109 +02:00 [WRN] 'Me' is null.
+2026-06-21 09:25:03.242 +02:00 [WRN] 'Me' is null.
+2026-06-21 09:25:03.687 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 8.0132ms
+2026-06-21 09:25:03.692 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 3.7881ms
+2026-06-21 09:25:03.739 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 44.081ms
+2026-06-21 09:25:04.092 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 352.3388ms
+2026-06-21 09:25:04.099 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 3.9242ms
+2026-06-21 09:30:40.516 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-06-21 09:30:40.518 +02:00 [INF] Disconnected [979c1578-97c4-4e3d-83f6-9dfbe899fcd9].
+2026-06-21 09:30:40.518 +02:00 [INF] Updating active permission set to 'default'
+2026-06-21 09:30:40.649 +02:00 [INF] Acquiring context lock... (0ms)
+2026-06-21 09:30:40.649 +02:00 [INF] Acquired. (0ms)
+2026-06-21 09:30:40.650 +02:00 [INF] Beginning context dispose. (0ms)
+2026-06-21 09:30:40.650 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-06-21 09:30:40.650 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-06-21 09:30:40.650 +02:00 [INF] Clearing instance... (1ms)
+2026-06-21 09:30:40.651 +02:00 [INF] Releasing context lock... (1ms)
+2026-06-21 09:30:40.651 +02:00 [INF] Released. (1ms)

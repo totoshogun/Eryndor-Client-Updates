@@ -1,0 +1,59 @@
+2026-04-14 13:27:50.492 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-14 13:27:50.782 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-14 13:27:50.789 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-14 13:27:50.790 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-14 13:27:52.878 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-14 13:27:52.898 +06:00 [INF] Connected [0706ad1e-38f3-4198-9e66-76c704eb6e5e].
+2026-04-14 13:27:52.921 +06:00 [INF] Connection approved [0706ad1e-38f3-4198-9e66-76c704eb6e5e].
+2026-04-14 13:27:53.012 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-14 13:27:57.590 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-14 13:27:57.590 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-14 13:27:57.733 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-14 13:27:59.495 +06:00 [WRN] 'Me' is null.
+2026-04-14 13:28:00.091 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 20.0326ms
+2026-04-14 13:28:01.649 +06:00 [INF] Built VBO for map 23630ac6-4461-460d-8a3b-9a0d4477096f 'test 8' in 9.7294ms
+2026-04-14 13:28:01.691 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 41.3605ms
+2026-04-14 13:28:55.454 +06:00 [WRN] 'Me' is null.
+2026-04-14 13:28:55.500 +06:00 [WRN] Tried to load entity "2fe93485-d83c-42bb-8aab-76adc9c27289" (Oran) from packet before in-game UI was ready
+2026-04-14 13:28:55.500 +06:00 [WRN] Tried to load entity "2fe93485-d83c-42bb-8aab-76adc9c27289" (Oran) from packet before in-game UI was ready
+2026-04-14 13:28:55.761 +06:00 [INF] Built VBO for map 23630ac6-4461-460d-8a3b-9a0d4477096f 'test 8' in 3.4343ms
+2026-04-14 13:28:55.764 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 2.4636ms
+2026-04-14 13:28:55.766 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 1.8205ms
+2026-04-14 13:30:07.174 +06:00 [INF] Disconnected [0706ad1e-38f3-4198-9e66-76c704eb6e5e].
+2026-04-14 13:30:07.175 +06:00 [INF] Updating active permission set to 'default'
+2026-04-14 13:30:08.485 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-14 13:30:08.491 +06:00 [INF] Connected [14ae942c-d990-48cf-b53d-865c369da9de].
+2026-04-14 13:30:08.501 +06:00 [INF] Connection approved [14ae942c-d990-48cf-b53d-865c369da9de].
+2026-04-14 13:30:08.508 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-14 13:30:08.509 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-14 13:30:20.170 +06:00 [WRN] 'Me' is null.
+2026-04-14 13:30:20.218 +06:00 [WRN] Tried to load entity "c7ebf0a6-2864-4ce6-b840-83659b266ec2" (Test) from packet before in-game UI was ready
+2026-04-14 13:30:20.218 +06:00 [WRN] Tried to load entity "c7ebf0a6-2864-4ce6-b840-83659b266ec2" (Test) from packet before in-game UI was ready
+2026-04-14 13:30:20.357 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 2.3888ms
+2026-04-14 13:30:20.359 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 1.8222ms
+2026-04-14 13:30:25.310 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 4.2656ms
+2026-04-14 13:30:55.936 +06:00 [WRN] 'Me' is null.
+2026-04-14 13:30:55.960 +06:00 [WRN] Tried to load entity "0d98cf88-9e6b-4a83-9819-71f1b13522cb" (test5677) from packet before in-game UI was ready
+2026-04-14 13:30:55.961 +06:00 [WRN] Tried to load entity "0d98cf88-9e6b-4a83-9819-71f1b13522cb" (test5677) from packet before in-game UI was ready
+2026-04-14 13:30:56.108 +06:00 [INF] Built VBO for map 23630ac6-4461-460d-8a3b-9a0d4477096f 'test 8' in 3.1125ms
+2026-04-14 13:30:56.111 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 2.3867ms
+2026-04-14 13:30:56.113 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 1.8142ms
+2026-04-14 13:33:38.900 +06:00 [WRN] 'Me' is null.
+2026-04-14 13:33:38.924 +06:00 [WRN] Tried to load entity "0a7ed750-a0b3-4539-b069-7b5c62b01da8" (Test) from packet before in-game UI was ready
+2026-04-14 13:33:39.273 +06:00 [INF] Built VBO for map 23630ac6-4461-460d-8a3b-9a0d4477096f 'test 8' in 3.8409ms
+2026-04-14 13:33:39.276 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 2.4131ms
+2026-04-14 13:33:39.278 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 1.7392ms
+2026-04-14 13:33:46.037 +06:00 [INF] Music volume set to 10 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-04-14 13:33:46.037 +06:00 [INF] Sound volume set to 15 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-04-14 13:35:46.024 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-14 13:35:46.025 +06:00 [INF] Disconnected [14ae942c-d990-48cf-b53d-865c369da9de].
+2026-04-14 13:35:46.025 +06:00 [INF] Updating active permission set to 'default'
+2026-04-14 13:35:46.131 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-14 13:35:46.131 +06:00 [INF] Acquired. (0ms)
+2026-04-14 13:35:46.132 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-14 13:35:46.132 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-14 13:35:46.132 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-14 13:35:46.132 +06:00 [INF] Clearing instance... (1ms)
+2026-04-14 13:35:46.132 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-14 13:35:46.132 +06:00 [INF] Released. (1ms)

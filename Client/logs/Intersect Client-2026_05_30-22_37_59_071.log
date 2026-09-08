@@ -1,0 +1,28 @@
+2026-05-30 22:37:59.232 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-30 22:37:59.446 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-30 22:37:59.449 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-30 22:37:59.450 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-30 22:38:01.898 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-30 22:38:01.906 +02:00 [INF] Connected [a31c039f-fe0b-48ec-9e7e-ba9f3e79a7e0].
+2026-05-30 22:38:01.912 +02:00 [INF] Connection approved [a31c039f-fe0b-48ec-9e7e-ba9f3e79a7e0].
+2026-05-30 22:38:02.005 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-30 22:38:02.005 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-30 22:38:06.788 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-30 22:38:07.463 +02:00 [WRN] 'Me' is null.
+2026-05-30 22:38:08.232 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 104.7435ms
+2026-05-30 22:38:08.360 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 82.0483ms
+2026-05-30 22:38:13.356 +02:00 [INF] Music volume set to 20 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-05-30 22:38:13.356 +02:00 [INF] Sound volume set to 20 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-05-30 22:38:13.357 +02:00 [INF] Weather sounds volume set to 80 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._weatherSoundsSlider._slider
+2026-05-30 22:38:27.698 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-30 22:38:27.701 +02:00 [INF] Disconnected [a31c039f-fe0b-48ec-9e7e-ba9f3e79a7e0].
+2026-05-30 22:38:27.701 +02:00 [INF] Updating active permission set to 'default'
+2026-05-30 22:38:27.736 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-30 22:38:27.736 +02:00 [INF] Acquired. (0ms)
+2026-05-30 22:38:27.737 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-30 22:38:27.737 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-30 22:38:27.737 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-30 22:38:27.737 +02:00 [INF] Clearing instance... (1ms)
+2026-05-30 22:38:27.737 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-30 22:38:27.737 +02:00 [INF] Released. (1ms)

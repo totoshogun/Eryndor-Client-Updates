@@ -1,0 +1,43 @@
+2026-04-06 03:56:28.718 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-06 03:56:29.075 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-06 03:56:29.079 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-06 03:56:29.080 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-06 03:56:34.361 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-06 03:56:34.385 +06:00 [INF] Connected [663918ed-e563-4132-8593-2b55aca52198].
+2026-04-06 03:56:34.396 +06:00 [INF] Connection approved [663918ed-e563-4132-8593-2b55aca52198].
+2026-04-06 03:56:34.493 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-06 03:56:35.720 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-06 03:56:35.720 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-06 03:56:35.840 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-06 03:56:39.642 +06:00 [WRN] 'Me' is null.
+2026-04-06 03:56:40.149 +06:00 [INF] Built VBO for map 411179b7-b772-42ef-bf66-03b7e4d7dca8 'test 5' in 12.4337ms
+2026-04-06 03:56:40.159 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'forest' in 5.6476ms
+2026-04-06 03:56:42.969 +06:00 [INF] Music volume set to 10 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-04-06 03:56:42.969 +06:00 [INF] Sound volume set to 15 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-04-06 03:56:54.920 +06:00 [INF] Disconnected [663918ed-e563-4132-8593-2b55aca52198].
+2026-04-06 03:56:54.920 +06:00 [INF] Updating active permission set to 'default'
+2026-04-06 03:56:56.857 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-06 03:56:56.862 +06:00 [INF] Connected [2e865b38-c651-4a8a-a97f-b712194d8f24].
+2026-04-06 03:56:56.875 +06:00 [INF] Connection approved [2e865b38-c651-4a8a-a97f-b712194d8f24].
+2026-04-06 03:56:56.889 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-06 03:56:56.889 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-06 03:57:21.051 +06:00 [WRN] 'Me' is null.
+2026-04-06 03:57:21.084 +06:00 [WRN] Tried to load entity "8ccf7c97-b44d-48ab-b0e9-3474ea71773e" (test) from packet before in-game UI was ready
+2026-04-06 03:57:21.085 +06:00 [WRN] Tried to load entity "8ccf7c97-b44d-48ab-b0e9-3474ea71773e" (test) from packet before in-game UI was ready
+2026-04-06 03:57:21.237 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'forest' in 1.6817ms
+2026-04-06 03:57:21.242 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 4.7541ms
+2026-04-06 03:57:21.249 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 6.1717ms
+2026-04-06 03:57:31.475 +06:00 [INF] Music volume set to 10 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-04-06 03:57:31.476 +06:00 [INF] Sound volume set to 15 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-04-06 03:57:56.445 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-06 03:57:56.446 +06:00 [INF] Disconnected [2e865b38-c651-4a8a-a97f-b712194d8f24].
+2026-04-06 03:57:56.447 +06:00 [INF] Updating active permission set to 'default'
+2026-04-06 03:57:56.471 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-06 03:57:56.471 +06:00 [INF] Acquired. (0ms)
+2026-04-06 03:57:56.472 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-06 03:57:56.472 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-06 03:57:56.472 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-06 03:57:56.472 +06:00 [INF] Clearing instance... (1ms)
+2026-04-06 03:57:56.472 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-06 03:57:56.472 +06:00 [INF] Released. (1ms)

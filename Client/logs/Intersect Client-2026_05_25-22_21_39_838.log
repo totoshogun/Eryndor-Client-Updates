@@ -1,0 +1,56 @@
+2026-05-25 22:21:40.186 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-25 22:21:40.422 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-25 22:21:40.426 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-25 22:21:40.427 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-25 22:21:43.934 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-25 22:21:43.956 +02:00 [INF] Connected [59499fb2-3c5a-4bcf-89d3-b21d3b41ed2b].
+2026-05-25 22:21:43.973 +02:00 [INF] Connection approved [59499fb2-3c5a-4bcf-89d3-b21d3b41ed2b].
+2026-05-25 22:21:44.073 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-25 22:21:48.831 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-25 22:21:48.831 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-25 22:21:49.373 +02:00 [WRN] 'Me' is null.
+2026-05-25 22:21:49.836 +02:00 [INF] Map "d5c08240-0436-454a-8993-362abf5bc477" 'New Map' loaded with 1 window light zone(s)
+2026-05-25 22:21:50.008 +02:00 [INF] BuildWindowLightBeams() map "d5c08240-0436-454a-8993-362abf5bc477": WindowLightZones=1
+2026-05-25 22:21:50.013 +02:00 [INF] BuildWindowLightBeams() map "d5c08240-0436-454a-8993-362abf5bc477": created 1 beam(s) from 1 zone(s)
+2026-05-25 22:21:50.013 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 17.7653ms
+2026-05-25 22:21:51.073 +02:00 [FTL] Game is crashing due to an exception
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Intersect.Client.Maps.MapInstance.ExtractGlassPixelsFromBeam(Color[] pixels, Int32 width, Int32 height, MapWindowLightDetectionMode mode) in F:\game code engine\Intersect_New\Intersect.Client.Core\Maps\MapInstance.cs:line 4730
+   at Intersect.Client.Maps.MapInstance.TryGetWindowLightMask(WindowLightBeam beam, IGameRenderTexture& sourceMask) in F:\game code engine\Intersect_New\Intersect.Client.Core\Maps\MapInstance.cs:line 4627
+   at Intersect.Client.Maps.MapInstance.DrawWindowLightIntoLightMap(IGameRenderTexture renderTarget) in F:\game code engine\Intersect_New\Intersect.Client.Core\Maps\MapInstance.cs:line 5178
+   at Intersect.Client.Core.Graphics.DrawVisibleWindowLightsIntoLightMap(MapInstance currentMap, IGameRenderTexture renderTarget) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Graphics.cs:line 1629
+   at Intersect.Client.Core.Graphics.GenerateLightMap() in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Graphics.cs:line 1610
+   at Intersect.Client.Core.Graphics.DrawInGame(TimeSpan deltaTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Graphics.cs:line 716
+   at Intersect.Client.Core.Graphics.Render(TimeSpan deltaTime, TimeSpan totalTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Graphics.cs:line 861
+   at Intersect.Client.MonoGame.IntersectGame.Draw(GameTime gameTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 332
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 627
+2026-05-25 22:21:51.106 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-25 22:21:51.107 +02:00 [INF] Acquired. (0ms)
+2026-05-25 22:21:51.107 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-25 22:21:51.107 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-25 22:21:51.107 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-25 22:21:51.108 +02:00 [INF] Clearing instance... (1ms)
+2026-05-25 22:21:51.108 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-25 22:21:51.108 +02:00 [INF] Released. (1ms)
+2026-05-25 22:21:51.108 +02:00 [ERR] Failed to start application context
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Intersect.Client.Maps.MapInstance.ExtractGlassPixelsFromBeam(Color[] pixels, Int32 width, Int32 height, MapWindowLightDetectionMode mode) in F:\game code engine\Intersect_New\Intersect.Client.Core\Maps\MapInstance.cs:line 4730
+   at Intersect.Client.Maps.MapInstance.TryGetWindowLightMask(WindowLightBeam beam, IGameRenderTexture& sourceMask) in F:\game code engine\Intersect_New\Intersect.Client.Core\Maps\MapInstance.cs:line 4627
+   at Intersect.Client.Maps.MapInstance.DrawWindowLightIntoLightMap(IGameRenderTexture renderTarget) in F:\game code engine\Intersect_New\Intersect.Client.Core\Maps\MapInstance.cs:line 5178
+   at Intersect.Client.Core.Graphics.DrawVisibleWindowLightsIntoLightMap(MapInstance currentMap, IGameRenderTexture renderTarget) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Graphics.cs:line 1629
+   at Intersect.Client.Core.Graphics.GenerateLightMap() in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Graphics.cs:line 1610
+   at Intersect.Client.Core.Graphics.DrawInGame(TimeSpan deltaTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Graphics.cs:line 716
+   at Intersect.Client.Core.Graphics.Render(TimeSpan deltaTime, TimeSpan totalTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Graphics.cs:line 861
+   at Intersect.Client.MonoGame.IntersectGame.Draw(GameTime gameTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 332
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 627
+   at Intersect.Client.Core.ClientContext.InternalStart() in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\ClientContext.cs:line 97
+   at Intersect.Core.ApplicationContext`2.Start(Boolean lockUntilShutdown) in F:\game code engine\Intersect_New\Intersect (Core)\Core\ApplicationContext`2.cs:line 245

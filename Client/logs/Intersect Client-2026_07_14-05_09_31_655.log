@@ -1,0 +1,30 @@
+2026-07-14 05:09:31.833 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-07-14 05:09:32.083 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-07-14 05:09:32.087 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-07-14 05:09:32.088 +02:00 [INF] Discovered 0 plugins:
+
+2026-07-14 05:09:32.543 +02:00 [INF] Graphics pacing configured: targetMode=-1, vsync=false, fixedStep=false, backBuffer=1760x990
+2026-07-14 05:09:47.572 +02:00 [INF] Music volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-07-14 05:09:47.573 +02:00 [INF] Sound volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-07-14 05:09:47.573 +02:00 [INF] Weather sounds volume set to 80 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._weatherSoundsSlider._slider
+2026-07-14 05:09:54.829 +02:00 [INF] Applying graphics FPS setting: selectedMode=0, selectedText=V-Sync, selectedData=0, previousMode=-1
+2026-07-14 05:09:54.895 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-07-14 05:09:57.995 +02:00 [INF] Music volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-07-14 05:09:57.995 +02:00 [INF] Sound volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-07-14 05:09:57.995 +02:00 [INF] Weather sounds volume set to 80 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._weatherSoundsSlider._slider
+2026-07-14 05:10:02.522 +02:00 [INF] Applying graphics FPS setting: selectedMode=-1, selectedText=No Limit, selectedData=-1, previousMode=0
+2026-07-14 05:10:02.582 +02:00 [INF] Graphics pacing configured: targetMode=-1, vsync=false, fixedStep=false, backBuffer=1760x990
+2026-07-14 05:10:04.923 +02:00 [INF] Music volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-07-14 05:10:04.923 +02:00 [INF] Sound volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-07-14 05:10:04.923 +02:00 [INF] Weather sounds volume set to 80 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._weatherSoundsSlider._slider
+2026-07-14 05:10:08.825 +02:00 [INF] Applying graphics FPS setting: selectedMode=-1, selectedText=No Limit, selectedData=-1, previousMode=-1
+2026-07-14 05:10:10.683 +02:00 [INF] User clicked exit button.
+2026-07-14 05:10:10.737 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-07-14 05:10:10.775 +02:00 [INF] Acquiring context lock... (0ms)
+2026-07-14 05:10:10.775 +02:00 [INF] Acquired. (0ms)
+2026-07-14 05:10:10.776 +02:00 [INF] Beginning context dispose. (0ms)
+2026-07-14 05:10:10.776 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-07-14 05:10:10.776 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-07-14 05:10:10.776 +02:00 [INF] Clearing instance... (2ms)
+2026-07-14 05:10:10.776 +02:00 [INF] Releasing context lock... (2ms)
+2026-07-14 05:10:10.776 +02:00 [INF] Released. (2ms)

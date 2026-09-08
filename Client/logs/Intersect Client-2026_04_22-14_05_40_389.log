@@ -1,0 +1,80 @@
+2026-04-22 14:05:40.540 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-22 14:05:40.766 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-22 14:05:40.770 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-22 14:05:40.771 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-22 14:05:42.811 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-22 14:05:42.820 +06:00 [INF] Connected [4abae7be-5f90-49cc-a7dc-feee1a919a81].
+2026-04-22 14:05:42.839 +06:00 [INF] Connection approved [4abae7be-5f90-49cc-a7dc-feee1a919a81].
+2026-04-22 14:05:42.924 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-22 14:05:42.924 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-22 14:05:46.847 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-22 14:05:46.909 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-22 14:05:47.470 +06:00 [WRN] 'Me' is null.
+2026-04-22 14:05:47.985 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 25.0788ms
+2026-04-22 14:07:49.819 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 7.3544ms
+2026-04-22 14:09:45.898 +06:00 [INF] Disconnected [4abae7be-5f90-49cc-a7dc-feee1a919a81].
+2026-04-22 14:09:45.898 +06:00 [INF] Updating active permission set to 'default'
+2026-04-22 14:09:47.253 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-22 14:09:47.259 +06:00 [INF] Connected [ca801021-8650-422b-aa4d-18a6b5165352].
+2026-04-22 14:09:47.273 +06:00 [INF] Connection approved [ca801021-8650-422b-aa4d-18a6b5165352].
+2026-04-22 14:09:47.281 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-22 14:09:47.281 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-22 14:09:51.877 +06:00 [WRN] 'Me' is null.
+2026-04-22 14:09:51.897 +06:00 [WRN] Tried to load entity "9fe24955-5cbc-42ab-8b6a-480c73a0d714" (test12345) from packet before in-game UI was ready
+2026-04-22 14:09:51.897 +06:00 [WRN] Tried to load entity "9fe24955-5cbc-42ab-8b6a-480c73a0d714" (test12345) from packet before in-game UI was ready
+2026-04-22 14:09:52.051 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 3.7142ms
+2026-04-22 14:11:01.936 +06:00 [INF] Disconnected [ca801021-8650-422b-aa4d-18a6b5165352].
+2026-04-22 14:11:01.936 +06:00 [INF] Updating active permission set to 'default'
+2026-04-22 14:11:03.130 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-22 14:11:03.135 +06:00 [INF] Connected [2760da0a-3287-44c8-b8b4-609e04c54dff].
+2026-04-22 14:11:03.151 +06:00 [INF] Connection approved [2760da0a-3287-44c8-b8b4-609e04c54dff].
+2026-04-22 14:11:03.161 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-22 14:11:03.161 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-22 14:11:07.608 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-22 14:11:08.292 +06:00 [WRN] 'Me' is null.
+2026-04-22 14:11:08.310 +06:00 [WRN] Tried to load entity "31d24595-6847-4bec-b802-87b05f4da3a9" (Oran) from packet before in-game UI was ready
+2026-04-22 14:11:08.310 +06:00 [FTL] Game is crashing due to an exception
+System.InvalidOperationException: In-game UI not initialized
+   at Intersect.Client.Interface.Interface.get_GameUi() in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Interface.cs:line 56
+   at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacketSender packetSender, PlayerDeathPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 2222
+   at Intersect.Network.PacketHandlerRegistry.<>c__DisplayClass36_1`2.<CreateWeaklyTypedDelegateForMethodInfo>b__1(IPacketSender packetSender, IPacket packet) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Network\PacketHandlerRegistry.cs:line 100
+   at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 153
+   at Intersect.Client.Networking.Network.OnDataReceived(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\Network.cs:line 150
+   at Intersect.Client.Framework.Network.GameSocket.OnDataReceived(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Network\GameSocket.cs:line 33
+   at Intersect.Client.MonoGame.Network.MonoSocket.Update() in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\Network\MonoSocket.cs:line 210
+   at Intersect.Client.Networking.Network.Update() in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\Network.cs:line 198
+   at Intersect.Client.Core.Main.Update(TimeSpan deltaTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Main.cs:line 66
+   at Intersect.Client.MonoGame.IntersectGame.Update(GameTime gameTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 230
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 633
+2026-04-22 14:11:08.398 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-22 14:11:08.398 +06:00 [INF] Acquired. (0ms)
+2026-04-22 14:11:08.398 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-22 14:11:08.399 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-22 14:11:08.399 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-22 14:11:08.399 +06:00 [INF] Clearing instance... (1ms)
+2026-04-22 14:11:08.399 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-22 14:11:08.399 +06:00 [INF] Released. (1ms)
+2026-04-22 14:11:08.399 +06:00 [ERR] Failed to start application context
+System.InvalidOperationException: In-game UI not initialized
+   at Intersect.Client.Interface.Interface.get_GameUi() in F:\game code engine\Intersect_New\Intersect.Client.Core\Interface\Interface.cs:line 56
+   at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacketSender packetSender, PlayerDeathPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 2222
+   at Intersect.Network.PacketHandlerRegistry.<>c__DisplayClass36_1`2.<CreateWeaklyTypedDelegateForMethodInfo>b__1(IPacketSender packetSender, IPacket packet) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Network\PacketHandlerRegistry.cs:line 100
+   at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 153
+   at Intersect.Client.Networking.Network.OnDataReceived(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\Network.cs:line 150
+   at Intersect.Client.Framework.Network.GameSocket.OnDataReceived(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Network\GameSocket.cs:line 33
+   at Intersect.Client.MonoGame.Network.MonoSocket.Update() in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\Network\MonoSocket.cs:line 210
+   at Intersect.Client.Networking.Network.Update() in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\Network.cs:line 198
+   at Intersect.Client.Core.Main.Update(TimeSpan deltaTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Main.cs:line 66
+   at Intersect.Client.MonoGame.IntersectGame.Update(GameTime gameTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 230
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 633
+   at Intersect.Client.Core.ClientContext.InternalStart() in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\ClientContext.cs:line 97
+   at Intersect.Core.ApplicationContext`2.Start(Boolean lockUntilShutdown) in F:\game code engine\Intersect_New\Intersect (Core)\Core\ApplicationContext`2.cs:line 245

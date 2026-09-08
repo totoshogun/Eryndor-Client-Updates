@@ -1,0 +1,78 @@
+{
+  "Bounds": "4,4,420,100",
+  "Dock": "None","Padding": "0,0,0,0","AlignmentEdgeDistances": "4,4,0,0","AlignmentTransform": "0,0","Margin": "0,0,0,0","RenderColor": "255,255,255,255","Alignments": "Top,Left","DrawBackground": false,"MinimumSize": "1,1","MaximumSize": "4096,4096","Disabled": false,"Hidden": false,"RestrictToParent": true,"MouseInputEnabled": false,"HideToolTip": false,"ToolTipBackground": null,"ToolTipFont": null,"TooltipTextColor": null,"Texture": null,"TextureNinePatchMargin": null,
+  "Children": {
+    "EntityInfoPanel": {
+      "Bounds": "0,0,420,100",
+      "Dock": "None","Padding": "0,0,0,0","AlignmentEdgeDistances": "0,0,0,0","AlignmentTransform": "0,0","Margin": "0,0,0,0","RenderColor": "255,255,255,255","Alignments": "","DrawBackground": true,"MinimumSize": "1,1","MaximumSize": "4096,4096","Disabled": false,"Hidden": false,"RestrictToParent": false,"MouseInputEnabled": true,"HideToolTip": false,"ToolTipBackground": null,"ToolTipFont": null,"TooltipTextColor": null,
+      "Texture": "target_window.png","TextureNinePatchMargin": null,
+      "Children": {
+        "HPBarBackground": {
+          "Bounds": "138,47,245,11",
+          "Dock": "None","Padding": "0,0,0,0","AlignmentEdgeDistances": "0,0,0,0","AlignmentTransform": "0,0","Margin": "0,0,0,0","RenderColor": "255,255,255,255","Alignments": "","DrawBackground": false,"MinimumSize": "1,1","MaximumSize": "4096,4096","Disabled": false,"Hidden": false,"RestrictToParent": false,"MouseInputEnabled": true,"HideToolTip": false,"ToolTipBackground": null,"ToolTipFont": null,"TooltipTextColor": null,
+          "Texture": null,"TextureNinePatchMargin": null
+        },
+        "MPBackground": {
+          "Bounds": "138,70,245,11",
+          "Dock": "None","Padding": "0,0,0,0","AlignmentEdgeDistances": "0,0,0,0","AlignmentTransform": "0,0","Margin": "0,0,0,0","RenderColor": "255,255,255,255","Alignments": "","DrawBackground": false,"MinimumSize": "1,1","MaximumSize": "4096,4096","Disabled": false,"Hidden": false,"RestrictToParent": false,"MouseInputEnabled": true,"HideToolTip": false,"ToolTipBackground": null,"ToolTipFont": null,"TooltipTextColor": null,
+          "Texture": null,"TextureNinePatchMargin": null
+        },
+        "HPBar": {
+          "Bounds": "138,47,245,11",
+          "Dock": "None","Padding": "0,0,0,0","AlignmentEdgeDistances": "0,0,0,0","AlignmentTransform": "0,0","Margin": "0,0,0,0","RenderColor": "255,255,255,255","Alignments": "","DrawBackground": false,"MinimumSize": "1,1","MaximumSize": "4096,4096","Disabled": false,"Hidden": false,"RestrictToParent": false,"MouseInputEnabled": false,"HideToolTip": false,"ToolTipBackground": null,"ToolTipFont": null,"TooltipTextColor": null,
+          "Texture": "target_hpbar.png","TextureNinePatchMargin": null
+        },
+        "MPBar": {
+          "Bounds": "138,70,245,11",
+          "Dock": "None","Padding": "0,0,0,0","AlignmentEdgeDistances": "0,0,0,0","AlignmentTransform": "0,0","Margin": "0,0,0,0","RenderColor": "255,255,255,255","Alignments": "","DrawBackground": false,"MinimumSize": "1,1","MaximumSize": "4096,4096","Disabled": false,"Hidden": false,"RestrictToParent": false,"MouseInputEnabled": false,"HideToolTip": false,"ToolTipBackground": null,"ToolTipFont": null,"TooltipTextColor": null,
+          "Texture": "target_mpbar.png","TextureNinePatchMargin": null
+        },
+        "ShieldBar": {
+          "Bounds": "138,47,245,11",
+          "Dock": "None","Padding": "0,0,0,0","AlignmentEdgeDistances": "0,0,0,0","AlignmentTransform": "0,0","Margin": "0,0,0,0","RenderColor": "255,255,255,255","Alignments": "","DrawBackground": false,"MinimumSize": "1,1","MaximumSize": "4096,4096","Disabled": false,"Hidden": false,"RestrictToParent": false,"MouseInputEnabled": false,"HideToolTip": false,"ToolTipBackground": null,"ToolTipFont": null,"TooltipTextColor": null,
+          "Texture": "target_shieldbar.png","TextureNinePatchMargin": null
+        },
+        "WindowFrame": {
+          "Type": "ImagePanel",
+          "Bounds": "0,0,420,100",
+          "Dock": "None","Padding": "0,0,0,0","AlignmentEdgeDistances": "0,0,0,0","AlignmentTransform": "0,0","Margin": "0,0,0,0","RenderColor": "255,255,255,255","Alignments": "","DrawBackground": false,"MinimumSize": "1,1","MaximumSize": "4096,4096","Disabled": false,"Hidden": false,"RestrictToParent": false,"MouseInputEnabled": false,"HideToolTip": false,"ToolTipBackground": null,"ToolTipFont": null,"TooltipTextColor": null,
+          "Texture": "target_window_frame.png","TextureNinePatchMargin": null
+        },
+        "EntityGraphicContainer": {
+          "Bounds": "10,0,94,100",
+          "Dock": "None","Padding": "0,0,0,0","AlignmentEdgeDistances": "0,0,0,0","AlignmentTransform": "0,0","Margin": "0,0,0,0","RenderColor": "255,255,255,255","Alignments": "","DrawBackground": false,"MinimumSize": "1,1","MaximumSize": "4096,4096","Disabled": false,"Hidden": false,"RestrictToParent": false,"MouseInputEnabled": true,"HideToolTip": false,"ToolTipBackground": null,"ToolTipFont": null,"TooltipTextColor": null,"Texture": null,"TextureNinePatchMargin": null
+        },
+        "EntityNameLabel": {
+          "Bounds": "105,14,1,22",
+          "Dock": "None","Padding": "0,0,0,0","AlignmentEdgeDistances": "0,0,0,0","AlignmentTransform": "0,0","Margin": "0,0,0,0","RenderColor": "255,255,255,255","Alignments": "","DrawBackground": false,"MinimumSize": "1,1","MaximumSize": "4096,4096","Disabled": false,"Hidden": false,"RestrictToParent": false,"MouseInputEnabled": false,"HideToolTip": false,"ToolTipBackground": null,"ToolTipFont": null,"TooltipTextColor": null,
+          "BackgroundTemplate": null,"TextColor": "255,255,255,255","HoveredTextColor": null,"ClickedTextColor": null,"DisabledTextColor": "255,90,90,90","TextAlign": "Left, Top","AutoSizeToContents": true,"FontName": "sourcesansproblack","FontSize": 12,"TextScale": 1.0
+        },
+        "EntityLevelLabel": {
+          "Bounds": "330,14,1,22",
+          "Dock": "None","Padding": "0,0,0,0","AlignmentEdgeDistances": "0,0,0,0","AlignmentTransform": "0,0","Margin": "0,0,0,0","RenderColor": "255,255,255,255","Alignments": "","DrawBackground": false,"MinimumSize": "1,1","MaximumSize": "4096,4096","Disabled": false,"Hidden": false,"RestrictToParent": false,"MouseInputEnabled": false,"HideToolTip": false,"ToolTipBackground": null,"ToolTipFont": null,"TooltipTextColor": null,
+          "BackgroundTemplate": null,"TextColor": "255,255,255,255","HoveredTextColor": null,"ClickedTextColor": null,"DisabledTextColor": "255,90,90,90","TextAlign": "Left, Top","AutoSizeToContents": true,"FontName": "sourcesansproblack","FontSize": 12,"TextScale": 1.0
+        },
+        "HPTitle": {
+          "Bounds": "105,44,30,20",
+          "Dock": "None","Padding": "0,0,0,0","AlignmentEdgeDistances": "0,0,0,0","AlignmentTransform": "0,0","Margin": "0,0,0,0","RenderColor": "255,255,255,255","Alignments": "","DrawBackground": false,"MinimumSize": "1,1","MaximumSize": "4096,4096","Disabled": false,"Hidden": false,"RestrictToParent": false,"MouseInputEnabled": false,"HideToolTip": false,"ToolTipBackground": null,"ToolTipFont": null,"TooltipTextColor": null,
+          "BackgroundTemplate": null,"TextColor": "255,255,255,255","HoveredTextColor": null,"ClickedTextColor": null,"DisabledTextColor": "255,90,90,90","TextAlign": "Left, Top","AutoSizeToContents": true,"FontName": "sourcesansproblack","FontSize": 10,"TextScale": 1.0
+        },
+        "MPTitle": {
+          "Bounds": "105,68,30,20",
+          "Dock": "None","Padding": "0,0,0,0","AlignmentEdgeDistances": "0,0,0,0","AlignmentTransform": "0,0","Margin": "0,0,0,0","RenderColor": "255,255,255,255","Alignments": "","DrawBackground": false,"MinimumSize": "1,1","MaximumSize": "4096,4096","Disabled": false,"Hidden": false,"RestrictToParent": false,"MouseInputEnabled": false,"HideToolTip": false,"ToolTipBackground": null,"ToolTipFont": null,"TooltipTextColor": null,
+          "BackgroundTemplate": null,"TextColor": "255,255,255,255","HoveredTextColor": null,"ClickedTextColor": null,"DisabledTextColor": "255,90,90,90","TextAlign": "Left, Top","AutoSizeToContents": true,"FontName": "sourcesansproblack","FontSize": 10,"TextScale": 1.0
+        },
+        "HPLabel": {
+          "Bounds": "138,45,245,16",
+          "Dock": "None","Padding": "0,0,0,0","AlignmentEdgeDistances": "0,0,0,0","AlignmentTransform": "0,0","Margin": "0,0,0,0","RenderColor": "255,255,255,255","Alignments": "","DrawBackground": false,"MinimumSize": "1,1","MaximumSize": "4096,4096","Disabled": false,"Hidden": false,"RestrictToParent": false,"MouseInputEnabled": false,"HideToolTip": false,"ToolTipBackground": null,"ToolTipFont": null,"TooltipTextColor": null,
+          "BackgroundTemplate": null,"TextColor": "255,255,255,255","HoveredTextColor": null,"ClickedTextColor": null,"DisabledTextColor": "255,90,90,90","TextAlign": "Center","AutoSizeToContents": false,"FontName": "sourcesansproblack","FontSize": 8,"TextScale": 1.0
+        },
+        "MPLabel": {
+          "Bounds": "138,68,245,16",
+          "Dock": "None","Padding": "0,0,0,0","AlignmentEdgeDistances": "0,0,0,0","AlignmentTransform": "0,0","Margin": "0,0,0,0","RenderColor": "255,255,255,255","Alignments": "","DrawBackground": false,"MinimumSize": "1,1","MaximumSize": "4096,4096","Disabled": false,"Hidden": false,"RestrictToParent": false,"MouseInputEnabled": false,"HideToolTip": false,"ToolTipBackground": null,"ToolTipFont": null,"TooltipTextColor": null,
+          "BackgroundTemplate": null,"TextColor": "255,255,255,255","HoveredTextColor": null,"ClickedTextColor": null,"DisabledTextColor": "255,90,90,90","TextAlign": "Center","AutoSizeToContents": false,"FontName": "sourcesansproblack","FontSize": 8,"TextScale": 1.0
+        }
+      }
+    }
+  }
+}

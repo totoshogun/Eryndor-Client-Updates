@@ -1,0 +1,53 @@
+2026-05-16 11:39:13.084 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-16 11:39:13.351 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-16 11:39:13.354 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-16 11:39:13.355 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-16 11:39:15.985 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-16 11:39:15.995 +02:00 [INF] Connected [cab14546-1887-454e-8f6e-6492d1c61e70].
+2026-05-16 11:39:15.999 +02:00 [INF] Connection approved [cab14546-1887-454e-8f6e-6492d1c61e70].
+2026-05-16 11:39:16.134 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-16 11:39:16.134 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-16 11:39:22.589 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-16 11:39:23.212 +02:00 [WRN] 'Me' is null.
+2026-05-16 11:39:23.383 +02:00 [WRN] Tried to load entity "f748a57f-2b1b-4791-910e-91ddb85352c2" (Oran) from packet before in-game UI was ready
+2026-05-16 11:39:23.414 +02:00 [WRN] Tried to load entity "f748a57f-2b1b-4791-910e-91ddb85352c2" (Oran) from packet before in-game UI was ready
+2026-05-16 11:39:23.847 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 11.6089ms
+2026-05-16 11:40:01.936 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 3.1288ms
+2026-05-16 11:40:42.456 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 2.1657ms
+2026-05-16 11:41:03.524 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 2.1949ms
+2026-05-16 11:41:26.209 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 2.185ms
+2026-05-16 11:42:53.322 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 2.9536ms
+2026-05-16 11:43:31.746 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 2.3679ms
+2026-05-16 11:43:47.074 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 2.1177ms
+2026-05-16 11:44:10.433 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 2.4091ms
+2026-05-16 11:44:59.219 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 2.2104ms
+2026-05-16 11:49:37.105 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 1.8284ms
+2026-05-16 11:50:39.459 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 3.1053ms
+2026-05-16 11:52:11.081 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 2.1233ms
+2026-05-16 11:52:14.865 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 65.613ms
+2026-05-16 11:53:32.051 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 5.3442ms
+2026-05-16 11:53:32.060 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 2.6814ms
+2026-05-16 11:53:52.714 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 5.03ms
+2026-05-16 11:53:52.725 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 4.4601ms
+2026-05-16 11:54:20.467 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 2.2082ms
+2026-05-16 11:54:24.493 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 4.3695ms
+2026-05-16 11:54:35.439 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 2.295ms
+2026-05-16 11:54:44.210 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 4.3725ms
+2026-05-16 11:55:18.667 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 4.4655ms
+2026-05-16 12:05:19.725 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 4.3486ms
+2026-05-16 12:05:19.735 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 4.4356ms
+2026-05-16 12:11:53.494 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 2.4413ms
+2026-05-16 12:13:39.554 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 5.3754ms
+2026-05-16 12:16:11.987 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'New Map' in 2.7131ms
+2026-05-16 12:16:27.255 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-16 12:16:27.258 +02:00 [INF] Disconnected [cab14546-1887-454e-8f6e-6492d1c61e70].
+2026-05-16 12:16:27.259 +02:00 [INF] Updating active permission set to 'default'
+2026-05-16 12:16:27.359 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-16 12:16:27.360 +02:00 [INF] Acquired. (0ms)
+2026-05-16 12:16:27.360 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-16 12:16:27.360 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-16 12:16:27.360 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-16 12:16:27.361 +02:00 [INF] Clearing instance... (1ms)
+2026-05-16 12:16:27.361 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-16 12:16:27.361 +02:00 [INF] Released. (1ms)
