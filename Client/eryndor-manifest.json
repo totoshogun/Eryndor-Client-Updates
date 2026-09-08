@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 1,
-  "Version": "2026.09.08.172529",
+  "Version": "2026.09.08.174144",
   "Repository": "totoshogun/Eryndor-Client-Updates",
   "Branch": "main",
   "ProtectedPaths": [
@@ -26,16 +26,6 @@
       "Path": "Antlr4.Runtime.Standard.dll",
       "Size": 192000,
       "Sha256": "dbf6e89702a820d40bb6dfbfe178de5a312937aa972bd83077d3658d5bcd93de"
-    },
-    {
-      "Path": "Assets/eryndor-crest.png",
-      "Size": 2585925,
-      "Sha256": "f25df0b7c41cf217cc5af35844906fd30f8f0f8b10897b115fab2206d7178677"
-    },
-    {
-      "Path": "Assets/eryndor-launcher-background.png",
-      "Size": 2158785,
-      "Sha256": "c8a0dffb08fb8712aa8350225239b0703ec283ccc9bdad1a978344833fdac94f"
     },
     {
       "Path": "Ceras.dll",
