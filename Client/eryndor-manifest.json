@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 1,
-  "Version": "2026.09.08.170007",
+  "Version": "2026.09.08.172529",
   "Repository": "totoshogun/Eryndor-Client-Updates",
   "Branch": "main",
   "ProtectedPaths": [
@@ -18,7 +18,8 @@
     "Eryndor Launcher.deps.json",
     "Eryndor Launcher.runtimeconfig.json",
     "Eryndor.Updater.Core.dll",
-    "Eryndor.Updater.Core.xml"
+    "Eryndor.Updater.Core.xml",
+    "Launcher"
   ],
   "Files": [
     {
