@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 1,
-  "Version": "2026.09.08.225846",
+  "Version": "2026.09.08.232350",
   "Repository": "totoshogun/Eryndor-Client-Updates",
   "Branch": "main",
   "ProtectedPaths": [
@@ -94,8 +94,8 @@
     },
     {
       "Path": "Eryndor Client.exe",
-      "Size": 9686528,
-      "Sha256": "a79840fc37fda6144d05c260650c831585f5dec33cd765f1f73537a5ddfef2a9"
+      "Size": 9747456,
+      "Sha256": "d000f706278be315395a4398b625050899d9b95d127b2477a774e7d4f0089ddd"
     },
     {
       "Path": "Eryndor Client.runtimeconfig.json",
