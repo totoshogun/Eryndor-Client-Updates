@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 1,
-  "Version": "2026.09.08.164442",
+  "Version": "2026.09.08.170007",
   "Repository": "totoshogun/Eryndor-Client-Updates",
   "Branch": "main",
   "ProtectedPaths": [
@@ -63,13 +63,13 @@
     },
     {
       "Path": "Intersect Client Core.xml",
-      "Size": 115196,
-      "Sha256": "854356ac4786e3ecb23d50b8d5cd311250ff45d872b60dda9f1da15dfab037ed"
+      "Size": 113407,
+      "Sha256": "77f43698e9ba6e6cdd200056017c8b8ab1001b5fe51008293ae59cbf1e88768e"
     },
     {
       "Path": "Intersect Client.deps.json",
-      "Size": 121831,
-      "Sha256": "fa8f69c2a2a101137295c8b08b223ff454853bf86ef5078049f165812aa0fd3a"
+      "Size": 118750,
+      "Sha256": "7045c52abfb812646952ba81c9ac4bbc192112d47c1839a127138f070d26a130"
     },
     {
       "Path": "Intersect Client.dll",
@@ -83,13 +83,13 @@
     },
     {
       "Path": "Intersect Client.runtimeconfig.json",
-      "Size": 372,
-      "Sha256": "2afd10f6ba1551c115362013c6ce4568a6c132b6c6d8d4937993fd016efaab9d"
+      "Size": 358,
+      "Sha256": "720dd0b8dd8096b6cd3c7485cbc84a938e0b66fe2155393126924eb82d842871"
     },
     {
       "Path": "Intersect Client.xml",
-      "Size": 141,
-      "Sha256": "76c3dd4d75c6b383c8a946fd2856f0ed1d828dcde45eea676326ab70edabc584"
+      "Size": 133,
+      "Sha256": "e32b5a51fd5ba681627d72e59f9643eb7340f8030c76e72346fe41776192c68d"
     },
     {
       "Path": "Intersect Core.dll",
@@ -98,8 +98,8 @@
     },
     {
       "Path": "Intersect Core.xml",
-      "Size": 91126,
-      "Sha256": "ae1a15ef20070e79caaa14080f7c7b8de460480868755da9b7ddf001f0d1a75f"
+      "Size": 89684,
+      "Sha256": "6726f4982e69caee9ae92460777680175996211d26c660fcc730f5b3299bee7f"
     },
     {
       "Path": "Intersect.Building.dll",
@@ -113,8 +113,8 @@
     },
     {
       "Path": "Intersect.Client.Framework.xml",
-      "Size": 344377,
-      "Sha256": "f9d7feb99042435b57942e46225842c057da950dacd4b7cf578fa2d43432ab47"
+      "Size": 337543,
+      "Sha256": "688bd89d365dcc38ae597bafe9b7e727716ea464beba04ee0c4a374d010c7eac"
     },
     {
       "Path": "Intersect.Framework.Core.dll",
@@ -123,8 +123,8 @@
     },
     {
       "Path": "Intersect.Framework.Core.xml",
-      "Size": 270089,
-      "Sha256": "91a0bf0a193b3a40a0d89344ae1ab84bd5ef60d6a75a564c169bc80cbf3b3aea"
+      "Size": 265299,
+      "Sha256": "50575ac8d5baf055d8b86ed2bbf281ec7bd08f26acf550355506dcaf74cfdaaf"
     },
     {
       "Path": "Intersect.Framework.dll",
@@ -133,8 +133,8 @@
     },
     {
       "Path": "Intersect.Framework.xml",
-      "Size": 6904,
-      "Sha256": "82c6af7170568b27de0d88729b031df0159b2597cb3b6bec76b59f47e8b97b21"
+      "Size": 6775,
+      "Sha256": "788b6b200a94b73e9b70118948fcfc571e52a5e37a7d362378bdc5bbde243d70"
     },
     {
       "Path": "Intersect.Network.dll",
@@ -143,8 +143,8 @@
     },
     {
       "Path": "Intersect.Network.xml",
-      "Size": 142,
-      "Sha256": "f3da789f09745a5122c00b8b069cf27c9ecd57eafc7d989e7395aadd3263c9dc"
+      "Size": 134,
+      "Sha256": "a83f1ce1fd9dea3221f1ffef651fb04794addf64b22631ef258225cb66413679"
     },
     {
       "Path": "Intersect.Rsa.dll",
@@ -158,8 +158,8 @@
     },
     {
       "Path": "LICENSE.md",
-      "Size": 1101,
-      "Sha256": "4f1e9dd0a42f55fe42eee53ba10cc8624abcb00769946a9042747f5ff5ddf2d0"
+      "Size": 1080,
+      "Sha256": "d85ab62d957c6264d18dd6d5a94bedec335adadcc6c7fcacf2f4bfeab89b7d6d"
     },
     {
       "Path": "LiteNetLib.dll",
@@ -173,8 +173,8 @@
     },
     {
       "Path": "LiteNetLib.xml",
-      "Size": 96894,
-      "Sha256": "80014489d8802f04bb04b87f8f7efb9572a2845f89fceae7a9fd16a66cba8520"
+      "Size": 95039,
+      "Sha256": "b3f59ff20a64954ba58c76cef9ef07605ea6766166b18e01b02913d71a894bad"
     },
     {
       "Path": "MathNet.Numerics.dll",
@@ -1318,8 +1318,8 @@
     },
     {
       "Path": "app.manifest",
-      "Size": 1697,
-      "Sha256": "1c542f2d694ab7d6c901884a532424ad7e8873666c717a1ffd217fe6c6a07507"
+      "Size": 1654,
+      "Sha256": "5f6ceaa4c612d7ea9eab979bb2c416fd398cee0eb51804577ff99670933ceaac"
     },
     {
       "Path": "clretwrc.dll",
@@ -1360,6 +1360,11 @@
       "Path": "en/Intersect.Framework.Core.resources.dll",
       "Size": 6144,
       "Sha256": "8deefdcdb4cf56e7a838eb3ff4f9dec9505ab06cde2d9c9ad9a5a2481a092f97"
+    },
+    {
+      "Path": "eryndor-news.txt",
+      "Size": 238,
+      "Sha256": "f62a71c4566cf6db30cbc7254e31e722861e652e01ccb9b48855b1a380764626"
     },
     {
       "Path": "es/Microsoft.VisualStudio.Validation.resources.dll",
@@ -1583,18 +1588,18 @@
     },
     {
       "Path": "resources/client_strings.json",
-      "Size": 41393,
-      "Sha256": "d83c49c9dfcb15d524a5d19473886edbe9effb04b7d5a2518159e3dd9e2ac9e7"
+      "Size": 40179,
+      "Sha256": "2a438af4119fd52deb075ea543117a5a02f11bac7cfd4f11ca7096898ece67e9"
     },
     {
       "Path": "resources/credits.json",
-      "Size": 17886,
-      "Sha256": "96b54445a2e08fe4e5dbc48c4733b90a6ec480ac2b45a800d2a10a7651db639b"
+      "Size": 17099,
+      "Sha256": "f1b0a17a77d9b7dcdca1ce41948570c44ccd89fee1bcaaf8c01527612e6ff30d"
     },
     {
       "Path": "resources/cursors/editor_brush.json",
-      "Size": 62,
-      "Sha256": "d5611f2e57ec0fb5fabd01490ecf4ae9c1a9b88b21f31e686c96c5ff7656ddd0"
+      "Size": 57,
+      "Sha256": "43b247108e96aaa3ae5afa3a1bdf91ed32b9392b4666ac6cbd26491fab8b7703"
     },
     {
       "Path": "resources/cursors/editor_brush.png",
@@ -1603,8 +1608,8 @@
     },
     {
       "Path": "resources/cursors/editor_dropper.json",
-      "Size": 63,
-      "Sha256": "446ec72a93329d9e236710b26adeaf259ac2de413e43c49839b19dc09a8c3394"
+      "Size": 58,
+      "Sha256": "f0535f2606c1ac05a3e844a07f2393190f70664a9a75932e9563d0c49bf45455"
     },
     {
       "Path": "resources/cursors/editor_dropper.png",
@@ -1613,8 +1618,8 @@
     },
     {
       "Path": "resources/cursors/editor_erase.json",
-      "Size": 63,
-      "Sha256": "0f5e04ed889a6d1ff3f1239ba75872e5b2a2a7fee2feb164c664516f341110a5"
+      "Size": 58,
+      "Sha256": "b2fac33c8eb8267c964d40715608e4096a13fdc50b73ef72a276393019f6970c"
     },
     {
       "Path": "resources/cursors/editor_erase.png",
@@ -1623,8 +1628,8 @@
     },
     {
       "Path": "resources/cursors/editor_fill.json",
-      "Size": 63,
-      "Sha256": "b5fd1a5483f426de5db5442b85d304b1a23dd90b3498fa7d50b685a0dfe5fc6b"
+      "Size": 58,
+      "Sha256": "a747d3c9bccbe7926ca3fd82c182255e2d351553d3d65bb4de44ebe218c117a7"
     },
     {
       "Path": "resources/cursors/editor_fill.png",
@@ -1633,8 +1638,8 @@
     },
     {
       "Path": "resources/cursors/editor_rectangle.json",
-      "Size": 62,
-      "Sha256": "6f620f995d836ce512688c7db497a0dcacd03a300648e702338471aa0de42b72"
+      "Size": 57,
+      "Sha256": "280b1e36c81429b2ad58aaf8e739d010b310c11ada2ef183db1636c105efca2a"
     },
     {
       "Path": "resources/cursors/editor_rectangle.png",
@@ -1643,8 +1648,8 @@
     },
     {
       "Path": "resources/cursors/editor_selection.json",
-      "Size": 62,
-      "Sha256": "c836fc455d4eb937d3b31a242ec6f9c1e3c1895896a006ddde5c4e06dc155960"
+      "Size": 57,
+      "Sha256": "bf71e1db2810c0d5a738a7d44d778701273acb3e31e44067b96bb0abd3e7f99f"
     },
     {
       "Path": "resources/cursors/editor_selection.png",
@@ -1653,8 +1658,8 @@
     },
     {
       "Path": "resources/editor_strings.json",
-      "Size": 91592,
-      "Sha256": "c81576c0ca15c39704995fd6f5c0ed570dc17d5d256251bd26717d49c3ba32e3"
+      "Size": 89021,
+      "Sha256": "9409895f32ec8c30a3a35300842cb8a2d14f0ab3fe0540552727c5e717c63968"
     },
     {
       "Path": "resources/entities/Mobs_Lg_Beholder.png",
@@ -3453,8 +3458,8 @@
     },
     {
       "Path": "resources/footstep_particles.json",
-      "Size": 105,
-      "Sha256": "4a79c483eae3d162ede7d88bb5cb504c9b3cc1b05b9d9b16b85927c00659e55b"
+      "Size": 99,
+      "Sha256": "687dce813ed91b9525b8f9fc4e6616efebd326f064ff7c2011c8a2986bfd672a"
     },
     {
       "Path": "resources/gui/AnnouncementWindow.png",
@@ -4998,453 +5003,453 @@
     },
     {
       "Path": "resources/gui/layouts/debug/DebugWindow.json",
-      "Size": 219164,
-      "Sha256": "dad21ae3b11ddbede9cbcb9a6bf79612087f0a5dc87767e1efe3d45e936c0861"
+      "Size": 214890,
+      "Sha256": "72d001875417cd55470903bedb0a4da5a5a34852c2c5772d201535db1c18e1b1"
     },
     {
       "Path": "resources/gui/layouts/game/AdminWindow.json",
-      "Size": 165737,
-      "Sha256": "2eb2563d2e2ccf250ba0884e0de29e3946a93b7c192b69d523e33bd1af1b67e0"
+      "Size": 161693,
+      "Sha256": "2693c2a67d1cba95bedb83a38bdba896465a5fb96c8f597c1f5b338820ddff34"
     },
     {
       "Path": "resources/gui/layouts/game/AnnouncementWindow.json",
-      "Size": 1691,
-      "Sha256": "528b7c0f4e2a6f84e48014b98a06cf577fb72a8958da2cf3a8cf10ca1421318b"
+      "Size": 1633,
+      "Sha256": "bc24d71c066cff18c41b89a0d976106615b14429bcab10d0f7b1d6cbaf75acc0"
     },
     {
       "Path": "resources/gui/layouts/game/BagContextMenu.json",
-      "Size": 8565,
-      "Sha256": "d8421a1c177b95cdc2df199d3445fb36254b2af8e0843203b6c85b31d8068269"
+      "Size": 8274,
+      "Sha256": "c60ca51eda2b3bdb0ff849e655731a3ec5f90c5cfabdaa5ea2c4c0d8d5a4846f"
     },
     {
       "Path": "resources/gui/layouts/game/BagItem.json",
-      "Size": 2457,
-      "Sha256": "a9263650fff6e2adda95f8260141176f5773a1f4c90e5bf3a7db02445225b787"
+      "Size": 2373,
+      "Sha256": "9f195edd791e1f24cee4fbb56868e4ac648ac6cdd70d3389f8dbde79a5eb8058"
     },
     {
       "Path": "resources/gui/layouts/game/BagWindow.json",
-      "Size": 15617,
-      "Sha256": "e205ba4e00c376f495ab51afa0d66700c4c2c50f654f27bebaae90ef10260773"
+      "Size": 15153,
+      "Sha256": "75102c95d50a11ce2518d5f1dc14e0983c15146db6dcc419be2c7233dd1e5e09"
     },
     {
       "Path": "resources/gui/layouts/game/BanMuteWindow.json",
-      "Size": 41829,
-      "Sha256": "2386ded9b97d2df15d4aec71c4964809762864fce1535e645bc42dc22bf64eb5"
+      "Size": 40658,
+      "Sha256": "4eae3db0969959aa1d2434eb9966968d6f5d84cdbd50a8a298582f0ab091fd55"
     },
     {
       "Path": "resources/gui/layouts/game/BankContextMenu.json",
-      "Size": 8565,
-      "Sha256": "d8421a1c177b95cdc2df199d3445fb36254b2af8e0843203b6c85b31d8068269"
+      "Size": 8274,
+      "Sha256": "c60ca51eda2b3bdb0ff849e655731a3ec5f90c5cfabdaa5ea2c4c0d8d5a4846f"
     },
     {
       "Path": "resources/gui/layouts/game/BankItem.json",
-      "Size": 2457,
-      "Sha256": "a9263650fff6e2adda95f8260141176f5773a1f4c90e5bf3a7db02445225b787"
+      "Size": 2373,
+      "Sha256": "9f195edd791e1f24cee4fbb56868e4ac648ac6cdd70d3389f8dbde79a5eb8058"
     },
     {
       "Path": "resources/gui/layouts/game/BankWindow.json",
-      "Size": 15617,
-      "Sha256": "66db72d7c58a1bb29516261a46972585758def0ba929ddbd59c9508eb9eb8413"
+      "Size": 15153,
+      "Sha256": "60461c35f9c2df29e7254d1d35f20c1f64db52cdc4ff42e156bb8dcf15d01420"
     },
     {
       "Path": "resources/gui/layouts/game/CharacterWindow.json",
-      "Size": 50819,
-      "Sha256": "d29879189d23bb1ae72d9dc2bb47daa0f3cf2e64e69744c09907f11eb47ca83a"
+      "Size": 49301,
+      "Sha256": "207a42498a5f8f2c4cf8c142bc7961438e2039aebbd40d477390d9c4cb8dc7e5"
     },
     {
       "Path": "resources/gui/layouts/game/ChatContextMenu.json",
-      "Size": 8857,
-      "Sha256": "de84c6c42c8bcb8903e9a6be4318e83ea4e8e67d13671a9a677d4c0ab1d60c64"
+      "Size": 8561,
+      "Sha256": "1144c1a1b999d141082c8526bef80f5b53f738c6e7d8c93fe39e740a5f90a9ae"
     },
     {
       "Path": "resources/gui/layouts/game/ChatboxWindow.json",
-      "Size": 43446,
-      "Sha256": "b82c5b4cb613585e194f2abf067d9d301742cce90b4624d2597b3bedf83fa469"
+      "Size": 42183,
+      "Sha256": "ba934ff05b63336840412e0d9789b87a2f7d7aa5c8e315b35b50617d21bffae4"
     },
     {
       "Path": "resources/gui/layouts/game/CraftedItem.json",
-      "Size": 2517,
-      "Sha256": "44ee007043cae471677aaf0a48fd02310d977f3628fdab179619c2e85aea7d46"
+      "Size": 2433,
+      "Sha256": "59fa6ca520180f5febe91e1c1e27eed17a514ed6982381ec124f862e082c52e0"
     },
     {
       "Path": "resources/gui/layouts/game/CraftingIngredient.json",
-      "Size": 2517,
-      "Sha256": "13ae457112a519e03a360abc5a3b83d17ea2875ba15c8b64335a75dd6d1d498f"
+      "Size": 2433,
+      "Sha256": "dbdc7275cf2dc9d8dd0faebcfb8d63c03013f7fb3581bd76813bd3b3d6b2ecf3"
     },
     {
       "Path": "resources/gui/layouts/game/CraftingWindow.json",
-      "Size": 37482,
-      "Sha256": "8007ebb169c8748f0c778ccb55f60b35406208faa5068a15197578845bc290c4"
+      "Size": 36401,
+      "Sha256": "f4b5bc725d4c6b10286feafd713990ceec62df40efcdce3308aed5991921f4ad"
     },
     {
       "Path": "resources/gui/layouts/game/CurrencyContext_c01100014e594e449f594552594e444f.json",
-      "Size": 8713,
-      "Sha256": "6c31c9d898e049b576287b4cfc47fb048d4d873815f255495337de40bfda0fec"
+      "Size": 8417,
+      "Sha256": "ffd66639a7829966813797d455395991adc3fffff1353bb25a2a5debcf589ee4"
     },
     {
       "Path": "resources/gui/layouts/game/CurrencyContext_c01100024e594e449f594552594e444f.json",
-      "Size": 8713,
-      "Sha256": "6c31c9d898e049b576287b4cfc47fb048d4d873815f255495337de40bfda0fec"
+      "Size": 8417,
+      "Sha256": "ffd66639a7829966813797d455395991adc3fffff1353bb25a2a5debcf589ee4"
     },
     {
       "Path": "resources/gui/layouts/game/CurrencyContext_c01100034e594e449f594552594e444f.json",
-      "Size": 8713,
-      "Sha256": "6c31c9d898e049b576287b4cfc47fb048d4d873815f255495337de40bfda0fec"
+      "Size": 8417,
+      "Sha256": "ffd66639a7829966813797d455395991adc3fffff1353bb25a2a5debcf589ee4"
     },
     {
       "Path": "resources/gui/layouts/game/DescriptionWindow.json",
-      "Size": 664,
-      "Sha256": "b1d2373d517514e653941f5fc976850eac617f596d30ea10a107971e4778ad58"
+      "Size": 639,
+      "Sha256": "012a4f37b28781d241d27d75013bec6d74abf75c0f991862349fcd30d0d107f5"
     },
     {
       "Path": "resources/gui/layouts/game/DescriptionWindowDescription.json",
-      "Size": 1353,
-      "Sha256": "c58943867c0f538ae4d44637920f367a2454edf9301c34b942974e4fb41f4891"
+      "Size": 1304,
+      "Sha256": "bb230fa3b4a851ca2e64a49f0c761655521e8f2c3e1ced401175fbea4c0b98ef"
     },
     {
       "Path": "resources/gui/layouts/game/DescriptionWindowDivider.json",
-      "Size": 677,
-      "Sha256": "f92c5be9665e26dfbd8bcf5518ce42a4765e47d24c7afae597632bbb9f7ad6cf"
+      "Size": 652,
+      "Sha256": "5e04334964d78db9a06d8e0ce508b8953aa0aaf6fbcced224e85ea6d2cda3e42"
     },
     {
       "Path": "resources/gui/layouts/game/DescriptionWindowHeader.json",
-      "Size": 5312,
-      "Sha256": "00d5c2022a5bbd0d744edce74bc01da34f28bb5f12798754472d38d3aef21dcd"
+      "Size": 5138,
+      "Sha256": "70df4be0e83f4e8da0c82709a92fba3eceb3b571c412f6d548b8d07742188d6c"
     },
     {
       "Path": "resources/gui/layouts/game/DescriptionWindowRowContainer.json",
-      "Size": 3681,
-      "Sha256": "76d96b0f3584601a35b7fc85a62d0da438c10b72258228aceabc7ccabad981f3"
+      "Size": 3564,
+      "Sha256": "6ce0e65d07ee2d28e5512c4832c47919439f5f85669baf3e5db5b608e5a87533"
     },
     {
       "Path": "resources/gui/layouts/game/Draggable.json",
-      "Size": 665,
-      "Sha256": "2ea480a15626b2fcc6643fb6d7e5ac3d0dfd61bbccf7579c569e557b825667db"
+      "Size": 640,
+      "Sha256": "654bc9ac60a599fc0e71e74beb5f8cd35480bebd7ee1508d239b3e6e4c7a6442"
     },
     {
       "Path": "resources/gui/layouts/game/EquipmentContextMenu.json",
-      "Size": 8712,
-      "Sha256": "461e73127b8f8a6628ae0ae7b62218b055cf52a4ea207d75e4936a1edcbba5ea"
+      "Size": 8416,
+      "Sha256": "65d7476f6200061d2259f3497481aadc15b08717c49c851c305ccad39a1064b9"
     },
     {
       "Path": "resources/gui/layouts/game/EquipmentItem.json",
-      "Size": 1130,
-      "Sha256": "8c74e1bf6fa9ff5eb7bcd73511dc53b791e77272e40880d0ee452a82b57eedfe"
+      "Size": 1090,
+      "Sha256": "26e2225a0eda94913e761e1b2f5c5be12712aea77ea32943256b80a76699587b"
     },
     {
       "Path": "resources/gui/layouts/game/EscapeMenu.json",
-      "Size": 8545,
-      "Sha256": "6d2b7db08901c6753b4f7c8a6dcec25fa3d7c8de0a1d81b676518dbdc26ec0e4"
+      "Size": 8287,
+      "Sha256": "59b64dfc001c473fa6663d8066d1e9ae8db661e354131779bae58e41b8392dc1"
     },
     {
       "Path": "resources/gui/layouts/game/EscapeMenuWindow_online.json",
-      "Size": 13184,
-      "Sha256": "903366c924b1cec1d8b8569cf9ec847f6603c6a8b811bbad663901a45d991049"
+      "Size": 12807,
+      "Sha256": "1ca36b12884b94900a6eea79cd921983aa5bad7ac0cf1da919b640935fa32476"
     },
     {
       "Path": "resources/gui/layouts/game/EventDialogWindow_1Response.json",
-      "Size": 29796,
-      "Sha256": "753c1a1736191335c45c361706c7cbd9ad49606e036db7c18aa128f7f2cd00f1"
+      "Size": 28921,
+      "Sha256": "fb858d32f6c5099a9adde14f8472a46327ee3c6e45c8d8452dda40cda83db2bd"
     },
     {
       "Path": "resources/gui/layouts/game/EventDialogWindow_3Responses.json",
-      "Size": 29797,
-      "Sha256": "d77259bed1529219354a5d1aa879302f452cba2c6fd688cead25fa38ca34c40a"
+      "Size": 28922,
+      "Sha256": "129e0046ef469e06874a2badd2a1de62d63f74822e2d71496110b6ac31e33e2b"
     },
     {
       "Path": "resources/gui/layouts/game/EventDialogWindow_4Responses.json",
-      "Size": 29940,
-      "Sha256": "1a7cc334871c0a7d9d8fbae2fc20fb17af9adea056fa1ce8dac61869b33a5e92"
+      "Size": 29065,
+      "Sha256": "fcc22f251c19d60d3473f0c56d3830983e8ab3c6996ec72316855ad6eb96e7a7"
     },
     {
       "Path": "resources/gui/layouts/game/FriendRow.json",
-      "Size": 6736,
-      "Sha256": "2b410a23a71193cc004c99205bc6717b75425225fa3937265c862b98d3661e59"
+      "Size": 6515,
+      "Sha256": "f5b39c5290a39ecaaf5c8ca1651f75019035cae5097ab2739ca09ae7b3c61ffa"
     },
     {
       "Path": "resources/gui/layouts/game/FriendsWindow.json",
-      "Size": 19726,
-      "Sha256": "da3460b74df0d218f36173cba04617363beb9b96c1aa1887723e5d77b5f93211"
+      "Size": 19173,
+      "Sha256": "fa71d2d96bc7f58a51f8848c7cc193105f21f49d64f00ad9454b8de17e827286"
     },
     {
       "Path": "resources/gui/layouts/game/GuildContextMenu.json",
-      "Size": 8857,
-      "Sha256": "efc76a3dd9a13d56f3b8498a006417d3d0ecd814462e91b75d712aa61eb408db"
+      "Size": 8561,
+      "Sha256": "2ae1c535b81044758665283129c58e6610bf395143ddeba87e226a7a17f261b4"
     },
     {
       "Path": "resources/gui/layouts/game/GuildMemberRow.json",
-      "Size": 1455,
-      "Sha256": "c699d9a28a0d244f17996f800390c550673a338377f9c5e6adc7b2de60cdf3e1"
+      "Size": 1403,
+      "Sha256": "d90e4d8d13e3e0ba3cf3d69fe99a4151854d78790ff2a3398224d74965761cb2"
     },
     {
       "Path": "resources/gui/layouts/game/GuildWindow.json",
-      "Size": 23478,
-      "Sha256": "c54cac08855cacafb01a876b8e0eface48fb81969b2632d17aaca9b100583e85"
+      "Size": 22823,
+      "Sha256": "98304e3ab7ce40c6d4ccaa50630367abec3b829ba0f0f7a6b11e1a6c7a6dda26"
     },
     {
       "Path": "resources/gui/layouts/game/HotBarWindow.json",
-      "Size": 134418,
-      "Sha256": "fa2e243c2ab59c8ea960a602c6735682c4c05c2332fb1ce8a3384f642b04a23d"
+      "Size": 130444,
+      "Sha256": "de76a49e1c280575666ba5978a62746d047a2c327b60169b874384808d14cca5"
     },
     {
       "Path": "resources/gui/layouts/game/InventoryContextMenu.json",
-      "Size": 8713,
-      "Sha256": "85bbd5e051e9cdbbc281bdb31ac632ce68768fd184df7378be652d6e337baa10"
+      "Size": 8417,
+      "Sha256": "34c50c1f5bdef682f0b61aafa529980b827235a1a4d4e38216c4021c8af476f8"
     },
     {
       "Path": "resources/gui/layouts/game/InventoryItem.json",
-      "Size": 5161,
-      "Sha256": "7f40ca78315a93b90c921df5c755170db5e5d4879389dd51bde16cf9609f1428"
+      "Size": 4989,
+      "Sha256": "fa3adff86275b616a7161f8b0b0da9d110a0159303e26ccf2bc40b48a7d783b7"
     },
     {
       "Path": "resources/gui/layouts/game/InventoryWindow.json",
-      "Size": 17254,
-      "Sha256": "b066047826c17f10058eefa689416ae35538f585acd953a86613449ee7f0ed00"
+      "Size": 16764,
+      "Sha256": "f4d9faf6794d435a142b04173ddf6b81016bd3c2e78d76841916fccd540a3586"
     },
     {
       "Path": "resources/gui/layouts/game/MapItemIcon.json",
-      "Size": 2540,
-      "Sha256": "ed618dcc0ae090ff63be9fdfcb4f86e5dfeda4e990c240c9cff2e4208a729adf"
+      "Size": 2456,
+      "Sha256": "65e6e2651c521e811b2e7ff4961a09ae6bce0e525f68d86a11e568b0d00d6a03"
     },
     {
       "Path": "resources/gui/layouts/game/MapItemWindow.json",
-      "Size": 12802,
-      "Sha256": "55f28af68172111baf3f94910fc2531bf8478b05086557b9a4d3083e4571dd07"
+      "Size": 12417,
+      "Sha256": "7ce2ffcb27b5ca03aca5f1409a1f7c80fa24bdb2c1c3a357e0496a7e7a62ccb2"
     },
     {
       "Path": "resources/gui/layouts/game/MenuContainer.json",
-      "Size": 18761,
-      "Sha256": "2ea0e2c111b4e5abe26d31a59fbb45d8a153c242ceaed7d724a60125a3992cd5"
+      "Size": 18190,
+      "Sha256": "4ff801fb67a2d953c79a27985ad02a87c4f234fdafa67cae36a941819bc5611c"
     },
     {
       "Path": "resources/gui/layouts/game/PartyHudContextMenu.json",
-      "Size": 8696,
-      "Sha256": "13bee73fba9e5e741aefcca5b06601e5e7d1c26fdb5d0e701ebf6f7353720bb6"
+      "Size": 8400,
+      "Sha256": "2359f499c9ef1eb83b791845fdbd6d1d06e6e01b58fa3afca80020e8e3808f17"
     },
     {
       "Path": "resources/gui/layouts/game/PartyWindow.json",
-      "Size": 48686,
-      "Sha256": "a98f13cb68c9144886e269db053d061fa2685a95f3b6de363e2083fcc7644fcb"
+      "Size": 47240,
+      "Sha256": "544e6c099fc0f09cbdcef3ee639942353db1ba1bf42923ca90db6fabfe86dc25"
     },
     {
       "Path": "resources/gui/layouts/game/PlayerBox.json",
-      "Size": 19628,
-      "Sha256": "937399f0392e11b2f39adf41d7133e374d581da9ab15a703b190b1bc0da6043b"
+      "Size": 19055,
+      "Sha256": "8ad6dc542555391c526ddc2b644d0fd93c6bfbdf974cb171e6dffa5b9fc6e509"
     },
     {
       "Path": "resources/gui/layouts/game/PlayerStatusIcon.json",
-      "Size": 2325,
-      "Sha256": "df053814ffc3153670892a4324202886d57c05699f4415cfdd02a0ffd92c6883"
+      "Size": 2246,
+      "Sha256": "2ac0cd23a76c7dfee2c9a840297779244335e557a5a78ccfe542ebb484e81a8f"
     },
     {
       "Path": "resources/gui/layouts/game/PlayerStatusWindow.json",
-      "Size": 10410,
-      "Sha256": "bbd779d84fa105afe42e1621c87ad5ac7025a190ee43d92ad2144612d0750872"
+      "Size": 10096,
+      "Sha256": "12fd9f47902d525587986f5a54151a8fc876b83295b76290ac510065fac4649a"
     },
     {
       "Path": "resources/gui/layouts/game/QuestOfferWindow.json",
-      "Size": 24190,
-      "Sha256": "6f7cb7b470d747bbc18ab6217823692e213678ad2b86e283f7eefa956ba9815e"
+      "Size": 23481,
+      "Sha256": "34ff0d7609c16871a787f1622892ee5b9ec176050217fdeb540c2ac56d5dd5df"
     },
     {
       "Path": "resources/gui/layouts/game/QuestsWindow.json",
-      "Size": 34810,
-      "Sha256": "b4b20c91a02b4f082d17242855843c929b0bbf140b41457d25afc37c127e8494"
+      "Size": 33845,
+      "Sha256": "8dfd4a87b4284fe783522f2c92c15b42a497a80b5d4695174a7eed2b46a793cf"
     },
     {
       "Path": "resources/gui/layouts/game/ShopContextMenu.json",
-      "Size": 8565,
-      "Sha256": "d8421a1c177b95cdc2df199d3445fb36254b2af8e0843203b6c85b31d8068269"
+      "Size": 8274,
+      "Sha256": "c60ca51eda2b3bdb0ff849e655731a3ec5f90c5cfabdaa5ea2c4c0d8d5a4846f"
     },
     {
       "Path": "resources/gui/layouts/game/ShopItem.json",
-      "Size": 1503,
-      "Sha256": "51fac93e7e34d6ea220e22ad867f0df6af7f2589be3a250cc012a81e54dd1d35"
+      "Size": 1450,
+      "Sha256": "b72dbb67aca02d5d4e46159c5d937feaa12f75ffd3d4a991e05566df4306aea0"
     },
     {
       "Path": "resources/gui/layouts/game/ShopWindow.json",
-      "Size": 15618,
-      "Sha256": "5a85b70d827bc8d30f8db73f7a667d5c9376306835d82ea5d995169d97ed5224"
+      "Size": 15154,
+      "Sha256": "65407cbc1a3fc9e55e9b9a02b81bd1091e66bc93d44038c5a749e4d5c4deb900"
     },
     {
       "Path": "resources/gui/layouts/game/SimplifiedEscapeMenu.json",
-      "Size": 8768,
-      "Sha256": "7fa6acf5e5215bde1136ce82b7d5b4b844dcd73b96fac00db5f78e03c1e0b759"
+      "Size": 8477,
+      "Sha256": "142a7bd3305f782ba511556e5820e9d97dc5c8511506840ca539cf04c5e67156"
     },
     {
       "Path": "resources/gui/layouts/game/Spell.json",
-      "Size": 2681,
-      "Sha256": "6c4289717482f718e9a32d473f14bc24617e5b636a0a1fc09bb8739c817b90f8"
+      "Size": 2595,
+      "Sha256": "f185741ca97c691a9a2f9515df70dcf2899ceee3c5103ad2904048796fd4d141"
     },
     {
       "Path": "resources/gui/layouts/game/SpellContextMenu.json",
-      "Size": 8713,
-      "Sha256": "6c31c9d898e049b576287b4cfc47fb048d4d873815f255495337de40bfda0fec"
+      "Size": 8417,
+      "Sha256": "ffd66639a7829966813797d455395991adc3fffff1353bb25a2a5debcf589ee4"
     },
     {
       "Path": "resources/gui/layouts/game/SpellItem.json",
-      "Size": 2457,
-      "Sha256": "c34dd8f812c2ee39afc2b66d42ae867532f52ce8759bdd1d8fa285778c0715c4"
+      "Size": 2373,
+      "Sha256": "6fbffb95b2b143c9d5d7f6754bbec32109effe2c23cb185abe1acd2f823a27d7"
     },
     {
       "Path": "resources/gui/layouts/game/SpellStatusIcon.json",
-      "Size": 2463,
-      "Sha256": "f625e1e114cac11e7d25df515d948e48136a870aec02cc4f8e56382e05c683df"
+      "Size": 2379,
+      "Sha256": "ecd21afa348c7e93aaad9101258c835703a95dcd42f241165c3cfdc56e344856"
     },
     {
       "Path": "resources/gui/layouts/game/SpellsWindow.json",
-      "Size": 145865,
-      "Sha256": "4d09c630eceeb38cb16ce480c63ed883d80fceafc19bd095d673eda1f5545bba"
+      "Size": 142889,
+      "Sha256": "45bb8022019835d10afa6b383e01c5bbf9ddbb28f64d3f66deb73b3bc1d861d1"
     },
     {
       "Path": "resources/gui/layouts/game/TargetBox.1024x720.json",
-      "Size": 9843,
-      "Sha256": "497a23ffd611e32794130e46f413d256c6108be5aa1339e3b088600bfba638a7"
+      "Size": 9766,
+      "Sha256": "e8d0b09fc3a4503c6e5db921e44a23d7f9ce312d2d045b8a78637437fb62de18"
     },
     {
       "Path": "resources/gui/layouts/game/TargetBox.1024x768.json",
-      "Size": 9843,
-      "Sha256": "497a23ffd611e32794130e46f413d256c6108be5aa1339e3b088600bfba638a7"
+      "Size": 9766,
+      "Sha256": "e8d0b09fc3a4503c6e5db921e44a23d7f9ce312d2d045b8a78637437fb62de18"
     },
     {
       "Path": "resources/gui/layouts/game/TargetBox.800x600.json",
-      "Size": 9843,
-      "Sha256": "497a23ffd611e32794130e46f413d256c6108be5aa1339e3b088600bfba638a7"
+      "Size": 9766,
+      "Sha256": "e8d0b09fc3a4503c6e5db921e44a23d7f9ce312d2d045b8a78637437fb62de18"
     },
     {
       "Path": "resources/gui/layouts/game/TargetBox.json",
-      "Size": 11174,
-      "Sha256": "7e889592be13ba01a2d9bd3188d76506e1a23ca76ccebdfe1a4ae6d1ae93bb94"
+      "Size": 11062,
+      "Sha256": "c77d960decd26d03b4d8a99698b25f9117479512106e60fb2de5932aef9de57e"
     },
     {
       "Path": "resources/gui/layouts/game/TargetBox_1024x720.json",
-      "Size": 9843,
-      "Sha256": "497a23ffd611e32794130e46f413d256c6108be5aa1339e3b088600bfba638a7"
+      "Size": 9766,
+      "Sha256": "e8d0b09fc3a4503c6e5db921e44a23d7f9ce312d2d045b8a78637437fb62de18"
     },
     {
       "Path": "resources/gui/layouts/game/TargetBox_1024x768.json",
-      "Size": 9843,
-      "Sha256": "497a23ffd611e32794130e46f413d256c6108be5aa1339e3b088600bfba638a7"
+      "Size": 9766,
+      "Sha256": "e8d0b09fc3a4503c6e5db921e44a23d7f9ce312d2d045b8a78637437fb62de18"
     },
     {
       "Path": "resources/gui/layouts/game/TargetBox_800x600.json",
-      "Size": 9843,
-      "Sha256": "497a23ffd611e32794130e46f413d256c6108be5aa1339e3b088600bfba638a7"
+      "Size": 9766,
+      "Sha256": "e8d0b09fc3a4503c6e5db921e44a23d7f9ce312d2d045b8a78637437fb62de18"
     },
     {
       "Path": "resources/gui/layouts/game/TargetContextMenu.json",
-      "Size": 8856,
-      "Sha256": "c91218f6032db3301d14c967b672d5104d61f96b2c1468fc08a888a6d8c021db"
+      "Size": 8560,
+      "Sha256": "83893dc28db4f175025494f62344e7a42dc7926a4e6f75a802214a2cdb8c049e"
     },
     {
       "Path": "resources/gui/layouts/game/TargetStatusIcon.json",
-      "Size": 2137,
-      "Sha256": "8127a2e074e5ce0b57d9bca80e43082ee95beb58a963cbf73f422557c1ec992f"
+      "Size": 2064,
+      "Sha256": "d7e90f132917b42f41552fcb79e8077f07ecc10cbb9d2442c231fd400458f197"
     },
     {
       "Path": "resources/gui/layouts/game/TheirTradeItem.json",
-      "Size": 2204,
-      "Sha256": "35a7d62fb80eecb81c17e6fb86ce73630eb6e0327040f0cc49812ec862bd19b4"
+      "Size": 2130,
+      "Sha256": "1a77a8c0a824ae9a8b6007c107958b629cb7e0d652453d4244c772798f7bdf49"
     },
     {
       "Path": "resources/gui/layouts/game/TradeContextMenu.json",
-      "Size": 8714,
-      "Sha256": "bca1e92ab9c310ebc2b078a755d919ae2862838ce314c627764a4b6639ee5f95"
+      "Size": 8423,
+      "Sha256": "709786ec498c6f7433ed5658a0dca724f9d9c98a6bdce6eef30d2af8d71c0eac"
     },
     {
       "Path": "resources/gui/layouts/game/TradeWindow.json",
-      "Size": 30884,
-      "Sha256": "f4b3b3a8ce586dabe2195bd50c5eb58de67c1bf10e29920f09a8ab1ba7370a6c"
+      "Size": 30002,
+      "Sha256": "3c2b4367f982e57fd0adad7d29166c774d8b3b09f8c003cd8f4e2ed4ca1bcf98"
     },
     {
       "Path": "resources/gui/layouts/game/YourTradeItem.json",
-      "Size": 2258,
-      "Sha256": "eb5f01bf871937e1797ff1d171f9fd4d55a320c76f5bd3042dc12902d870f477"
+      "Size": 2183,
+      "Sha256": "6a81f6d84156bce19f746ecb4baf302178a8418af7cca9ee3a86c6e273664e82"
     },
     {
       "Path": "resources/gui/layouts/menu/CharacterCreationWindow.json",
-      "Size": 38334,
-      "Sha256": "c792e093de955b9da159c1991bc663cc683c9394ff330b798f52d1fc8f0fe527"
+      "Size": 37310,
+      "Sha256": "a2e159e39e153b49895aa6e1118ab14124a3d9953b82e5bb3e90d46c410fc469"
     },
     {
       "Path": "resources/gui/layouts/menu/CharacterSelectionWindow.json",
-      "Size": 12396,
-      "Sha256": "398cff713784bdb6491c781e499416da2a8dc8f5f2bf027e78632ec569c8d3db"
+      "Size": 12023,
+      "Sha256": "eb2fec395a5dd106b8682340163742728dc126091728b71427ae79b617601e20"
     },
     {
       "Path": "resources/gui/layouts/menu/CreditsWindow.json",
-      "Size": 17175,
-      "Sha256": "5b84c76e3db927fd30e0d261939c4192f6ef70be21a72412e96f7a2edd0dfbb4"
+      "Size": 16666,
+      "Sha256": "391d2afaaf74af0af8ca2e8e376e3b7c39df70fdde14f3ec93289bb827e1fc15"
     },
     {
       "Path": "resources/gui/layouts/menu/ForgotPasswordWindow.json",
-      "Size": 26126,
-      "Sha256": "343f1feb86b94e8c2489bb82d4461e6a573c6fe6c2abeb7cd892a006b27917a5"
+      "Size": 25404,
+      "Sha256": "7f2c2d383bd07f98df84a915583a609a116adc5ab86f3a13e1a1ee431e31d4e0"
     },
     {
       "Path": "resources/gui/layouts/menu/LoginWindow.json",
-      "Size": 43749,
-      "Sha256": "ec3bd050904a76c5405461df9571657ef8d664ef3e548ebf656845450821f262"
+      "Size": 42672,
+      "Sha256": "609722c851bdebe38e86b3dc4b6074c33da20c79ce1f49e3ff2e8ea8e7f2c054"
     },
     {
       "Path": "resources/gui/layouts/menu/Logo.json",
-      "Size": 681,
-      "Sha256": "cdb33c218f4a3350517050fea6c4e0102a1b667662234147c9ec0bf5b87ab8b1"
+      "Size": 656,
+      "Sha256": "e1986f88f7071215ff4f1510678c0683d698699a275743721255e659a31a1177"
     },
     {
       "Path": "resources/gui/layouts/menu/LogoGlow.json",
-      "Size": 693,
-      "Sha256": "89f315b2be9788248d71ea99013a4c19877342f2942e165491554135e9ccc214"
+      "Size": 668,
+      "Sha256": "db88af1b2c7a96a42b3b3dd61a96d15f0c075c848a76718c43678230a3d9e1ec"
     },
     {
       "Path": "resources/gui/layouts/menu/MainMenuWindow_online.json",
-      "Size": 14131,
-      "Sha256": "191455ea1a72da6a19e51d5b43908ba4a1eb5e7e508a71f05f212425d3406174"
+      "Size": 13714,
+      "Sha256": "ad8e8d5d19bd13051a4501ed36971cbcc87348467cda8477bff06d5ba1fb224a"
     },
     {
       "Path": "resources/gui/layouts/menu/MainMenuWindow_singleplayer.json",
-      "Size": 11918,
-      "Sha256": "5228e67f63c648d38683ececff0f219ebf6b28474f6d3e34dc20178e971f0eac"
+      "Size": 11548,
+      "Sha256": "f55d35c8c45cefb0acf4d4f52cf43bbc33daa1f293baf26cd02cc1405720fff8"
     },
     {
       "Path": "resources/gui/layouts/menu/PasswordChangeWindowExistingPassword.json",
-      "Size": 20108,
-      "Sha256": "18f95ab4b79e90fc9f9c71dba6d011995a0999d26e397b64888f14a024a52d1d"
+      "Size": 19544,
+      "Sha256": "68f2386511d651f15a1240eed87000b0962e0f50e5bb74ad33260ab61fce2bd3"
     },
     {
       "Path": "resources/gui/layouts/menu/PasswordChangeWindowResetToken.json",
-      "Size": 20108,
-      "Sha256": "18f95ab4b79e90fc9f9c71dba6d011995a0999d26e397b64888f14a024a52d1d"
+      "Size": 19544,
+      "Sha256": "68f2386511d651f15a1240eed87000b0962e0f50e5bb74ad33260ab61fce2bd3"
     },
     {
       "Path": "resources/gui/layouts/menu/RegistrationWindow.json",
-      "Size": 44145,
-      "Sha256": "16c4f43196bfd0c6912dacdd4381c15287ec821de069c2c5ffefc2b70720490d"
+      "Size": 43053,
+      "Sha256": "12ecac9186d793091e19163e26d6652ee1e181c87354580d25aec20d28bbf740"
     },
     {
       "Path": "resources/gui/layouts/menu/ResetPasswordWindow.json",
-      "Size": 13569,
-      "Sha256": "a40c7363f33acd643880aea393fea21fa1c533c79bf066593ce7fb8ee5b5ba98"
+      "Size": 13164,
+      "Sha256": "8ac6bdd4af783eb073d10972d308042f986efc32ca606effce6c289c18a5cde5"
     },
     {
       "Path": "resources/gui/layouts/menu/SelectCharacterWindow.json",
-      "Size": 29506,
-      "Sha256": "28b0c3e11af62a5745f33e1c81f95e24aa473faed2b11c9b94ecfe24210f89af"
+      "Size": 28734,
+      "Sha256": "52ae3bf0d6c477ae89870439059070e8edc24c124b7538fd2c805b56251e1534"
     },
     {
       "Path": "resources/gui/layouts/menu/ServerStatusArea.json",
-      "Size": 1687,
-      "Sha256": "3303b2422764d230ea888b96380743ba2ab9cc67fc9d7ee1d26d9b0a4deb6cea"
+      "Size": 1629,
+      "Sha256": "b8d1cae3e4f5e5037bd706c526cec78904fb3d9b32e8b44294715b3084f32402"
     },
     {
       "Path": "resources/gui/layouts/shared/AlertWindow_Okay.json",
-      "Size": 21368,
-      "Sha256": "e1763c7ab3ab7db6b1ece5b361e7668a9985cdb7946dd8b6d7d83488c9586097"
+      "Size": 20773,
+      "Sha256": "02eaaa765385799bb4fc2c5a0351b2d333d63817bd3eae56cde4152c96ea384c"
     },
     {
       "Path": "resources/gui/layouts/shared/AlertWindow_YesNo.json",
-      "Size": 22844,
-      "Sha256": "137b8eec072de3af0d9a0fe37f5385a077156e0442071ee877eea3071d212c47"
+      "Size": 22209,
+      "Sha256": "0b161fd157a9eb9bf892258fa8f8266205bd6370b0db0efc63e8c11322fd9579"
     },
     {
       "Path": "resources/gui/layouts/shared/InputBox.json",
@@ -5453,43 +5458,43 @@
     },
     {
       "Path": "resources/gui/layouts/shared/InputBox_NumericInput.json",
-      "Size": 24020,
-      "Sha256": "fb3c2e922688d5eab0c9a60ed47e46df2924ff72ce923cc4bb1862fe811aa2e4"
+      "Size": 23352,
+      "Sha256": "654805734ad65f2e792b02af7fd0bd014ea3c02a5eeda92dc8bdfdd200463a26"
     },
     {
       "Path": "resources/gui/layouts/shared/InputBox_NumericSliderInput.json",
-      "Size": 28366,
-      "Sha256": "1988f27022ff6e9892f3ae8aa5f515f7faeded9929b8f35d25417c471d52af51"
+      "Size": 27591,
+      "Sha256": "96001d28f7f89783294c5cb05fd4a08de0e05131033a0dc33114d8f3e8d08e6d"
     },
     {
       "Path": "resources/gui/layouts/shared/InputBox_Okay.json",
-      "Size": 20965,
-      "Sha256": "b60022e7ac46883cdc4f5f482f8ad58cb5112dabc021e78cbe49281d5c449435"
+      "Size": 20379,
+      "Sha256": "fabbb1ed3ce4699d01be9d9c6b28ad286de3235f5e2f3a33b5b5045c802f4c8d"
     },
     {
       "Path": "resources/gui/layouts/shared/InputBox_TextInput.json",
-      "Size": 37831,
-      "Sha256": "5d64a4502b2d97303f7ad838dc7b678efb673a7e48d539a6a1dbd934a8af552d"
+      "Size": 36843,
+      "Sha256": "01dd97d19063aa75db2a2b6d017fdb71b81824e799ab22a9aa757e5a4f0ad563"
     },
     {
       "Path": "resources/gui/layouts/shared/InputBox_YesNo.json",
-      "Size": 22820,
-      "Sha256": "56c0958216c4cbe8ab5dda38224b585e09ddfff851f9e712f9d733d2773b8853"
+      "Size": 22185,
+      "Sha256": "5f3b574f6d14457d0d95903dd8ee530f5868ef3d4dc98d9a98267497e4548b2e"
     },
     {
       "Path": "resources/gui/layouts/shared/InputBox_YesNoCancel.json",
-      "Size": 24286,
-      "Sha256": "5839be06faa3a450125ae43bb6bbe6a7e10c4d4cad3cc339f6ed01c8c2481703"
+      "Size": 23611,
+      "Sha256": "7a478997ad583584e2a54493e31fb30c3447c4868ee6754816ef953728e64fe1"
     },
     {
       "Path": "resources/gui/layouts/shared/QuitWindow_YesNo.json",
-      "Size": 23162,
-      "Sha256": "f6a245ff82e27f267cab34ed5e3403afb9c107ac9ba8cff51ad74d521949e73e"
+      "Size": 22527,
+      "Sha256": "bd79dd0565ebc7d6a7df9b44dc63cab296dd3b1e6c927313d54d3e2fe4109835"
     },
     {
       "Path": "resources/gui/layouts/shared/SettingsWindow.json",
-      "Size": 331647,
-      "Sha256": "a8845fed04eaa7b912d23b7d1083a63bc4d52d3003531aa1df9e6c347812d569"
+      "Size": 324816,
+      "Sha256": "0b4b78b80eba202052ac8bce3129300deba1c0049e44f65fbad47e0f7a9899ad"
     },
     {
       "Path": "resources/gui/login_dropdown.png",
@@ -21828,8 +21833,8 @@
     },
     {
       "Path": "resources/postprocess.json",
-      "Size": 198,
-      "Sha256": "238d46b512beadd876d54f5420d66774182818cecf074c35de84fefefc7434c8"
+      "Size": 191,
+      "Sha256": "855c3556f991331a1f44b825ebfce132632248b2f9110b553e4b8be4281f6c7f"
     },
     {
       "Path": "resources/resources/1_Cactus Stump.png",
@@ -24958,8 +24963,8 @@
     },
     {
       "Path": "shadow_debug.log",
-      "Size": 3633,
-      "Sha256": "dc02ea63d478c79535c58f7b68b2d363d47bbe8cdab1cb3169b4a380a58dd632"
+      "Size": 3607,
+      "Sha256": "89447855ded42deabdc604c2bbc54f14491be94fe3b35c492be376579c597145"
     },
     {
       "Path": "soft_oal.dll",

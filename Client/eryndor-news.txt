@@ -1,0 +1,7 @@
+REALM DISPATCHES
+
+Welcome to Eryndor.
+
+The launcher now checks the public client build, repairs missing or changed files, and only removes files that a previous official update owned.
+
+Patch notes and realm announcements will appear here.
