@@ -1,10 +1,10 @@
 ﻿{
-  "Host": "localhost",
+  "Host": "94.190.197.63",
   "Port": 5400,
   "Servers": [
     {
       "Name": "Test",
-      "Host": "localhost",
+      "Host": "94.190.197.63",
       "Port": 5400
     }
   ],
