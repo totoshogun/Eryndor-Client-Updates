@@ -1,0 +1,295 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+
+    <Configurations>Debug;Release;DebugTests;DebugFull;DebugPlugins;Release test</Configurations>
+  </PropertyGroup>
+
+	<PropertyGroup Condition="$(Configuration.StartsWith('Debug')) != 'true'">
+		<EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+		<PublishSingleFile>true</PublishSingleFile>
+		<SelfContained>true</SelfContained>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>AscensionGameDev.Intersect.Client</PackageId>
+		<Description>Eryndor Client</Description>
+		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+		<RootNamespace>Intersect.Client</RootNamespace>
+		<AssemblyName>Eryndor Client</AssemblyName>
+		<AppDesignerFolder>Properties</AppDesignerFolder>
+		<ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Properties\EryndorClient.ico</ApplicationIcon>
+		<FileAlignment>512</FileAlignment>
+		<OutputPath>$(MSBuildProjectDirectory)\</OutputPath>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Include="Program.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Intersect.Client.Core\Intersect.Client.Core.csproj" />
+	</ItemGroup>
+
+	<ItemGroup Label="Plugins">
+    <ProjectReference Include="@(PluginToDebug)">
+      <OutputItemType>Content</OutputItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+	</ItemGroup>
+
+	<ItemGroup Label="Project Embedded Resources">
+		<EmbeddedResource Include="Properties\EryndorClient.bmp">
+			<LogicalName>Icon.bmp</LogicalName>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Properties\Resources.Designer.cs">
+	    <DependentUpon>Resources.resx</DependentUpon>
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Properties\Resources.resx">
+	    <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+	    <Generator>ResXFileCodeGenerator</Generator>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+  <ItemGroup>
+    <None Update="resources\gui\target_window_frame.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="resources\spells\npc_*.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+
+  <!-- Skill Tree and hotbar resolve these dynamically by filename at runtime. This explicit
+       target is intentional: this self-contained client does not copy wildcard None items. -->
+  <Target Name="CopyAuthoredSkillIcons" AfterTargets="Build">
+    <ItemGroup>
+      <AuthoredSkillIcon Include="resources\spells\skill_*.png" />
+      <AuthoredSkillIcon Include="resources\spells\passive_*.png" />
+      <AuthoredSkillIcon Include="resources\spells\npc_*.png" />
+    </ItemGroup>
+    <MakeDir Directories="$(TargetDir)resources\spells" />
+    <Copy
+      SourceFiles="@(AuthoredSkillIcon)"
+      DestinationFiles="@(AuthoredSkillIcon->'$(TargetDir)resources\spells\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+  </Target>
+
+  <!-- Purse denominations are runtime item textures seeded by stable descriptor IDs. -->
+  <Target Name="CopyAuthoredCurrencyIcons" AfterTargets="Build">
+    <ItemGroup>
+      <AuthoredCurrencyIcon Include="resources\items\currency_*.png" />
+    </ItemGroup>
+    <MakeDir Directories="$(TargetDir)resources\items" />
+    <Copy
+      SourceFiles="@(AuthoredCurrencyIcon)"
+      DestinationFiles="@(AuthoredCurrencyIcon->'$(TargetDir)resources\items\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+  </Target>
+
+  <!-- Character body sheets are resolved dynamically by the runtime. Keep the
+       runnable client output synchronized with the authored resource mirror so
+       Raven animation migrations cannot leave it on stale body frames. -->
+  <Target Name="CopyCharacterBodyResources" AfterTargets="Build">
+    <ItemGroup>
+      <ClientEntityBody Include="resources\entities\male_skin_*.png" />
+      <ClientEntityBody Include="resources\entities\female_skin_*.png" />
+      <ClientPaperdollBody Include="resources\paperdolls\male_skin_*.png" />
+      <ClientPaperdollBody Include="resources\paperdolls\female_skin_*.png" />
+    </ItemGroup>
+    <MakeDir Directories="$(TargetDir)resources\entities" />
+    <MakeDir Directories="$(TargetDir)resources\paperdolls" />
+    <Copy
+      SourceFiles="@(ClientEntityBody)"
+      DestinationFiles="@(ClientEntityBody->'$(TargetDir)resources\entities\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+    <Copy
+      SourceFiles="@(ClientPaperdollBody)"
+      DestinationFiles="@(ClientPaperdollBody->'$(TargetDir)resources\paperdolls\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+  </Target>
+
+  <!-- Equipment sheets and authored item icons are resolved by filename at runtime.
+       Copy every supported equipment-slot family so newly baked Raven sets reach the
+       runnable client without requiring another project-file edit. -->
+  <Target Name="CopyRavenEquipmentResources" AfterTargets="Build">
+    <ItemGroup>
+      <RavenEquipmentPaperdoll Include="resources\paperdolls\helmet_*.png" />
+      <RavenEquipmentPaperdoll Include="resources\paperdolls\armor_*.png" />
+      <RavenEquipmentPaperdoll Include="resources\paperdolls\chest_*.png" />
+      <RavenEquipmentPaperdoll Include="resources\paperdolls\legs_*.png" />
+      <RavenEquipmentPaperdoll Include="resources\paperdolls\boots_*.png" />
+      <RavenEquipmentPaperdoll Include="resources\paperdolls\feet_*.png" />
+      <RavenEquipmentPaperdoll Include="resources\paperdolls\hands_*.png" />
+      <RavenEquipmentPaperdoll Include="resources\paperdolls\back_*.png" />
+      <RavenEquipmentPaperdoll Include="resources\paperdolls\weapon_raven_*.png" />
+      <RavenEquipmentPaperdoll Include="resources\paperdolls\shield_raven_*.png" />
+      <RavenEquipmentIcon Include="resources\items\itemicon_*.png" />
+      <RavenEquipmentIcon Include="resources\items\weapon_raven_*_icon.png" />
+    </ItemGroup>
+    <MakeDir Directories="$(TargetDir)resources\paperdolls" />
+    <MakeDir Directories="$(TargetDir)resources\items" />
+    <Copy
+      SourceFiles="@(RavenEquipmentPaperdoll)"
+      DestinationFiles="@(RavenEquipmentPaperdoll->'$(TargetDir)resources\paperdolls\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+    <Copy
+      SourceFiles="@(RavenEquipmentIcon)"
+      DestinationFiles="@(RavenEquipmentIcon->'$(TargetDir)resources\items\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+  </Target>
+
+  <!-- Publish uses a separate self-contained directory; keep its body sheets
+       synchronized with the same authored source set as normal builds. -->
+  <Target Name="CopyCharacterBodyResourcesToPublish" AfterTargets="Publish">
+    <ItemGroup>
+      <PublishedClientEntityBody Include="resources\entities\male_skin_*.png" />
+      <PublishedClientEntityBody Include="resources\entities\female_skin_*.png" />
+      <PublishedClientPaperdollBody Include="resources\paperdolls\male_skin_*.png" />
+      <PublishedClientPaperdollBody Include="resources\paperdolls\female_skin_*.png" />
+    </ItemGroup>
+    <MakeDir Directories="$(PublishDir)resources\entities" />
+    <MakeDir Directories="$(PublishDir)resources\paperdolls" />
+    <Copy
+      SourceFiles="@(PublishedClientEntityBody)"
+      DestinationFiles="@(PublishedClientEntityBody->'$(PublishDir)resources\entities\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+    <Copy
+      SourceFiles="@(PublishedClientPaperdollBody)"
+      DestinationFiles="@(PublishedClientPaperdollBody->'$(PublishDir)resources\paperdolls\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+  </Target>
+
+  <Target Name="CopyRavenEquipmentResourcesToPublish" AfterTargets="Publish">
+    <ItemGroup>
+      <PublishedRavenEquipmentPaperdoll Include="resources\paperdolls\helmet_*.png" />
+      <PublishedRavenEquipmentPaperdoll Include="resources\paperdolls\armor_*.png" />
+      <PublishedRavenEquipmentPaperdoll Include="resources\paperdolls\chest_*.png" />
+      <PublishedRavenEquipmentPaperdoll Include="resources\paperdolls\legs_*.png" />
+      <PublishedRavenEquipmentPaperdoll Include="resources\paperdolls\boots_*.png" />
+      <PublishedRavenEquipmentPaperdoll Include="resources\paperdolls\feet_*.png" />
+      <PublishedRavenEquipmentPaperdoll Include="resources\paperdolls\hands_*.png" />
+      <PublishedRavenEquipmentPaperdoll Include="resources\paperdolls\back_*.png" />
+      <PublishedRavenEquipmentPaperdoll Include="resources\paperdolls\weapon_raven_*.png" />
+      <PublishedRavenEquipmentPaperdoll Include="resources\paperdolls\shield_raven_*.png" />
+      <PublishedRavenEquipmentIcon Include="resources\items\itemicon_*.png" />
+      <PublishedRavenEquipmentIcon Include="resources\items\weapon_raven_*_icon.png" />
+    </ItemGroup>
+    <MakeDir Directories="$(PublishDir)resources\paperdolls" />
+    <MakeDir Directories="$(PublishDir)resources\items" />
+    <Copy
+      SourceFiles="@(PublishedRavenEquipmentPaperdoll)"
+      DestinationFiles="@(PublishedRavenEquipmentPaperdoll->'$(PublishDir)resources\paperdolls\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+    <Copy
+      SourceFiles="@(PublishedRavenEquipmentIcon)"
+      DestinationFiles="@(PublishedRavenEquipmentIcon->'$(PublishDir)resources\items\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+  </Target>
+
+  <!-- Publish produces a separate self-contained directory, so copy the dynamically
+       resolved status icons there as well. These are not known by the regular content
+       manifest because the client loads them from the spell descriptor's Icon filename. -->
+  <Target Name="CopyAuthoredSkillIconsToPublish" AfterTargets="Publish">
+    <ItemGroup>
+      <PublishedAuthoredSkillIcon Include="resources\spells\skill_*.png" />
+      <PublishedAuthoredSkillIcon Include="resources\spells\passive_*.png" />
+      <PublishedAuthoredSkillIcon Include="resources\spells\npc_*.png" />
+    </ItemGroup>
+    <MakeDir Directories="$(PublishDir)resources\spells" />
+    <Copy
+      SourceFiles="@(PublishedAuthoredSkillIcon)"
+      DestinationFiles="@(PublishedAuthoredSkillIcon->'$(PublishDir)resources\spells\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+  </Target>
+
+  <Target Name="CopyAuthoredCurrencyIconsToPublish" AfterTargets="Publish">
+    <ItemGroup>
+      <PublishedAuthoredCurrencyIcon Include="resources\items\currency_*.png" />
+    </ItemGroup>
+    <MakeDir Directories="$(PublishDir)resources\items" />
+    <Copy
+      SourceFiles="@(PublishedAuthoredCurrencyIcon)"
+      DestinationFiles="@(PublishedAuthoredCurrencyIcon->'$(PublishDir)resources\items\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+  </Target>
+
+  <!-- Tips/help buttons load their GUI textures by filename at runtime. Keep
+       every authored state in self-contained publishes so an older icon cannot
+       survive in a deployment directory when the client is rebuilt. -->
+  <Target Name="CopyTipsIconResourcesToPublish" AfterTargets="Publish">
+    <ItemGroup>
+      <PublishedTipsIcon Include="resources\gui\tips_help_icon*.png" />
+    </ItemGroup>
+    <MakeDir Directories="$(PublishDir)resources\gui" />
+    <Copy
+      SourceFiles="@(PublishedTipsIcon)"
+      DestinationFiles="@(PublishedTipsIcon->'$(PublishDir)resources\gui\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+  </Target>
+
+  <!-- Keep authored Tips normal/hover textures in regular build output too. -->
+  <Target Name="CopyTipsIconResourcesToOutput" AfterTargets="Build">
+    <ItemGroup>
+      <BuiltTipsIcon Include="resources\gui\tips_help_icon*.png" />
+    </ItemGroup>
+    <MakeDir Directories="$(TargetDir)resources\gui" />
+    <Copy
+      SourceFiles="@(BuiltTipsIcon)"
+      DestinationFiles="@(BuiltTipsIcon->'$(TargetDir)resources\gui\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+  </Target>
+
+  <ItemGroup>
+    <None Update="resources\gui\tips_help_icon_v3*.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <Target Name="VerifyEryndorClientBranding" BeforeTargets="Build">
+    <Error Condition="'$(AssemblyName)' != 'Eryndor Client'" Text="The playable client assembly must remain named Eryndor Client." />
+    <Error Condition="'$(ApplicationIcon)' != 'Properties\EryndorClient.ico'" Text="The playable client must keep the Eryndor crest application icon." />
+    <Error Condition="!Exists('$(MSBuildProjectDirectory)\Properties\EryndorClient.ico')" Text="The Eryndor client ICO is missing." />
+    <Error Condition="!Exists('$(MSBuildProjectDirectory)\Properties\EryndorClient.bmp')" Text="The Eryndor client window bitmap is missing." />
+  </Target>
+
+  <Target Name="CopyEryndorWindowIcon" AfterTargets="Build">
+    <Copy SourceFiles="Properties\EryndorClient.bmp" DestinationFiles="$(TargetDir)Icon.bmp" />
+  </Target>
+
+
+  <Target Name="BuildEryndorBrandingTool">
+    <MSBuild Projects="$(MSBuildProjectDirectory)\..\Eryndor.Branding.Tool\Eryndor.Branding.Tool.csproj" Targets="Build" Properties="Configuration=$(Configuration);UseSharedCompilation=false" />
+  </Target>
+  <Target Name="StampEryndorClientExecutableIcon" AfterTargets="Build" DependsOnTargets="BuildEryndorBrandingTool">
+    <Exec Command="dotnet &quot;$(MSBuildProjectDirectory)\..\Eryndor.Branding.Tool\bin\$(Configuration)\net8.0\Eryndor.Branding.Tool.dll&quot; &quot;$(TargetDir)$(AssemblyName).exe&quot; &quot;$(MSBuildProjectDirectory)\Properties\EryndorClient.ico&quot;" />
+  </Target>
+</Project>

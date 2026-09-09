@@ -1,0 +1,36 @@
+2026-05-25 15:30:19.064 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-25 15:30:19.279 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-25 15:30:19.283 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-25 15:30:19.284 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-25 15:30:22.943 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-25 15:30:22.953 +02:00 [INF] Connected [1b875999-cca4-47a1-93f6-fcb2694acf2b].
+2026-05-25 15:30:22.958 +02:00 [INF] Connection approved [1b875999-cca4-47a1-93f6-fcb2694acf2b].
+2026-05-25 15:30:23.052 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-25 15:30:23.052 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-25 15:30:37.385 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-25 15:30:37.994 +02:00 [WRN] 'Me' is null.
+2026-05-25 15:30:38.363 +02:00 [INF] Map "d5c08240-0436-454a-8993-362abf5bc477" 'New Map' loaded with 1 window light zone(s)
+2026-05-25 15:30:38.533 +02:00 [INF] BuildWindowLightBeams() map "d5c08240-0436-454a-8993-362abf5bc477": WindowLightZones=1
+2026-05-25 15:30:38.538 +02:00 [INF] BuildWindowLightBeams() map "d5c08240-0436-454a-8993-362abf5bc477": created 1 beam(s) from 1 zone(s)
+2026-05-25 15:30:38.538 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 19.2728ms
+2026-05-25 15:30:38.571 +02:00 [WRN] Map "d5c08240-0436-454a-8993-362abf5bc477": window light drew 0/1 beams (skipped opacity=0, mask=0, draw=1). ActiveMode DayOnly=0/NightOnly=1/Always=2.
+2026-05-25 15:30:53.972 +02:00 [INF] Map "d5c08240-0436-454a-8993-362abf5bc477" 'New Map' loaded with 0 window light zone(s)
+2026-05-25 15:30:53.991 +02:00 [INF] BuildWindowLightBeams() map "d5c08240-0436-454a-8993-362abf5bc477": WindowLightZones=0
+2026-05-25 15:30:53.991 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.2627ms
+2026-05-25 15:31:14.189 +02:00 [INF] Map "d5c08240-0436-454a-8993-362abf5bc477" 'New Map' loaded with 1 window light zone(s)
+2026-05-25 15:31:14.203 +02:00 [INF] BuildWindowLightBeams() map "d5c08240-0436-454a-8993-362abf5bc477": WindowLightZones=1
+2026-05-25 15:31:14.203 +02:00 [INF] BuildWindowLightBeams() map "d5c08240-0436-454a-8993-362abf5bc477": created 1 beam(s) from 1 zone(s)
+2026-05-25 15:31:14.203 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.3656ms
+2026-05-25 15:31:14.203 +02:00 [WRN] Map "d5c08240-0436-454a-8993-362abf5bc477": window light drew 0/1 beams (skipped opacity=0, mask=0, draw=1). ActiveMode DayOnly=0/NightOnly=1/Always=2.
+2026-05-25 15:32:27.407 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-25 15:32:27.410 +02:00 [INF] Disconnected [1b875999-cca4-47a1-93f6-fcb2694acf2b].
+2026-05-25 15:32:27.411 +02:00 [INF] Updating active permission set to 'default'
+2026-05-25 15:32:27.442 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-25 15:32:27.442 +02:00 [INF] Acquired. (0ms)
+2026-05-25 15:32:27.442 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-25 15:32:27.443 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-25 15:32:27.443 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-25 15:32:27.443 +02:00 [INF] Clearing instance... (1ms)
+2026-05-25 15:32:27.443 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-25 15:32:27.443 +02:00 [INF] Released. (1ms)

@@ -1,0 +1,45 @@
+2026-04-18 09:57:35.360 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-18 09:57:35.569 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-18 09:57:35.572 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-18 09:57:35.573 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-18 09:57:37.691 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-18 09:57:37.700 +06:00 [INF] Connected [54742bfd-9482-4199-a61a-bd26d064129b].
+2026-04-18 09:57:37.716 +06:00 [INF] Connection approved [54742bfd-9482-4199-a61a-bd26d064129b].
+2026-04-18 09:57:37.801 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-18 09:57:37.801 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-18 09:57:41.010 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-18 09:57:41.152 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-18 09:57:41.782 +06:00 [WRN] 'Me' is null.
+2026-04-18 09:57:42.397 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 36.9704ms
+2026-04-18 09:59:24.820 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.6875ms
+2026-04-18 09:59:54.897 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 5.3271ms
+2026-04-18 10:00:22.470 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6067ms
+2026-04-18 10:00:31.065 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6536ms
+2026-04-18 10:00:50.361 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.7734ms
+2026-04-18 10:01:14.056 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.2757ms
+2026-04-18 10:01:29.696 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5538ms
+2026-04-18 10:01:43.342 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6393ms
+2026-04-18 10:03:10.010 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5759ms
+2026-04-18 10:03:20.035 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6927ms
+2026-04-18 10:06:40.729 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5142ms
+2026-04-18 10:07:11.364 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.0188ms
+2026-04-18 10:07:25.618 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.877ms
+2026-04-18 10:07:52.486 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.4929ms
+2026-04-18 10:10:35.406 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5431ms
+2026-04-18 10:11:04.863 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5511ms
+2026-04-18 10:12:38.504 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5661ms
+2026-04-18 10:13:00.516 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.6016ms
+2026-04-18 10:13:27.209 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 2.5979ms
+2026-04-18 10:13:56.090 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 3.4208ms
+2026-04-18 10:19:58.605 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-18 10:19:58.608 +06:00 [INF] Disconnected [54742bfd-9482-4199-a61a-bd26d064129b].
+2026-04-18 10:19:58.609 +06:00 [INF] Updating active permission set to 'default'
+2026-04-18 10:19:58.762 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-18 10:19:58.762 +06:00 [INF] Acquired. (0ms)
+2026-04-18 10:19:58.763 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-18 10:19:58.763 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-18 10:19:58.763 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-18 10:19:58.763 +06:00 [INF] Clearing instance... (1ms)
+2026-04-18 10:19:58.763 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-18 10:19:58.763 +06:00 [INF] Released. (1ms)

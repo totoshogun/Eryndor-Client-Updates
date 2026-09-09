@@ -1,0 +1,27 @@
+2026-04-15 05:24:05.214 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-15 05:24:05.616 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-15 05:24:05.624 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-15 05:24:05.624 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-15 05:24:07.650 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-15 05:24:07.673 +06:00 [INF] Connected [851e8d44-98ad-4bba-9644-608483ec882f].
+2026-04-15 05:24:07.694 +06:00 [INF] Connection approved [851e8d44-98ad-4bba-9644-608483ec882f].
+2026-04-15 05:24:07.775 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-15 05:24:11.347 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-15 05:24:11.347 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-15 05:24:11.491 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-15 05:24:12.370 +06:00 [WRN] 'Me' is null.
+2026-04-15 05:24:12.949 +06:00 [INF] Built VBO for map 23630ac6-4461-460d-8a3b-9a0d4477096f 'test 8' in 16.2304ms
+2026-04-15 05:24:12.996 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 41.8166ms
+2026-04-15 05:24:13.000 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 3.4786ms
+2026-04-15 05:27:01.632 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-15 05:27:01.634 +06:00 [INF] Disconnected [851e8d44-98ad-4bba-9644-608483ec882f].
+2026-04-15 05:27:01.635 +06:00 [INF] Updating active permission set to 'default'
+2026-04-15 05:27:01.741 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-15 05:27:01.741 +06:00 [INF] Acquired. (0ms)
+2026-04-15 05:27:01.741 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-15 05:27:01.742 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-15 05:27:01.742 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-15 05:27:01.742 +06:00 [INF] Clearing instance... (1ms)
+2026-04-15 05:27:01.742 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-15 05:27:01.742 +06:00 [INF] Released. (1ms)

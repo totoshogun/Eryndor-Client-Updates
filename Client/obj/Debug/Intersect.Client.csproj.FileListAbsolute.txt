@@ -1,0 +1,136 @@
+F:\game code engine\Intersect_New\Intersect.Client\obj\Debug\Intersect.Client.csproj.AssemblyReference.cache
+F:\game code engine\Intersect_New\Intersect.Client\obj\Debug\Intersect.Client.GeneratedMSBuildEditorConfig.editorconfig
+F:\game code engine\Intersect_New\Intersect.Client\obj\Debug\Intersect.Client.AssemblyInfoInputs.cache
+F:\game code engine\Intersect_New\Intersect.Client\obj\Debug\Intersect.Client.AssemblyInfo.cs
+F:\game code engine\Intersect_New\Intersect.Client\obj\Debug\Intersect.Client.csproj.CoreCompileInputs.cache
+F:\game code engine\Intersect_New\Intersect.Client\obj\Debug\Intersect.Client.sourcelink.json
+F:\game code engine\Intersect_New\Intersect.Client\obj\Debug\Intersec.3A182661.Up2Date
+F:\game code engine\Intersect_New\Intersect.Client\Intersect Client.exe
+F:\game code engine\Intersect_New\Intersect.Client\obj\Debug\Intersect Client.dll
+F:\game code engine\Intersect_New\Intersect.Client\obj\Debug\refint\Intersect Client.dll
+F:\game code engine\Intersect_New\Intersect.Client\obj\Debug\Intersect Client.xml
+F:\game code engine\Intersect_New\Intersect.Client\Intersect Client.deps.json
+F:\game code engine\Intersect_New\Intersect.Client\obj\Debug\Intersect.Client.genruntimeconfig.cache
+F:\game code engine\Intersect_New\Intersect.Client\Intersect Client.runtimeconfig.json
+F:\game code engine\Intersect_New\Intersect.Client\Intersect Client.dll
+F:\game code engine\Intersect_New\Intersect.Client\obj\Debug\ref\Intersect Client.dll
+F:\game code engine\Intersect_New\Intersect.Client\Intersect Client.xml
+F:\game code engine\Intersect_New\Intersect.Client\Antlr4.Runtime.Standard.dll
+F:\game code engine\Intersect_New\Intersect.Client\Intersect.Building.dll
+F:\game code engine\Intersect_New\Intersect.Client\Intersect.Rsa.dll
+F:\game code engine\Intersect_New\Intersect.Client\Ceras.dll
+F:\game code engine\Intersect_New\Intersect.Client\CommandLine.dll
+F:\game code engine\Intersect_New\Intersect.Client\Hardware.Info.dll
+F:\game code engine\Intersect_New\Intersect.Client\K4os.Compression.LZ4.dll
+F:\game code engine\Intersect_New\Intersect.Client\MathNet.Numerics.dll
+F:\game code engine\Intersect_New\Intersect.Client\MessagePack.dll
+F:\game code engine\Intersect_New\Intersect.Client\MessagePack.Annotations.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Bcl.AsyncInterfaces.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Build.Framework.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Build.Utilities.Core.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Diagnostics.NETCore.Client.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Diagnostics.Runtime.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.Caching.Abstractions.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.Caching.Memory.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.Configuration.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.Configuration.Binder.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.DependencyInjection.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.Diagnostics.Abstractions.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.Hosting.Abstractions.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.Logging.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.Logging.Abstractions.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.Logging.Configuration.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.Logging.Console.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.Logging.Debug.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.Options.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Extensions.Primitives.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.NET.StringTools.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.VisualStudio.Validation.dll
+F:\game code engine\Intersect_New\Intersect.Client\MonoGame.Framework.dll
+F:\game code engine\Intersect_New\Intersect.Client\NCalc.dll
+F:\game code engine\Intersect_New\Intersect.Client\Newtonsoft.Json.dll
+F:\game code engine\Intersect_New\Intersect.Client\NVorbis.dll
+F:\game code engine\Intersect_New\Intersect.Client\Semver.dll
+F:\game code engine\Intersect_New\Intersect.Client\Serilog.dll
+F:\game code engine\Intersect_New\Intersect.Client\Serilog.Extensions.Logging.dll
+F:\game code engine\Intersect_New\Intersect.Client\Serilog.Sinks.Console.dll
+F:\game code engine\Intersect_New\Intersect.Client\Serilog.Sinks.Debug.dll
+F:\game code engine\Intersect_New\Intersect.Client\Serilog.Sinks.File.dll
+F:\game code engine\Intersect_New\Intersect.Client\Steamworks.NET.dll
+F:\game code engine\Intersect_New\Intersect.Client\System.Collections.Immutable.dll
+F:\game code engine\Intersect_New\Intersect.Client\System.Diagnostics.DiagnosticSource.dll
+F:\game code engine\Intersect_New\Intersect.Client\System.Interactive.Async.dll
+F:\game code engine\Intersect_New\Intersect.Client\System.IO.Abstractions.dll
+F:\game code engine\Intersect_New\Intersect.Client\System.IO.Hashing.dll
+F:\game code engine\Intersect_New\Intersect.Client\System.Linq.Async.dll
+F:\game code engine\Intersect_New\Intersect.Client\System.Management.dll
+F:\game code engine\Intersect_New\Intersect.Client\System.Text.Encodings.Web.dll
+F:\game code engine\Intersect_New\Intersect.Client\TestableIO.System.IO.Abstractions.dll
+F:\game code engine\Intersect_New\Intersect.Client\TestableIO.System.IO.Abstractions.Wrappers.dll
+F:\game code engine\Intersect_New\Intersect.Client\Testably.Abstractions.FileSystem.Interface.dll
+F:\game code engine\Intersect_New\Intersect.Client\cs\Microsoft.VisualStudio.Validation.resources.dll
+F:\game code engine\Intersect_New\Intersect.Client\de\Microsoft.VisualStudio.Validation.resources.dll
+F:\game code engine\Intersect_New\Intersect.Client\es\Microsoft.VisualStudio.Validation.resources.dll
+F:\game code engine\Intersect_New\Intersect.Client\fr\Microsoft.VisualStudio.Validation.resources.dll
+F:\game code engine\Intersect_New\Intersect.Client\it\Microsoft.VisualStudio.Validation.resources.dll
+F:\game code engine\Intersect_New\Intersect.Client\ja\Microsoft.VisualStudio.Validation.resources.dll
+F:\game code engine\Intersect_New\Intersect.Client\ko\Microsoft.VisualStudio.Validation.resources.dll
+F:\game code engine\Intersect_New\Intersect.Client\pl\Microsoft.VisualStudio.Validation.resources.dll
+F:\game code engine\Intersect_New\Intersect.Client\pt-BR\Microsoft.VisualStudio.Validation.resources.dll
+F:\game code engine\Intersect_New\Intersect.Client\ru\Microsoft.VisualStudio.Validation.resources.dll
+F:\game code engine\Intersect_New\Intersect.Client\tr\Microsoft.VisualStudio.Validation.resources.dll
+F:\game code engine\Intersect_New\Intersect.Client\zh-Hans\Microsoft.VisualStudio.Validation.resources.dll
+F:\game code engine\Intersect_New\Intersect.Client\zh-Hant\Microsoft.VisualStudio.Validation.resources.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\linux-x64\native\libopenal.so.1
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\osx\native\libopenal.1.dylib
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\win-x64\native\soft_oal.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\win-x86\native\soft_oal.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\linux-x64\native\libSDL2-2.0.so.0
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\osx\native\libSDL2-2.0.0.dylib
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\win-x64\native\SDL2.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\linux-x64\lib\netstandard2.1\Steamworks.NET.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\linux-x86\lib\netstandard2.1\Steamworks.NET.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\osx-x64\lib\netstandard2.1\Steamworks.NET.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\osx-x86\lib\netstandard2.1\Steamworks.NET.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\win-x64\lib\netstandard2.1\Steamworks.NET.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\win-x86\lib\netstandard2.1\Steamworks.NET.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\win\lib\net8.0\System.Management.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+F:\game code engine\Intersect_New\Intersect.Client\Intersect Client Core.dll
+F:\game code engine\Intersect_New\Intersect.Client\Intersect Core.dll
+F:\game code engine\Intersect_New\Intersect.Client\Intersect.Client.Framework.dll
+F:\game code engine\Intersect_New\Intersect.Client\Intersect.Framework.Core.dll
+F:\game code engine\Intersect_New\Intersect.Client\Intersect.Framework.dll
+F:\game code engine\Intersect_New\Intersect.Client\Intersect.Network.dll
+F:\game code engine\Intersect_New\Intersect.Client\LiteNetLib.dll
+F:\game code engine\Intersect_New\Intersect.Client\Intersect Client Core.xml
+F:\game code engine\Intersect_New\Intersect.Client\Intersect.Client.Framework.xml
+F:\game code engine\Intersect_New\Intersect.Client\Intersect Core.xml
+F:\game code engine\Intersect_New\Intersect.Client\Intersect.Framework.xml
+F:\game code engine\Intersect_New\Intersect.Client\Intersect.Framework.Core.xml
+F:\game code engine\Intersect_New\Intersect.Client\Intersect.Network.xml
+F:\game code engine\Intersect_New\Intersect.Client\LiteNetLib.pdb
+F:\game code engine\Intersect_New\Intersect.Client\LiteNetLib.xml
+F:\game code engine\Intersect_New\Intersect.Client\en\Intersect.Framework.Core.resources.dll
+F:\game code engine\Intersect_New\Intersect.Client\it\Intersect.Framework.Core.resources.dll
+F:\game code engine\Intersect_New\Intersect.Client\Microsoft.Win32.SystemEvents.dll
+F:\game code engine\Intersect_New\Intersect.Client\System.CodeDom.dll
+F:\game code engine\Intersect_New\Intersect.Client\System.Configuration.ConfigurationManager.dll
+F:\game code engine\Intersect_New\Intersect.Client\System.Diagnostics.EventLog.dll
+F:\game code engine\Intersect_New\Intersect.Client\System.Diagnostics.PerformanceCounter.dll
+F:\game code engine\Intersect_New\Intersect.Client\System.Drawing.Common.dll
+F:\game code engine\Intersect_New\Intersect.Client\System.Security.Cryptography.ProtectedData.dll
+F:\game code engine\Intersect_New\Intersect.Client\System.Security.Permissions.dll
+F:\game code engine\Intersect_New\Intersect.Client\System.Windows.Extensions.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\game code engine\Intersect_New\Intersect.Client\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll

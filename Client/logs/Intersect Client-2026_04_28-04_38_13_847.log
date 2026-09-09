@@ -1,0 +1,28 @@
+2026-04-28 04:38:14.233 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-28 04:38:14.452 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-28 04:38:14.455 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-28 04:38:14.456 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-28 04:38:28.976 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-28 04:38:28.994 +06:00 [INF] Connected [51fb3301-7d27-4884-97a7-4ba8d551bd34].
+2026-04-28 04:38:29.017 +06:00 [INF] Connection approved [51fb3301-7d27-4884-97a7-4ba8d551bd34].
+2026-04-28 04:38:29.106 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-28 04:38:33.518 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-28 04:38:33.518 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-28 04:38:33.676 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-28 04:38:34.226 +06:00 [WRN] 'Me' is null.
+2026-04-28 04:38:34.791 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 9.8413ms
+2026-04-28 04:38:37.837 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 11.1166ms
+2026-04-28 04:39:30.193 +06:00 [INF] Music volume set to 10 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-04-28 04:39:30.193 +06:00 [INF] Sound volume set to 15 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-04-28 04:47:30.942 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-28 04:47:30.946 +06:00 [INF] Disconnected [51fb3301-7d27-4884-97a7-4ba8d551bd34].
+2026-04-28 04:47:30.947 +06:00 [INF] Updating active permission set to 'default'
+2026-04-28 04:47:30.987 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-28 04:47:30.987 +06:00 [INF] Acquired. (0ms)
+2026-04-28 04:47:30.988 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-28 04:47:30.988 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-28 04:47:30.988 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-28 04:47:30.989 +06:00 [INF] Clearing instance... (1ms)
+2026-04-28 04:47:30.989 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-28 04:47:30.989 +06:00 [INF] Released. (1ms)

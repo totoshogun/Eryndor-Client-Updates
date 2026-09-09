@@ -1,0 +1,100 @@
+2026-06-21 02:30:39.997 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-06-21 02:30:40.224 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-06-21 02:30:40.228 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-06-21 02:30:40.229 +02:00 [INF] Discovered 0 plugins:
+
+2026-06-21 02:30:42.447 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-06-21 02:30:42.471 +02:00 [INF] Connected [ec507760-7d15-4f1d-a481-5168b4795123].
+2026-06-21 02:30:42.485 +02:00 [INF] Connection approved [ec507760-7d15-4f1d-a481-5168b4795123].
+2026-06-21 02:30:42.585 +02:00 [INF] Updated PermissionSet 'default'
+2026-06-21 02:30:47.762 +02:00 [INF] Updated PermissionSet 'admin'
+2026-06-21 02:30:47.763 +02:00 [INF] Updating active permission set to 'admin'
+2026-06-21 02:30:49.088 +02:00 [WRN] 'Me' is null.
+2026-06-21 02:30:49.815 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 28.9732ms
+2026-06-21 02:30:49.907 +02:00 [ERR] Exception thrown while trying to load 'resources/tilesets/water_shore_marker.png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass181_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 1011
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-06-21 02:30:50.217 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 401.2407ms
+2026-06-21 02:30:50.240 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 18.1295ms
+2026-06-21 02:31:27.108 +02:00 [WRN] 'Me' is null.
+2026-06-21 02:31:48.129 +02:00 [WRN] 'Me' is null.
+2026-06-21 02:31:48.465 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 5.4751ms
+2026-06-21 02:31:48.469 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 4.1265ms
+2026-06-21 02:31:48.522 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 50.1472ms
+2026-06-21 02:31:48.796 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 273.4777ms
+2026-06-21 02:31:48.804 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 4.1558ms
+2026-06-21 02:32:28.259 +02:00 [WRN] 'Me' is null.
+2026-06-21 02:33:00.512 +02:00 [WRN] 'Me' is null.
+2026-06-21 02:33:01.069 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 3.9363ms
+2026-06-21 02:33:01.073 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 3.8197ms
+2026-06-21 02:33:01.121 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 44.3611ms
+2026-06-21 02:33:01.399 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 277.1645ms
+2026-06-21 02:33:01.406 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 3.844ms
+2026-06-21 02:33:52.641 +02:00 [WRN] 'Me' is null.
+2026-06-21 02:34:10.681 +02:00 [WRN] 'Me' is null.
+2026-06-21 02:34:11.135 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 3.9649ms
+2026-06-21 02:34:11.139 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 3.7425ms
+2026-06-21 02:34:11.188 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 44.5573ms
+2026-06-21 02:34:11.546 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 357.2807ms
+2026-06-21 02:34:11.554 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 4.3132ms
+2026-06-21 02:35:18.126 +02:00 [WRN] 'Me' is null.
+2026-06-21 02:35:18.614 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 6.8705ms
+2026-06-21 02:35:18.618 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 3.7462ms
+2026-06-21 02:35:18.665 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 44.3044ms
+2026-06-21 02:35:19.049 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 383.3471ms
+2026-06-21 02:35:19.056 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 3.7754ms
+2026-06-21 02:36:06.692 +02:00 [WRN] 'Me' is null.
+2026-06-21 02:36:07.199 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 3.8804ms
+2026-06-21 02:36:07.207 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 7.5849ms
+2026-06-21 02:36:07.259 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 47.3104ms
+2026-06-21 02:36:07.651 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 391.4774ms
+2026-06-21 02:36:07.659 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 4.9258ms
+2026-06-21 02:36:54.757 +02:00 [WRN] 'Me' is null.
+2026-06-21 02:36:55.178 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 3.8715ms
+2026-06-21 02:36:55.182 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 3.7753ms
+2026-06-21 02:36:55.231 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 44.2614ms
+2026-06-21 02:36:55.647 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 415.3607ms
+2026-06-21 02:36:55.654 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 3.8564ms
+2026-06-21 02:38:46.451 +02:00 [WRN] 'Me' is null.
+2026-06-21 02:38:46.451 +02:00 [WRN] 'Me' is null.
+2026-06-21 02:42:15.252 +02:00 [WRN] 'Me' is null.
+2026-06-21 02:42:15.719 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 7.6079ms
+2026-06-21 02:42:15.723 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 3.7618ms
+2026-06-21 02:42:15.773 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 44.8409ms
+2026-06-21 02:42:16.049 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 275.9959ms
+2026-06-21 02:42:16.056 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 3.8282ms
+2026-06-21 02:42:40.002 +02:00 [WRN] 'Me' is null.
+2026-06-21 02:43:20.885 +02:00 [WRN] 'Me' is null.
+2026-06-21 02:43:21.703 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 4.2632ms
+2026-06-21 02:43:21.708 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 4.8768ms
+2026-06-21 02:43:21.760 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 50.2557ms
+2026-06-21 02:43:22.040 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 279.2268ms
+2026-06-21 02:43:22.047 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 4.1535ms
+2026-06-21 02:44:18.436 +02:00 [WRN] 'Me' is null.
+2026-06-21 02:44:30.001 +02:00 [WRN] 'Me' is null.
+2026-06-21 02:44:30.353 +02:00 [WRN] Tried to load entity "04add98b-ad34-450c-a808-3d84a00d624a" (test252156) from packet before in-game UI was ready
+2026-06-21 02:44:30.360 +02:00 [WRN] Tried to load entity "04add98b-ad34-450c-a808-3d84a00d624a" (test252156) from packet before in-game UI was ready
+2026-06-21 02:44:30.521 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 4.3502ms
+2026-06-21 02:44:30.525 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 3.8582ms
+2026-06-21 02:44:30.571 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 44.6085ms
+2026-06-21 02:44:30.838 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 266.284ms
+2026-06-21 02:44:30.845 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 4.0965ms
+2026-06-21 02:51:18.175 +02:00 [INF] Disconnected [ec507760-7d15-4f1d-a481-5168b4795123].
+2026-06-21 02:51:18.176 +02:00 [INF] Updating active permission set to 'default'
+2026-06-21 02:51:19.428 +02:00 [INF] User clicked exit button.
+2026-06-21 02:51:19.449 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-06-21 02:51:19.549 +02:00 [INF] Acquiring context lock... (0ms)
+2026-06-21 02:51:19.549 +02:00 [INF] Acquired. (0ms)
+2026-06-21 02:51:19.550 +02:00 [INF] Beginning context dispose. (0ms)
+2026-06-21 02:51:19.550 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-06-21 02:51:19.550 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-06-21 02:51:19.550 +02:00 [INF] Clearing instance... (1ms)
+2026-06-21 02:51:19.550 +02:00 [INF] Releasing context lock... (1ms)
+2026-06-21 02:51:19.550 +02:00 [INF] Released. (1ms)

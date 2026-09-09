@@ -1,0 +1,49 @@
+2026-03-22 18:40:48.798 +01:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-03-22 18:40:49.050 +01:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-03-22 18:40:49.053 +01:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-03-22 18:40:49.054 +01:00 [INF] Discovered 0 plugins:
+
+2026-03-22 18:40:52.562 +01:00 [INF] Connecting to 127.0.0.1:5400...
+2026-03-22 18:40:52.571 +01:00 [INF] Connected [443bd6ba-ace4-4399-9856-2f0db29176ec].
+2026-03-22 18:40:52.575 +01:00 [INF] Connection approved [443bd6ba-ace4-4399-9856-2f0db29176ec].
+2026-03-22 18:40:52.652 +01:00 [INF] Updated PermissionSet 'default'
+2026-03-22 18:40:52.653 +01:00 [INF] Updated PermissionSet 'admin'
+2026-03-22 18:40:53.546 +01:00 [INF] Updating active permission set to 'admin'
+2026-03-22 18:40:53.621 +01:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-03-22 18:40:54.485 +01:00 [WRN] 'Me' is null.
+2026-03-22 18:40:54.963 +01:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 15.9093ms
+2026-03-22 18:40:54.974 +01:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 6.5343ms
+2026-03-22 18:45:23.399 +01:00 [INF] Built VBO for map 23382d57-1bd1-403a-8f4f-50e5ad24e8a0 'test1' in 6.2696ms
+2026-03-22 18:46:13.951 +01:00 [INF] Music volume set to 10 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-03-22 18:46:13.952 +01:00 [INF] Sound volume set to 15 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-03-22 18:46:45.369 +01:00 [INF] Music volume set to 10 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-03-22 18:46:45.369 +01:00 [INF] Sound volume set to 15 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-03-22 18:47:31.975 +01:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-03-22 18:47:33.306 +01:00 [WRN] 'Me' is null.
+2026-03-22 18:47:33.321 +01:00 [WRN] Tried to load entity "a830c6ba-2da5-4a47-9e54-09c4effd5e7d" (Oran) from packet before in-game UI was ready
+2026-03-22 18:47:33.322 +01:00 [WRN] Tried to load entity "a830c6ba-2da5-4a47-9e54-09c4effd5e7d" (Oran) from packet before in-game UI was ready
+2026-03-22 18:47:33.446 +01:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 2.1246ms
+2026-03-22 18:47:33.448 +01:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 2.1966ms
+2026-03-22 18:47:36.513 +01:00 [INF] Music volume set to 10 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-03-22 18:47:36.513 +01:00 [INF] Sound volume set to 15 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-03-22 18:47:42.633 +01:00 [INF] Built VBO for map 23382d57-1bd1-403a-8f4f-50e5ad24e8a0 'test1' in 2.0565ms
+2026-03-22 18:48:01.772 +01:00 [WRN] 'Me' is null.
+2026-03-22 18:48:01.789 +01:00 [WRN] Tried to load entity "a830c6ba-2da5-4a47-9e54-09c4effd5e7d" (Oran) from packet before in-game UI was ready
+2026-03-22 18:48:01.953 +01:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 1.6153ms
+2026-03-22 18:48:01.955 +01:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 1.7923ms
+2026-03-22 18:48:04.397 +01:00 [INF] Music volume set to 10 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-03-22 18:48:04.397 +01:00 [INF] Sound volume set to 15 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-03-22 18:48:17.991 +01:00 [INF] Built VBO for map 23382d57-1bd1-403a-8f4f-50e5ad24e8a0 'test1' in 1.8093ms
+2026-03-22 18:50:14.517 +01:00 [INF] Music volume set to 10 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-03-22 18:50:14.517 +01:00 [INF] Sound volume set to 15 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-03-22 18:50:21.382 +01:00 [INF] System window closing (due to user interaction most likely).
+2026-03-22 18:50:21.385 +01:00 [INF] Disconnected [443bd6ba-ace4-4399-9856-2f0db29176ec].
+2026-03-22 18:50:21.385 +01:00 [INF] Updating active permission set to 'default'
+2026-03-22 18:50:21.413 +01:00 [INF] Acquiring context lock... (0ms)
+2026-03-22 18:50:21.413 +01:00 [INF] Acquired. (0ms)
+2026-03-22 18:50:21.413 +01:00 [INF] Beginning context dispose. (0ms)
+2026-03-22 18:50:21.414 +01:00 [INF] GC.SuppressFinalize (0ms)
+2026-03-22 18:50:21.414 +01:00 [INF] InternalDispose() completed. (0ms)
+2026-03-22 18:50:21.414 +01:00 [INF] Clearing instance... (1ms)
+2026-03-22 18:50:21.414 +01:00 [INF] Releasing context lock... (1ms)
+2026-03-22 18:50:21.414 +01:00 [INF] Released. (1ms)

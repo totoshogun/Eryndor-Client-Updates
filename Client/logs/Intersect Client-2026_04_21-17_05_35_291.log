@@ -1,0 +1,85 @@
+2026-04-21 17:05:35.441 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-21 17:05:35.693 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-21 17:05:35.696 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-21 17:05:35.697 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-21 17:05:39.343 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-21 17:05:39.352 +06:00 [INF] Connected [5f2bf1a7-7723-415b-bb11-c8155d2ded95].
+2026-04-21 17:05:39.356 +06:00 [INF] Connection approved [5f2bf1a7-7723-415b-bb11-c8155d2ded95].
+2026-04-21 17:05:39.443 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-21 17:05:39.443 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-21 17:05:43.354 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-21 17:05:43.434 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-21 17:05:54.294 +06:00 [WRN] 'Me' is null.
+2026-04-21 17:05:54.868 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 43.1576ms
+2026-04-21 17:05:56.556 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.8678ms
+2026-04-21 17:06:03.338 +06:00 [INF] Music volume set to 10 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-04-21 17:06:03.338 +06:00 [INF] Sound volume set to 15 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-04-21 17:07:20.228 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.2421ms
+2026-04-21 17:07:30.986 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.0603ms
+2026-04-21 17:08:01.684 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 7.3413ms
+2026-04-21 17:08:18.742 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.7639ms
+2026-04-21 17:08:54.215 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.7412ms
+2026-04-21 17:09:02.148 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.7508ms
+2026-04-21 17:09:14.380 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.7043ms
+2026-04-21 17:09:30.121 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.7243ms
+2026-04-21 17:09:46.416 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.71ms
+2026-04-21 17:10:11.904 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.0402ms
+2026-04-21 17:10:26.478 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 2.3042ms
+2026-04-21 17:11:03.202 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.7077ms
+2026-04-21 17:11:11.898 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.9043ms
+2026-04-21 17:11:40.043 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.8432ms
+2026-04-21 17:11:55.976 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 2.7341ms
+2026-04-21 17:12:13.292 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.7467ms
+2026-04-21 17:12:40.412 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.6943ms
+2026-04-21 17:13:01.051 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.7212ms
+2026-04-21 17:13:15.536 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.7268ms
+2026-04-21 17:13:34.713 +06:00 [ERR] Exception thrown while trying to load 'resources/tilesets/download.png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\download.png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\download.png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass145_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 648
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-04-21 17:13:34.714 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 17.7928ms
+2026-04-21 17:13:52.496 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 2.517ms
+2026-04-21 17:14:19.413 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 2.8713ms
+2026-04-21 17:15:12.072 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.8494ms
+2026-04-21 17:15:21.995 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 2.0166ms
+2026-04-21 17:15:34.013 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.5664ms
+2026-04-21 17:15:53.466 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.0238ms
+2026-04-21 17:16:06.291 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.6674ms
+2026-04-21 17:16:27.432 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.7096ms
+2026-04-21 17:17:19.997 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.0304ms
+2026-04-21 17:17:29.773 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.6656ms
+2026-04-21 17:17:38.511 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 2.2012ms
+2026-04-21 17:17:47.935 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.3272ms
+2026-04-21 17:18:03.692 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.7005ms
+2026-04-21 17:18:53.277 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.6647ms
+2026-04-21 17:19:02.574 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.8914ms
+2026-04-21 17:19:33.480 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.1006ms
+2026-04-21 17:19:54.413 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.0539ms
+2026-04-21 17:20:26.601 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.0737ms
+2026-04-21 17:24:08.324 +06:00 [INF] Built VBO for map 54acfcda-e3cb-4a3f-971b-89eac887f501 'New Map' in 1.0273ms
+2026-04-21 17:24:58.423 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 2.8822ms
+2026-04-21 17:25:50.118 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 2.7948ms
+2026-04-21 17:29:25.253 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 1.8489ms
+2026-04-21 17:31:14.177 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 1.8381ms
+2026-04-21 17:32:34.673 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 1.9546ms
+2026-04-21 17:32:51.435 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 1.9634ms
+2026-04-21 17:33:14.440 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 1.8176ms
+2026-04-21 17:33:52.742 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 1.8781ms
+2026-04-21 17:34:07.925 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 1.932ms
+2026-04-21 17:40:35.273 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-21 17:40:35.278 +06:00 [INF] Disconnected [5f2bf1a7-7723-415b-bb11-c8155d2ded95].
+2026-04-21 17:40:35.278 +06:00 [INF] Updating active permission set to 'default'
+2026-04-21 17:40:35.311 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-21 17:40:35.311 +06:00 [INF] Acquired. (0ms)
+2026-04-21 17:40:35.312 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-21 17:40:35.312 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-21 17:40:35.312 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-21 17:40:35.312 +06:00 [INF] Clearing instance... (1ms)
+2026-04-21 17:40:35.312 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-21 17:40:35.312 +06:00 [INF] Released. (1ms)

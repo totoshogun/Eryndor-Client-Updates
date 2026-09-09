@@ -1,0 +1,38 @@
+2026-06-20 14:49:30.229 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-06-20 14:49:30.496 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-06-20 14:49:30.500 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-06-20 14:49:30.501 +02:00 [INF] Discovered 0 plugins:
+
+2026-06-20 14:49:34.350 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-06-20 14:49:34.372 +02:00 [INF] Connected [5830137d-f2c0-475a-9020-a2fc9fe0558e].
+2026-06-20 14:49:34.396 +02:00 [INF] Connection approved [5830137d-f2c0-475a-9020-a2fc9fe0558e].
+2026-06-20 14:49:34.502 +02:00 [INF] Updated PermissionSet 'default'
+2026-06-20 14:49:39.582 +02:00 [INF] Updated PermissionSet 'admin'
+2026-06-20 14:49:39.582 +02:00 [INF] Updating active permission set to 'admin'
+2026-06-20 14:49:40.262 +02:00 [WRN] 'Me' is null.
+2026-06-20 14:49:41.078 +02:00 [ERR] Exception thrown while trying to load 'resources/tilesets/water_shore_marker.png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass181_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 1011
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-06-20 14:49:41.092 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 51.1583ms
+2026-06-20 14:49:41.101 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 7.6501ms
+2026-06-20 14:49:41.245 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 140.4919ms
+2026-06-20 14:49:41.700 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 454.2047ms
+2026-06-20 14:49:41.715 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 9.789ms
+2026-06-20 14:50:54.215 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-06-20 14:50:54.218 +02:00 [INF] Disconnected [5830137d-f2c0-475a-9020-a2fc9fe0558e].
+2026-06-20 14:50:54.219 +02:00 [INF] Updating active permission set to 'default'
+2026-06-20 14:50:54.363 +02:00 [INF] Acquiring context lock... (0ms)
+2026-06-20 14:50:54.363 +02:00 [INF] Acquired. (0ms)
+2026-06-20 14:50:54.364 +02:00 [INF] Beginning context dispose. (0ms)
+2026-06-20 14:50:54.365 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-06-20 14:50:54.365 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-06-20 14:50:54.365 +02:00 [INF] Clearing instance... (1ms)
+2026-06-20 14:50:54.365 +02:00 [INF] Releasing context lock... (1ms)
+2026-06-20 14:50:54.365 +02:00 [INF] Released. (1ms)

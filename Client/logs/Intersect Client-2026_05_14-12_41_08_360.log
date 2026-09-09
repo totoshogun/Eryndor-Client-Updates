@@ -1,0 +1,37 @@
+2026-05-14 12:41:08.666 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-14 12:41:08.880 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-14 12:41:08.884 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-14 12:41:08.885 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-14 12:41:13.199 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-14 12:41:13.221 +02:00 [INF] Connected [42548c1d-867a-4016-9cda-ec1a477c57d7].
+2026-05-14 12:41:13.236 +02:00 [INF] Connection approved [42548c1d-867a-4016-9cda-ec1a477c57d7].
+2026-05-14 12:41:13.343 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-14 12:41:17.569 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-14 12:41:17.569 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-14 12:41:18.277 +02:00 [WRN] 'Me' is null.
+2026-05-14 12:41:19.010 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 31.6504ms
+2026-05-14 12:41:19.050 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 6.6665ms
+2026-05-14 12:41:45.968 +02:00 [WRN] 'Me' is null.
+2026-05-14 12:41:45.968 +02:00 [WRN] 'Me' is null.
+2026-05-14 12:41:45.968 +02:00 [WRN] 'Me' is null.
+2026-05-14 12:41:45.968 +02:00 [WRN] 'Me' is null.
+2026-05-14 12:41:57.116 +02:00 [WRN] 'Me' is null.
+2026-05-14 12:41:57.153 +02:00 [WRN] Tried to load entity "7aaece00-df10-40ab-b669-95a606cb2e0a" (24556) from packet before in-game UI was ready
+2026-05-14 12:41:57.157 +02:00 [WRN] Tried to load entity "7aaece00-df10-40ab-b669-95a606cb2e0a" (24556) from packet before in-game UI was ready
+2026-05-14 12:41:57.471 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 11.1287ms
+2026-05-14 12:41:57.494 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 4.7201ms
+2026-05-14 12:43:14.080 +02:00 [WRN] 'Me' is null.
+2026-05-14 12:43:14.081 +02:00 [WRN] 'Me' is null.
+2026-05-14 12:43:14.081 +02:00 [WRN] 'Me' is null.
+2026-05-14 12:44:16.821 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-14 12:44:16.824 +02:00 [INF] Disconnected [42548c1d-867a-4016-9cda-ec1a477c57d7].
+2026-05-14 12:44:16.824 +02:00 [INF] Updating active permission set to 'default'
+2026-05-14 12:44:16.857 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-14 12:44:16.857 +02:00 [INF] Acquired. (0ms)
+2026-05-14 12:44:16.857 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-14 12:44:16.858 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-14 12:44:16.858 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-14 12:44:16.858 +02:00 [INF] Clearing instance... (1ms)
+2026-05-14 12:44:16.858 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-14 12:44:16.858 +02:00 [INF] Released. (1ms)

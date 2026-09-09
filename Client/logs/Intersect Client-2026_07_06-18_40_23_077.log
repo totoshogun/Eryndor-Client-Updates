@@ -1,0 +1,75 @@
+2026-07-06 18:40:23.294 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-07-06 18:40:23.542 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-07-06 18:40:23.545 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-07-06 18:40:23.546 +02:00 [INF] Discovered 0 plugins:
+
+2026-07-06 18:40:25.828 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-07-06 18:40:25.838 +02:00 [INF] Connected [cae600f8-d3db-4f57-be86-f0317539b247].
+2026-07-06 18:40:25.849 +02:00 [INF] Connection approved [cae600f8-d3db-4f57-be86-f0317539b247].
+2026-07-06 18:40:25.952 +02:00 [INF] Updated PermissionSet 'default'
+2026-07-06 18:40:25.952 +02:00 [INF] Updated PermissionSet 'admin'
+2026-07-06 18:40:29.951 +02:00 [INF] Updating active permission set to 'admin'
+2026-07-06 18:40:31.845 +02:00 [WRN] 'Me' is null.
+2026-07-06 18:40:33.317 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 34.4696ms
+2026-07-06 18:40:33.327 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 9.7215ms
+2026-07-06 18:40:33.342 +02:00 [INF] Built VBO for map 000bacda-f0e9-4a92-ab09-e55bd4ad15c1 'New Map' in 8.9477ms
+2026-07-06 18:40:33.457 +02:00 [ERR] Exception thrown while trying to load 'resources/tilesets/water_shore_marker.png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass182_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 1027
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-07-06 18:40:33.458 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 115.1791ms
+2026-07-06 18:40:33.479 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 18.5095ms
+2026-07-06 18:40:33.491 +02:00 [INF] Built VBO for map f519d3ea-b6f4-4b17-b87a-1dcf003cd3ec 'New Map' in 10.8639ms
+2026-07-06 18:40:41.345 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Deep Forest' in 9.1692ms
+2026-07-06 18:40:41.365 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 19.1233ms
+2026-07-06 18:40:41.888 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 8.0705ms
+2026-07-06 18:40:42.429 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 50.4095ms
+2026-07-06 18:41:22.054 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 7.3053ms
+2026-07-06 18:41:22.073 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 18.3037ms
+2026-07-06 18:41:22.146 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 7.49ms
+2026-07-06 18:41:22.572 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 8.2684ms
+2026-07-06 18:41:23.111 +02:00 [INF] Built VBO for map 000bacda-f0e9-4a92-ab09-e55bd4ad15c1 'New Map' in 6.4099ms
+2026-07-06 18:41:23.638 +02:00 [INF] Built VBO for map f519d3ea-b6f4-4b17-b87a-1dcf003cd3ec 'New Map' in 8.2399ms
+2026-07-06 18:42:14.987 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 19.0064ms
+2026-07-06 18:42:15.058 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 7.4946ms
+2026-07-06 18:42:15.350 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 8.786ms
+2026-07-06 18:42:15.853 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 6.6005ms
+2026-07-06 18:42:16.905 +02:00 [INF] Built VBO for map 000bacda-f0e9-4a92-ab09-e55bd4ad15c1 'New Map' in 8.0614ms
+2026-07-06 18:42:17.398 +02:00 [INF] Built VBO for map f519d3ea-b6f4-4b17-b87a-1dcf003cd3ec 'New Map' in 7.0673ms
+2026-07-06 18:43:49.880 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 18.2349ms
+2026-07-06 18:43:49.948 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 7.6308ms
+2026-07-06 18:43:50.241 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 11.7983ms
+2026-07-06 18:43:50.791 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 8.1751ms
+2026-07-06 18:44:00.811 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 18.1126ms
+2026-07-06 18:44:00.880 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 7.5679ms
+2026-07-06 18:44:01.175 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 8.408ms
+2026-07-06 18:44:01.677 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 6.986ms
+2026-07-06 18:44:05.282 +02:00 [INF] Built VBO for map 000bacda-f0e9-4a92-ab09-e55bd4ad15c1 'New Map' in 7.7505ms
+2026-07-06 18:44:05.794 +02:00 [INF] Built VBO for map f519d3ea-b6f4-4b17-b87a-1dcf003cd3ec 'New Map' in 6.8198ms
+2026-07-06 18:45:35.493 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 18.2338ms
+2026-07-06 18:45:35.563 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 7.5098ms
+2026-07-06 18:45:35.857 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 11.2197ms
+2026-07-06 18:45:36.392 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 7.1168ms
+2026-07-06 18:46:19.139 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 17.8768ms
+2026-07-06 18:46:19.209 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 8.0826ms
+2026-07-06 18:46:19.495 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 10.2817ms
+2026-07-06 18:46:20.063 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 7.4388ms
+2026-07-06 18:46:29.311 +02:00 [INF] Built VBO for map 000bacda-f0e9-4a92-ab09-e55bd4ad15c1 'New Map' in 6.9466ms
+2026-07-06 18:46:29.816 +02:00 [INF] Built VBO for map f519d3ea-b6f4-4b17-b87a-1dcf003cd3ec 'New Map' in 7.4814ms
+2026-07-06 18:51:44.921 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-07-06 18:51:44.924 +02:00 [INF] Disconnected [cae600f8-d3db-4f57-be86-f0317539b247].
+2026-07-06 18:51:44.924 +02:00 [INF] Updating active permission set to 'default'
+2026-07-06 18:51:44.949 +02:00 [INF] Acquiring context lock... (0ms)
+2026-07-06 18:51:44.949 +02:00 [INF] Acquired. (0ms)
+2026-07-06 18:51:44.950 +02:00 [INF] Beginning context dispose. (0ms)
+2026-07-06 18:51:44.950 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-07-06 18:51:44.950 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-07-06 18:51:44.950 +02:00 [INF] Clearing instance... (1ms)
+2026-07-06 18:51:44.950 +02:00 [INF] Releasing context lock... (1ms)
+2026-07-06 18:51:44.950 +02:00 [INF] Released. (1ms)

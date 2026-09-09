@@ -1,0 +1,65 @@
+2026-06-05 08:25:22.646 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-06-05 08:25:22.866 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-06-05 08:25:22.870 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-06-05 08:25:22.871 +02:00 [INF] Discovered 0 plugins:
+
+2026-06-05 08:25:25.025 +02:00 [INF] Connecting to 95.156.227.207:5400...
+2026-06-05 08:25:25.100 +02:00 [INF] Connected [cb95b120-abb5-4fae-a609-0e349e9511f1].
+2026-06-05 08:25:25.111 +02:00 [INF] Connection approved [cb95b120-abb5-4fae-a609-0e349e9511f1].
+2026-06-05 08:25:25.204 +02:00 [INF] Updated PermissionSet 'default'
+2026-06-05 08:25:25.204 +02:00 [INF] Updated PermissionSet 'admin'
+2026-06-05 08:25:30.416 +02:00 [INF] Updating active permission set to 'admin'
+2026-06-05 08:25:31.140 +02:00 [WRN] 'Me' is null.
+2026-06-05 08:25:31.872 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 16.9695ms
+2026-06-05 08:25:31.874 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 1.0997ms
+2026-06-05 08:25:31.880 +02:00 [ERR] Exception thrown while trying to load 'resources/tilesets/water_shore_marker.png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass176_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 921
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-06-05 08:25:31.889 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 12.0531ms
+2026-06-05 08:25:31.901 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 4.2725ms
+2026-06-05 08:25:32.093 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 3.2385ms
+2026-06-05 08:25:35.227 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 2.8205ms
+2026-06-05 08:25:35.317 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 0.3843ms
+2026-06-05 08:25:54.953 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 2.4439ms
+2026-06-05 08:25:58.098 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 13.7472ms
+2026-06-05 08:26:00.604 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 7.894ms
+2026-06-05 08:26:00.616 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 1.9235ms
+2026-06-05 08:26:01.655 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 0.3638ms
+2026-06-05 08:26:01.705 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 10.2798ms
+2026-06-05 08:26:02.984 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 0.6596ms
+2026-06-05 08:26:05.434 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 19.4803ms
+2026-06-05 08:26:06.437 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 1.2407ms
+2026-06-05 08:26:07.322 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 16.9077ms
+2026-06-05 08:26:08.636 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 1.8231ms
+2026-06-05 08:26:09.698 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 0.9015ms
+2026-06-05 08:26:11.301 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 15.1222ms
+2026-06-05 08:26:11.940 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 1.2594ms
+2026-06-05 08:26:14.338 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 2.745ms
+2026-06-05 08:26:14.340 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 1.1811ms
+2026-06-05 08:26:16.649 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 2.7603ms
+2026-06-05 08:26:16.651 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 1.5418ms
+2026-06-05 08:26:20.388 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 3.9064ms
+2026-06-05 08:26:22.099 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 3.8033ms
+2026-06-05 08:26:38.726 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 1.2167ms
+2026-06-05 08:26:41.676 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 1.5536ms
+2026-06-05 08:26:44.207 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 1.057ms
+2026-06-05 08:26:49.440 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 2.2927ms
+2026-06-05 08:26:51.800 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 3.3387ms
+2026-06-05 08:28:54.566 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-06-05 08:28:54.569 +02:00 [INF] Disconnected [cb95b120-abb5-4fae-a609-0e349e9511f1].
+2026-06-05 08:28:54.570 +02:00 [INF] Updating active permission set to 'default'
+2026-06-05 08:28:54.593 +02:00 [INF] Acquiring context lock... (0ms)
+2026-06-05 08:28:54.594 +02:00 [INF] Acquired. (0ms)
+2026-06-05 08:28:54.594 +02:00 [INF] Beginning context dispose. (0ms)
+2026-06-05 08:28:54.595 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-06-05 08:28:54.595 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-06-05 08:28:54.595 +02:00 [INF] Clearing instance... (1ms)
+2026-06-05 08:28:54.595 +02:00 [INF] Releasing context lock... (1ms)
+2026-06-05 08:28:54.595 +02:00 [INF] Released. (1ms)

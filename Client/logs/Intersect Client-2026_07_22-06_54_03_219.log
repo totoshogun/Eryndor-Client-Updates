@@ -1,0 +1,33 @@
+2026-07-22 06:54:03.378 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-07-22 06:54:03.607 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-07-22 06:54:03.611 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-07-22 06:54:03.612 +02:00 [INF] Discovered 0 plugins:
+
+2026-07-22 06:54:04.065 +02:00 [INF] Graphics pacing configured: targetMode=-1, vsync=false, fixedStep=false, backBuffer=1760x990
+2026-07-22 06:54:05.553 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-07-22 06:54:05.562 +02:00 [INF] Connected [4018b20f-2297-445d-a908-d601a01b309b].
+2026-07-22 06:54:05.575 +02:00 [INF] Connection approved [4018b20f-2297-445d-a908-d601a01b309b].
+2026-07-22 06:54:05.659 +02:00 [INF] Updated PermissionSet 'default'
+2026-07-22 06:54:05.659 +02:00 [INF] Updated PermissionSet 'admin'
+2026-07-22 06:54:09.300 +02:00 [INF] Updating active permission set to 'admin'
+2026-07-22 06:54:12.681 +02:00 [WRN] 'Me' is null.
+2026-07-22 06:54:13.763 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 29.7851ms
+2026-07-22 06:54:13.775 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 9.0683ms
+2026-07-22 06:54:13.791 +02:00 [INF] Built VBO for map 000bacda-f0e9-4a92-ab09-e55bd4ad15c1 'New Map' in 12.3984ms
+2026-07-22 06:54:13.894 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 100.9046ms
+2026-07-22 06:54:13.933 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 34.0674ms
+2026-07-22 06:54:13.943 +02:00 [INF] Built VBO for map f519d3ea-b6f4-4b17-b87a-1dcf003cd3ec 'New Map' in 8.63ms
+2026-07-22 06:54:19.172 +02:00 [INF] Client frame profile: measured=285.1fps counter=374 targetMode=-1; interval=3.51/702.15ms avg/max; update=0.10/27.22ms (1.00 calls/frame); draw=3.20/674.84ms; world=2.34/641.34ms [scene=2.05/628.10, scene-detail=[tiles=0.23ms/12.0draws (geometry=0.22ms/12.0draws, water=0.01ms/0.0draws), objects=1.04ms/12.0draws, procedural=0.00ms/0.0draws, entities=0.43ms/1.0draws, effects=0.24ms/5.0draws, weather=0.03ms/0.0draws, other=0.08ms], lighting=0.03/7.02, post=0.07/31.80, overlays=0.09/12.90, other=0.10]; gui=0.82/86.76ms [update=0.74/66.99 (minimap=0.43/44.48 [compact=0.43, fullmap=0.00/0.00], other=0.31), render=0.08/19.77, other=0.00]; finish=0.02/1.87ms; outside-update-draw=0.21ms; draws=48, maps=1, entities=20, lights=2
+2026-07-22 06:54:24.194 +02:00 [INF] Client frame profile: measured=245.3fps counter=39 targetMode=-1; interval=4.08/35.41ms avg/max; update=0.06/4.09ms (1.00 calls/frame); draw=2.06/18.02ms; world=1.37/17.42ms [scene=1.15/15.09, scene-detail=[tiles=0.21ms/12.0draws (geometry=0.21ms/12.0draws, water=0.00ms/0.0draws), objects=0.56ms/12.0draws, procedural=0.00ms/0.0draws, entities=0.21ms/1.0draws, effects=0.10ms/5.0draws, weather=0.02ms/0.0draws, other=0.05ms], lighting=0.02/0.12, post=0.04/0.14, overlays=0.06/5.12, other=0.10]; gui=0.66/13.75ms [update=0.61/13.63 (minimap=0.41/13.20 [compact=0.41, fullmap=0.00/0.00], other=0.20), render=0.05/0.24, other=0.00]; finish=0.02/0.07ms; outside-update-draw=1.96ms; draws=48, maps=1, entities=19, lights=2
+2026-07-22 06:54:29.201 +02:00 [INF] Client frame profile: measured=37.9fps counter=38 targetMode=-1; interval=26.35/46.79ms avg/max; update=0.17/1.96ms (1.00 calls/frame); draw=5.59/26.12ms; world=2.11/15.68ms [scene=1.81/15.40, scene-detail=[tiles=0.28ms/12.0draws (geometry=0.27ms/12.0draws, water=0.01ms/0.0draws), objects=0.76ms/12.0draws, procedural=0.00ms/0.0draws, entities=0.51ms/1.3draws, effects=0.15ms/5.0draws, weather=0.03ms/0.0draws, other=0.08ms], lighting=0.03/0.06, post=0.06/0.12, overlays=0.09/1.80, other=0.12]; gui=3.42/16.06ms [update=3.32/15.90 (minimap=2.80/12.12 [compact=2.80, fullmap=0.00/0.00], other=0.52), render=0.10/0.35, other=0.00]; finish=0.03/0.12ms; outside-update-draw=20.59ms; draws=48, maps=1, entities=19, lights=2
+2026-07-22 06:54:32.203 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-07-22 06:54:32.206 +02:00 [INF] Disconnected [4018b20f-2297-445d-a908-d601a01b309b].
+2026-07-22 06:54:32.207 +02:00 [INF] Updating active permission set to 'default'
+2026-07-22 06:54:32.237 +02:00 [INF] Acquiring context lock... (0ms)
+2026-07-22 06:54:32.238 +02:00 [INF] Acquired. (0ms)
+2026-07-22 06:54:32.238 +02:00 [INF] Beginning context dispose. (0ms)
+2026-07-22 06:54:32.238 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-07-22 06:54:32.239 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-07-22 06:54:32.239 +02:00 [INF] Clearing instance... (1ms)
+2026-07-22 06:54:32.239 +02:00 [INF] Releasing context lock... (1ms)
+2026-07-22 06:54:32.239 +02:00 [INF] Released. (1ms)

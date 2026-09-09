@@ -1,0 +1,48 @@
+2026-04-07 12:55:02.110 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-07 12:55:02.310 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-07 12:55:02.313 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-07 12:55:02.314 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-07 12:55:04.427 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-07 12:55:04.435 +06:00 [INF] Connected [50bf43c5-244d-45f1-ab0b-0d003fc31e35].
+2026-04-07 12:55:04.443 +06:00 [INF] Connection approved [50bf43c5-244d-45f1-ab0b-0d003fc31e35].
+2026-04-07 12:55:04.511 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-07 12:55:04.511 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-07 12:55:07.325 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-07 12:55:08.060 +06:00 [WRN] 'Me' is null.
+2026-04-07 12:55:08.607 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 20.6353ms
+2026-04-07 12:55:08.618 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 7.3094ms
+2026-04-07 12:55:37.517 +06:00 [INF] Disconnected [50bf43c5-244d-45f1-ab0b-0d003fc31e35].
+2026-04-07 12:56:37.727 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-07 12:56:37.731 +06:00 [INF] Connected [d0534fb7-3de6-44b8-b930-477288840a55].
+2026-04-07 12:56:37.739 +06:00 [INF] Connection approved [d0534fb7-3de6-44b8-b930-477288840a55].
+2026-04-07 12:56:37.756 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-07 12:56:37.756 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-07 12:56:42.001 +06:00 [WRN] 'Me' is null.
+2026-04-07 12:56:42.039 +06:00 [WRN] Tried to load entity "8ccf7c97-b44d-48ab-b0e9-3474ea71773e" (test) from packet before in-game UI was ready
+2026-04-07 12:56:42.039 +06:00 [WRN] Tried to load entity "8ccf7c97-b44d-48ab-b0e9-3474ea71773e" (test) from packet before in-game UI was ready
+2026-04-07 12:56:42.169 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 1.8506ms
+2026-04-07 12:56:42.171 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 1.5765ms
+2026-04-07 12:58:29.400 +06:00 [INF] Disconnected [d0534fb7-3de6-44b8-b930-477288840a55].
+2026-04-07 12:58:29.400 +06:00 [INF] Updating active permission set to 'default'
+2026-04-07 12:58:31.368 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-07 12:58:31.372 +06:00 [INF] Connected [24f1cda4-ba5f-4c1e-817a-7fd7769ec96a].
+2026-04-07 12:58:31.373 +06:00 [INF] Connection approved [24f1cda4-ba5f-4c1e-817a-7fd7769ec96a].
+2026-04-07 12:58:31.401 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-07 12:58:31.401 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-07 12:58:36.618 +06:00 [WRN] 'Me' is null.
+2026-04-07 12:58:36.637 +06:00 [WRN] Tried to load entity "8ccf7c97-b44d-48ab-b0e9-3474ea71773e" (test) from packet before in-game UI was ready
+2026-04-07 12:58:36.786 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 1.7633ms
+2026-04-07 12:58:36.788 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 1.4683ms
+2026-04-07 12:58:47.836 +06:00 [INF] Disconnected [24f1cda4-ba5f-4c1e-817a-7fd7769ec96a].
+2026-04-07 12:58:47.836 +06:00 [INF] Updating active permission set to 'default'
+2026-04-07 12:58:49.416 +06:00 [INF] User clicked exit button.
+2026-04-07 12:58:49.434 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-07 12:58:49.498 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-07 12:58:49.498 +06:00 [INF] Acquired. (0ms)
+2026-04-07 12:58:49.499 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-07 12:58:49.499 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-07 12:58:49.499 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-07 12:58:49.499 +06:00 [INF] Clearing instance... (1ms)
+2026-04-07 12:58:49.499 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-07 12:58:49.499 +06:00 [INF] Released. (1ms)

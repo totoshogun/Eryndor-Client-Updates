@@ -1,0 +1,28 @@
+2026-03-22 22:24:46.229 +01:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-03-22 22:24:46.657 +01:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-03-22 22:24:46.667 +01:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-03-22 22:24:46.668 +01:00 [INF] Discovered 0 plugins:
+
+2026-03-22 22:24:48.850 +01:00 [INF] Connecting to 127.0.0.1:5400...
+2026-03-22 22:24:48.858 +01:00 [INF] Connected [8a9f7c58-1171-421b-b356-44e63fb63fb4].
+2026-03-22 22:24:48.863 +01:00 [INF] Connection approved [8a9f7c58-1171-421b-b356-44e63fb63fb4].
+2026-03-22 22:24:48.929 +01:00 [INF] Updated PermissionSet 'default'
+2026-03-22 22:24:48.929 +01:00 [INF] Updated PermissionSet 'admin'
+2026-03-22 22:24:49.727 +01:00 [INF] Updating active permission set to 'admin'
+2026-03-22 22:24:49.793 +01:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-03-22 22:24:50.552 +01:00 [WRN] 'Me' is null.
+2026-03-22 22:24:51.112 +01:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 16.0928ms
+2026-03-22 22:24:51.123 +01:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 6.5937ms
+2026-03-22 22:24:52.052 +01:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'test 4' in 2.2988ms
+2026-03-22 22:24:54.342 +01:00 [INF] Built VBO for map 23382d57-1bd1-403a-8f4f-50e5ad24e8a0 'test1' in 5.4915ms
+2026-03-22 22:27:18.001 +01:00 [INF] System window closing (due to user interaction most likely).
+2026-03-22 22:27:18.004 +01:00 [INF] Disconnected [8a9f7c58-1171-421b-b356-44e63fb63fb4].
+2026-03-22 22:27:18.005 +01:00 [INF] Updating active permission set to 'default'
+2026-03-22 22:27:18.085 +01:00 [INF] Acquiring context lock... (0ms)
+2026-03-22 22:27:18.085 +01:00 [INF] Acquired. (0ms)
+2026-03-22 22:27:18.086 +01:00 [INF] Beginning context dispose. (0ms)
+2026-03-22 22:27:18.086 +01:00 [INF] GC.SuppressFinalize (0ms)
+2026-03-22 22:27:18.086 +01:00 [INF] InternalDispose() completed. (0ms)
+2026-03-22 22:27:18.086 +01:00 [INF] Clearing instance... (1ms)
+2026-03-22 22:27:18.086 +01:00 [INF] Releasing context lock... (1ms)
+2026-03-22 22:27:18.086 +01:00 [INF] Released. (1ms)

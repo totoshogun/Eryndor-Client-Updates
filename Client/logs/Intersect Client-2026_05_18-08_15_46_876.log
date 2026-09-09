@@ -1,0 +1,26 @@
+2026-05-18 08:15:47.171 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-18 08:15:47.379 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-18 08:15:47.383 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-18 08:15:47.384 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-18 08:15:49.531 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-18 08:15:49.540 +02:00 [INF] Connected [eac59957-039c-4380-8c23-d027568e0f11].
+2026-05-18 08:15:49.556 +02:00 [INF] Connection approved [eac59957-039c-4380-8c23-d027568e0f11].
+2026-05-18 08:15:49.644 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-18 08:15:49.644 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-18 08:15:53.285 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-18 08:15:53.827 +02:00 [WRN] 'Me' is null.
+2026-05-18 08:15:54.555 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 12.0088ms
+2026-05-18 08:16:18.111 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 3.7299ms
+2026-05-18 08:21:28.909 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 60.2035ms
+2026-05-18 08:23:36.861 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-18 08:23:36.866 +02:00 [INF] Disconnected [eac59957-039c-4380-8c23-d027568e0f11].
+2026-05-18 08:23:36.867 +02:00 [INF] Updating active permission set to 'default'
+2026-05-18 08:23:36.958 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-18 08:23:36.958 +02:00 [INF] Acquired. (0ms)
+2026-05-18 08:23:36.960 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-18 08:23:36.961 +02:00 [INF] GC.SuppressFinalize (1ms)
+2026-05-18 08:23:36.961 +02:00 [INF] InternalDispose() completed. (1ms)
+2026-05-18 08:23:36.961 +02:00 [INF] Clearing instance... (3ms)
+2026-05-18 08:23:36.961 +02:00 [INF] Releasing context lock... (3ms)
+2026-05-18 08:23:36.961 +02:00 [INF] Released. (3ms)

@@ -1,0 +1,41 @@
+2026-05-26 03:18:35.543 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-26 03:18:35.756 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-26 03:18:35.760 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-26 03:18:35.761 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-26 03:18:37.821 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-26 03:18:37.844 +02:00 [INF] Connected [d8c424fa-9025-4877-904f-41a36fa3aa04].
+2026-05-26 03:18:37.859 +02:00 [INF] Connection approved [d8c424fa-9025-4877-904f-41a36fa3aa04].
+2026-05-26 03:18:37.958 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-26 03:18:42.274 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-26 03:18:42.275 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-26 03:18:42.981 +02:00 [WRN] 'Me' is null.
+2026-05-26 03:18:43.609 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 12.2136ms
+2026-05-26 03:18:43.639 +02:00 [INF] Window light shader 'Intersect.Client.Resources.Shaders.windowlight.mgfxo' loaded successfully with 9 parameters
+2026-05-26 03:19:03.073 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0499ms
+2026-05-26 03:19:31.312 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.9387ms
+2026-05-26 03:20:36.496 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0706ms
+2026-05-26 03:21:22.749 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.1464ms
+2026-05-26 03:21:56.878 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0493ms
+2026-05-26 03:22:30.900 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0738ms
+2026-05-26 03:23:02.367 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.016ms
+2026-05-26 03:23:21.844 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 0.9446ms
+2026-05-26 03:23:45.210 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0085ms
+2026-05-26 03:23:53.663 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0275ms
+2026-05-26 03:24:04.844 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 0.9462ms
+2026-05-26 03:24:25.325 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 0.9249ms
+2026-05-26 03:25:16.079 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 0.9805ms
+2026-05-26 03:25:39.459 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 0.9862ms
+2026-05-26 03:26:16.241 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.186ms
+2026-05-26 03:26:40.604 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0166ms
+2026-05-26 03:30:43.317 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-26 03:30:43.320 +02:00 [INF] Disconnected [d8c424fa-9025-4877-904f-41a36fa3aa04].
+2026-05-26 03:30:43.321 +02:00 [INF] Updating active permission set to 'default'
+2026-05-26 03:30:43.425 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-26 03:30:43.425 +02:00 [INF] Acquired. (0ms)
+2026-05-26 03:30:43.426 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-26 03:30:43.426 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-26 03:30:43.426 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-26 03:30:43.426 +02:00 [INF] Clearing instance... (1ms)
+2026-05-26 03:30:43.426 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-26 03:30:43.426 +02:00 [INF] Released. (1ms)

@@ -1,0 +1,31 @@
+2026-05-29 21:10:55.394 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-29 21:10:55.605 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-29 21:10:55.609 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-29 21:10:55.610 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-29 21:10:59.598 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-29 21:10:59.606 +02:00 [INF] Connected [ce1a4905-04b5-419a-a728-e34dfc0508d0].
+2026-05-29 21:10:59.614 +02:00 [INF] Connection approved [ce1a4905-04b5-419a-a728-e34dfc0508d0].
+2026-05-29 21:10:59.708 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-29 21:10:59.708 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-29 21:11:03.988 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-29 21:11:04.612 +02:00 [WRN] 'Me' is null.
+2026-05-29 21:11:05.313 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 12.5315ms
+2026-05-29 21:11:05.343 +02:00 [INF] Window light shader 'Intersect.Client.Resources.Shaders.windowlight.mgfxo' loaded successfully with 11 parameters
+2026-05-29 21:11:55.894 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.1488ms
+2026-05-29 21:12:31.255 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0633ms
+2026-05-29 21:14:40.282 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 0.9839ms
+2026-05-29 21:14:57.840 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 0.9567ms
+2026-05-29 21:17:13.240 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0438ms
+2026-05-29 21:18:40.196 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 0.9777ms
+2026-05-29 21:23:06.038 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-29 21:23:06.041 +02:00 [INF] Disconnected [ce1a4905-04b5-419a-a728-e34dfc0508d0].
+2026-05-29 21:23:06.042 +02:00 [INF] Updating active permission set to 'default'
+2026-05-29 21:23:06.077 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-29 21:23:06.077 +02:00 [INF] Acquired. (0ms)
+2026-05-29 21:23:06.078 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-29 21:23:06.078 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-29 21:23:06.078 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-29 21:23:06.078 +02:00 [INF] Clearing instance... (1ms)
+2026-05-29 21:23:06.078 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-29 21:23:06.078 +02:00 [INF] Released. (1ms)

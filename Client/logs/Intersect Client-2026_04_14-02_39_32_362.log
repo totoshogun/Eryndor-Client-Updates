@@ -1,0 +1,28 @@
+2026-04-14 02:39:32.568 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-14 02:39:32.768 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-14 02:39:32.771 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-14 02:39:32.772 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-14 02:39:34.845 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-14 02:39:34.864 +06:00 [INF] Connected [a6423f4c-7ea8-4025-8e10-862790f9c763].
+2026-04-14 02:39:34.879 +06:00 [INF] Connection approved [a6423f4c-7ea8-4025-8e10-862790f9c763].
+2026-04-14 02:39:34.973 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-14 02:39:40.051 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-14 02:39:40.052 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-14 02:39:40.178 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-14 02:39:42.057 +06:00 [WRN] 'Me' is null.
+2026-04-14 02:39:42.604 +06:00 [INF] Built VBO for map 23630ac6-4461-460d-8a3b-9a0d4477096f 'test 8' in 17.2346ms
+2026-04-14 02:39:42.658 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 48.4932ms
+2026-04-14 02:39:42.663 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 4.2455ms
+2026-04-14 02:40:13.160 +06:00 [INF] Disconnected [a6423f4c-7ea8-4025-8e10-862790f9c763].
+2026-04-14 02:40:13.160 +06:00 [INF] Updating active permission set to 'default'
+2026-04-14 02:40:14.517 +06:00 [INF] User clicked exit button.
+2026-04-14 02:40:14.536 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-14 02:40:14.568 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-14 02:40:14.568 +06:00 [INF] Acquired. (0ms)
+2026-04-14 02:40:14.569 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-14 02:40:14.569 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-14 02:40:14.570 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-14 02:40:14.570 +06:00 [INF] Clearing instance... (1ms)
+2026-04-14 02:40:14.570 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-14 02:40:14.570 +06:00 [INF] Released. (1ms)

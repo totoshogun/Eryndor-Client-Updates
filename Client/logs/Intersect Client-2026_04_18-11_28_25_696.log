@@ -1,0 +1,37 @@
+2026-04-18 11:28:25.838 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-18 11:28:26.035 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-18 11:28:26.038 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-18 11:28:26.039 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-18 11:28:28.642 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-18 11:28:28.649 +06:00 [INF] Connected [91d5fd19-6090-47c2-a29f-c2d292f9cf66].
+2026-04-18 11:28:28.656 +06:00 [INF] Connection approved [91d5fd19-6090-47c2-a29f-c2d292f9cf66].
+2026-04-18 11:28:28.733 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-18 11:28:28.733 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-18 11:28:31.878 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-18 11:28:32.722 +06:00 [WRN] 'Me' is null.
+2026-04-18 11:28:33.281 +06:00 [INF] Built VBO for map 23630ac6-4461-460d-8a3b-9a0d4477096f 'test 8' in 16.7561ms
+2026-04-18 11:28:33.307 +06:00 [ERR] Exception thrown while trying to load 'resources/tilesets/pixellab-pixel-art-asset-sheet-featurin-1775656194302.png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\pixellab-pixel-art-asset-sheet-featurin-1775656194302.png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\pixellab-pixel-art-asset-sheet-featurin-1775656194302.png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass145_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 648
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-04-18 11:28:33.331 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'forest' in 45.3609ms
+2026-04-18 11:28:33.339 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 6.9379ms
+2026-04-18 11:28:39.806 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 26.4937ms
+2026-04-18 11:33:17.068 +06:00 [INF] Built VBO for map 23630ac6-4461-460d-8a3b-9a0d4477096f 'test 8' in 3.6078ms
+2026-04-18 11:33:43.735 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-18 11:33:43.739 +06:00 [INF] Disconnected [91d5fd19-6090-47c2-a29f-c2d292f9cf66].
+2026-04-18 11:33:43.762 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-18 11:33:43.762 +06:00 [INF] Acquired. (0ms)
+2026-04-18 11:33:43.763 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-18 11:33:43.763 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-18 11:33:43.763 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-18 11:33:43.763 +06:00 [INF] Clearing instance... (1ms)
+2026-04-18 11:33:43.764 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-18 11:33:43.764 +06:00 [INF] Released. (1ms)

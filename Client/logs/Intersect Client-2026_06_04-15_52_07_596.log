@@ -1,0 +1,43 @@
+2026-06-04 15:52:07.766 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-06-04 15:52:07.991 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-06-04 15:52:07.995 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-06-04 15:52:07.996 +02:00 [INF] Discovered 0 plugins:
+
+2026-06-04 15:52:11.095 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-06-04 15:52:11.104 +02:00 [INF] Connected [8c84c7fd-e247-417d-b248-b5fe507fff67].
+2026-06-04 15:52:11.115 +02:00 [INF] Connection approved [8c84c7fd-e247-417d-b248-b5fe507fff67].
+2026-06-04 15:52:11.199 +02:00 [INF] Updated PermissionSet 'default'
+2026-06-04 15:52:11.199 +02:00 [INF] Updated PermissionSet 'admin'
+2026-06-04 15:52:15.192 +02:00 [INF] Updating active permission set to 'admin'
+2026-06-04 15:52:15.953 +02:00 [WRN] 'Me' is null.
+2026-06-04 15:52:16.685 +02:00 [ERR] Exception thrown while trying to load 'resources/tilesets/water_shore_marker.png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass176_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 921
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-06-04 15:52:16.823 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 21.0009ms
+2026-06-04 15:52:16.883 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 48.8889ms
+2026-06-04 15:52:20.799 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 16.9525ms
+2026-06-04 15:52:55.299 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 4.6762ms
+2026-06-04 15:53:12.831 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 4.7114ms
+2026-06-04 15:53:40.397 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 4.125ms
+2026-06-04 15:53:52.167 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 3.8961ms
+2026-06-04 15:54:02.152 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 3.9439ms
+2026-06-04 15:54:15.652 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 4.3297ms
+2026-06-04 15:54:43.962 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 3.9092ms
+2026-06-04 15:54:47.288 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 4.2995ms
+2026-06-04 15:55:59.086 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-06-04 15:55:59.089 +02:00 [INF] Disconnected [8c84c7fd-e247-417d-b248-b5fe507fff67].
+2026-06-04 15:55:59.090 +02:00 [INF] Updating active permission set to 'default'
+2026-06-04 15:55:59.126 +02:00 [INF] Acquiring context lock... (0ms)
+2026-06-04 15:55:59.127 +02:00 [INF] Acquired. (0ms)
+2026-06-04 15:55:59.128 +02:00 [INF] Beginning context dispose. (0ms)
+2026-06-04 15:55:59.128 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-06-04 15:55:59.128 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-06-04 15:55:59.128 +02:00 [INF] Clearing instance... (1ms)
+2026-06-04 15:55:59.128 +02:00 [INF] Releasing context lock... (1ms)
+2026-06-04 15:55:59.128 +02:00 [INF] Released. (1ms)

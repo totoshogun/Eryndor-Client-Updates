@@ -1,0 +1,53 @@
+2026-04-29 22:08:06.945 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-29 22:08:07.290 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-29 22:08:07.295 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-29 22:08:07.297 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-29 22:08:09.970 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-29 22:08:09.996 +06:00 [INF] Connected [0a4a6c01-99a8-4375-9a7a-9e618300caad].
+2026-04-29 22:08:10.016 +06:00 [INF] Connection approved [0a4a6c01-99a8-4375-9a7a-9e618300caad].
+2026-04-29 22:08:10.143 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-29 22:08:14.335 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-29 22:08:14.336 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-29 22:08:15.130 +06:00 [WRN] 'Me' is null.
+2026-04-29 22:08:15.977 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 10.5846ms
+2026-04-29 22:08:44.186 +06:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 4.0923ms
+2026-04-29 22:09:43.984 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'test' in 1.6696ms
+2026-04-29 22:10:22.775 +06:00 [INF] Disconnected [0a4a6c01-99a8-4375-9a7a-9e618300caad].
+2026-04-29 22:10:22.776 +06:00 [INF] Updating active permission set to 'default'
+2026-04-29 22:10:23.027 +06:00 [WRN] 'Me' is null.
+2026-04-29 22:10:23.027 +06:00 [WRN] 'Me' is null.
+2026-04-29 22:10:23.027 +06:00 [WRN] 'Me' is null.
+2026-04-29 22:14:06.189 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-29 22:14:06.194 +06:00 [INF] Connected [58971e4a-5790-4fa6-b188-6f28345a443e].
+2026-04-29 22:14:06.201 +06:00 [INF] Connection approved [58971e4a-5790-4fa6-b188-6f28345a443e].
+2026-04-29 22:14:06.218 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-29 22:14:06.218 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-29 22:14:16.014 +06:00 [INF] Disconnected [58971e4a-5790-4fa6-b188-6f28345a443e].
+2026-04-29 22:14:16.015 +06:00 [INF] Updating active permission set to 'default'
+2026-04-29 22:15:49.341 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-29 22:15:49.346 +06:00 [INF] Connected [3535df41-03f7-4109-a467-42b2d27ce26c].
+2026-04-29 22:15:49.362 +06:00 [INF] Connection approved [3535df41-03f7-4109-a467-42b2d27ce26c].
+2026-04-29 22:15:49.369 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-29 22:15:49.369 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-29 22:15:52.891 +06:00 [INF] Music volume set to 10 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-04-29 22:15:52.892 +06:00 [INF] Sound volume set to 15 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-04-29 22:15:54.044 +06:00 [INF] Disconnected [3535df41-03f7-4109-a467-42b2d27ce26c].
+2026-04-29 22:15:54.044 +06:00 [INF] Updating active permission set to 'default'
+2026-04-29 22:15:55.497 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-29 22:15:55.502 +06:00 [INF] Connected [8360839d-4f93-42e8-8245-f9a85d407ba6].
+2026-04-29 22:15:55.516 +06:00 [INF] Connection approved [8360839d-4f93-42e8-8245-f9a85d407ba6].
+2026-04-29 22:15:55.532 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-29 22:15:55.532 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-29 22:15:59.847 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-29 22:16:21.437 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-29 22:16:21.437 +06:00 [INF] Disconnected [8360839d-4f93-42e8-8245-f9a85d407ba6].
+2026-04-29 22:16:21.438 +06:00 [INF] Updating active permission set to 'default'
+2026-04-29 22:16:21.475 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-29 22:16:21.475 +06:00 [INF] Acquired. (0ms)
+2026-04-29 22:16:21.475 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-29 22:16:21.476 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-29 22:16:21.476 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-29 22:16:21.476 +06:00 [INF] Clearing instance... (1ms)
+2026-04-29 22:16:21.476 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-29 22:16:21.476 +06:00 [INF] Released. (1ms)

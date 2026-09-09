@@ -1,0 +1,50 @@
+2026-04-27 17:17:35.087 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-27 17:17:35.285 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-27 17:17:35.287 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-27 17:17:35.288 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-27 17:17:35.474 +06:00 [WRN] AdminWindow.SetDay is null.
+2026-04-27 17:17:35.475 +06:00 [WRN] AdminWindow.SetNight is null.
+2026-04-27 17:17:35.475 +06:00 [WRN] AdminWindow.GodMode is null.
+2026-04-27 17:17:35.475 +06:00 [WRN] AdminWindow.HealMe is null.
+2026-04-27 17:17:35.475 +06:00 [WRN] AdminWindow.HealPlayer is null.
+2026-04-27 17:17:35.475 +06:00 [WRN] AdminWindow.FreezePlayer is null.
+2026-04-27 17:17:35.475 +06:00 [WRN] AdminWindow.UnfreezePlayer is null.
+2026-04-27 17:17:35.475 +06:00 [WRN] AdminWindow.Announce is null.
+2026-04-27 17:17:35.475 +06:00 [WRN] AdminWindow.AnnouncePlaceholder is null.
+2026-04-27 17:17:35.475 +06:00 [WRN] AdminWindow.GiveXp is null.
+2026-04-27 17:17:35.475 +06:00 [WRN] AdminWindow.WorldTools is null.
+2026-04-27 17:17:35.475 +06:00 [WRN] AdminWindow.PlayerTools is null.
+2026-04-27 17:17:35.496 +06:00 [WRN] Missing strings, overwriting strings file:
+	AdminWindow.SetDay (string),
+	AdminWindow.SetNight (string),
+	AdminWindow.GodMode (string),
+	AdminWindow.HealMe (string),
+	AdminWindow.HealPlayer (string),
+	AdminWindow.FreezePlayer (string),
+	AdminWindow.UnfreezePlayer (string),
+	AdminWindow.Announce (string),
+	AdminWindow.AnnouncePlaceholder (string),
+	AdminWindow.GiveXp (string),
+	AdminWindow.WorldTools (string),
+	AdminWindow.PlayerTools (string)
+2026-04-27 17:17:37.275 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-27 17:17:37.293 +06:00 [INF] Connected [98fe1db6-22a7-44b1-a2fd-6fc25cabce68].
+2026-04-27 17:17:37.314 +06:00 [INF] Connection approved [98fe1db6-22a7-44b1-a2fd-6fc25cabce68].
+2026-04-27 17:17:37.387 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-27 17:17:40.998 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-27 17:17:40.999 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-27 17:17:41.136 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-27 17:17:41.690 +06:00 [WRN] 'Me' is null.
+2026-04-27 17:17:42.314 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 9.7128ms
+2026-04-27 17:19:26.054 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-27 17:19:26.057 +06:00 [INF] Disconnected [98fe1db6-22a7-44b1-a2fd-6fc25cabce68].
+2026-04-27 17:19:26.058 +06:00 [INF] Updating active permission set to 'default'
+2026-04-27 17:19:26.097 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-27 17:19:26.097 +06:00 [INF] Acquired. (0ms)
+2026-04-27 17:19:26.098 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-27 17:19:26.098 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-27 17:19:26.098 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-27 17:19:26.098 +06:00 [INF] Clearing instance... (1ms)
+2026-04-27 17:19:26.098 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-27 17:19:26.098 +06:00 [INF] Released. (1ms)

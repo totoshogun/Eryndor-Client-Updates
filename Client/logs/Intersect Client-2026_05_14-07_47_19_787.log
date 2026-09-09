@@ -1,0 +1,26 @@
+2026-05-14 07:47:20.063 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-14 07:47:20.257 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-14 07:47:20.260 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-14 07:47:20.261 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-14 07:47:24.624 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-14 07:47:24.642 +02:00 [INF] Connected [acdd79d8-cc95-4330-8446-c7c9dda67127].
+2026-05-14 07:47:24.659 +02:00 [INF] Connection approved [acdd79d8-cc95-4330-8446-c7c9dda67127].
+2026-05-14 07:47:24.776 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-14 07:47:29.722 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-14 07:47:29.722 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-14 07:47:30.413 +02:00 [WRN] 'Me' is null.
+2026-05-14 07:47:31.087 +02:00 [INF] Built VBO for map 24cc8989-0a45-4ecb-bf58-41efcefcaeb8 'Test' in 22.8404ms
+2026-05-14 07:50:46.246 +02:00 [INF] Built VBO for map 24cc8989-0a45-4ecb-bf58-41efcefcaeb8 'Test' in 3.8835ms
+2026-05-14 07:51:05.948 +02:00 [INF] Built VBO for map 24cc8989-0a45-4ecb-bf58-41efcefcaeb8 'Test' in 5.0571ms
+2026-05-14 07:52:37.353 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-14 07:52:37.356 +02:00 [INF] Disconnected [acdd79d8-cc95-4330-8446-c7c9dda67127].
+2026-05-14 07:52:37.357 +02:00 [INF] Updating active permission set to 'default'
+2026-05-14 07:52:37.398 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-14 07:52:37.398 +02:00 [INF] Acquired. (0ms)
+2026-05-14 07:52:37.399 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-14 07:52:37.399 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-14 07:52:37.399 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-14 07:52:37.399 +02:00 [INF] Clearing instance... (1ms)
+2026-05-14 07:52:37.399 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-14 07:52:37.399 +02:00 [INF] Released. (1ms)

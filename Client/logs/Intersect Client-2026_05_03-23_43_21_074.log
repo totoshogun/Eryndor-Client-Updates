@@ -1,0 +1,27 @@
+2026-05-03 23:43:21.241 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-03 23:43:21.495 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-03 23:43:21.499 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-03 23:43:21.499 +06:00 [INF] Discovered 0 plugins:
+
+2026-05-03 23:43:23.752 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-03 23:43:23.761 +06:00 [INF] Connected [4bbec760-5cce-4121-b2a7-fda0f4a30bd7].
+2026-05-03 23:43:23.765 +06:00 [INF] Connection approved [4bbec760-5cce-4121-b2a7-fda0f4a30bd7].
+2026-05-03 23:43:23.868 +06:00 [INF] Updated PermissionSet 'default'
+2026-05-03 23:43:23.868 +06:00 [INF] Updated PermissionSet 'admin'
+2026-05-03 23:43:29.679 +06:00 [INF] Updating active permission set to 'admin'
+2026-05-03 23:43:30.653 +06:00 [WRN] 'Me' is null.
+2026-05-03 23:43:31.292 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 15.3385ms
+2026-05-03 23:43:41.649 +06:00 [INF] Built VBO for map 76be5706-b095-4067-bb9a-6d1601929c5b 'Copy of Forest' in 4.1886ms
+2026-05-03 23:43:42.878 +06:00 [INF] Ignoring warp to map 'Copy of Forest' ("76be5706-b095-4067-bb9a-6d1601929c5b") because the player is already on the map
+2026-05-03 23:43:43.347 +06:00 [INF] Built VBO for map 24cc8989-0a45-4ecb-bf58-41efcefcaeb8 'Copy of Forest' in 1.9781ms
+2026-05-03 23:43:49.277 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-05-03 23:43:49.280 +06:00 [INF] Disconnected [4bbec760-5cce-4121-b2a7-fda0f4a30bd7].
+2026-05-03 23:43:49.281 +06:00 [INF] Updating active permission set to 'default'
+2026-05-03 23:43:49.318 +06:00 [INF] Acquiring context lock... (0ms)
+2026-05-03 23:43:49.318 +06:00 [INF] Acquired. (0ms)
+2026-05-03 23:43:49.319 +06:00 [INF] Beginning context dispose. (0ms)
+2026-05-03 23:43:49.319 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-03 23:43:49.319 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-05-03 23:43:49.319 +06:00 [INF] Clearing instance... (1ms)
+2026-05-03 23:43:49.319 +06:00 [INF] Releasing context lock... (1ms)
+2026-05-03 23:43:49.319 +06:00 [INF] Released. (1ms)

@@ -1,0 +1,51 @@
+2026-07-05 04:46:09.190 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-07-05 04:46:09.469 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-07-05 04:46:09.474 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-07-05 04:46:09.475 +02:00 [INF] Discovered 0 plugins:
+
+2026-07-05 04:46:11.933 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-07-05 04:46:11.956 +02:00 [INF] Connected [a906d0be-6fca-46eb-8001-80c22730fb40].
+2026-07-05 04:46:11.974 +02:00 [INF] Connection approved [a906d0be-6fca-46eb-8001-80c22730fb40].
+2026-07-05 04:46:12.079 +02:00 [INF] Updated PermissionSet 'default'
+2026-07-05 04:46:17.351 +02:00 [INF] Updated PermissionSet 'admin'
+2026-07-05 04:46:17.352 +02:00 [INF] Updating active permission set to 'admin'
+2026-07-05 04:46:19.811 +02:00 [WRN] 'Me' is null.
+2026-07-05 04:46:20.279 +02:00 [WRN] Failed to deserialized cached data for ObjectCacheKey { Id = Id { Guid = 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 }, Checksum = , Version =  }, will fetch again
+2026-07-05 04:46:20.279 +02:00 [WRN] Failed to deserialized cached data for ObjectCacheKey { Id = Id { Guid = d490222a-af25-4a7f-bec3-7ca8016e08d7 }, Checksum = , Version =  }, will fetch again
+2026-07-05 04:46:20.280 +02:00 [WRN] Failed to deserialized cached data for ObjectCacheKey { Id = Id { Guid = 000bacda-f0e9-4a92-ab09-e55bd4ad15c1 }, Checksum = , Version =  }, will fetch again
+2026-07-05 04:46:20.281 +02:00 [WRN] Failed to deserialized cached data for ObjectCacheKey { Id = Id { Guid = 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 }, Checksum = , Version =  }, will fetch again
+2026-07-05 04:46:20.281 +02:00 [WRN] Failed to deserialized cached data for ObjectCacheKey { Id = Id { Guid = f519d3ea-b6f4-4b17-b87a-1dcf003cd3ec }, Checksum = , Version =  }, will fetch again
+2026-07-05 04:46:20.282 +02:00 [WRN] Failed to deserialized cached data for ObjectCacheKey { Id = Id { Guid = e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 }, Checksum = , Version =  }, will fetch again
+2026-07-05 04:46:20.950 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 29.3238ms
+2026-07-05 04:46:20.957 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 6.1128ms
+2026-07-05 04:46:20.968 +02:00 [INF] Built VBO for map 000bacda-f0e9-4a92-ab09-e55bd4ad15c1 'New Map' in 6.8948ms
+2026-07-05 04:46:21.066 +02:00 [ERR] Exception thrown while trying to load 'resources/tilesets/water_shore_marker.png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass182_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 1027
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-07-05 04:46:21.067 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 98.6757ms
+2026-07-05 04:46:21.082 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 13.4709ms
+2026-07-05 04:46:21.088 +02:00 [INF] Built VBO for map f519d3ea-b6f4-4b17-b87a-1dcf003cd3ec 'New Map' in 5.5154ms
+2026-07-05 04:46:28.340 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 16.5665ms
+2026-07-05 04:46:28.541 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 4.4624ms
+2026-07-05 04:46:29.051 +02:00 [INF] Built VBO for map 000bacda-f0e9-4a92-ab09-e55bd4ad15c1 'New Map' in 4.9332ms
+2026-07-05 04:46:29.572 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Deep Forest' in 7.7381ms
+2026-07-05 04:46:30.121 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 41.909ms
+2026-07-05 04:46:31.738 +02:00 [INF] Built VBO for map f519d3ea-b6f4-4b17-b87a-1dcf003cd3ec 'New Map' in 4.8357ms
+2026-07-05 05:00:46.034 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-07-05 05:00:46.038 +02:00 [INF] Disconnected [a906d0be-6fca-46eb-8001-80c22730fb40].
+2026-07-05 05:00:46.038 +02:00 [INF] Updating active permission set to 'default'
+2026-07-05 05:00:46.077 +02:00 [INF] Acquiring context lock... (0ms)
+2026-07-05 05:00:46.077 +02:00 [INF] Acquired. (0ms)
+2026-07-05 05:00:46.078 +02:00 [INF] Beginning context dispose. (0ms)
+2026-07-05 05:00:46.078 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-07-05 05:00:46.078 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-07-05 05:00:46.078 +02:00 [INF] Clearing instance... (1ms)
+2026-07-05 05:00:46.078 +02:00 [INF] Releasing context lock... (1ms)
+2026-07-05 05:00:46.078 +02:00 [INF] Released. (1ms)

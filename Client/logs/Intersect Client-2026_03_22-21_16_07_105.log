@@ -1,0 +1,44 @@
+2026-03-22 21:16:07.514 +01:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-03-22 21:16:07.870 +01:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-03-22 21:16:07.878 +01:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-03-22 21:16:07.879 +01:00 [INF] Discovered 0 plugins:
+
+2026-03-22 21:16:13.133 +01:00 [INF] Connecting to 127.0.0.1:5400...
+2026-03-22 21:16:13.140 +01:00 [INF] Connected [7214b08f-2c86-48d6-bb69-b81797025180].
+2026-03-22 21:16:13.157 +01:00 [INF] Connection approved [7214b08f-2c86-48d6-bb69-b81797025180].
+2026-03-22 21:16:13.233 +01:00 [INF] Updated PermissionSet 'default'
+2026-03-22 21:16:13.234 +01:00 [INF] Updated PermissionSet 'admin'
+2026-03-22 21:16:16.430 +01:00 [INF] Updating active permission set to 'admin'
+2026-03-22 21:16:16.500 +01:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-03-22 21:16:18.668 +01:00 [WRN] 'Me' is null.
+2026-03-22 21:16:19.148 +01:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 15.8239ms
+2026-03-22 21:16:19.154 +01:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'test 4' in 1.6744ms
+2026-03-22 21:16:20.349 +01:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 23.6728ms
+2026-03-22 21:16:34.134 +01:00 [INF] Built VBO for map 23382d57-1bd1-403a-8f4f-50e5ad24e8a0 'test1' in 3.716ms
+2026-03-22 21:17:58.868 +01:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 1.7824ms
+2026-03-22 21:17:58.871 +01:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'test 4' in 1.9266ms
+2026-03-22 21:17:58.872 +01:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 1.3141ms
+2026-03-22 21:21:02.419 +01:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 1.4799ms
+2026-03-22 21:21:02.422 +01:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'test 4' in 1.7839ms
+2026-03-22 21:21:02.423 +01:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 1.3281ms
+2026-03-22 21:21:14.293 +01:00 [INF] Built VBO for map 411179b7-b772-42ef-bf66-03b7e4d7dca8 'test 5' in 1.3207ms
+2026-03-22 21:21:45.226 +01:00 [INF] Built VBO for map 23382d57-1bd1-403a-8f4f-50e5ad24e8a0 'test1' in 1.5943ms
+2026-03-22 21:24:11.115 +01:00 [INF] Music volume set to 10 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-03-22 21:24:11.116 +01:00 [INF] Sound volume set to 15 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-03-22 21:24:43.023 +01:00 [INF] Built VBO for map 411179b7-b772-42ef-bf66-03b7e4d7dca8 'test 5' in 1.2964ms
+2026-03-22 21:30:23.412 +01:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 1.474ms
+2026-03-22 21:31:26.769 +01:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'test 4' in 2.0301ms
+2026-03-22 21:53:29.382 +01:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'test 4' in 2.3052ms
+2026-03-22 21:53:33.880 +01:00 [INF] Built VBO for map 411179b7-b772-42ef-bf66-03b7e4d7dca8 'test 5' in 1.2825ms
+2026-03-22 21:56:29.429 +01:00 [INF] Built VBO for map 23382d57-1bd1-403a-8f4f-50e5ad24e8a0 'test1' in 1.7224ms
+2026-03-22 22:00:17.161 +01:00 [INF] System window closing (due to user interaction most likely).
+2026-03-22 22:00:17.165 +01:00 [INF] Disconnected [7214b08f-2c86-48d6-bb69-b81797025180].
+2026-03-22 22:00:17.165 +01:00 [INF] Updating active permission set to 'default'
+2026-03-22 22:00:17.267 +01:00 [INF] Acquiring context lock... (0ms)
+2026-03-22 22:00:17.267 +01:00 [INF] Acquired. (0ms)
+2026-03-22 22:00:17.267 +01:00 [INF] Beginning context dispose. (0ms)
+2026-03-22 22:00:17.268 +01:00 [INF] GC.SuppressFinalize (0ms)
+2026-03-22 22:00:17.268 +01:00 [INF] InternalDispose() completed. (0ms)
+2026-03-22 22:00:17.268 +01:00 [INF] Clearing instance... (1ms)
+2026-03-22 22:00:17.268 +01:00 [INF] Releasing context lock... (1ms)
+2026-03-22 22:00:17.268 +01:00 [INF] Released. (1ms)

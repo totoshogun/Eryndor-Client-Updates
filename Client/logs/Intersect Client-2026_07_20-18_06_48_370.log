@@ -1,0 +1,83 @@
+2026-07-20 18:06:48.526 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-07-20 18:06:48.748 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-07-20 18:06:48.751 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-07-20 18:06:48.752 +02:00 [INF] Discovered 0 plugins:
+
+2026-07-20 18:06:49.192 +02:00 [INF] Graphics pacing configured: targetMode=-1, vsync=false, fixedStep=false, backBuffer=1760x990
+2026-07-20 18:06:50.778 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-07-20 18:06:50.786 +02:00 [INF] Connected [ea62e658-d2d3-4320-a3e0-582b6313ddd9].
+2026-07-20 18:06:50.800 +02:00 [INF] Connection approved [ea62e658-d2d3-4320-a3e0-582b6313ddd9].
+2026-07-20 18:06:50.885 +02:00 [INF] Updated PermissionSet 'default'
+2026-07-20 18:06:50.885 +02:00 [INF] Updated PermissionSet 'admin'
+2026-07-20 18:07:09.727 +02:00 [INF] Updating active permission set to 'admin'
+2026-07-20 18:07:13.957 +02:00 [WRN] 'Me' is null.
+2026-07-20 18:07:14.717 +02:00 [FTL] Game is crashing due to an exception
+Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'Intersect.Framework.Core.GameObjects.Maps.MapAttribute' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path '[0][0]', line 1, position 3.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateMultidimensionalArray(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Intersect.Framework.Core.GameObjects.Maps.MapDescriptor.DeserializeAttributes(String json, JsonSerializerSettings settings) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\GameObjects\Maps\MapDescriptor.cs:line 281
+   at Intersect.Framework.Core.GameObjects.Maps.MapDescriptor.set_AttributeData(Byte[] value) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\GameObjects\Maps\MapDescriptor.cs:line 568
+   at Intersect.Client.Networking.PacketHandler.HandleMap(IPacketSender packetSender, MapPacket packet, Boolean skipSave) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 483
+   at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacketSender packetSender, MapAreaIdsPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 420
+   at Intersect.Network.PacketHandlerRegistry.<>c__DisplayClass36_1`2.<CreateWeaklyTypedDelegateForMethodInfo>b__1(IPacketSender packetSender, IPacket packet) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Network\PacketHandlerRegistry.cs:line 100
+   at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 323
+   at Intersect.Client.Networking.Network.OnDataReceived(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\Network.cs:line 151
+   at Intersect.Client.MonoGame.Network.MonoSocket.Update() in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\Network\MonoSocket.cs:line 210
+   at Intersect.Client.Core.Main.Update(TimeSpan deltaTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Main.cs:line 87
+   at Intersect.Client.MonoGame.IntersectGame.Update(GameTime gameTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 243
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 646
+2026-07-20 18:07:14.752 +02:00 [INF] Acquiring context lock... (0ms)
+2026-07-20 18:07:14.752 +02:00 [INF] Acquired. (0ms)
+2026-07-20 18:07:14.753 +02:00 [INF] Beginning context dispose. (0ms)
+2026-07-20 18:07:14.753 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-07-20 18:07:14.753 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-07-20 18:07:14.753 +02:00 [INF] Clearing instance... (1ms)
+2026-07-20 18:07:14.753 +02:00 [INF] Releasing context lock... (1ms)
+2026-07-20 18:07:14.753 +02:00 [INF] Released. (1ms)
+2026-07-20 18:07:14.753 +02:00 [ERR] Failed to start application context
+Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'Intersect.Framework.Core.GameObjects.Maps.MapAttribute' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path '[0][0]', line 1, position 3.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateMultidimensionalArray(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Intersect.Framework.Core.GameObjects.Maps.MapDescriptor.DeserializeAttributes(String json, JsonSerializerSettings settings) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\GameObjects\Maps\MapDescriptor.cs:line 281
+   at Intersect.Framework.Core.GameObjects.Maps.MapDescriptor.set_AttributeData(Byte[] value) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\GameObjects\Maps\MapDescriptor.cs:line 568
+   at Intersect.Client.Networking.PacketHandler.HandleMap(IPacketSender packetSender, MapPacket packet, Boolean skipSave) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 483
+   at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacketSender packetSender, MapAreaIdsPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 420
+   at Intersect.Network.PacketHandlerRegistry.<>c__DisplayClass36_1`2.<CreateWeaklyTypedDelegateForMethodInfo>b__1(IPacketSender packetSender, IPacket packet) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Network\PacketHandlerRegistry.cs:line 100
+   at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 323
+   at Intersect.Client.Networking.Network.OnDataReceived(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\Network.cs:line 151
+   at Intersect.Client.MonoGame.Network.MonoSocket.Update() in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\Network\MonoSocket.cs:line 210
+   at Intersect.Client.Core.Main.Update(TimeSpan deltaTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Main.cs:line 87
+   at Intersect.Client.MonoGame.IntersectGame.Update(GameTime gameTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 243
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 646
+   at Intersect.Client.Core.ClientContext.InternalStart() in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\ClientContext.cs:line 97
+   at Intersect.Core.ApplicationContext`2.Start(Boolean lockUntilShutdown) in F:\game code engine\Intersect_New\Intersect (Core)\Core\ApplicationContext`2.cs:line 245

@@ -1,0 +1,27 @@
+2026-05-26 15:20:21.783 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-26 15:20:22.004 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-26 15:20:22.008 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-26 15:20:22.009 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-26 15:20:39.559 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-26 15:20:39.580 +02:00 [INF] Connected [a4cf6bbd-55c0-4f4a-a185-d604fc0352ab].
+2026-05-26 15:20:39.604 +02:00 [INF] Connection approved [a4cf6bbd-55c0-4f4a-a185-d604fc0352ab].
+2026-05-26 15:20:39.701 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-26 15:20:43.761 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-26 15:20:43.761 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-26 15:20:44.287 +02:00 [WRN] 'Me' is null.
+2026-05-26 15:20:44.453 +02:00 [WRN] Tried to load entity "f748a57f-2b1b-4791-910e-91ddb85352c2" (Oran) from packet before in-game UI was ready
+2026-05-26 15:20:44.456 +02:00 [WRN] Tried to load entity "f748a57f-2b1b-4791-910e-91ddb85352c2" (Oran) from packet before in-game UI was ready
+2026-05-26 15:20:44.916 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 12.2865ms
+2026-05-26 15:20:44.953 +02:00 [INF] Window light shader 'Intersect.Client.Resources.Shaders.windowlight.mgfxo' loaded successfully with 9 parameters
+2026-05-26 15:22:46.108 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-26 15:22:46.112 +02:00 [INF] Disconnected [a4cf6bbd-55c0-4f4a-a185-d604fc0352ab].
+2026-05-26 15:22:46.113 +02:00 [INF] Updating active permission set to 'default'
+2026-05-26 15:22:46.144 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-26 15:22:46.144 +02:00 [INF] Acquired. (0ms)
+2026-05-26 15:22:46.145 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-26 15:22:46.145 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-26 15:22:46.146 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-26 15:22:46.146 +02:00 [INF] Clearing instance... (1ms)
+2026-05-26 15:22:46.146 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-26 15:22:46.146 +02:00 [INF] Released. (1ms)

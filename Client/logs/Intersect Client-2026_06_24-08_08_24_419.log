@@ -1,0 +1,43 @@
+2026-06-24 08:08:24.775 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-06-24 08:08:25.008 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-06-24 08:08:25.012 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-06-24 08:08:25.013 +02:00 [INF] Discovered 0 plugins:
+
+2026-06-24 08:08:27.645 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-06-24 08:08:27.668 +02:00 [INF] Connected [773e8999-63a7-483d-8758-494ac0b83bbb].
+2026-06-24 08:08:27.687 +02:00 [INF] Connection approved [773e8999-63a7-483d-8758-494ac0b83bbb].
+2026-06-24 08:08:27.787 +02:00 [INF] Updated PermissionSet 'default'
+2026-06-24 08:08:32.404 +02:00 [INF] Updated PermissionSet 'admin'
+2026-06-24 08:08:32.404 +02:00 [INF] Updating active permission set to 'admin'
+2026-06-24 08:08:33.532 +02:00 [WRN] 'Me' is null.
+2026-06-24 08:08:34.266 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 33.1533ms
+2026-06-24 08:08:34.377 +02:00 [ERR] Exception thrown while trying to load 'resources/tilesets/water_shore_marker.png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass181_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 1011
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-06-24 08:08:34.643 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 376.3307ms
+2026-06-24 08:08:34.665 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 18.7313ms
+2026-06-24 08:08:41.705 +02:00 [INF] Music volume set to 20 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-06-24 08:08:41.705 +02:00 [INF] Sound volume set to 20 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-06-24 08:08:41.705 +02:00 [INF] Weather sounds volume set to 80 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._weatherSoundsSlider._slider
+2026-06-24 08:09:31.317 +02:00 [WRN] 'Me' is null.
+2026-06-24 08:09:31.587 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 4.1721ms
+2026-06-24 08:09:31.942 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 354.6587ms
+2026-06-24 08:09:31.950 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 4.8745ms
+2026-06-24 08:14:59.842 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-06-24 08:14:59.845 +02:00 [INF] Disconnected [773e8999-63a7-483d-8758-494ac0b83bbb].
+2026-06-24 08:14:59.846 +02:00 [INF] Updating active permission set to 'default'
+2026-06-24 08:14:59.888 +02:00 [INF] Acquiring context lock... (0ms)
+2026-06-24 08:14:59.888 +02:00 [INF] Acquired. (0ms)
+2026-06-24 08:14:59.889 +02:00 [INF] Beginning context dispose. (0ms)
+2026-06-24 08:14:59.889 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-06-24 08:14:59.890 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-06-24 08:14:59.890 +02:00 [INF] Clearing instance... (1ms)
+2026-06-24 08:14:59.890 +02:00 [INF] Releasing context lock... (1ms)
+2026-06-24 08:14:59.890 +02:00 [INF] Released. (1ms)

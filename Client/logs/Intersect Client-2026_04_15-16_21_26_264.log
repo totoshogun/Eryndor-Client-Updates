@@ -1,0 +1,27 @@
+2026-04-15 16:21:26.770 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-15 16:21:27.170 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-15 16:21:27.179 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-15 16:21:27.180 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-15 16:21:29.178 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-15 16:21:29.195 +06:00 [INF] Connected [525f6fd5-aeae-4fdb-ae0e-0d7a4151f417].
+2026-04-15 16:21:29.216 +06:00 [INF] Connection approved [525f6fd5-aeae-4fdb-ae0e-0d7a4151f417].
+2026-04-15 16:21:29.306 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-15 16:21:32.500 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-15 16:21:32.500 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-15 16:21:32.644 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-15 16:21:34.240 +06:00 [WRN] 'Me' is null.
+2026-04-15 16:21:34.824 +06:00 [INF] Built VBO for map 411179b7-b772-42ef-bf66-03b7e4d7dca8 'test 5' in 12.3269ms
+2026-04-15 16:21:34.837 +06:00 [INF] Built VBO for map 23630ac6-4461-460d-8a3b-9a0d4477096f 'test 8' in 7.8706ms
+2026-04-15 16:21:34.881 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 43.7864ms
+2026-04-15 16:24:09.418 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-15 16:24:09.421 +06:00 [INF] Disconnected [525f6fd5-aeae-4fdb-ae0e-0d7a4151f417].
+2026-04-15 16:24:09.421 +06:00 [INF] Updating active permission set to 'default'
+2026-04-15 16:24:09.521 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-15 16:24:09.521 +06:00 [INF] Acquired. (0ms)
+2026-04-15 16:24:09.522 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-15 16:24:09.522 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-15 16:24:09.522 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-15 16:24:09.522 +06:00 [INF] Clearing instance... (1ms)
+2026-04-15 16:24:09.522 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-15 16:24:09.522 +06:00 [INF] Released. (1ms)

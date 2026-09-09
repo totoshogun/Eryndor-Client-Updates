@@ -1,0 +1,52 @@
+2026-04-09 08:49:24.144 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-09 08:49:24.399 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-09 08:49:24.402 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-09 08:49:24.403 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-09 08:49:28.115 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-09 08:49:28.124 +06:00 [INF] Connected [1168ced2-2d23-4caa-a72e-c27bef28125a].
+2026-04-09 08:49:28.135 +06:00 [INF] Connection approved [1168ced2-2d23-4caa-a72e-c27bef28125a].
+2026-04-09 08:49:28.223 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-09 08:49:28.223 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-09 08:49:35.457 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-09 08:49:35.576 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-09 08:49:47.806 +06:00 [WRN] 'Me' is null.
+2026-04-09 08:49:48.317 +06:00 [INF] Built VBO for map 411179b7-b772-42ef-bf66-03b7e4d7dca8 'test 5' in 12.3026ms
+2026-04-09 08:49:48.334 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 12.2271ms
+2026-04-09 08:49:48.339 +06:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'forest' in 4.5764ms
+2026-04-09 08:50:19.064 +06:00 [ERR] Exception thrown while trying to load 'resources/tilesets/51516666.png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\51516666.png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\51516666.png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass145_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 648
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-04-09 08:50:19.064 +06:00 [INF] Built VBO for map 23630ac6-4461-460d-8a3b-9a0d4477096f 'test 8' in 6.8931ms
+2026-04-09 08:50:23.744 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 9.9402ms
+2026-04-09 08:50:57.652 +06:00 [INF] Disconnected [1168ced2-2d23-4caa-a72e-c27bef28125a].
+2026-04-09 08:50:57.652 +06:00 [INF] Updating active permission set to 'default'
+2026-04-09 08:51:00.030 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-09 08:51:00.034 +06:00 [INF] Connected [45365da8-f9e5-4ed8-a7f5-1193f7ed1880].
+2026-04-09 08:51:00.048 +06:00 [INF] Connection approved [45365da8-f9e5-4ed8-a7f5-1193f7ed1880].
+2026-04-09 08:51:00.058 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-09 08:51:00.058 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-09 08:51:07.152 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-09 08:51:16.869 +06:00 [WRN] 'Me' is null.
+2026-04-09 08:51:16.898 +06:00 [WRN] Tried to load entity "6a6e7b5d-28e9-485b-9bbe-bb77dbcef9b7" (Oran) from packet before in-game UI was ready
+2026-04-09 08:51:16.899 +06:00 [WRN] Tried to load entity "6a6e7b5d-28e9-485b-9bbe-bb77dbcef9b7" (Oran) from packet before in-game UI was ready
+2026-04-09 08:51:17.157 +06:00 [INF] Built VBO for map 23630ac6-4461-460d-8a3b-9a0d4477096f 'test 8' in 3.0683ms
+2026-04-09 08:51:17.159 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 1.5526ms
+2026-04-09 08:51:17.161 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 1.4223ms
+2026-04-09 08:51:19.670 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-09 08:51:19.671 +06:00 [INF] Disconnected [45365da8-f9e5-4ed8-a7f5-1193f7ed1880].
+2026-04-09 08:51:19.672 +06:00 [INF] Updating active permission set to 'default'
+2026-04-09 08:51:19.704 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-09 08:51:19.704 +06:00 [INF] Acquired. (0ms)
+2026-04-09 08:51:19.705 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-09 08:51:19.711 +06:00 [INF] GC.SuppressFinalize (5ms)
+2026-04-09 08:51:19.711 +06:00 [INF] InternalDispose() completed. (6ms)
+2026-04-09 08:51:19.711 +06:00 [INF] Clearing instance... (6ms)
+2026-04-09 08:51:19.711 +06:00 [INF] Releasing context lock... (7ms)
+2026-04-09 08:51:19.711 +06:00 [INF] Released. (7ms)

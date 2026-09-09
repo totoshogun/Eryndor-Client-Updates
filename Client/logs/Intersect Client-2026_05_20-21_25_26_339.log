@@ -1,0 +1,38 @@
+2026-05-20 21:25:26.629 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-20 21:25:26.858 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-20 21:25:26.861 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-20 21:25:26.862 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-20 21:25:29.895 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-20 21:25:29.905 +02:00 [INF] Connected [34c242c9-6514-4474-af1a-f1f09a667431].
+2026-05-20 21:25:29.918 +02:00 [INF] Connection approved [34c242c9-6514-4474-af1a-f1f09a667431].
+2026-05-20 21:25:29.998 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-20 21:25:29.998 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-20 21:25:40.286 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-20 21:25:40.961 +02:00 [WRN] 'Me' is null.
+2026-05-20 21:25:41.660 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 69.425ms
+2026-05-20 21:26:49.117 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 39.6213ms
+2026-05-20 21:27:02.213 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 36.605ms
+2026-05-20 21:27:19.288 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 8.1613ms
+2026-05-20 21:27:47.623 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 35.7348ms
+2026-05-20 21:28:53.569 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 44.3929ms
+2026-05-20 21:30:32.462 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 39.0364ms
+2026-05-20 21:31:07.011 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 35.1504ms
+2026-05-20 21:31:39.212 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 36.5007ms
+2026-05-20 21:33:28.724 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 37.5225ms
+2026-05-20 21:34:38.252 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 3.6065ms
+2026-05-20 21:35:21.590 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 44.903ms
+2026-05-20 21:35:21.600 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 3.1618ms
+2026-05-20 21:35:23.517 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 10.0915ms
+2026-05-20 21:38:51.193 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 39.1865ms
+2026-05-20 21:39:14.638 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-20 21:39:14.642 +02:00 [INF] Disconnected [34c242c9-6514-4474-af1a-f1f09a667431].
+2026-05-20 21:39:14.643 +02:00 [INF] Updating active permission set to 'default'
+2026-05-20 21:39:14.674 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-20 21:39:14.674 +02:00 [INF] Acquired. (0ms)
+2026-05-20 21:39:14.675 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-20 21:39:14.675 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-20 21:39:14.676 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-20 21:39:14.676 +02:00 [INF] Clearing instance... (1ms)
+2026-05-20 21:39:14.676 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-20 21:39:14.676 +02:00 [INF] Released. (1ms)

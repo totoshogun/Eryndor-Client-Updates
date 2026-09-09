@@ -1,0 +1,30 @@
+2026-03-22 23:01:17.148 +01:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-03-22 23:01:17.618 +01:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-03-22 23:01:17.626 +01:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-03-22 23:01:17.627 +01:00 [INF] Discovered 0 plugins:
+
+2026-03-22 23:01:21.755 +01:00 [INF] Connecting to 127.0.0.1:5400...
+2026-03-22 23:01:21.763 +01:00 [INF] Connected [5d8c5b4a-c102-4dd7-8dc9-39cb2129c81e].
+2026-03-22 23:01:21.781 +01:00 [INF] Connection approved [5d8c5b4a-c102-4dd7-8dc9-39cb2129c81e].
+2026-03-22 23:01:21.865 +01:00 [INF] Updated PermissionSet 'default'
+2026-03-22 23:01:21.865 +01:00 [INF] Updated PermissionSet 'admin'
+2026-03-22 23:01:23.189 +01:00 [INF] Updating active permission set to 'admin'
+2026-03-22 23:01:23.242 +01:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-03-22 23:01:27.945 +01:00 [WRN] 'Me' is null.
+2026-03-22 23:01:28.464 +01:00 [INF] Built VBO for map 411179b7-b772-42ef-bf66-03b7e4d7dca8 'test 5' in 16.5466ms
+2026-03-22 23:01:28.474 +01:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 4.9727ms
+2026-03-22 23:01:28.476 +01:00 [INF] Built VBO for map 850ddb26-5568-4376-b8e0-346c04cb81ef 'test 4' in 2.103ms
+2026-03-22 23:01:29.521 +01:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 12.4453ms
+2026-03-22 23:01:41.627 +01:00 [INF] Built VBO for map 23382d57-1bd1-403a-8f4f-50e5ad24e8a0 'test1' in 3.475ms
+2026-03-22 23:06:25.904 +01:00 [INF] Built VBO for map 411179b7-b772-42ef-bf66-03b7e4d7dca8 'test 5' in 1.5666ms
+2026-03-22 23:06:48.211 +01:00 [INF] System window closing (due to user interaction most likely).
+2026-03-22 23:06:48.214 +01:00 [INF] Disconnected [5d8c5b4a-c102-4dd7-8dc9-39cb2129c81e].
+2026-03-22 23:06:48.215 +01:00 [INF] Updating active permission set to 'default'
+2026-03-22 23:06:48.306 +01:00 [INF] Acquiring context lock... (0ms)
+2026-03-22 23:06:48.307 +01:00 [INF] Acquired. (0ms)
+2026-03-22 23:06:48.307 +01:00 [INF] Beginning context dispose. (0ms)
+2026-03-22 23:06:48.307 +01:00 [INF] GC.SuppressFinalize (0ms)
+2026-03-22 23:06:48.308 +01:00 [INF] InternalDispose() completed. (0ms)
+2026-03-22 23:06:48.308 +01:00 [INF] Clearing instance... (1ms)
+2026-03-22 23:06:48.308 +01:00 [INF] Releasing context lock... (1ms)
+2026-03-22 23:06:48.308 +01:00 [INF] Released. (1ms)

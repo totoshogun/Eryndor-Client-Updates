@@ -1,6 +1,433 @@
 {
   "Lines": [
     {
+      "Text": "ERYNDOR CREDITS",
+      "Font": "sourcesansproblack",
+      "Size": 18,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "DEVELOPMENT TEAM",
+      "Font": "sourcesansproblack",
+      "Size": 14,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "James Olivares",
+      "Font": "sourcesansproblack",
+      "Size": 13,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Game Director & Lead Developer",
+      "Font": "sourcesanspro",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 6,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Kaylan McCarthy",
+      "Font": "sourcesansproblack",
+      "Size": 13,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Lead Artist",
+      "Font": "sourcesanspro",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 6,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Michael Wellstead",
+      "Font": "sourcesansproblack",
+      "Size": 13,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Narrative Designer",
+      "Font": "sourcesanspro",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 6,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Leeroy Woodjetts",
+      "Font": "sourcesansproblack",
+      "Size": 13,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Composer",
+      "Font": "sourcesanspro",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "THIRD-PARTY ART ASSETS",
+      "Font": "sourcesansproblack",
+      "Size": 14,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Hedgy's Swordtember 2020",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Created by TheWiseHedgehog",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "https://thewisehedgehog.itch.io/hs2020",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Hedgy's Swordtember 2021",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Created by TheWiseHedgehog",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "https://thewisehedgehog.itch.io/hs2021",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Hedgy's Swordtember 2022",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Created by TheWiseHedgehog",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "https://thewisehedgehog.itch.io/hs2022",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Hedgy's Swordtember 2023",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Created by TheWiseHedgehog",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "https://thewisehedgehog.itch.io/hs2023",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Hedgy's Swordtember 2024",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Created by TheWiseHedgehog",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "https://thewisehedgehog.itch.io/hs2024",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Hedgy's Swordtember 2025",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Created by TheWiseHedgehog",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "https://thewisehedgehog.itch.io/hs2025",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Creative Commons Attribution 4.0 International",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "CC BY 4.0",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "https://creativecommons.org/licenses/by/4.0/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Some assets may have been modified, resized, recolored, adapted, or otherwise altered for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Kyrise's Free 16x16 RPG Icon Pack",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Created by Kyrise",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "© 2018 Kyrise",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "https://kyrise.itch.io/kyrises-free-16x16-rpg-icon-pack",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Creative Commons Attribution 4.0 International",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "CC BY 4.0",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "https://creativecommons.org/licenses/by/4.0/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Some assets may have been modified, resized, recolored, adapted, or otherwise altered for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 16,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "INTERSECT ENGINE CREDITS",
+      "Font": "sourcesansproblack",
+      "Size": 14,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
       "Text": "Intersect Engine",
       "Font": "sourcesansproblack",
       "Size": 16,

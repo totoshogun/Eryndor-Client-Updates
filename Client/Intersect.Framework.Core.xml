@@ -2100,6 +2100,21 @@
             Back slot for capes/cloaks appended after the legacy slots.
             </summary>
         </member>
+        <member name="P:Intersect.Config.EquipmentOptions.Ring1Slot">
+            <summary>
+            First ring slot. Rings are stat-bearing accessories and do not add a paperdoll layer.
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.EquipmentOptions.Ring2Slot">
+            <summary>
+            Second ring slot. Rings are stat-bearing accessories and do not add a paperdoll layer.
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.EquipmentOptions.NecklaceSlot">
+            <summary>
+            Necklace slot. Necklaces are stat-bearing accessories and do not add a paperdoll layer.
+            </summary>
+        </member>
         <member name="P:Intersect.Config.FloodThresholdOptions.MaxPacketSize">
             <summary>
             The largest a single packet should be before it's considered flooding.

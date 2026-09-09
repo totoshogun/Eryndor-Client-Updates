@@ -1,0 +1,33 @@
+2026-04-21 12:13:26.047 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-21 12:13:26.299 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-21 12:13:26.302 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-21 12:13:26.303 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-21 12:13:29.657 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-21 12:13:29.667 +06:00 [INF] Connected [2e04dd42-7a04-4d3e-bf4c-043a7a074e77].
+2026-04-21 12:13:29.672 +06:00 [INF] Connection approved [2e04dd42-7a04-4d3e-bf4c-043a7a074e77].
+2026-04-21 12:13:29.766 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-21 12:13:29.766 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-21 12:13:34.638 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-21 12:13:34.794 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-21 12:13:35.379 +06:00 [WRN] 'Me' is null.
+2026-04-21 12:13:35.988 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 35.356ms
+2026-04-21 12:18:31.320 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 7.1393ms
+2026-04-21 12:19:45.184 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 6.9764ms
+2026-04-21 12:20:16.166 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 5.3375ms
+2026-04-21 12:20:27.719 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 1.5783ms
+2026-04-21 12:21:03.981 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 3.2022ms
+2026-04-21 12:21:18.116 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 1.6641ms
+2026-04-21 12:21:56.398 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 3.0474ms
+2026-04-21 12:22:19.530 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 6.6471ms
+2026-04-21 12:27:46.258 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-21 12:27:46.261 +06:00 [INF] Disconnected [2e04dd42-7a04-4d3e-bf4c-043a7a074e77].
+2026-04-21 12:27:46.261 +06:00 [INF] Updating active permission set to 'default'
+2026-04-21 12:27:46.294 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-21 12:27:46.294 +06:00 [INF] Acquired. (0ms)
+2026-04-21 12:27:46.295 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-21 12:27:46.295 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-21 12:27:46.295 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-21 12:27:46.295 +06:00 [INF] Clearing instance... (1ms)
+2026-04-21 12:27:46.295 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-21 12:27:46.295 +06:00 [INF] Released. (1ms)

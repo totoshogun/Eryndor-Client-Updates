@@ -1,0 +1,22 @@
+2026-04-29 00:43:15.879 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-29 00:43:16.085 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-29 00:43:16.088 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-29 00:43:16.088 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-29 00:43:19.366 +06:00 [INF] Music volume set to 10 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-04-29 00:43:19.367 +06:00 [INF] Sound volume set to 15 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-04-29 00:43:31.074 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-29 00:43:31.092 +06:00 [INF] Connected [fb0a702c-4c19-4362-ae5b-f22670e3459f].
+2026-04-29 00:43:31.101 +06:00 [INF] Connection approved [fb0a702c-4c19-4362-ae5b-f22670e3459f].
+2026-04-29 00:43:31.192 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-29 00:44:23.557 +06:00 [INF] User clicked exit button.
+2026-04-29 00:44:23.740 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-29 00:44:23.744 +06:00 [INF] Disconnected [fb0a702c-4c19-4362-ae5b-f22670e3459f].
+2026-04-29 00:44:23.782 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-29 00:44:23.782 +06:00 [INF] Acquired. (1ms)
+2026-04-29 00:44:23.784 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-29 00:44:23.785 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-29 00:44:23.785 +06:00 [INF] InternalDispose() completed. (1ms)
+2026-04-29 00:44:23.785 +06:00 [INF] Clearing instance... (4ms)
+2026-04-29 00:44:23.785 +06:00 [INF] Releasing context lock... (4ms)
+2026-04-29 00:44:23.786 +06:00 [INF] Released. (4ms)

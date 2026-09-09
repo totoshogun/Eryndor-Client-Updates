@@ -1,0 +1,47 @@
+2026-05-19 11:08:33.244 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-19 11:08:33.450 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-19 11:08:33.453 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-19 11:08:33.454 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-19 11:08:45.210 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-19 11:08:45.218 +02:00 [INF] Connected [02252cce-b4a4-4b59-83de-553bebb31f20].
+2026-05-19 11:08:45.233 +02:00 [INF] Connection approved [02252cce-b4a4-4b59-83de-553bebb31f20].
+2026-05-19 11:08:45.320 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-19 11:08:45.321 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-19 11:08:50.599 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-19 11:08:51.140 +02:00 [WRN] 'Me' is null.
+2026-05-19 11:08:52.072 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 76.1042ms
+2026-05-19 11:08:59.912 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Forest' in 8.174ms
+2026-05-19 11:09:40.238 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 11.2444ms
+2026-05-19 11:09:49.903 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 38.1637ms
+2026-05-19 11:10:22.794 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 10.5525ms
+2026-05-19 11:10:54.322 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 36.7604ms
+2026-05-19 11:10:54.329 +02:00 [WRN] Map atmosphere shader resource 'Intersect.Client.Resources.Shaders.mapatmosphere.mgfxo' could not be loaded. Atmosphere effects will be skipped.
+System.Exception: This MGFX effect was built for a different platform!
+   at Microsoft.Xna.Framework.Graphics.Effect.ReadHeader(Byte[] effectCode, Int32 index)
+   at Microsoft.Xna.Framework.Graphics.Effect..ctor(GraphicsDevice graphicsDevice, Byte[] effectCode, Int32 index, Int32 count)
+   at Microsoft.Xna.Framework.Graphics.Effect..ctor(GraphicsDevice graphicsDevice, Byte[] effectCode)
+   at Intersect.Client.MonoGame.Graphics.MonoRenderer.GetMapAtmosphereShader() in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\Graphics\MonoRenderer.MapAtmosphere.cs:line 182
+2026-05-19 11:11:06.069 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 42.6316ms
+2026-05-19 11:11:22.766 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 36.2302ms
+2026-05-19 11:11:35.040 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 38.02ms
+2026-05-19 11:12:43.805 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 34.4175ms
+2026-05-19 11:12:53.930 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 36.7368ms
+2026-05-19 11:13:01.033 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 36.0975ms
+2026-05-19 11:13:08.474 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 36.5841ms
+2026-05-19 11:13:18.350 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 34.5465ms
+2026-05-19 11:13:33.319 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 37.4859ms
+2026-05-19 11:13:52.461 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 36.212ms
+2026-05-19 11:14:00.551 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 36.4024ms
+2026-05-19 11:14:55.251 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 40.8859ms
+2026-05-19 11:15:36.933 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-19 11:15:36.936 +02:00 [INF] Disconnected [02252cce-b4a4-4b59-83de-553bebb31f20].
+2026-05-19 11:15:36.937 +02:00 [INF] Updating active permission set to 'default'
+2026-05-19 11:15:36.967 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-19 11:15:36.968 +02:00 [INF] Acquired. (0ms)
+2026-05-19 11:15:36.968 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-19 11:15:36.969 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-19 11:15:36.969 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-19 11:15:36.969 +02:00 [INF] Clearing instance... (1ms)
+2026-05-19 11:15:36.969 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-19 11:15:36.969 +02:00 [INF] Released. (1ms)

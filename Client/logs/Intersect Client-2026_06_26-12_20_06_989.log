@@ -1,0 +1,55 @@
+2026-06-26 12:20:07.188 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-06-26 12:20:07.413 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-06-26 12:20:07.418 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-06-26 12:20:07.419 +02:00 [INF] Discovered 0 plugins:
+
+2026-06-26 12:20:09.616 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-06-26 12:20:09.639 +02:00 [INF] Connected [98e9d082-ec77-416e-97f2-c4b0d3e11880].
+2026-06-26 12:20:09.650 +02:00 [INF] Connection approved [98e9d082-ec77-416e-97f2-c4b0d3e11880].
+2026-06-26 12:20:09.755 +02:00 [INF] Updated PermissionSet 'default'
+2026-06-26 12:20:13.294 +02:00 [INF] Updated PermissionSet 'admin'
+2026-06-26 12:20:13.294 +02:00 [INF] Updating active permission set to 'admin'
+2026-06-26 12:21:33.622 +02:00 [INF] Disconnected [98e9d082-ec77-416e-97f2-c4b0d3e11880].
+2026-06-26 12:21:33.622 +02:00 [INF] Updating active permission set to 'default'
+2026-06-26 12:21:34.453 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-06-26 12:21:34.459 +02:00 [INF] Connected [fd3c3850-f79e-4327-a18d-99e9af0820e1].
+2026-06-26 12:21:34.466 +02:00 [INF] Connection approved [fd3c3850-f79e-4327-a18d-99e9af0820e1].
+2026-06-26 12:21:34.489 +02:00 [INF] Updated PermissionSet 'default'
+2026-06-26 12:21:34.489 +02:00 [INF] Updated PermissionSet 'admin'
+2026-06-26 12:21:43.901 +02:00 [INF] Updating active permission set to 'admin'
+2026-06-26 12:24:44.392 +02:00 [WRN] 'Me' is null.
+2026-06-26 12:24:45.035 +02:00 [ERR] Exception thrown while trying to load 'resources/tilesets/water_shore_marker.png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass181_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 1011
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-06-26 12:24:45.049 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 47.1568ms
+2026-06-26 12:24:45.057 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 7.7398ms
+2026-06-26 12:24:45.190 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 128.1432ms
+2026-06-26 12:24:45.485 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 294.3499ms
+2026-06-26 12:24:45.497 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 8.3861ms
+2026-06-26 12:25:42.334 +02:00 [WRN] 'Me' is null.
+2026-06-26 12:25:42.334 +02:00 [WRN] 'Me' is null.
+2026-06-26 12:25:47.181 +02:00 [WRN] 'Me' is null.
+2026-06-26 12:25:47.565 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Forest' in 4.4285ms
+2026-06-26 12:25:47.570 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 4.4496ms
+2026-06-26 12:25:47.622 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 46.5827ms
+2026-06-26 12:25:47.943 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 320.349ms
+2026-06-26 12:25:47.950 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'town' in 4.0402ms
+2026-06-26 12:26:10.370 +02:00 [WRN] 'Me' is null.
+2026-06-26 12:27:15.216 +02:00 [INF] Disconnected [fd3c3850-f79e-4327-a18d-99e9af0820e1].
+2026-06-26 12:27:15.216 +02:00 [INF] Updating active permission set to 'default'
+2026-06-26 12:27:16.646 +02:00 [INF] User clicked exit button.
+2026-06-26 12:27:16.666 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-06-26 12:27:16.700 +02:00 [INF] Acquiring context lock... (0ms)
+2026-06-26 12:27:16.700 +02:00 [INF] Acquired. (0ms)
+2026-06-26 12:27:16.701 +02:00 [INF] Beginning context dispose. (0ms)
+2026-06-26 12:27:16.702 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-06-26 12:27:16.702 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-06-26 12:27:16.702 +02:00 [INF] Clearing instance... (1ms)
+2026-06-26 12:27:16.702 +02:00 [INF] Releasing context lock... (1ms)
+2026-06-26 12:27:16.702 +02:00 [INF] Released. (1ms)

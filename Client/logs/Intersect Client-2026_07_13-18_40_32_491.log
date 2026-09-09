@@ -1,0 +1,30 @@
+2026-07-13 18:40:32.649 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-07-13 18:40:32.872 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-07-13 18:40:32.876 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-07-13 18:40:32.877 +02:00 [INF] Discovered 0 plugins:
+
+2026-07-13 18:40:40.517 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-07-13 18:40:40.536 +02:00 [INF] Connected [f6cf607f-6213-4a1b-b7bc-1d47ba56e68c].
+2026-07-13 18:40:40.571 +02:00 [INF] Connection approved [f6cf607f-6213-4a1b-b7bc-1d47ba56e68c].
+2026-07-13 18:40:40.659 +02:00 [INF] Updated PermissionSet 'default'
+2026-07-13 18:40:45.167 +02:00 [INF] Updated PermissionSet 'admin'
+2026-07-13 18:40:45.167 +02:00 [INF] Updating active permission set to 'admin'
+2026-07-13 18:40:47.493 +02:00 [WRN] 'Me' is null.
+2026-07-13 18:40:48.537 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Deep Forest' in 49.8659ms
+2026-07-13 18:40:48.551 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 11.9861ms
+2026-07-13 18:40:48.566 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 8.8118ms
+2026-07-13 18:40:48.685 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 116.3014ms
+2026-07-13 18:40:48.745 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 55.7465ms
+2026-07-13 18:40:48.767 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 19.0196ms
+2026-07-13 18:41:38.303 +02:00 [WRN] Buff flourish shader resource 'Intersect.Client.Resources.Shaders.buffflourish.mgfxo' is missing parameter 'ShapeMode'. Buff flourish effects will be skipped.
+2026-07-13 18:42:45.918 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-07-13 18:42:45.921 +02:00 [INF] Disconnected [f6cf607f-6213-4a1b-b7bc-1d47ba56e68c].
+2026-07-13 18:42:45.921 +02:00 [INF] Updating active permission set to 'default'
+2026-07-13 18:42:46.004 +02:00 [INF] Acquiring context lock... (0ms)
+2026-07-13 18:42:46.004 +02:00 [INF] Acquired. (0ms)
+2026-07-13 18:42:46.005 +02:00 [INF] Beginning context dispose. (0ms)
+2026-07-13 18:42:46.005 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-07-13 18:42:46.005 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-07-13 18:42:46.005 +02:00 [INF] Clearing instance... (1ms)
+2026-07-13 18:42:46.005 +02:00 [INF] Releasing context lock... (1ms)
+2026-07-13 18:42:46.005 +02:00 [INF] Released. (1ms)

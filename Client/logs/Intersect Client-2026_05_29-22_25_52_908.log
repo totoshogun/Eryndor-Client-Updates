@@ -1,0 +1,44 @@
+2026-05-29 22:25:53.236 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-29 22:25:53.457 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-29 22:25:53.460 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-29 22:25:53.461 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-29 22:26:00.569 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-29 22:26:00.577 +02:00 [INF] Connected [8c6b76a2-4df9-452e-a434-d2857e63b055].
+2026-05-29 22:26:00.589 +02:00 [INF] Connection approved [8c6b76a2-4df9-452e-a434-d2857e63b055].
+2026-05-29 22:26:00.697 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-29 22:26:00.697 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-29 22:26:04.979 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-29 22:26:05.606 +02:00 [WRN] 'Me' is null.
+2026-05-29 22:26:06.295 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 13.7023ms
+2026-05-29 22:26:12.094 +02:00 [INF] Window light shader 'Intersect.Client.Resources.Shaders.windowlight.mgfxo' loaded successfully with 11 parameters
+2026-05-29 22:26:21.060 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.1876ms
+2026-05-29 22:26:28.617 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0379ms
+2026-05-29 22:26:42.062 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 0.9614ms
+2026-05-29 22:26:56.157 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0743ms
+2026-05-29 22:27:05.594 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.4844ms
+2026-05-29 22:29:22.790 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0092ms
+2026-05-29 22:29:52.942 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 0.9461ms
+2026-05-29 22:30:22.416 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.5895ms
+2026-05-29 22:30:32.305 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.1777ms
+2026-05-29 22:31:28.788 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 0.976ms
+2026-05-29 22:32:16.640 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 0.9369ms
+2026-05-29 22:32:26.489 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 0.9287ms
+2026-05-29 22:32:52.752 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.3471ms
+2026-05-29 22:33:08.872 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 0.927ms
+2026-05-29 22:33:48.329 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0281ms
+2026-05-29 22:34:07.752 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 1.0481ms
+2026-05-29 22:34:16.806 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 0.945ms
+2026-05-29 22:38:19.339 +02:00 [INF] Built VBO for map d5c08240-0436-454a-8993-362abf5bc477 'New Map' in 0.936ms
+2026-05-29 22:43:18.589 +02:00 [INF] Disconnected [8c6b76a2-4df9-452e-a434-d2857e63b055].
+2026-05-29 22:43:18.589 +02:00 [INF] Updating active permission set to 'default'
+2026-05-29 22:43:21.415 +02:00 [INF] User clicked exit button.
+2026-05-29 22:43:21.433 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-29 22:43:21.463 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-29 22:43:21.463 +02:00 [INF] Acquired. (0ms)
+2026-05-29 22:43:21.464 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-29 22:43:21.464 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-29 22:43:21.464 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-29 22:43:21.464 +02:00 [INF] Clearing instance... (1ms)
+2026-05-29 22:43:21.464 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-29 22:43:21.464 +02:00 [INF] Released. (1ms)

@@ -1,0 +1,35 @@
+2026-05-19 11:29:42.513 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-19 11:29:42.739 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-19 11:29:42.742 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-19 11:29:42.743 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-19 11:29:46.922 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-19 11:29:46.930 +02:00 [INF] Connected [e73685a4-5d2a-43cd-ac85-5d18230cafa6].
+2026-05-19 11:29:46.943 +02:00 [INF] Connection approved [e73685a4-5d2a-43cd-ac85-5d18230cafa6].
+2026-05-19 11:29:47.039 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-19 11:29:47.039 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-19 11:30:03.315 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-19 11:30:09.049 +02:00 [WRN] 'Me' is null.
+2026-05-19 11:30:09.733 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 69.1675ms
+2026-05-19 11:30:09.807 +02:00 [WRN] Map atmosphere shader resource 'Intersect.Client.Resources.Shaders.mapatmosphere.mgfxo' could not be loaded. Atmosphere effects will be skipped.
+System.Exception: This MGFX effect was built for a different platform!
+   at Microsoft.Xna.Framework.Graphics.Effect.ReadHeader(Byte[] effectCode, Int32 index)
+   at Microsoft.Xna.Framework.Graphics.Effect..ctor(GraphicsDevice graphicsDevice, Byte[] effectCode, Int32 index, Int32 count)
+   at Microsoft.Xna.Framework.Graphics.Effect..ctor(GraphicsDevice graphicsDevice, Byte[] effectCode)
+   at Intersect.Client.MonoGame.Graphics.MonoRenderer.GetMapAtmosphereShader() in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\Graphics\MonoRenderer.MapAtmosphere.cs:line 180
+2026-05-19 11:30:28.586 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 44.9949ms
+2026-05-19 11:30:36.220 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 35.7632ms
+2026-05-19 11:30:43.814 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 34.8381ms
+2026-05-19 11:30:52.855 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 42.8434ms
+2026-05-19 11:31:48.625 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 41.0999ms
+2026-05-19 11:31:55.039 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-19 11:31:55.041 +02:00 [INF] Disconnected [e73685a4-5d2a-43cd-ac85-5d18230cafa6].
+2026-05-19 11:31:55.042 +02:00 [INF] Updating active permission set to 'default'
+2026-05-19 11:31:55.070 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-19 11:31:55.070 +02:00 [INF] Acquired. (0ms)
+2026-05-19 11:31:55.071 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-19 11:31:55.071 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-19 11:31:55.071 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-19 11:31:55.071 +02:00 [INF] Clearing instance... (1ms)
+2026-05-19 11:31:55.071 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-19 11:31:55.071 +02:00 [INF] Released. (1ms)

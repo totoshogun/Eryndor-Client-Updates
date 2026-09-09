@@ -1,0 +1,26 @@
+2026-04-23 17:26:57.516 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-23 17:26:57.719 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-23 17:26:57.722 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-23 17:26:57.723 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-23 17:27:03.131 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-23 17:27:03.154 +06:00 [INF] Connected [a9befcde-9163-443b-a8e2-f4c452a0bec4].
+2026-04-23 17:27:03.195 +06:00 [INF] Connection approved [a9befcde-9163-443b-a8e2-f4c452a0bec4].
+2026-04-23 17:27:03.271 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-23 17:27:07.230 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-23 17:27:07.230 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-23 17:27:07.370 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-23 17:27:07.988 +06:00 [WRN] 'Me' is null.
+2026-04-23 17:27:08.556 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 37.3979ms
+2026-04-23 17:30:32.319 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 3.1827ms
+2026-04-23 17:40:57.134 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-23 17:40:57.137 +06:00 [INF] Disconnected [a9befcde-9163-443b-a8e2-f4c452a0bec4].
+2026-04-23 17:40:57.138 +06:00 [INF] Updating active permission set to 'default'
+2026-04-23 17:40:57.163 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-23 17:40:57.164 +06:00 [INF] Acquired. (0ms)
+2026-04-23 17:40:57.164 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-23 17:40:57.164 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-23 17:40:57.164 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-23 17:40:57.164 +06:00 [INF] Clearing instance... (1ms)
+2026-04-23 17:40:57.165 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-23 17:40:57.165 +06:00 [INF] Released. (1ms)

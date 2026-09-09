@@ -1,0 +1,41 @@
+2026-04-20 19:37:47.362 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-20 19:37:47.610 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-20 19:37:47.613 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-20 19:37:47.614 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-20 19:37:49.728 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-20 19:37:49.737 +06:00 [INF] Connected [84c1b316-acab-431e-b1c3-1f6c35354e67].
+2026-04-20 19:37:49.746 +06:00 [INF] Connection approved [84c1b316-acab-431e-b1c3-1f6c35354e67].
+2026-04-20 19:37:49.827 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-20 19:37:49.827 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-20 19:37:54.649 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-20 19:37:54.774 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-20 19:37:55.487 +06:00 [WRN] 'Me' is null.
+2026-04-20 19:37:56.058 +06:00 [ERR] Exception thrown while trying to load 'resources/tilesets/download.png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\download.png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\download.png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass145_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 648
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-04-20 19:37:56.060 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 41.0513ms
+2026-04-20 19:38:01.593 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 11.4328ms
+2026-04-20 19:40:00.467 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 1.826ms
+2026-04-20 19:42:18.111 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 1.5657ms
+2026-04-20 19:45:11.742 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 26.7096ms
+2026-04-20 19:47:51.499 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 1.6141ms
+2026-04-20 19:48:43.976 +06:00 [INF] Built VBO for map c15f8299-8999-471f-9760-388ff4cdec7c 'Forest' in 1.6015ms
+2026-04-20 19:48:50.894 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-20 19:48:50.897 +06:00 [INF] Disconnected [84c1b316-acab-431e-b1c3-1f6c35354e67].
+2026-04-20 19:48:50.898 +06:00 [INF] Updating active permission set to 'default'
+2026-04-20 19:48:50.924 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-20 19:48:50.924 +06:00 [INF] Acquired. (0ms)
+2026-04-20 19:48:50.925 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-20 19:48:50.925 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-20 19:48:50.925 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-20 19:48:50.925 +06:00 [INF] Clearing instance... (1ms)
+2026-04-20 19:48:50.925 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-20 19:48:50.925 +06:00 [INF] Released. (1ms)

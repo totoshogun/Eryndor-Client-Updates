@@ -1,0 +1,57 @@
+2026-09-09 03:47:04.908 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-09 03:47:05.162 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-09 03:47:05.166 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-09 03:47:05.167 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-09 03:47:05.648 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-09-09 03:47:07.386 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-09 03:47:07.411 +02:00 [INF] Connected [66f1b0cf-6092-4114-bbaa-b40e022b7867].
+2026-09-09 03:47:07.430 +02:00 [INF] Connection approved [66f1b0cf-6092-4114-bbaa-b40e022b7867].
+2026-09-09 03:47:07.560 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-09 03:47:11.872 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-09 03:47:11.872 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-09 03:47:16.247 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:17.455 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Deep Forest' in 52.8421ms
+2026-09-09 03:47:17.469 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 10.7302ms
+2026-09-09 03:47:17.489 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 15.8184ms
+2026-09-09 03:47:17.604 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 112.6859ms
+2026-09-09 03:47:17.659 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 50.5748ms
+2026-09-09 03:47:17.687 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 25.4641ms
+2026-09-09 03:47:28.811 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:28.812 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:32.687 +02:00 [WRN] 'Me' is null.
+2026-09-09 03:47:33.126 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Deep Forest' in 3.5502ms
+2026-09-09 03:47:33.131 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 3.825ms
+2026-09-09 03:47:33.139 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 3.5202ms
+2026-09-09 03:47:33.181 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 40.9555ms
+2026-09-09 03:47:33.215 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 29.9231ms
+2026-09-09 03:47:33.222 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 5.9441ms
+2026-09-09 03:51:57.040 +02:00 [INF] Disconnected [66f1b0cf-6092-4114-bbaa-b40e022b7867].
+2026-09-09 03:51:57.040 +02:00 [INF] Updating active permission set to 'default'
+2026-09-09 03:51:58.351 +02:00 [INF] User clicked exit button.
+2026-09-09 03:51:58.371 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-09-09 03:51:58.410 +02:00 [INF] Acquiring context lock... (0ms)
+2026-09-09 03:51:58.410 +02:00 [INF] Acquired. (0ms)
+2026-09-09 03:51:58.411 +02:00 [INF] Beginning context dispose. (0ms)
+2026-09-09 03:51:58.412 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-09-09 03:51:58.412 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-09-09 03:51:58.412 +02:00 [INF] Clearing instance... (1ms)
+2026-09-09 03:51:58.412 +02:00 [INF] Releasing context lock... (1ms)
+2026-09-09 03:51:58.412 +02:00 [INF] Released. (1ms)

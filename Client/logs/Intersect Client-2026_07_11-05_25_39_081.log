@@ -1,0 +1,281 @@
+2026-07-11 05:25:39.240 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-07-11 05:25:39.467 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-07-11 05:25:39.470 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-07-11 05:25:39.471 +02:00 [INF] Discovered 0 plugins:
+
+2026-07-11 05:25:42.616 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-07-11 05:25:42.624 +02:00 [INF] Connected [2d2c078d-22fd-42fc-9f2a-6b98188752d0].
+2026-07-11 05:25:42.639 +02:00 [INF] Connection approved [2d2c078d-22fd-42fc-9f2a-6b98188752d0].
+2026-07-11 05:25:42.725 +02:00 [INF] Updated PermissionSet 'default'
+2026-07-11 05:25:42.725 +02:00 [INF] Updated PermissionSet 'admin'
+2026-07-11 05:25:51.653 +02:00 [INF] Updating active permission set to 'admin'
+2026-07-11 05:25:54.835 +02:00 [WRN] 'Me' is null.
+2026-07-11 05:25:55.487 +02:00 [WRN] Tried to load entity "03af96ef-b99b-425c-8949-017515aab5a5" (test1234) from packet before in-game UI was ready
+2026-07-11 05:25:55.497 +02:00 [WRN] Tried to load entity "03af96ef-b99b-425c-8949-017515aab5a5" (test1234) from packet before in-game UI was ready
+2026-07-11 05:25:55.884 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 31.4218ms
+2026-07-11 05:25:55.894 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 9.2046ms
+2026-07-11 05:25:55.904 +02:00 [INF] Built VBO for map 000bacda-f0e9-4a92-ab09-e55bd4ad15c1 'New Map' in 8.7391ms
+2026-07-11 05:25:56.003 +02:00 [ERR] Exception thrown while trying to load 'resources/tilesets/water_shore_marker.png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_shore_marker.png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass183_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 1037
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-07-11 05:25:56.005 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 99.6566ms
+2026-07-11 05:25:56.036 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 30.5155ms
+2026-07-11 05:25:56.046 +02:00 [INF] Built VBO for map f519d3ea-b6f4-4b17-b87a-1dcf003cd3ec 'New Map' in 8.8466ms
+2026-07-11 05:26:01.042 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 18.1556ms
+2026-07-11 05:26:01.386 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Deep Forest' in 9.0548ms
+2026-07-11 05:26:01.905 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 8.2426ms
+2026-07-11 05:26:02.472 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 49.0597ms
+2026-07-11 05:26:04.568 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:04.613 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:04.658 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:04.745 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:04.789 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:04.884 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:04.928 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:04.973 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:05.066 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:05.110 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:05.198 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:05.242 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:05.287 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:05.381 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:05.430 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:05.480 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:05.575 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:05.620 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:05.708 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:05.750 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:05.796 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:05.882 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:05.926 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:06.012 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:06.056 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:06.147 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:06.193 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:06.236 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:06.323 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:06.367 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:06.457 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:06.500 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:06.588 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:06.631 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:06.676 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:06.761 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:06.805 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:06.891 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:06.934 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:07.024 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:07.071 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:07.118 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:07.205 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:07.248 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:07.339 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:07.384 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:07.428 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:07.515 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:07.558 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:07.646 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:07.688 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:07.778 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:07.822 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:07.866 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:07.953 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:07.997 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:08.084 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:08.130 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:08.174 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:08.261 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:08.353 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:08.399 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:08.444 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:08.489 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:08.583 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:08.625 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:08.669 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:08.756 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:08.800 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:08.890 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:08.936 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:08.980 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:09.067 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:09.111 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:09.198 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:09.244 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:09.334 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:09.379 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:09.422 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:09.510 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:09.557 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:09.645 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:09.690 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:09.734 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:09.825 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:09.868 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:09.913 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:10.000 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:10.044 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:10.133 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:10.177 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:10.264 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:10.308 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:10.351 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:10.439 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:10.483 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:10.571 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:10.615 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:10.703 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:10.747 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:10.795 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:10.884 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:10.929 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:11.019 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:11.062 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:11.106 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:11.192 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:11.235 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:11.323 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:11.366 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:11.411 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:11.497 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:11.541 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:11.629 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:11.672 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:11.761 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:11.807 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:11.851 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:11.938 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:11.981 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:12.073 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:12.118 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:12.161 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:12.252 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:12.296 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:12.383 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:12.428 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:12.473 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:12.559 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:12.603 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:12.693 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:12.737 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:12.823 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:12.868 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:12.914 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:12.999 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:13.043 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:13.131 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:13.174 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:13.266 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:13.310 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:13.353 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:13.440 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:13.487 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:13.575 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:13.619 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:13.665 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:13.754 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:13.798 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:13.885 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:13.929 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:13.973 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:14.061 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:14.104 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:14.191 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:14.234 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:14.321 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:14.365 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:14.411 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:14.501 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:14.544 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:14.631 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:14.676 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:14.765 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:14.812 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:14.856 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:14.943 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:14.988 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:15.031 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:15.118 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:15.163 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:15.250 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:15.295 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:15.384 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:15.429 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:15.473 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:15.559 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:15.605 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:15.692 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:15.738 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:15.782 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:15.870 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:15.914 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:16.006 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:16.049 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:16.092 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:16.181 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:16.225 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:16.312 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:16.358 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:16.402 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:16.490 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:16.533 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:16.621 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:16.665 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:16.754 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:16.797 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:16.885 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:16.929 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:16.979 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:17.067 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:17.112 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:17.161 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:17.249 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:17.296 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:17.383 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:17.426 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:17.469 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:17.558 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:17.602 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:17.687 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:17.732 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:17.821 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:17.864 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:17.908 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:17.994 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:18.038 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:18.124 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:18.172 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:18.258 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:18.302 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:18.347 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:18.436 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:18.480 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:18.568 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:18.612 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:18.699 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:18.744 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:18.788 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:18.874 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:18.918 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:19.050 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:19.137 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:19.223 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:19.265 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:26:19.352 +02:00 [WRN] 'TargetBox' is null.
+2026-07-11 05:31:12.263 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-07-11 05:31:12.266 +02:00 [INF] Disconnected [2d2c078d-22fd-42fc-9f2a-6b98188752d0].
+2026-07-11 05:31:12.267 +02:00 [INF] Updating active permission set to 'default'
+2026-07-11 05:31:12.293 +02:00 [INF] Acquiring context lock... (0ms)
+2026-07-11 05:31:12.293 +02:00 [INF] Acquired. (0ms)
+2026-07-11 05:31:12.293 +02:00 [INF] Beginning context dispose. (0ms)
+2026-07-11 05:31:12.294 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-07-11 05:31:12.294 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-07-11 05:31:12.294 +02:00 [INF] Clearing instance... (1ms)
+2026-07-11 05:31:12.294 +02:00 [INF] Releasing context lock... (1ms)
+2026-07-11 05:31:12.294 +02:00 [INF] Released. (1ms)

@@ -1,0 +1,35 @@
+2026-05-13 23:58:06.728 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-05-13 23:58:06.993 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-05-13 23:58:06.997 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-05-13 23:58:06.998 +02:00 [INF] Discovered 0 plugins:
+
+2026-05-13 23:58:10.365 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-05-13 23:58:10.387 +02:00 [INF] Connected [948e1e02-2cc6-4224-827f-97755d6a8f53].
+2026-05-13 23:58:10.401 +02:00 [INF] Connection approved [948e1e02-2cc6-4224-827f-97755d6a8f53].
+2026-05-13 23:58:10.490 +02:00 [INF] Updated PermissionSet 'default'
+2026-05-13 23:58:15.606 +02:00 [INF] Updated PermissionSet 'admin'
+2026-05-13 23:58:15.606 +02:00 [INF] Updating active permission set to 'admin'
+2026-05-13 23:58:16.300 +02:00 [WRN] 'Me' is null.
+2026-05-13 23:58:16.943 +02:00 [INF] Built VBO for map 24cc8989-0a45-4ecb-bf58-41efcefcaeb8 'Test' in 13.8314ms
+2026-05-13 23:59:00.807 +02:00 [INF] Built VBO for map 24cc8989-0a45-4ecb-bf58-41efcefcaeb8 'Test' in 10.4577ms
+2026-05-14 00:03:34.146 +02:00 [ERR] Exception thrown while trying to load 'resources/tilesets/water_layered_overlay_animated_intersect.png'
+System.IO.FileNotFoundException: Could not find file 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_layered_overlay_animated_intersect.png'.
+File name: 'F:\game code engine\Intersect_New\Intersect.Client\resources\tilesets\water_layered_overlay_animated_intersect.png'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Intersect.Client.Framework.Graphics.GameRenderer.<>c__DisplayClass150_0.<LoadTexture>b__0() in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameRenderer.cs:line 686
+   at Intersect.Client.Framework.Graphics.GameTexture`2.LoadPlatformTexture(Boolean force) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Graphics\GameTexture.cs:line 279
+2026-05-14 00:03:34.147 +02:00 [INF] Built VBO for map 24cc8989-0a45-4ecb-bf58-41efcefcaeb8 'Test' in 10.7976ms
+2026-05-14 00:03:59.189 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-05-14 00:03:59.192 +02:00 [INF] Disconnected [948e1e02-2cc6-4224-827f-97755d6a8f53].
+2026-05-14 00:03:59.193 +02:00 [INF] Updating active permission set to 'default'
+2026-05-14 00:03:59.220 +02:00 [INF] Acquiring context lock... (0ms)
+2026-05-14 00:03:59.220 +02:00 [INF] Acquired. (0ms)
+2026-05-14 00:03:59.222 +02:00 [INF] Beginning context dispose. (0ms)
+2026-05-14 00:03:59.222 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-05-14 00:03:59.222 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-05-14 00:03:59.222 +02:00 [INF] Clearing instance... (1ms)
+2026-05-14 00:03:59.222 +02:00 [INF] Releasing context lock... (1ms)
+2026-05-14 00:03:59.222 +02:00 [INF] Released. (1ms)

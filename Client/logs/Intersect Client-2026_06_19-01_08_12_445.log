@@ -1,0 +1,132 @@
+2026-06-19 01:08:12.790 +02:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-06-19 01:08:13.003 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-06-19 01:08:13.006 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-06-19 01:08:13.007 +02:00 [INF] Discovered 0 plugins:
+
+2026-06-19 01:08:16.028 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-06-19 01:08:16.047 +02:00 [INF] Connected [5605b279-09a6-412c-ac7a-0f085910d601].
+2026-06-19 01:08:16.063 +02:00 [INF] Connection approved [5605b279-09a6-412c-ac7a-0f085910d601].
+2026-06-19 01:08:16.113 +02:00 [ERR] Failed to load options from server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Exception: Config Error: Paperdoll item BackHair does not exist in equipment slots!
+   at Intersect.Config.PaperdollOptions.Validate(EquipmentOptions equipment) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Config\PaperdollOptions.cs:line 103
+   at Intersect.Config.EquipmentOptions.Validate() in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Config\EquipmentOptions.cs:line 57
+   at Intersect.Config.EquipmentOptions.OnDeserializedMethod(StreamingContext context) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Config\EquipmentOptions.cs:line 40
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Newtonsoft.Json.Serialization.JsonContract.<>c__DisplayClass57_0.<CreateSerializationCallback>b__0(Object o, StreamingContext context)
+   at Newtonsoft.Json.Serialization.JsonContract.InvokeOnDeserialized(Object o, StreamingContext context)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.OnDeserialized(JsonReader reader, JsonContract contract, Object value)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Intersect.Options.LoadFromServer(String data) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Config\Options.cs:line 332
+2026-06-19 01:08:16.115 +02:00 [FTL] Game is crashing due to an exception
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Exception: Config Error: Paperdoll item BackHair does not exist in equipment slots!
+   at Intersect.Config.PaperdollOptions.Validate(EquipmentOptions equipment) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Config\PaperdollOptions.cs:line 103
+   at Intersect.Config.EquipmentOptions.Validate() in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Config\EquipmentOptions.cs:line 57
+   at Intersect.Config.EquipmentOptions.OnDeserializedMethod(StreamingContext context) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Config\EquipmentOptions.cs:line 40
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Newtonsoft.Json.Serialization.JsonContract.<>c__DisplayClass57_0.<CreateSerializationCallback>b__0(Object o, StreamingContext context)
+   at Newtonsoft.Json.Serialization.JsonContract.InvokeOnDeserialized(Object o, StreamingContext context)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.OnDeserialized(JsonReader reader, JsonContract contract, Object value)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Intersect.Options.LoadFromServer(String data) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Config\Options.cs:line 332
+   at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacketSender packetSender, ConfigPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 188
+   at Intersect.Network.PacketHandlerRegistry.<>c__DisplayClass36_1`2.<CreateWeaklyTypedDelegateForMethodInfo>b__1(IPacketSender packetSender, IPacket packet) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Network\PacketHandlerRegistry.cs:line 100
+   at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 154
+   at Intersect.Client.Networking.Network.OnDataReceived(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\Network.cs:line 150
+   at Intersect.Client.Framework.Network.GameSocket.OnDataReceived(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Network\GameSocket.cs:line 33
+   at Intersect.Client.MonoGame.Network.MonoSocket.Update() in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\Network\MonoSocket.cs:line 210
+   at Intersect.Client.Networking.Network.Update() in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\Network.cs:line 198
+   at Intersect.Client.Core.Main.Update(TimeSpan deltaTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Main.cs:line 81
+   at Intersect.Client.MonoGame.IntersectGame.Update(GameTime gameTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 230
+   at Microsoft.Xna.Framework.Game.DoUpdate(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 627
+2026-06-19 01:08:16.148 +02:00 [INF] Acquiring context lock... (0ms)
+2026-06-19 01:08:16.149 +02:00 [INF] Acquired. (0ms)
+2026-06-19 01:08:16.149 +02:00 [INF] Beginning context dispose. (0ms)
+2026-06-19 01:08:16.150 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-06-19 01:08:16.150 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-06-19 01:08:16.150 +02:00 [INF] Clearing instance... (1ms)
+2026-06-19 01:08:16.150 +02:00 [INF] Releasing context lock... (1ms)
+2026-06-19 01:08:16.150 +02:00 [INF] Released. (1ms)
+2026-06-19 01:08:16.150 +02:00 [ERR] Failed to start application context
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Exception: Config Error: Paperdoll item BackHair does not exist in equipment slots!
+   at Intersect.Config.PaperdollOptions.Validate(EquipmentOptions equipment) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Config\PaperdollOptions.cs:line 103
+   at Intersect.Config.EquipmentOptions.Validate() in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Config\EquipmentOptions.cs:line 57
+   at Intersect.Config.EquipmentOptions.OnDeserializedMethod(StreamingContext context) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Config\EquipmentOptions.cs:line 40
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Newtonsoft.Json.Serialization.JsonContract.<>c__DisplayClass57_0.<CreateSerializationCallback>b__0(Object o, StreamingContext context)
+   at Newtonsoft.Json.Serialization.JsonContract.InvokeOnDeserialized(Object o, StreamingContext context)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.OnDeserialized(JsonReader reader, JsonContract contract, Object value)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Intersect.Options.LoadFromServer(String data) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Config\Options.cs:line 332
+   at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacketSender packetSender, ConfigPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 188
+   at Intersect.Network.PacketHandlerRegistry.<>c__DisplayClass36_1`2.<CreateWeaklyTypedDelegateForMethodInfo>b__1(IPacketSender packetSender, IPacket packet) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Network\PacketHandlerRegistry.cs:line 100
+   at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 154
+   at Intersect.Client.Networking.Network.OnDataReceived(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\Network.cs:line 150
+   at Intersect.Client.Framework.Network.GameSocket.OnDataReceived(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Network\GameSocket.cs:line 33
+   at Intersect.Client.MonoGame.Network.MonoSocket.Update() in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\Network\MonoSocket.cs:line 210
+   at Intersect.Client.Networking.Network.Update() in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\Network.cs:line 198
+   at Intersect.Client.Core.Main.Update(TimeSpan deltaTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Main.cs:line 81
+   at Intersect.Client.MonoGame.IntersectGame.Update(GameTime gameTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 230
+   at Microsoft.Xna.Framework.Game.DoUpdate(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 627
+   at Intersect.Client.Core.ClientContext.InternalStart() in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\ClientContext.cs:line 97
+   at Intersect.Core.ApplicationContext`2.Start(Boolean lockUntilShutdown) in F:\game code engine\Intersect_New\Intersect (Core)\Core\ApplicationContext`2.cs:line 245

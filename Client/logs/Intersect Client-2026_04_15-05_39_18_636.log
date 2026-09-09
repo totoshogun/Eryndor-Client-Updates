@@ -1,0 +1,31 @@
+2026-04-15 05:39:18.792 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-15 05:39:18.990 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-15 05:39:18.993 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-15 05:39:18.994 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-15 05:39:21.061 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-15 05:39:21.069 +06:00 [INF] Connected [0deed604-2fe1-414d-99b7-ddd030f4b489].
+2026-04-15 05:39:21.087 +06:00 [INF] Connection approved [0deed604-2fe1-414d-99b7-ddd030f4b489].
+2026-04-15 05:39:21.156 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-15 05:39:21.156 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-15 05:39:33.676 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-15 05:39:35.371 +06:00 [WRN] 'Me' is null.
+2026-04-15 05:39:35.847 +06:00 [INF] Built VBO for map 23630ac6-4461-460d-8a3b-9a0d4477096f 'test 8' in 17.173ms
+2026-04-15 05:39:35.902 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 50.0541ms
+2026-04-15 05:39:35.906 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 3.3407ms
+2026-04-15 05:40:43.132 +06:00 [WRN] 'Me' is null.
+2026-04-15 05:40:43.175 +06:00 [WRN] Tried to load entity "b188ff98-d4cb-417e-a69f-6d18f6bbec80" (Test2456) from packet before in-game UI was ready
+2026-04-15 05:40:43.176 +06:00 [WRN] Tried to load entity "b188ff98-d4cb-417e-a69f-6d18f6bbec80" (Test2456) from packet before in-game UI was ready
+2026-04-15 05:40:43.435 +06:00 [INF] Built VBO for map 23630ac6-4461-460d-8a3b-9a0d4477096f 'test 8' in 3.7556ms
+2026-04-15 05:40:43.439 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 2.9677ms
+2026-04-15 05:40:43.441 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 2.0559ms
+2026-04-15 05:42:57.385 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-15 05:42:57.388 +06:00 [INF] Disconnected [0deed604-2fe1-414d-99b7-ddd030f4b489].
+2026-04-15 05:42:57.424 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-15 05:42:57.424 +06:00 [INF] Acquired. (0ms)
+2026-04-15 05:42:57.425 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-15 05:42:57.425 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-15 05:42:57.425 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-15 05:42:57.425 +06:00 [INF] Clearing instance... (1ms)
+2026-04-15 05:42:57.425 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-15 05:42:57.425 +06:00 [INF] Released. (1ms)

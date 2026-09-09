@@ -1,0 +1,25 @@
+2026-04-17 03:12:49.494 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-17 03:12:49.714 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-17 03:12:49.717 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-17 03:12:49.717 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-17 03:12:51.864 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-17 03:12:51.872 +06:00 [INF] Connected [12ce47b8-3a9f-4e16-bd28-6a5c29bbb3d2].
+2026-04-17 03:12:51.886 +06:00 [INF] Connection approved [12ce47b8-3a9f-4e16-bd28-6a5c29bbb3d2].
+2026-04-17 03:12:51.961 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-17 03:12:51.961 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-17 03:13:03.816 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-17 03:13:04.777 +06:00 [WRN] 'Me' is null.
+2026-04-17 03:13:05.322 +06:00 [INF] Built VBO for map 23630ac6-4461-460d-8a3b-9a0d4477096f 'test 8' in 17.2429ms
+2026-04-17 03:13:05.368 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'forest' in 40.918ms
+2026-04-17 03:13:06.744 +06:00 [INF] Built VBO for map 411179b7-b772-42ef-bf66-03b7e4d7dca8 'test 5' in 5.7094ms
+2026-04-17 03:15:46.585 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-17 03:15:46.588 +06:00 [INF] Disconnected [12ce47b8-3a9f-4e16-bd28-6a5c29bbb3d2].
+2026-04-17 03:15:46.614 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-17 03:15:46.614 +06:00 [INF] Acquired. (0ms)
+2026-04-17 03:15:46.615 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-17 03:15:46.615 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-17 03:15:46.615 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-17 03:15:46.615 +06:00 [INF] Clearing instance... (1ms)
+2026-04-17 03:15:46.616 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-17 03:15:46.616 +06:00 [INF] Released. (1ms)

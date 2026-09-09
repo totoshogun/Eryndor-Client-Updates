@@ -1,0 +1,37 @@
+2026-04-15 05:39:10.134 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-04-15 05:39:10.523 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-04-15 05:39:10.531 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-04-15 05:39:10.532 +06:00 [INF] Discovered 0 plugins:
+
+2026-04-15 05:39:12.598 +06:00 [INF] Connecting to 127.0.0.1:5400...
+2026-04-15 05:39:12.621 +06:00 [INF] Connected [8890cd09-f61f-45d3-97bb-7d2fd9cf986b].
+2026-04-15 05:39:12.640 +06:00 [INF] Connection approved [8890cd09-f61f-45d3-97bb-7d2fd9cf986b].
+2026-04-15 05:39:12.724 +06:00 [INF] Updated PermissionSet 'default'
+2026-04-15 05:39:16.600 +06:00 [INF] Updated PermissionSet 'admin'
+2026-04-15 05:39:16.601 +06:00 [INF] Updating active permission set to 'admin'
+2026-04-15 05:39:16.742 +06:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-04-15 05:39:39.572 +06:00 [WRN] 'Me' is null.
+2026-04-15 05:39:40.174 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 53.8439ms
+2026-04-15 05:39:40.183 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 4.5256ms
+2026-04-15 05:40:01.732 +06:00 [WRN] 'Me' is null.
+2026-04-15 05:40:01.775 +06:00 [WRN] Tried to load entity "fd7efc0c-b38c-417d-b24f-da94624c8458" (Oran) from packet before in-game UI was ready
+2026-04-15 05:40:01.776 +06:00 [WRN] Tried to load entity "fd7efc0c-b38c-417d-b24f-da94624c8458" (Oran) from packet before in-game UI was ready
+2026-04-15 05:40:02.037 +06:00 [INF] Built VBO for map 23630ac6-4461-460d-8a3b-9a0d4477096f 'test 8' in 5.242ms
+2026-04-15 05:40:02.052 +06:00 [INF] Built VBO for map 73ba8458-f8de-4f78-a254-c91b18418ed0 'test 3' in 14.2337ms
+2026-04-15 05:40:02.055 +06:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'New Map' in 2.0409ms
+2026-04-15 05:40:03.092 +06:00 [WRN] 'TargetBox' is null.
+2026-04-15 05:40:05.573 +06:00 [WRN] 'TargetBox' is null.
+2026-04-15 05:40:58.214 +06:00 [WRN] 'TargetBox' is null.
+2026-04-15 05:41:00.660 +06:00 [WRN] 'TargetBox' is null.
+2026-04-15 05:41:03.930 +06:00 [WRN] 'TargetBox' is null.
+2026-04-15 05:42:17.186 +06:00 [INF] System window closing (due to user interaction most likely).
+2026-04-15 05:42:17.189 +06:00 [INF] Disconnected [8890cd09-f61f-45d3-97bb-7d2fd9cf986b].
+2026-04-15 05:42:17.189 +06:00 [INF] Updating active permission set to 'default'
+2026-04-15 05:42:17.208 +06:00 [INF] Acquiring context lock... (0ms)
+2026-04-15 05:42:17.208 +06:00 [INF] Acquired. (0ms)
+2026-04-15 05:42:17.208 +06:00 [INF] Beginning context dispose. (0ms)
+2026-04-15 05:42:17.209 +06:00 [INF] GC.SuppressFinalize (0ms)
+2026-04-15 05:42:17.209 +06:00 [INF] InternalDispose() completed. (0ms)
+2026-04-15 05:42:17.209 +06:00 [INF] Clearing instance... (1ms)
+2026-04-15 05:42:17.209 +06:00 [INF] Releasing context lock... (1ms)
+2026-04-15 05:42:17.209 +06:00 [INF] Released. (1ms)

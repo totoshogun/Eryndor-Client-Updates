@@ -1,0 +1,55 @@
+2026-03-21 18:54:37.323 +01:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-03-21 18:54:37.630 +01:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-03-21 18:54:37.638 +01:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-03-21 18:54:37.639 +01:00 [INF] Discovered 0 plugins:
+
+2026-03-21 18:54:56.443 +01:00 [INF] Connecting to 127.0.0.1:5400...
+2026-03-21 18:54:56.461 +01:00 [INF] Connected [014c19aa-236e-4bf1-adcf-8ba6b0f8c758].
+2026-03-21 18:54:56.480 +01:00 [INF] Connection approved [014c19aa-236e-4bf1-adcf-8ba6b0f8c758].
+2026-03-21 18:54:56.562 +01:00 [INF] Updated PermissionSet 'default'
+2026-03-21 18:54:57.622 +01:00 [INF] Updated PermissionSet 'admin'
+2026-03-21 18:54:57.622 +01:00 [INF] Updating active permission set to 'admin'
+2026-03-21 18:54:57.751 +01:00 [WRN] Unable to add '_buttonLogout' to the JSON of MainMenu.SelectCharacterWindow._innerPanel._buttonsPanel because a sibling shares the same name
+2026-03-21 18:54:59.327 +01:00 [WRN] 'Me' is null.
+2026-03-21 18:54:59.649 +01:00 [FTL] Game is crashing due to an exception
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacketSender packetSender, MapGridPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 1864
+   at Intersect.Network.PacketHandlerRegistry.<>c__DisplayClass36_1`2.<CreateWeaklyTypedDelegateForMethodInfo>b__1(IPacketSender packetSender, IPacket packet) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Network\PacketHandlerRegistry.cs:line 100
+   at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 140
+   at Intersect.Client.Networking.Network.OnDataReceived(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\Network.cs:line 150
+   at Intersect.Client.Framework.Network.GameSocket.OnDataReceived(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Network\GameSocket.cs:line 33
+   at Intersect.Client.MonoGame.Network.MonoSocket.Update() in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\Network\MonoSocket.cs:line 210
+   at Intersect.Client.Networking.Network.Update() in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\Network.cs:line 198
+   at Intersect.Client.Core.Main.Update(TimeSpan deltaTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Main.cs:line 64
+   at Intersect.Client.MonoGame.IntersectGame.Update(GameTime gameTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 230
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 633
+2026-03-21 18:54:59.670 +01:00 [INF] Acquiring context lock... (0ms)
+2026-03-21 18:54:59.670 +01:00 [INF] Acquired. (0ms)
+2026-03-21 18:54:59.671 +01:00 [INF] Beginning context dispose. (0ms)
+2026-03-21 18:54:59.671 +01:00 [INF] GC.SuppressFinalize (0ms)
+2026-03-21 18:54:59.671 +01:00 [INF] InternalDispose() completed. (0ms)
+2026-03-21 18:54:59.671 +01:00 [INF] Clearing instance... (1ms)
+2026-03-21 18:54:59.672 +01:00 [INF] Releasing context lock... (1ms)
+2026-03-21 18:54:59.672 +01:00 [INF] Released. (1ms)
+2026-03-21 18:54:59.672 +01:00 [ERR] Failed to start application context
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacketSender packetSender, MapGridPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 1864
+   at Intersect.Network.PacketHandlerRegistry.<>c__DisplayClass36_1`2.<CreateWeaklyTypedDelegateForMethodInfo>b__1(IPacketSender packetSender, IPacket packet) in F:\game code engine\Intersect_New\Framework\Intersect.Framework.Core\Network\PacketHandlerRegistry.cs:line 100
+   at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\PacketHandler.cs:line 140
+   at Intersect.Client.Networking.Network.OnDataReceived(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\Network.cs:line 150
+   at Intersect.Client.Framework.Network.GameSocket.OnDataReceived(IPacket packet) in F:\game code engine\Intersect_New\Intersect.Client.Framework\Network\GameSocket.cs:line 33
+   at Intersect.Client.MonoGame.Network.MonoSocket.Update() in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\Network\MonoSocket.cs:line 210
+   at Intersect.Client.Networking.Network.Update() in F:\game code engine\Intersect_New\Intersect.Client.Core\Networking\Network.cs:line 198
+   at Intersect.Client.Core.Main.Update(TimeSpan deltaTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\Main.cs:line 64
+   at Intersect.Client.MonoGame.IntersectGame.Update(GameTime gameTime) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 230
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction) in F:\game code engine\Intersect_New\Intersect.Client.Core\MonoGame\IntersectGame.cs:line 633
+   at Intersect.Client.Core.ClientContext.InternalStart() in F:\game code engine\Intersect_New\Intersect.Client.Core\Core\ClientContext.cs:line 97
+   at Intersect.Core.ApplicationContext`2.Start(Boolean lockUntilShutdown) in F:\game code engine\Intersect_New\Intersect (Core)\Core\ApplicationContext`2.cs:line 245
