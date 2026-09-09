@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 1,
-  "Version": "2026.09.09.085128",
+  "Version": "2026.09.09.092741",
   "Repository": "totoshogun/Eryndor-Client-Updates",
   "Branch": "main",
   "ProtectedPaths": [
@@ -14809,8 +14809,8 @@
     },
     {
       "Path": "resources/paperdolls/armor_raven_adventurer_idle.png",
-      "Size": 2943,
-      "Sha256": "c6d50cc4d5aa96d95b2e3c66d9aae9484eabd9983087b08aeba7179c78e9e74d"
+      "Size": 2968,
+      "Sha256": "d8a89ae6a25f295892068d2bcda0f32a03a4a5a98cfba0e09f4d73d9ca76f0d5"
     },
     {
       "Path": "resources/paperdolls/armor_raven_adventurer_lunge.png",
@@ -15709,8 +15709,8 @@
     },
     {
       "Path": "resources/paperdolls/chest_raven_blue_shirt_idle.png",
-      "Size": 1379,
-      "Sha256": "76b84e76444fd6dfbb9b52bbce162d0e6c1c2e629d764d99cb6f459fef818a83"
+      "Size": 1373,
+      "Sha256": "c3cd3c36837975177d51b605f4b908e1c19d7cc76c442daaa8896c7dcbca6edf"
     },
     {
       "Path": "resources/paperdolls/chest_raven_blue_shirt_lunge.png",
@@ -15924,8 +15924,8 @@
     },
     {
       "Path": "resources/paperdolls/chest_raven_green_shirt_idle.png",
-      "Size": 1338,
-      "Sha256": "cd36b1f22dadb4b9d7e67aa403528da75edaea70a92555569c2560c9a80bb79c"
+      "Size": 1353,
+      "Sha256": "b111d44fa3560012b696dec0611c32c6693dd30f98519d9acb628085e8eb5bfd"
     },
     {
       "Path": "resources/paperdolls/chest_raven_green_shirt_lunge.png",
