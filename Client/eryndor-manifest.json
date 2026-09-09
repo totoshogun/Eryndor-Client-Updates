@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 1,
-  "Version": "2026.09.09.022759",
+  "Version": "2026.09.09.073319",
   "Repository": "totoshogun/Eryndor-Client-Updates",
   "Branch": "main",
   "ProtectedPaths": [
@@ -14809,8 +14809,8 @@
     },
     {
       "Path": "resources/paperdolls/armor_raven_adventurer_idle.png",
-      "Size": 3107,
-      "Sha256": "01f598b926f57cef12be986e8f09298944313deb00e5b96b9744117509a3ed62"
+      "Size": 3109,
+      "Sha256": "2938dbdcda4b90a126a001ef8526c18e0e299f97989837c15efc08f5037ed5e5"
     },
     {
       "Path": "resources/paperdolls/armor_raven_adventurer_lunge.png",
@@ -15264,8 +15264,8 @@
     },
     {
       "Path": "resources/paperdolls/boots_raven_adventurer_idle.png",
-      "Size": 784,
-      "Sha256": "30749370f98977692c993c4312c4e481a601d4ffc530991b78c67064e9db54b6"
+      "Size": 785,
+      "Sha256": "b036780cabc23e272490a0d8d1e349160ca266a43a3a0c617c27d876a3b2df5e"
     },
     {
       "Path": "resources/paperdolls/boots_raven_adventurer_lunge.png",
@@ -15379,8 +15379,8 @@
     },
     {
       "Path": "resources/paperdolls/boots_raven_leather_boots_2_idle.png",
-      "Size": 651,
-      "Sha256": "2dac26b41758db45234b71f62716e8832eccbb7cb51c13366d1b49116c2bc2a0"
+      "Size": 718,
+      "Sha256": "5ed0f7de025458afe6c60113d247eddb3660d99d49b263be1e42a546316bc02f"
     },
     {
       "Path": "resources/paperdolls/boots_raven_leather_boots_2_lunge.png",
@@ -15484,8 +15484,8 @@
     },
     {
       "Path": "resources/paperdolls/boots_raven_leather_boots_idle.png",
-      "Size": 657,
-      "Sha256": "9b26575782d7fb4c49db8a7ab7392510e0e6024d0e0aa872326d47250540803d"
+      "Size": 724,
+      "Sha256": "5d88dea869dec3e74b9e7ab440cdbba8a03966f87cc017f2d6317abbd828a754"
     },
     {
       "Path": "resources/paperdolls/boots_raven_leather_boots_lunge.png",
@@ -15709,8 +15709,8 @@
     },
     {
       "Path": "resources/paperdolls/chest_raven_blue_shirt_idle.png",
-      "Size": 1379,
-      "Sha256": "76b84e76444fd6dfbb9b52bbce162d0e6c1c2e629d764d99cb6f459fef818a83"
+      "Size": 1419,
+      "Sha256": "7e89eb995accfffa8f19d196395759b214c7eb5d0b082536c8933e65be1fe54e"
     },
     {
       "Path": "resources/paperdolls/chest_raven_blue_shirt_lunge.png",
@@ -15924,8 +15924,8 @@
     },
     {
       "Path": "resources/paperdolls/chest_raven_green_shirt_idle.png",
-      "Size": 1338,
-      "Sha256": "cd36b1f22dadb4b9d7e67aa403528da75edaea70a92555569c2560c9a80bb79c"
+      "Size": 1401,
+      "Sha256": "555ce6b7bdd3bd6e113f3ccf3c7247e23133e8d66b1578ec5132849bb9cc5ada"
     },
     {
       "Path": "resources/paperdolls/chest_raven_green_shirt_lunge.png",
@@ -19799,8 +19799,8 @@
     },
     {
       "Path": "resources/paperdolls/legs_raven_brown_pants_idle.png",
-      "Size": 763,
-      "Sha256": "438ffb4b1d3b1dbd329616697a31d571529b2908d16572f9c175f90d15320702"
+      "Size": 813,
+      "Sha256": "8d183bc4c095f0409b04ba33c08162dc17ee75351ac020b5875dde8870bb2863"
     },
     {
       "Path": "resources/paperdolls/legs_raven_brown_pants_lunge.png",
@@ -19909,8 +19909,8 @@
     },
     {
       "Path": "resources/paperdolls/legs_raven_jeans_pants_idle.png",
-      "Size": 760,
-      "Sha256": "c46ace1c22b75bfdda739c18c80b9844fde69035439b9db15aac6e0bc2d67485"
+      "Size": 810,
+      "Sha256": "3d00439a45e270f88fe04481fe41b320bff3feddd64dd383ede3d3caf15358ab"
     },
     {
       "Path": "resources/paperdolls/legs_raven_jeans_pants_lunge.png",
