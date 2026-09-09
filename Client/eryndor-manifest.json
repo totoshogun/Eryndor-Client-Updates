@@ -1,10 +1,9 @@
 {
   "SchemaVersion": 1,
-  "Version": "2026.09.09.100555",
+  "Version": "2026.09.09.115240",
   "Repository": "totoshogun/Eryndor-Client-Updates",
   "Branch": "main",
   "ProtectedPaths": [
-    "resources/config.json",
     "logs",
     "screenshots",
     "crash-reports",
@@ -1581,6 +1580,11 @@
       "Path": "resources/client_strings.json",
       "Size": 40179,
       "Sha256": "2a438af4119fd52deb075ea543117a5a02f11bac7cfd4f11ca7096898ece67e9"
+    },
+    {
+      "Path": "resources/config.json",
+      "Size": 1565,
+      "Sha256": "8279c98976e8cff9b153c11eae5086292cb62c6dd89c646cb57b1db73e21057a"
     },
     {
       "Path": "resources/credits.json",
