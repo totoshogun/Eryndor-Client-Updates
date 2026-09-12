@@ -3,8 +3,8 @@
   "Port": 5400,
   "Servers": [
     {
-      "Name": "94.26.93.107",
-      "Host": "",
+      "Name": "Eryndor",
+      "Host": "94.26.93.107",
       "Port": 5400
     }
   ],
