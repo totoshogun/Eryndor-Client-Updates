@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 1,
-  "Version": "2026.09.12.203954",
+  "Version": "2026.09.12.205621",
   "Repository": "totoshogun/Eryndor-Client-Updates",
   "Branch": "main",
   "ProtectedPaths": [
@@ -6129,7 +6129,7 @@
     {
       "Path": "resources/gui/layouts/game/QuestOfferWindow.json",
       "Size": 23481,
-      "Sha256": "cb6699dd36e11701480a40f4b6bcfa678a9764945064257f80785c51f5408db3"
+      "Sha256": "34ff0d7609c16871a787f1622892ee5b9ec176050217fdeb540c2ac56d5dd5df"
     },
     {
       "Path": "resources/gui/layouts/game/QuestsWindow.json",
@@ -6323,13 +6323,13 @@
     },
     {
       "Path": "resources/gui/layouts/shared/AlertWindow_Okay.json",
-      "Size": 20773,
-      "Sha256": "02eaaa765385799bb4fc2c5a0351b2d333d63817bd3eae56cde4152c96ea384c"
+      "Size": 21065,
+      "Sha256": "671047c24f4797f0d1f2afc9bf2a02f7cb200c51b3ebb8d1b866acf4629c3073"
     },
     {
       "Path": "resources/gui/layouts/shared/AlertWindow_YesNo.json",
-      "Size": 22209,
-      "Sha256": "0b161fd157a9eb9bf892258fa8f8266205bd6370b0db0efc63e8c11322fd9579"
+      "Size": 22648,
+      "Sha256": "f6285ffe83d17328502268afd183f387c3f074358e50f0ce5b413f1625f9ffe8"
     },
     {
       "Path": "resources/gui/layouts/shared/InputBox.json",

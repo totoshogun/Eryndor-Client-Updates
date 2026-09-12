@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 1,
-  "Version": "2026.09.12.192808",
+  "Version": "2026.09.12.203954",
   "Repository": "totoshogun/Eryndor-Client-Updates",
   "Branch": "main",
   "ProtectedPaths": [
@@ -78,8 +78,8 @@
     },
     {
       "Path": "Intersect Client Core.dll",
-      "Size": 17844736,
-      "Sha256": "309c471ccc0e2ede6e090a4202a62a5663a13439ce75b0f0fba19090bbf75fca"
+      "Size": 17845248,
+      "Sha256": "5cab2412160a787516586a7d64f6ff0684a695a2bc9b53a1a1c7cb8c3f00a272"
     },
     {
       "Path": "Intersect Client Core.xml",
@@ -1724,7 +1724,7 @@
     {
       "Path": "obj/Release test/Intersect.Client.csproj.AssemblyReference.cache",
       "Size": 50873,
-      "Sha256": "ca7aca9ad932e45737dc236f56cb9be30d8612d0ca9d134da28302e611dd2cce"
+      "Sha256": "41b6e9ee8305a27eee494409634caa2ab896a6145d8ec7ca14d26fa9d2cba9eb"
     },
     {
       "Path": "obj/Release test/Intersect.Client.csproj.CoreCompileInputs.cache",
@@ -2143,8 +2143,8 @@
     },
     {
       "Path": "resources/config.json",
-      "Size": 1567,
-      "Sha256": "20b1b5a563b913b01db2d93c6074887aaeb21730432696109411efb5f45f4899"
+      "Size": 1570,
+      "Sha256": "a5a8661c4517b3fa72ea9d8b61e2c9f715fe77118d32b78095b1e1904215f6b3"
     },
     {
       "Path": "resources/credits.json",
@@ -5127,6 +5127,11 @@
       "Sha256": "338ac31f5601645193b29428f8b99eea0c9da3fa6f38d2f0822373f2b3da7473"
     },
     {
+      "Path": "resources/gui/forgot_window_custom.png",
+      "Size": 71078,
+      "Sha256": "4a4923e2f519c62ca9878bc1d16e480d1c85c3ec6ddaed502ce04e5363491e2f"
+    },
+    {
       "Path": "resources/gui/friendadd.png",
       "Size": 176,
       "Sha256": "60c399efb9cebba913c6ef6a2d3c94194f8ba73b72e1c5f8f5ffe10a55f3cecf"
@@ -6258,8 +6263,8 @@
     },
     {
       "Path": "resources/gui/layouts/menu/ForgotPasswordWindow.json",
-      "Size": 25403,
-      "Sha256": "e6418421a65f8d348b40a3bf4f44bbb16263832c50b84283d635db58e55bea55"
+      "Size": 25830,
+      "Sha256": "435b2849a472cdfe8f14aa40e8f5337d4eb323606c57b3d8cafa2c14a8cd757d"
     },
     {
       "Path": "resources/gui/layouts/menu/LoginWindow.json",
@@ -6288,13 +6293,13 @@
     },
     {
       "Path": "resources/gui/layouts/menu/PasswordChangeWindowExistingPassword.json",
-      "Size": 19544,
-      "Sha256": "68f2386511d651f15a1240eed87000b0962e0f50e5bb74ad33260ab61fce2bd3"
+      "Size": 23667,
+      "Sha256": "c35d934963b3bb59650a6311e6a650e052d5d4f371a94bf5199f86a7e8ca90ea"
     },
     {
       "Path": "resources/gui/layouts/menu/PasswordChangeWindowResetToken.json",
-      "Size": 19544,
-      "Sha256": "68f2386511d651f15a1240eed87000b0962e0f50e5bb74ad33260ab61fce2bd3"
+      "Size": 23668,
+      "Sha256": "265057964b7bc8e11b5bc38eac8a1d19f0300422f91f345f7ff5f9ecabe4605c"
     },
     {
       "Path": "resources/gui/layouts/menu/RegistrationWindow.json",
@@ -6465,6 +6470,16 @@
       "Path": "resources/gui/login_dropdown_v2_hovered.png",
       "Size": 4517,
       "Sha256": "fa323c9d24e78f55473ab48c4ad800abda5074fcc58551c8310716e27a6d4313"
+    },
+    {
+      "Path": "resources/gui/login_input_210.png",
+      "Size": 7262,
+      "Sha256": "f3d571ae8a2c992bb27e80a512defca5c7e9215e6d779431b9619935642cb66f"
+    },
+    {
+      "Path": "resources/gui/login_input_forgot.png",
+      "Size": 7640,
+      "Sha256": "55f64a59f688219ab252049e70676e7672f63b8e71b882913d9e52adea59bd7b"
     },
     {
       "Path": "resources/gui/login_input_v2.png",
@@ -6890,6 +6905,11 @@
       "Path": "resources/gui/partyicon_hovered.png",
       "Size": 5648,
       "Sha256": "f9c27d1864c3a9fc8026f35c2a0af5b226aeaca0eb1a88ef46f3015683e02722"
+    },
+    {
+      "Path": "resources/gui/passchange_window_custom.png",
+      "Size": 72793,
+      "Sha256": "ce9ddb4eb3107cc1f5fad0ae9c2d7c6f6b1fa0fc00f37514964742abb09b65b3"
     },
     {
       "Path": "resources/gui/player_window.png",
