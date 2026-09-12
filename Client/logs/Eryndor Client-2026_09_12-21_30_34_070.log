@@ -1,0 +1,35 @@
+2026-09-12 21:30:34.666 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-12 21:30:35.067 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-12 21:30:35.071 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-12 21:30:35.072 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-12 21:30:35.553 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-09-12 21:30:39.604 +02:00 [INF] Music volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-12 21:30:39.606 +02:00 [INF] Sound volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-09-12 21:30:39.606 +02:00 [INF] Weather sounds volume set to 80 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._weatherSoundsSlider._slider
+2026-09-12 21:30:42.875 +02:00 [INF] Connecting to 94.26.93.107:5400...
+2026-09-12 21:30:42.884 +02:00 [INF] Connected [ee389550-893c-4b0a-a30e-ef860e8b2b0b].
+2026-09-12 21:30:42.899 +02:00 [INF] Connection approved [ee389550-893c-4b0a-a30e-ef860e8b2b0b].
+2026-09-12 21:30:42.986 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-12 21:30:42.986 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-12 21:30:56.590 +02:00 [INF] Disconnected [ee389550-893c-4b0a-a30e-ef860e8b2b0b].
+2026-09-12 21:30:57.546 +02:00 [INF] Music volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-12 21:30:57.546 +02:00 [INF] Sound volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-09-12 21:30:57.546 +02:00 [INF] Weather sounds volume set to 80 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._weatherSoundsSlider._slider
+2026-09-12 21:31:08.485 +02:00 [INF] Connecting to 94.26.93.107:5400...
+2026-09-12 21:31:08.490 +02:00 [INF] Connected [aeb8fc2c-7ce5-48d1-b7bb-4ef48986005a].
+2026-09-12 21:31:08.493 +02:00 [INF] Connection approved [aeb8fc2c-7ce5-48d1-b7bb-4ef48986005a].
+2026-09-12 21:31:08.503 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-12 21:31:08.503 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-12 21:31:40.776 +02:00 [INF] User clicked exit button.
+2026-09-12 21:31:41.070 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-09-12 21:31:41.071 +02:00 [INF] Disconnected [aeb8fc2c-7ce5-48d1-b7bb-4ef48986005a].
+2026-09-12 21:31:41.071 +02:00 [INF] Updating active permission set to 'default'
+2026-09-12 21:31:41.107 +02:00 [INF] Acquiring context lock... (0ms)
+2026-09-12 21:31:41.108 +02:00 [INF] Acquired. (0ms)
+2026-09-12 21:31:41.109 +02:00 [INF] Beginning context dispose. (0ms)
+2026-09-12 21:31:41.109 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-09-12 21:31:41.109 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-09-12 21:31:41.109 +02:00 [INF] Clearing instance... (2ms)
+2026-09-12 21:31:41.109 +02:00 [INF] Releasing context lock... (2ms)
+2026-09-12 21:31:41.109 +02:00 [INF] Released. (2ms)

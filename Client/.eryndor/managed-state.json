@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 1,
-  "Version": "2026.09.12.162115",
+  "Version": "2026.09.12.192808",
   "Repository": "totoshogun/Eryndor-Client-Updates",
   "Branch": "main",
   "ProtectedPaths": [
@@ -62,14 +62,24 @@
       "Sha256": "1c2ad556524fc612e4ca35685746524b24b1430e30b6b2ce2d4a2b3ff516bebb"
     },
     {
+      "Path": "GlobalSuppressions.cs",
+      "Size": 3,
+      "Sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+    },
+    {
       "Path": "Hardware.Info.dll",
       "Size": 103424,
       "Sha256": "0efe34682450aebb23b3ce017dc4b6644a370f776e293d0e628567914f6793da"
     },
     {
+      "Path": "Icon.bmp",
+      "Size": 262198,
+      "Sha256": "a2b7915be5bbc69b501e8868979bacd71f8349d88e489ab004d3149d19e9ad1f"
+    },
+    {
       "Path": "Intersect Client Core.dll",
       "Size": 17844736,
-      "Sha256": "edaf1411df04eb09e4a791780b5a3bd69b884e6a798a3e242de5e7511b8b688f"
+      "Sha256": "309c471ccc0e2ede6e090a4202a62a5663a13439ce75b0f0fba19090bbf75fca"
     },
     {
       "Path": "Intersect Client Core.xml",
@@ -93,13 +103,18 @@
     },
     {
       "Path": "Intersect.Client.Framework.dll",
-      "Size": 1332736,
-      "Sha256": "a68bc3bbfcfb37f4c4aba059328866f34c500afd23239d1070ff3ace4a93ffa4"
+      "Size": 1333760,
+      "Sha256": "5071ab6af5a8f3db14310a6537572949ac0acde08da5e031d49a19f6c5f9dced"
     },
     {
       "Path": "Intersect.Client.Framework.xml",
       "Size": 338227,
       "Sha256": "2ccad69c42db1e9a0f02f1210651ba1cbd90dca24498d95eac277cf5e2194155"
+    },
+    {
+      "Path": "Intersect.Client.csproj",
+      "Size": 13944,
+      "Sha256": "9bc9f4394c594dd88169f64ad2aa0fb7ea54348b9d199bd4c7e2cd8ad1bf3b58"
     },
     {
       "Path": "Intersect.Framework.Core.dll",
@@ -150,6 +165,11 @@
       "Path": "LiteNetLib.dll",
       "Size": 136192,
       "Sha256": "b31aeda064555ca4ce54ab2185cff09266c0f60b85cf9867b4a88fa1be03bf91"
+    },
+    {
+      "Path": "LiteNetLib.pdb",
+      "Size": 76272,
+      "Sha256": "4184836f9c093a7ae41f311eda95fe8e923ed0c18aa708403d627894b6671892"
     },
     {
       "Path": "LiteNetLib.xml",
@@ -360,6 +380,36 @@
       "Path": "Newtonsoft.Json.dll",
       "Size": 712464,
       "Sha256": "22c649f75fce5be7c7ccda8880473b634ef69ecf33f5d1ab8ad892caf47d5a07"
+    },
+    {
+      "Path": "Program.cs",
+      "Size": 337,
+      "Sha256": "43c08f0da4901264d02cdd2d87ca33c417272d9c9c50ebd91980b5450989953b"
+    },
+    {
+      "Path": "Properties/EryndorClient.bmp",
+      "Size": 262198,
+      "Sha256": "a2b7915be5bbc69b501e8868979bacd71f8349d88e489ab004d3149d19e9ad1f"
+    },
+    {
+      "Path": "Properties/EryndorClient.ico",
+      "Size": 101537,
+      "Sha256": "3ee827a2748ed139d784f8bdf708f8a4c0f7f0d140e6967ddbe6d08bfa3ee10b"
+    },
+    {
+      "Path": "Properties/Resources.Designer.cs",
+      "Size": 2968,
+      "Sha256": "c714443ec0a549b889219f85e815c4daef0c1c618fbb7a12f62afcfd8089c7b0"
+    },
+    {
+      "Path": "Properties/Resources.resx",
+      "Size": 5698,
+      "Sha256": "4d3ee9059f5b98ab1806f6916ebea2a8c56023f8c63ddfd80b7378d27d1aa0f6"
+    },
+    {
+      "Path": "Properties/launchSettings.json",
+      "Size": 835,
+      "Sha256": "91b2aec33ff6d46670c68e1578942727f106b368bfb4f5ce82c2be6634418e4c"
     },
     {
       "Path": "SDL2.dll",
@@ -1297,6 +1347,11 @@
       "Sha256": "d2b82fd6347b45b6bc3ff23c60d215a8431906d25b68bf84a2ff6a0b2c46ae9e"
     },
     {
+      "Path": "app.manifest",
+      "Size": 1654,
+      "Sha256": "5f6ceaa4c612d7ea9eab979bb2c416fd398cee0eb51804577ff99670933ceaac"
+    },
+    {
       "Path": "clretwrc.dll",
       "Size": 310568,
       "Sha256": "bc233572d7702ec8d8763c143ec62687c38abc3aad26336fb45c26657bf3a5e7"
@@ -1430,6 +1485,516 @@
       "Path": "netstandard.dll",
       "Size": 100648,
       "Sha256": "53d854d33c3f0e1bbccff4b5c4b89420daa66fa5f6603f6e5df20d6bbb7e00f4"
+    },
+    {
+      "Path": "obj/Any CPU/Release test/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+      "Size": 194,
+      "Sha256": "ae41ca1e67556e4b0622d82a2122a04f17722c0c19d3b2f1fbcab8a2aaf16d2e"
+    },
+    {
+      "Path": "obj/Any CPU/Release test/Intersec.3A182661.Up2Date",
+      "Size": 0,
+      "Sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "Path": "obj/Any CPU/Release test/Intersect Client.dll",
+      "Size": 691200,
+      "Sha256": "8fc33e9632810f533ecd238f5293a51db91ccd35004f145ef79365480e144099"
+    },
+    {
+      "Path": "obj/Any CPU/Release test/Intersect Client.xml",
+      "Size": 133,
+      "Sha256": "e32b5a51fd5ba681627d72e59f9643eb7340f8030c76e72346fe41776192c68d"
+    },
+    {
+      "Path": "obj/Any CPU/Release test/Intersect.Client.AssemblyInfo.cs",
+      "Size": 1730,
+      "Sha256": "d995249a2de8e2341509231549790d24ab435a25f7294981cb6bdd25a4fe6eef"
+    },
+    {
+      "Path": "obj/Any CPU/Release test/Intersect.Client.AssemblyInfoInputs.cache",
+      "Size": 65,
+      "Sha256": "740ea21fac5dbc3f1d5615db06d8cb59568be634f5426f0e25424bdd40e4ee78"
+    },
+    {
+      "Path": "obj/Any CPU/Release test/Intersect.Client.GeneratedMSBuildEditorConfig.editorconfig",
+      "Size": 990,
+      "Sha256": "2f4e7297cf5df4330f4cee892e31af5a1b6982c2949018a31bc0b98bb71272b9"
+    },
+    {
+      "Path": "obj/Any CPU/Release test/Intersect.Client.GlobalUsings.g.cs",
+      "Size": 231,
+      "Sha256": "8f86a2cbf00ff3eee0bda2bc0eb5e1fc19c8544d5dc650c53d0132325956b592"
+    },
+    {
+      "Path": "obj/Any CPU/Release test/Intersect.Client.assets.cache",
+      "Size": 68784,
+      "Sha256": "89c014846c134dab16014c085b1b0e6fdb40f241cbd8dd29dd5cd0725cc4546f"
+    },
+    {
+      "Path": "obj/Any CPU/Release test/Intersect.Client.csproj.AssemblyReference.cache",
+      "Size": 48282,
+      "Sha256": "adcebe7dc456dd3f8319b02d531df1f41ae16281ccb5311df23dc8823a4e5152"
+    },
+    {
+      "Path": "obj/Any CPU/Release test/Intersect.Client.csproj.CoreCompileInputs.cache",
+      "Size": 65,
+      "Sha256": "3acf2d3a55df8ce5b150bee8122b6d7de423e6118e63ca05144c494269c3c919"
+    },
+    {
+      "Path": "obj/Any CPU/Release test/Intersect.Client.csproj.FileListAbsolute.txt",
+      "Size": 24421,
+      "Sha256": "b811e12828eaee1dce10e45da3d58143665a2d867dce65a4c7282e17ce79786c"
+    },
+    {
+      "Path": "obj/Any CPU/Release test/Intersect.Client.genruntimeconfig.cache",
+      "Size": 65,
+      "Sha256": "02d0a7338a3c26096726499fbe231bc2505a8b7695845c687773c81e303ce5ba"
+    },
+    {
+      "Path": "obj/Any CPU/Release test/Intersect.Client.sourcelink.json",
+      "Size": 169,
+      "Sha256": "ddc894f371a00c54779b7d0ea88b6c04bb668640630ff87f6a0146477f38a072"
+    },
+    {
+      "Path": "obj/Any CPU/Release test/apphost.exe",
+      "Size": 457728,
+      "Sha256": "72782881d2d789c46b7113982729d30fee0cbf7342f0e173a4fd45b670c5cfcd"
+    },
+    {
+      "Path": "obj/Any CPU/Release test/ref/Intersect Client.dll",
+      "Size": 312320,
+      "Sha256": "064639811fef54f99c5bf6a8b0c2de37e6202641fa980641a89753b2b12dfc3d"
+    },
+    {
+      "Path": "obj/Any CPU/Release test/refint/Intersect Client.dll",
+      "Size": 312320,
+      "Sha256": "064639811fef54f99c5bf6a8b0c2de37e6202641fa980641a89753b2b12dfc3d"
+    },
+    {
+      "Path": "obj/Debug/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+      "Size": 194,
+      "Sha256": "ae41ca1e67556e4b0622d82a2122a04f17722c0c19d3b2f1fbcab8a2aaf16d2e"
+    },
+    {
+      "Path": "obj/Debug/Eryndor Client.dll",
+      "Size": 685056,
+      "Sha256": "8f6432e1edcd143c28496ceb7977bc589f894b42f0a1160bee15ce0d360cbff8"
+    },
+    {
+      "Path": "obj/Debug/Eryndor Client.xml",
+      "Size": 131,
+      "Sha256": "1c2ad556524fc612e4ca35685746524b24b1430e30b6b2ce2d4a2b3ff516bebb"
+    },
+    {
+      "Path": "obj/Debug/Intersec.3A182661.Up2Date",
+      "Size": 0,
+      "Sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "Path": "obj/Debug/Intersect.Client.AssemblyInfo.cs",
+      "Size": 1677,
+      "Sha256": "7fde98f1938e525c117eb8562c613c79e184e2e1307a9cf99b5cac6c44e6f4bf"
+    },
+    {
+      "Path": "obj/Debug/Intersect.Client.AssemblyInfoInputs.cache",
+      "Size": 65,
+      "Sha256": "5600e8e876a667ab2f1a8f8819a9616c71255d90a0c9fec69174497fd9b4a519"
+    },
+    {
+      "Path": "obj/Debug/Intersect.Client.GeneratedMSBuildEditorConfig.editorconfig",
+      "Size": 592,
+      "Sha256": "e675f45f68dc185d3bb00cadf8ba6c812c702311172e985003dc0eafb59ef825"
+    },
+    {
+      "Path": "obj/Debug/Intersect.Client.GlobalUsings.g.cs",
+      "Size": 287,
+      "Sha256": "addb143f8c43b95f1bb73a0cba7c793281935c4ab8ccabbdf6b04d3e0f809e0e"
+    },
+    {
+      "Path": "obj/Debug/Intersect.Client.assets.cache",
+      "Size": 68677,
+      "Sha256": "941c268d153a2d8934f4c069a7c56321df0d5bfe7782e7cdac453e1507f290ff"
+    },
+    {
+      "Path": "obj/Debug/Intersect.Client.csproj.AssemblyReference.cache",
+      "Size": 48732,
+      "Sha256": "bd1956a57297b0403492d00e87b4966cceecda61e5cf6f0f6ef4aa4b46b21afb"
+    },
+    {
+      "Path": "obj/Debug/Intersect.Client.csproj.CoreCompileInputs.cache",
+      "Size": 65,
+      "Sha256": "fbfc17b887951aec5284bc9e853773a10a22845bef138448e2888a882e1a0539"
+    },
+    {
+      "Path": "obj/Debug/Intersect.Client.csproj.FileListAbsolute.txt",
+      "Size": 12002,
+      "Sha256": "7e08ce0102462453b9843e9a052ff7185e43353b45a2234981e124135a3f59ef"
+    },
+    {
+      "Path": "obj/Debug/Intersect.Client.genruntimeconfig.cache",
+      "Size": 65,
+      "Sha256": "8c52a2afcb8b9836131af15000f17f19e9a34b46c0779eb9bd94c452b5c7a2b1"
+    },
+    {
+      "Path": "obj/Debug/Intersect.Client.sourcelink.json",
+      "Size": 169,
+      "Sha256": "ddc894f371a00c54779b7d0ea88b6c04bb668640630ff87f6a0146477f38a072"
+    },
+    {
+      "Path": "obj/Debug/apphost.exe",
+      "Size": 254976,
+      "Sha256": "7ac2d79a7b2fcf5ba27a9e213841ac178dfb6ff4e27c8bfc4d172016dcb579b3"
+    },
+    {
+      "Path": "obj/Debug/ref/Eryndor Client.dll",
+      "Size": 109568,
+      "Sha256": "38063970c3aef93c9f27002890397f7e5bbe90069df4bed74d07961748bdb89a"
+    },
+    {
+      "Path": "obj/Debug/refint/Eryndor Client.dll",
+      "Size": 109568,
+      "Sha256": "38063970c3aef93c9f27002890397f7e5bbe90069df4bed74d07961748bdb89a"
+    },
+    {
+      "Path": "obj/Intersect.Client.csproj.nuget.dgspec.json",
+      "Size": 52387,
+      "Sha256": "0078aee836f4fb506e76cff5b3185f54cb57b1e96406e11c5d44eae2e0ae0c3e"
+    },
+    {
+      "Path": "obj/Intersect.Client.csproj.nuget.g.props",
+      "Size": 1889,
+      "Sha256": "87fcf5576a1589f09b542380195631d8ff723a086aa36c43d532fa0a595eadd8"
+    },
+    {
+      "Path": "obj/Intersect.Client.csproj.nuget.g.targets",
+      "Size": 1421,
+      "Sha256": "025cb0e16f9365b673a60184bd79ce734a747ea64eb7c191b5a02ee8733adf46"
+    },
+    {
+      "Path": "obj/Release test/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+      "Size": 194,
+      "Sha256": "ae41ca1e67556e4b0622d82a2122a04f17722c0c19d3b2f1fbcab8a2aaf16d2e"
+    },
+    {
+      "Path": "obj/Release test/Eryndor Client.dll",
+      "Size": 685056,
+      "Sha256": "382b4d1cf47fa7a0f134e5579118ab71dbb37bb80b5b9565e29c1e0914c93328"
+    },
+    {
+      "Path": "obj/Release test/Eryndor Client.xml",
+      "Size": 131,
+      "Sha256": "1c2ad556524fc612e4ca35685746524b24b1430e30b6b2ce2d4a2b3ff516bebb"
+    },
+    {
+      "Path": "obj/Release test/Intersec.3A182661.Up2Date",
+      "Size": 0,
+      "Sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "Path": "obj/Release test/Intersect Client.deps.json",
+      "Size": 78438,
+      "Sha256": "578abdaa3aacfa98dc89d1d0e902e2c2daf4ff32f11bed21e64503f7be0914fe"
+    },
+    {
+      "Path": "obj/Release test/Intersect.Client.AssemblyInfo.cs",
+      "Size": 1684,
+      "Sha256": "61c1b8cfd9e45c76f2d2d4a65228821a8878798b0ecec1b73653a2facbdcac53"
+    },
+    {
+      "Path": "obj/Release test/Intersect.Client.AssemblyInfoInputs.cache",
+      "Size": 65,
+      "Sha256": "4ffdaf4ddbbbe57070c11dbed595c397b2dea9f126f558f6ceb84430ad2e33a3"
+    },
+    {
+      "Path": "obj/Release test/Intersect.Client.GeneratedMSBuildEditorConfig.editorconfig",
+      "Size": 762,
+      "Sha256": "20e32d416a6768fdab7b12e826e1e4f74a1e32d14808a51567f6f3e5e1604418"
+    },
+    {
+      "Path": "obj/Release test/Intersect.Client.GlobalUsings.g.cs",
+      "Size": 287,
+      "Sha256": "addb143f8c43b95f1bb73a0cba7c793281935c4ab8ccabbdf6b04d3e0f809e0e"
+    },
+    {
+      "Path": "obj/Release test/Intersect.Client.assets.cache",
+      "Size": 68784,
+      "Sha256": "181eeb375bffc4406856d538369ef5a1c416cca3306adc72ed2404d66659af6d"
+    },
+    {
+      "Path": "obj/Release test/Intersect.Client.csproj.AssemblyReference.cache",
+      "Size": 50873,
+      "Sha256": "ca7aca9ad932e45737dc236f56cb9be30d8612d0ca9d134da28302e611dd2cce"
+    },
+    {
+      "Path": "obj/Release test/Intersect.Client.csproj.CoreCompileInputs.cache",
+      "Size": 65,
+      "Sha256": "a85f6a72373d17e4fce9299e4a906f308c6b5fc69c6ee1aa98e94c1167b920a1"
+    },
+    {
+      "Path": "obj/Release test/Intersect.Client.csproj.FileListAbsolute.txt",
+      "Size": 58204,
+      "Sha256": "3a53c03bcf5c8911bcdbe0a8da66b31f2d8c96588b5e7c8e29767bdb160e185d"
+    },
+    {
+      "Path": "obj/Release test/Intersect.Client.genbundle.cache",
+      "Size": 65,
+      "Sha256": "b72eb4b78e380f78d382ba71079556af725ed9c8abbd81c5143c155a26ec99a7"
+    },
+    {
+      "Path": "obj/Release test/Intersect.Client.genpublishdeps.cache",
+      "Size": 65,
+      "Sha256": "046e9b56dc47c9f7112d566bd6c615f6bcbba2ac94085186270ee3bc71b671c4"
+    },
+    {
+      "Path": "obj/Release test/Intersect.Client.genruntimeconfig.cache",
+      "Size": 65,
+      "Sha256": "02d0a7338a3c26096726499fbe231bc2505a8b7695845c687773c81e303ce5ba"
+    },
+    {
+      "Path": "obj/Release test/Intersect.Client.sourcelink.json",
+      "Size": 169,
+      "Sha256": "ddc894f371a00c54779b7d0ea88b6c04bb668640630ff87f6a0146477f38a072"
+    },
+    {
+      "Path": "obj/Release test/PublishOutputs.445c8a084a.txt",
+      "Size": 10504,
+      "Sha256": "772dac14a0fdf8dc80bbc7eb6a0acee01635fbaa9b13faf821c770c75135889c"
+    },
+    {
+      "Path": "obj/Release test/PublishOutputs.820861a547.txt",
+      "Size": 857,
+      "Sha256": "13a3ab745bee2021f3be9e96c6453584752a17d1514d8f0792d7aee7b482ae4d"
+    },
+    {
+      "Path": "obj/Release test/PublishOutputs.e704754f6b.txt",
+      "Size": 88,
+      "Sha256": "79b412a58d9904d9fe212642c141cacda4d9db654a76bab4aae72b9c6dd41139"
+    },
+    {
+      "Path": "obj/Release test/apphost.exe",
+      "Size": 457728,
+      "Sha256": "0c517e66b3f18322fbcf7cb05151fa6ca1ba0a5baebf60043dcbf47206323719"
+    },
+    {
+      "Path": "obj/Release test/ref/Eryndor Client.dll",
+      "Size": 109568,
+      "Sha256": "bb6e4e40e345675beb2335c3e46fcaba6960fe83b98a9ae9949243395e23ac47"
+    },
+    {
+      "Path": "obj/Release test/refint/Eryndor Client.dll",
+      "Size": 109568,
+      "Sha256": "bb6e4e40e345675beb2335c3e46fcaba6960fe83b98a9ae9949243395e23ac47"
+    },
+    {
+      "Path": "obj/Release test/singlefilehost.exe",
+      "Size": 9747456,
+      "Sha256": "1c4b90ef71434523eadd6da7e4cf6cbd80e4628ea1e5d9fab7c3da7523701884"
+    },
+    {
+      "Path": "obj/Release/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+      "Size": 194,
+      "Sha256": "ae41ca1e67556e4b0622d82a2122a04f17722c0c19d3b2f1fbcab8a2aaf16d2e"
+    },
+    {
+      "Path": "obj/Release/Eryndor Client.dll",
+      "Size": 685056,
+      "Sha256": "dd8d00726bcab40945bbd4e71a50605887e026bc46d76c06777a588ac7e60b5e"
+    },
+    {
+      "Path": "obj/Release/Eryndor Client.xml",
+      "Size": 131,
+      "Sha256": "1c2ad556524fc612e4ca35685746524b24b1430e30b6b2ce2d4a2b3ff516bebb"
+    },
+    {
+      "Path": "obj/Release/Intersec.3A182661.Up2Date",
+      "Size": 0,
+      "Sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "Path": "obj/Release/Intersect Client.deps.json",
+      "Size": 78438,
+      "Sha256": "4d0cb9e9232c329b6aaf4adf597ba345f6724badd54940310c97c5fe1cf6c578"
+    },
+    {
+      "Path": "obj/Release/Intersect.Client.AssemblyInfo.cs",
+      "Size": 1679,
+      "Sha256": "a755ef69c013e76c6bc35275ff2505eca46fa441b72fee882f224244e8d052aa"
+    },
+    {
+      "Path": "obj/Release/Intersect.Client.AssemblyInfoInputs.cache",
+      "Size": 65,
+      "Sha256": "96ea955116d1a26eb0773a2e80ba38ab4be88a77c5ff18f86d58b96cbecf1f27"
+    },
+    {
+      "Path": "obj/Release/Intersect.Client.GeneratedMSBuildEditorConfig.editorconfig",
+      "Size": 762,
+      "Sha256": "20e32d416a6768fdab7b12e826e1e4f74a1e32d14808a51567f6f3e5e1604418"
+    },
+    {
+      "Path": "obj/Release/Intersect.Client.GlobalUsings.g.cs",
+      "Size": 287,
+      "Sha256": "addb143f8c43b95f1bb73a0cba7c793281935c4ab8ccabbdf6b04d3e0f809e0e"
+    },
+    {
+      "Path": "obj/Release/Intersect.Client.assets.cache",
+      "Size": 68784,
+      "Sha256": "196b1a6ef8572a18b1b1989727aa60b7ae413c0bfa54be177a0d483309297114"
+    },
+    {
+      "Path": "obj/Release/Intersect.Client.csproj.AssemblyReference.cache",
+      "Size": 48559,
+      "Sha256": "c0e73f89e1928c543a7e61861390dbe36b3750cf905eaa79d3d96382bb417f1a"
+    },
+    {
+      "Path": "obj/Release/Intersect.Client.csproj.CoreCompileInputs.cache",
+      "Size": 65,
+      "Sha256": "060da12972c89fac1077a3bd79be0346a4035732cfa7a8d0432ae16a6fde0aa7"
+    },
+    {
+      "Path": "obj/Release/Intersect.Client.csproj.FileListAbsolute.txt",
+      "Size": 24247,
+      "Sha256": "1fc29a62a792bfdab2b7c2c5339e6a9d5054517d233e11e052d853ec53b520d8"
+    },
+    {
+      "Path": "obj/Release/Intersect.Client.genbundle.cache",
+      "Size": 65,
+      "Sha256": "ae54738d9b695c19ffa1ff433e6a936018c0cce69ff29ac618f83136374345c6"
+    },
+    {
+      "Path": "obj/Release/Intersect.Client.genpublishdeps.cache",
+      "Size": 65,
+      "Sha256": "0a267aa0d13b9333b1375c3feff2f84dac15c2d776925354c0dc7627d2029744"
+    },
+    {
+      "Path": "obj/Release/Intersect.Client.genruntimeconfig.cache",
+      "Size": 65,
+      "Sha256": "5fa3eb48b56a16f26c1c8e1a73f1537580466b501e3d8a172438ec72dad96209"
+    },
+    {
+      "Path": "obj/Release/Intersect.Client.sourcelink.json",
+      "Size": 169,
+      "Sha256": "ddc894f371a00c54779b7d0ea88b6c04bb668640630ff87f6a0146477f38a072"
+    },
+    {
+      "Path": "obj/Release/PublishOutputs.445c8a084a.txt",
+      "Size": 1049,
+      "Sha256": "cb11e3a5572a085c99ab3a8c6ca124904fb03a5a6dbc31d24f24ad406ffc35cd"
+    },
+    {
+      "Path": "obj/Release/apphost.exe",
+      "Size": 457728,
+      "Sha256": "72782881d2d789c46b7113982729d30fee0cbf7342f0e173a4fd45b670c5cfcd"
+    },
+    {
+      "Path": "obj/Release/ref/Eryndor Client.dll",
+      "Size": 109568,
+      "Sha256": "e6f7dc5edaa99166c7483613280696ebd5501492ee1c416735f83388934b27ce"
+    },
+    {
+      "Path": "obj/Release/refint/Eryndor Client.dll",
+      "Size": 109568,
+      "Sha256": "e6f7dc5edaa99166c7483613280696ebd5501492ee1c416735f83388934b27ce"
+    },
+    {
+      "Path": "obj/Release/singlefilehost.exe",
+      "Size": 9747456,
+      "Sha256": "1c4b90ef71434523eadd6da7e4cf6cbd80e4628ea1e5d9fab7c3da7523701884"
+    },
+    {
+      "Path": "obj/project.assets.json",
+      "Size": 672452,
+      "Sha256": "ab6e4e3e8589de4e55830e11e0780e3db0f85defc45cd4a17ae22c1c19d7962c"
+    },
+    {
+      "Path": "obj/project.nuget.cache",
+      "Size": 23135,
+      "Sha256": "21247178755fca895d378664dbb11b466c3471efd792346630358603b1f94c48"
+    },
+    {
+      "Path": "obj/x64/Release test/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+      "Size": 194,
+      "Sha256": "ae41ca1e67556e4b0622d82a2122a04f17722c0c19d3b2f1fbcab8a2aaf16d2e"
+    },
+    {
+      "Path": "obj/x64/Release test/Intersec.3A182661.Up2Date",
+      "Size": 0,
+      "Sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "Path": "obj/x64/Release test/Intersect Client.dll",
+      "Size": 691200,
+      "Sha256": "78131e19ffb7c29a18ea01cf0cab1e7bee2b9d9b0504d5b098494517d014c3bb"
+    },
+    {
+      "Path": "obj/x64/Release test/Intersect Client.xml",
+      "Size": 133,
+      "Sha256": "e32b5a51fd5ba681627d72e59f9643eb7340f8030c76e72346fe41776192c68d"
+    },
+    {
+      "Path": "obj/x64/Release test/Intersect.Client.AssemblyInfo.cs",
+      "Size": 1730,
+      "Sha256": "d995249a2de8e2341509231549790d24ab435a25f7294981cb6bdd25a4fe6eef"
+    },
+    {
+      "Path": "obj/x64/Release test/Intersect.Client.AssemblyInfoInputs.cache",
+      "Size": 65,
+      "Sha256": "740ea21fac5dbc3f1d5615db06d8cb59568be634f5426f0e25424bdd40e4ee78"
+    },
+    {
+      "Path": "obj/x64/Release test/Intersect.Client.GeneratedMSBuildEditorConfig.editorconfig",
+      "Size": 990,
+      "Sha256": "2f4e7297cf5df4330f4cee892e31af5a1b6982c2949018a31bc0b98bb71272b9"
+    },
+    {
+      "Path": "obj/x64/Release test/Intersect.Client.GlobalUsings.g.cs",
+      "Size": 231,
+      "Sha256": "8f86a2cbf00ff3eee0bda2bc0eb5e1fc19c8544d5dc650c53d0132325956b592"
+    },
+    {
+      "Path": "obj/x64/Release test/Intersect.Client.assets.cache",
+      "Size": 68784,
+      "Sha256": "422163db332edba43c88d5446a80efbaa61bbebabe45303e9b48579a0763146c"
+    },
+    {
+      "Path": "obj/x64/Release test/Intersect.Client.csproj.AssemblyReference.cache",
+      "Size": 48349,
+      "Sha256": "b803dc84117b3d0bf66662e18fa063c1b2a7e1b4c966337418624ad651f04030"
+    },
+    {
+      "Path": "obj/x64/Release test/Intersect.Client.csproj.CoreCompileInputs.cache",
+      "Size": 65,
+      "Sha256": "f1c2037fbcf06d1b3962dd1e2fcf71a8f6492e21df84f9249dc05e2ded85874d"
+    },
+    {
+      "Path": "obj/x64/Release test/Intersect.Client.csproj.FileListAbsolute.txt",
+      "Size": 24373,
+      "Sha256": "939901123376a8b3a98c4896a375679db96f26ee9b14c5fa8fcb346872db1b89"
+    },
+    {
+      "Path": "obj/x64/Release test/Intersect.Client.genruntimeconfig.cache",
+      "Size": 65,
+      "Sha256": "02d0a7338a3c26096726499fbe231bc2505a8b7695845c687773c81e303ce5ba"
+    },
+    {
+      "Path": "obj/x64/Release test/Intersect.Client.sourcelink.json",
+      "Size": 169,
+      "Sha256": "ddc894f371a00c54779b7d0ea88b6c04bb668640630ff87f6a0146477f38a072"
+    },
+    {
+      "Path": "obj/x64/Release test/apphost.exe",
+      "Size": 457728,
+      "Sha256": "72782881d2d789c46b7113982729d30fee0cbf7342f0e173a4fd45b670c5cfcd"
+    },
+    {
+      "Path": "obj/x64/Release test/ref/Intersect Client.dll",
+      "Size": 312320,
+      "Sha256": "ed5b2bd596dd5ee5106e475aab9d39d74e0b00bb3d9ccafceb9e68838a4fe508"
+    },
+    {
+      "Path": "obj/x64/Release test/refint/Intersect Client.dll",
+      "Size": 312320,
+      "Sha256": "ed5b2bd596dd5ee5106e475aab9d39d74e0b00bb3d9ccafceb9e68838a4fe508"
     },
     {
       "Path": "pl/Microsoft.VisualStudio.Validation.resources.dll",
@@ -1578,8 +2143,8 @@
     },
     {
       "Path": "resources/config.json",
-      "Size": 1560,
-      "Sha256": "a5742d93cb23d01f0cd77385de1770b9a8eb91259ce77cb089ea4a1d589c6b94"
+      "Size": 1567,
+      "Sha256": "20b1b5a563b913b01db2d93c6074887aaeb21730432696109411efb5f45f4899"
     },
     {
       "Path": "resources/credits.json",
@@ -4603,8 +5168,8 @@
     },
     {
       "Path": "resources/gui/fullmap_hud_frame.png",
-      "Size": 151078,
-      "Sha256": "d31df51bef5a106bf32eef8111bc6c8d46cc4b6033d1502a1b3b154a0b723ae2"
+      "Size": 132534,
+      "Sha256": "83f1cf78c2b764e1ab2a1537524a3a25c7f4c9a4a5b70f58ea07997688a6db39"
     },
     {
       "Path": "resources/gui/gamemenu.png",
@@ -5608,8 +6173,8 @@
     },
     {
       "Path": "resources/gui/layouts/game/SpellsWindow.json",
-      "Size": 148999,
-      "Sha256": "1f8f5fad3dcfdb1b3d13c28573df327e241efaaa76d991220196d28ce6badcfe"
+      "Size": 39064,
+      "Sha256": "5a457839fcc193b215085d5fd9c39fb1e1ab7859e81907fd1f45df426651cf8e"
     },
     {
       "Path": "resources/gui/layouts/game/TargetBox.1024x720.json",
@@ -5788,8 +6353,8 @@
     },
     {
       "Path": "resources/gui/layouts/shared/InputBox_YesNo.json",
-      "Size": 22185,
-      "Sha256": "5f3b574f6d14457d0d95903dd8ee530f5868ef3d4dc98d9a98267497e4548b2e"
+      "Size": 22621,
+      "Sha256": "fc5326ad8060dcc34a28001bf37d175923ffaf6f51fb5dd4e68a7f33d9955ed6"
     },
     {
       "Path": "resources/gui/layouts/shared/InputBox_YesNoCancel.json",
@@ -5798,13 +6363,13 @@
     },
     {
       "Path": "resources/gui/layouts/shared/QuitWindow_YesNo.json",
-      "Size": 22527,
-      "Sha256": "bd79dd0565ebc7d6a7df9b44dc63cab296dd3b1e6c927313d54d3e2fe4109835"
+      "Size": 22621,
+      "Sha256": "f095d475b5a0430bd9beb1000a061efc802dd3837de8b55c925a76432b4d2b96"
     },
     {
       "Path": "resources/gui/layouts/shared/SettingsWindow.json",
-      "Size": 333308,
-      "Sha256": "397f8f3857e2b989ae7a8d2199e8f6086ac74dcbaa73113dc44f7cd2ee0ca7df"
+      "Size": 333312,
+      "Sha256": "22c01888afca01d36084327cc824d550b7c0e493eae913616907badabf0addc8"
     },
     {
       "Path": "resources/gui/login_button_v2.png",
@@ -6358,8 +6923,8 @@
     },
     {
       "Path": "resources/gui/quit_window_custom.png",
-      "Size": 1479666,
-      "Sha256": "974055db503e7b239ebfeb4d928e971efc9a9c6495fae29afdbeb0fcffad29b4"
+      "Size": 69657,
+      "Sha256": "5ad3a551120aa1c15e80f84862d13173865750d13d2575352097cb26df39cf4f"
     },
     {
       "Path": "resources/gui/ragebar.png",
@@ -25520,6 +26085,11 @@
       "Path": "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll",
       "Size": 56184,
       "Sha256": "b0b15ee123d24a220dc3446c96a6273e2fdade71d1f352bf06217bde57778b24"
+    },
+    {
+      "Path": "shadow_debug.log",
+      "Size": 3607,
+      "Sha256": "89447855ded42deabdc604c2bbc54f14491be94fe3b35c492be376579c597145"
     },
     {
       "Path": "soft_oal.dll",

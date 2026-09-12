@@ -1,0 +1,32 @@
+2026-09-12 22:01:01.665 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-12 22:01:01.907 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-12 22:01:01.910 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-12 22:01:01.911 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-12 22:01:02.389 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-09-12 22:01:05.006 +02:00 [INF] Connecting to 94.26.93.107:5400...
+2026-09-12 22:01:05.014 +02:00 [INF] Connected [88198a13-c3d3-45ba-bf13-15ac924728b2].
+2026-09-12 22:01:05.024 +02:00 [INF] Connection approved [88198a13-c3d3-45ba-bf13-15ac924728b2].
+2026-09-12 22:01:05.126 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-12 22:01:05.126 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-12 22:01:08.910 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-12 22:02:15.284 +02:00 [INF] Disconnected [88198a13-c3d3-45ba-bf13-15ac924728b2].
+2026-09-12 22:02:15.285 +02:00 [INF] Updating active permission set to 'default'
+2026-09-12 22:02:16.785 +02:00 [INF] Connecting to 94.26.93.107:5400...
+2026-09-12 22:02:16.790 +02:00 [INF] Connected [901fd567-508e-400a-b44a-5693b5b04aef].
+2026-09-12 22:02:16.792 +02:00 [INF] Connection approved [901fd567-508e-400a-b44a-5693b5b04aef].
+2026-09-12 22:02:16.798 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-12 22:02:16.798 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-12 22:02:21.444 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-12 22:03:21.094 +02:00 [INF] Disconnected [901fd567-508e-400a-b44a-5693b5b04aef].
+2026-09-12 22:03:21.094 +02:00 [INF] Updating active permission set to 'default'
+2026-09-12 22:03:21.907 +02:00 [INF] User clicked exit button.
+2026-09-12 22:03:21.926 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-09-12 22:03:21.968 +02:00 [INF] Acquiring context lock... (0ms)
+2026-09-12 22:03:21.969 +02:00 [INF] Acquired. (0ms)
+2026-09-12 22:03:21.969 +02:00 [INF] Beginning context dispose. (0ms)
+2026-09-12 22:03:21.970 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-09-12 22:03:21.970 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-09-12 22:03:21.970 +02:00 [INF] Clearing instance... (1ms)
+2026-09-12 22:03:21.970 +02:00 [INF] Releasing context lock... (1ms)
+2026-09-12 22:03:21.970 +02:00 [INF] Released. (1ms)

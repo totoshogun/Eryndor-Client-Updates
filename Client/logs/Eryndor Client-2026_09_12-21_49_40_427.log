@@ -1,0 +1,40 @@
+2026-09-12 21:49:40.595 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-12 21:49:40.831 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-12 21:49:40.835 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-12 21:49:40.836 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-12 21:49:41.320 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-09-12 21:49:44.281 +02:00 [INF] Connecting to 94.26.93.107:5400...
+2026-09-12 21:49:44.289 +02:00 [INF] Connected [fd01ef54-630a-4beb-a642-c4ed70568fdb].
+2026-09-12 21:49:44.298 +02:00 [INF] Connection approved [fd01ef54-630a-4beb-a642-c4ed70568fdb].
+2026-09-12 21:49:44.401 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-12 21:49:44.401 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-12 21:49:53.154 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-12 21:50:42.988 +02:00 [INF] Disconnected [fd01ef54-630a-4beb-a642-c4ed70568fdb].
+2026-09-12 21:50:42.989 +02:00 [INF] Updating active permission set to 'default'
+2026-09-12 21:50:44.101 +02:00 [INF] Connecting to 94.26.93.107:5400...
+2026-09-12 21:50:44.106 +02:00 [INF] Connected [3962b15e-dacf-4678-b1f7-cbcd24782db5].
+2026-09-12 21:50:44.122 +02:00 [INF] Connection approved [3962b15e-dacf-4678-b1f7-cbcd24782db5].
+2026-09-12 21:50:44.142 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-12 21:50:44.142 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-12 21:50:47.736 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-12 21:55:40.732 +02:00 [INF] Disconnected [3962b15e-dacf-4678-b1f7-cbcd24782db5].
+2026-09-12 21:55:40.732 +02:00 [INF] Updating active permission set to 'default'
+2026-09-12 21:55:42.011 +02:00 [INF] Connecting to 94.26.93.107:5400...
+2026-09-12 21:55:42.016 +02:00 [INF] Connected [4445c22c-e372-41d8-82c8-9fcdd2350f03].
+2026-09-12 21:55:42.018 +02:00 [INF] Connection approved [4445c22c-e372-41d8-82c8-9fcdd2350f03].
+2026-09-12 21:55:42.034 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-12 21:55:42.035 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-12 21:55:45.832 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-12 21:55:50.505 +02:00 [INF] Disconnected [4445c22c-e372-41d8-82c8-9fcdd2350f03].
+2026-09-12 21:55:50.506 +02:00 [INF] Updating active permission set to 'default'
+2026-09-12 21:55:51.498 +02:00 [INF] User clicked exit button.
+2026-09-12 21:55:51.517 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-09-12 21:55:51.563 +02:00 [INF] Acquiring context lock... (0ms)
+2026-09-12 21:55:51.564 +02:00 [INF] Acquired. (1ms)
+2026-09-12 21:55:51.565 +02:00 [INF] Beginning context dispose. (0ms)
+2026-09-12 21:55:51.565 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-09-12 21:55:51.565 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-09-12 21:55:51.565 +02:00 [INF] Clearing instance... (2ms)
+2026-09-12 21:55:51.565 +02:00 [INF] Releasing context lock... (2ms)
+2026-09-12 21:55:51.565 +02:00 [INF] Released. (2ms)
