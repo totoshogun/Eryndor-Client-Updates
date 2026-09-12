@@ -38,13 +38,13 @@
     },
     {
       "Path": "Eryndor Client.deps.json",
-      "Size": 118313,
-      "Sha256": "2d180209ec9fac400b944cd6be4588f6aa71bcef3158e0cd45a31e57c8608e5d"
+      "Size": 118745,
+      "Sha256": "9fce4c4317c0e1ce239cc016228337370326ffdddf1ff4d8d01ed67c7464f447"
     },
     {
       "Path": "Eryndor Client.dll",
       "Size": 685056,
-      "Sha256": "a3e80a242a69cc206b3bbc4e99d4ee4b403df06b9a288206d95b0fee4e39ae07"
+      "Sha256": "382b4d1cf47fa7a0f134e5579118ab71dbb37bb80b5b9565e29c1e0914c93328"
     },
     {
       "Path": "Eryndor Client.exe",
@@ -78,8 +78,8 @@
     },
     {
       "Path": "Intersect Client Core.dll",
-      "Size": 17829888,
-      "Sha256": "bee207811ce9c091832ba3f583224f119949a643938c7a9caf1c423316ba80e3"
+      "Size": 17844736,
+      "Sha256": "edaf1411df04eb09e4a791780b5a3bd69b884e6a798a3e242de5e7511b8b688f"
     },
     {
       "Path": "Intersect Client Core.xml",
@@ -103,13 +103,13 @@
     },
     {
       "Path": "Intersect.Client.Framework.dll",
-      "Size": 1331200,
-      "Sha256": "e76de7c2d1df76e8b41e50a11966a72823bc4ccc873f522c67d379763e9e0ad3"
+      "Size": 1332736,
+      "Sha256": "a68bc3bbfcfb37f4c4aba059328866f34c500afd23239d1070ff3ace4a93ffa4"
     },
     {
       "Path": "Intersect.Client.Framework.xml",
-      "Size": 337543,
-      "Sha256": "688bd89d365dcc38ae597bafe9b7e727716ea464beba04ee0c4a374d010c7eac"
+      "Size": 338227,
+      "Sha256": "2ccad69c42db1e9a0f02f1210651ba1cbd90dca24498d95eac277cf5e2194155"
     },
     {
       "Path": "Intersect.Client.csproj",
@@ -119,7 +119,7 @@
     {
       "Path": "Intersect.Framework.Core.dll",
       "Size": 1612288,
-      "Sha256": "6cc1145464294f17eb3dd311ae6612c8e024cf87c10b8b2917e1e3cbce91279f"
+      "Sha256": "370b643ef504c576bf663ecdac4bcd17fd797364065a541b9413c5ecd94081fe"
     },
     {
       "Path": "Intersect.Framework.Core.xml",
@@ -1588,43 +1588,43 @@
     },
     {
       "Path": "obj/Debug/Intersect.Client.AssemblyInfo.cs",
-      "Size": 1723,
-      "Sha256": "108571733dac20cc4a4e16b0a21acd05101afd5f7d8b76893e6bdd4050599676"
+      "Size": 1677,
+      "Sha256": "7fde98f1938e525c117eb8562c613c79e184e2e1307a9cf99b5cac6c44e6f4bf"
     },
     {
       "Path": "obj/Debug/Intersect.Client.AssemblyInfoInputs.cache",
       "Size": 65,
-      "Sha256": "540681e73983f32a93b4ccf68d38d75a93a4e7791f2f6baa7a8140a584ea170c"
+      "Sha256": "5600e8e876a667ab2f1a8f8819a9616c71255d90a0c9fec69174497fd9b4a519"
     },
     {
       "Path": "obj/Debug/Intersect.Client.GeneratedMSBuildEditorConfig.editorconfig",
-      "Size": 820,
-      "Sha256": "8ed1f8ef35f2e53f5ebb51dfa27a653a733ec3e7b2fb89786dc8bc009e9233d1"
+      "Size": 592,
+      "Sha256": "e675f45f68dc185d3bb00cadf8ba6c812c702311172e985003dc0eafb59ef825"
     },
     {
       "Path": "obj/Debug/Intersect.Client.GlobalUsings.g.cs",
-      "Size": 231,
-      "Sha256": "8f86a2cbf00ff3eee0bda2bc0eb5e1fc19c8544d5dc650c53d0132325956b592"
+      "Size": 287,
+      "Sha256": "addb143f8c43b95f1bb73a0cba7c793281935c4ab8ccabbdf6b04d3e0f809e0e"
     },
     {
       "Path": "obj/Debug/Intersect.Client.assets.cache",
       "Size": 68677,
-      "Sha256": "2b5eb1719784a25d5728b4fa39148e6fe86979f12c2748a22b17a82b43c5acb0"
+      "Sha256": "941c268d153a2d8934f4c069a7c56321df0d5bfe7782e7cdac453e1507f290ff"
     },
     {
       "Path": "obj/Debug/Intersect.Client.csproj.AssemblyReference.cache",
-      "Size": 36159,
-      "Sha256": "3cf2c3122845f50ef0f92514245d27e8e14e21028358443292dae64194186741"
+      "Size": 48732,
+      "Sha256": "bd1956a57297b0403492d00e87b4966cceecda61e5cf6f0f6ef4aa4b46b21afb"
     },
     {
       "Path": "obj/Debug/Intersect.Client.csproj.CoreCompileInputs.cache",
       "Size": 65,
-      "Sha256": "db2d298b492dd4fd662ec4886957f1e2de58a4a645476e70c6b8a15cbc2c033b"
+      "Sha256": "fbfc17b887951aec5284bc9e853773a10a22845bef138448e2888a882e1a0539"
     },
     {
       "Path": "obj/Debug/Intersect.Client.csproj.FileListAbsolute.txt",
-      "Size": 12020,
-      "Sha256": "f256a1d28d1f41fe4518d64a9a4181be87a9a902a8196c1368f869aa655562b4"
+      "Size": 12002,
+      "Sha256": "7e08ce0102462453b9843e9a052ff7185e43353b45a2234981e124135a3f59ef"
     },
     {
       "Path": "obj/Debug/Intersect.Client.genruntimeconfig.cache",
@@ -1638,8 +1638,8 @@
     },
     {
       "Path": "obj/Debug/apphost.exe",
-      "Size": 457728,
-      "Sha256": "72782881d2d789c46b7113982729d30fee0cbf7342f0e173a4fd45b670c5cfcd"
+      "Size": 254976,
+      "Sha256": "7ac2d79a7b2fcf5ba27a9e213841ac178dfb6ff4e27c8bfc4d172016dcb579b3"
     },
     {
       "Path": "obj/Debug/ref/Intersect Client.dll",
@@ -1653,13 +1653,13 @@
     },
     {
       "Path": "obj/Intersect.Client.csproj.nuget.dgspec.json",
-      "Size": 37034,
-      "Sha256": "8bf5bf65e7fc5ace35d218f6d6f2f61b61e09f6fe060d9b3d1d192a286d98130"
+      "Size": 52387,
+      "Sha256": "0078aee836f4fb506e76cff5b3185f54cb57b1e96406e11c5d44eae2e0ae0c3e"
     },
     {
       "Path": "obj/Intersect.Client.csproj.nuget.g.props",
-      "Size": 1286,
-      "Sha256": "315a4cf993d44729d0e52ee164619b7cd7df8142f9356adf6bfd6fb4e62e3a18"
+      "Size": 1889,
+      "Sha256": "87fcf5576a1589f09b542380195631d8ff723a086aa36c43d532fa0a595eadd8"
     },
     {
       "Path": "obj/Intersect.Client.csproj.nuget.g.targets",
@@ -1674,7 +1674,7 @@
     {
       "Path": "obj/Release test/Eryndor Client.dll",
       "Size": 685056,
-      "Sha256": "a3e80a242a69cc206b3bbc4e99d4ee4b403df06b9a288206d95b0fee4e39ae07"
+      "Sha256": "382b4d1cf47fa7a0f134e5579118ab71dbb37bb80b5b9565e29c1e0914c93328"
     },
     {
       "Path": "obj/Release test/Eryndor Client.xml",
@@ -1703,8 +1703,8 @@
     },
     {
       "Path": "obj/Release test/Intersect.Client.GeneratedMSBuildEditorConfig.editorconfig",
-      "Size": 592,
-      "Sha256": "e675f45f68dc185d3bb00cadf8ba6c812c702311172e985003dc0eafb59ef825"
+      "Size": 762,
+      "Sha256": "20e32d416a6768fdab7b12e826e1e4f74a1e32d14808a51567f6f3e5e1604418"
     },
     {
       "Path": "obj/Release test/Intersect.Client.GlobalUsings.g.cs",
@@ -1713,13 +1713,13 @@
     },
     {
       "Path": "obj/Release test/Intersect.Client.assets.cache",
-      "Size": 68258,
-      "Sha256": "33360a5d64538850103df3c56106a45de99df225f5dab62b53eb15a0e38b10d7"
+      "Size": 68784,
+      "Sha256": "181eeb375bffc4406856d538369ef5a1c416cca3306adc72ed2404d66659af6d"
     },
     {
       "Path": "obj/Release test/Intersect.Client.csproj.AssemblyReference.cache",
-      "Size": 48242,
-      "Sha256": "421cb5221cf3e427801c1295e3c0b79ba0cef7000eea31ef19b013d57709c12b"
+      "Size": 50873,
+      "Sha256": "4f153552ed2009c944f0931fdf513b97ad32afd806ec082e1279ef974a3a43e4"
     },
     {
       "Path": "obj/Release test/Intersect.Client.csproj.CoreCompileInputs.cache",
@@ -1813,43 +1813,43 @@
     },
     {
       "Path": "obj/Release/Intersect.Client.AssemblyInfo.cs",
-      "Size": 1725,
-      "Sha256": "4d7f33f2a14c2c9446c9fbab2e9dfec076d2af5d1f3e7c679f1ee1537b2572b9"
+      "Size": 1679,
+      "Sha256": "a755ef69c013e76c6bc35275ff2505eca46fa441b72fee882f224244e8d052aa"
     },
     {
       "Path": "obj/Release/Intersect.Client.AssemblyInfoInputs.cache",
       "Size": 65,
-      "Sha256": "13a06bdc8ee79ba1dc2443e15fd6a893001ca55fbd5e34343fa2b816aba47265"
+      "Sha256": "96ea955116d1a26eb0773a2e80ba38ab4be88a77c5ff18f86d58b96cbecf1f27"
     },
     {
       "Path": "obj/Release/Intersect.Client.GeneratedMSBuildEditorConfig.editorconfig",
-      "Size": 990,
-      "Sha256": "2f4e7297cf5df4330f4cee892e31af5a1b6982c2949018a31bc0b98bb71272b9"
+      "Size": 762,
+      "Sha256": "20e32d416a6768fdab7b12e826e1e4f74a1e32d14808a51567f6f3e5e1604418"
     },
     {
       "Path": "obj/Release/Intersect.Client.GlobalUsings.g.cs",
-      "Size": 231,
-      "Sha256": "8f86a2cbf00ff3eee0bda2bc0eb5e1fc19c8544d5dc650c53d0132325956b592"
+      "Size": 287,
+      "Sha256": "addb143f8c43b95f1bb73a0cba7c793281935c4ab8ccabbdf6b04d3e0f809e0e"
     },
     {
       "Path": "obj/Release/Intersect.Client.assets.cache",
       "Size": 68784,
-      "Sha256": "5e7590c322fcc9b011b8fe85512494b4c68418f60814ddacf4174a1af034c2fd"
+      "Sha256": "196b1a6ef8572a18b1b1989727aa60b7ae413c0bfa54be177a0d483309297114"
     },
     {
       "Path": "obj/Release/Intersect.Client.csproj.AssemblyReference.cache",
-      "Size": 48555,
-      "Sha256": "82acbf68e11f84117274b53f61b9cfe4618a7c7318d1cfd46eeaaf9b497f9ce6"
+      "Size": 48559,
+      "Sha256": "c0e73f89e1928c543a7e61861390dbe36b3750cf905eaa79d3d96382bb417f1a"
     },
     {
       "Path": "obj/Release/Intersect.Client.csproj.CoreCompileInputs.cache",
       "Size": 65,
-      "Sha256": "a4277c448124db6e7436bc072808045df29c8dcb7de0a41db1224c99fef938ed"
+      "Sha256": "060da12972c89fac1077a3bd79be0346a4035732cfa7a8d0432ae16a6fde0aa7"
     },
     {
       "Path": "obj/Release/Intersect.Client.csproj.FileListAbsolute.txt",
-      "Size": 24265,
-      "Sha256": "44bbc16c0f8a3c69d4caf2f18fbfcf5dd808e933277c559617ac7ed7b330c2c0"
+      "Size": 24247,
+      "Sha256": "1fc29a62a792bfdab2b7c2c5339e6a9d5054517d233e11e052d853ec53b520d8"
     },
     {
       "Path": "obj/Release/Intersect.Client.genbundle.cache",
@@ -1864,7 +1864,7 @@
     {
       "Path": "obj/Release/Intersect.Client.genruntimeconfig.cache",
       "Size": 65,
-      "Sha256": "02d0a7338a3c26096726499fbe231bc2505a8b7695845c687773c81e303ce5ba"
+      "Sha256": "5fa3eb48b56a16f26c1c8e1a73f1537580466b501e3d8a172438ec72dad96209"
     },
     {
       "Path": "obj/Release/Intersect.Client.sourcelink.json",
@@ -1893,18 +1893,18 @@
     },
     {
       "Path": "obj/Release/singlefilehost.exe",
-      "Size": 9947648,
-      "Sha256": "6942c3c72147edb498eebb6314e5f98ea5d891ad18762870f6ec987b73446fb6"
+      "Size": 9747456,
+      "Sha256": "1c4b90ef71434523eadd6da7e4cf6cbd80e4628ea1e5d9fab7c3da7523701884"
     },
     {
       "Path": "obj/project.assets.json",
-      "Size": 369092,
-      "Sha256": "0d00ed1d54f1c29adb249b3e835c42ef9d05f46419452a41a494b1b369247d06"
+      "Size": 672452,
+      "Sha256": "ab6e4e3e8589de4e55830e11e0780e3db0f85defc45cd4a17ae22c1c19d7962c"
     },
     {
       "Path": "obj/project.nuget.cache",
-      "Size": 17866,
-      "Sha256": "f4427675b6639204256544a475e97df7614cef5c2ae51105c82553dd1f89215e"
+      "Size": 23135,
+      "Sha256": "21247178755fca895d378664dbb11b466c3471efd792346630358603b1f94c48"
     },
     {
       "Path": "obj/x64/Release test/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
@@ -2133,18 +2133,18 @@
     },
     {
       "Path": "resources/client_strings.json",
-      "Size": 40179,
-      "Sha256": "2a438af4119fd52deb075ea543117a5a02f11bac7cfd4f11ca7096898ece67e9"
+      "Size": 40228,
+      "Sha256": "c7bd9f448dcb5436ab401830ebd3e6a33698f0aa604afe4457a1b8b069920d67"
     },
     {
       "Path": "resources/config.json",
-      "Size": 1567,
-      "Sha256": "070129935d181ea9b9da4d42765e2752de9b70be30871066aaab2c6c1f6cb1bc"
+      "Size": 1561,
+      "Sha256": "2928eedec9d4e65fba181d1357286af849529517c0db9912782fbb7a7d415924"
     },
     {
       "Path": "resources/credits.json",
-      "Size": 26646,
-      "Sha256": "c9329e7668e8762a968cf9f269d7fcf791ac71114937266297c4d1ad5baf7566"
+      "Size": 35840,
+      "Sha256": "29f9176d5b7f1772a007202f20197f7ae5085b4237b07e6592ce8003a736844a"
     },
     {
       "Path": "resources/cursors/editor_brush.json",
@@ -4018,103 +4018,103 @@
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_exitToDesktopButton_Active.png",
-      "Size": 30684,
-      "Sha256": "9c045457512ff4844aa8f6a68a2f9fc61cd72d291b87c7b37bb5a1ff4ce57d2c"
+      "Size": 80816,
+      "Sha256": "4a7a7aa448ed0286f155aead8933ada125e318da47527ded94da267d5f5b4bd1"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_exitToDesktopButton_Disabled.png",
-      "Size": 13861,
-      "Sha256": "a5fe2100b00bbe27c708c9be128156fffbfe8fabf7bd3de7ae1a07e5addcc0ee"
+      "Size": 55056,
+      "Sha256": "a1442a99103c9ecae5b8d734f162ef9193afd1b1290a463c30272409e4a0c29a"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_exitToDesktopButton_Hovered.png",
-      "Size": 30684,
-      "Sha256": "9c045457512ff4844aa8f6a68a2f9fc61cd72d291b87c7b37bb5a1ff4ce57d2c"
+      "Size": 80427,
+      "Sha256": "d062ffc35d3dd60cd5762be4077f4e8faf41a804093d5f6c3b119260db51b8a7"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_exitToDesktopButton_Normal.png",
-      "Size": 29004,
-      "Sha256": "8fda9e7ee899add08ade0bd03741740abe8be38bfe69be8a3c5602f06d8d4eb0"
+      "Size": 77368,
+      "Sha256": "efabf2ef83c7dca91689b16ecd656b9bc3f19ea46386ecaa0db16947027f05fa"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_logoutButton_Active.png",
-      "Size": 32310,
-      "Sha256": "9c5c7e7611a2cd986cc713494324d93f3f258d64895501d4e7ce1e909e193e08"
+      "Size": 91298,
+      "Sha256": "a40dc0b14ef1053ec3b048d35dfcc67da5e4db76c2dc644899185aca99d733cb"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_logoutButton_Disabled.png",
-      "Size": 14863,
-      "Sha256": "ef49c90f87b90aaa8d780457c1764d51123506574dae878b8ad249392de327ec"
+      "Size": 61376,
+      "Sha256": "31f344fa1b80f2b57d09de7ab425d56c7ed99a9947881fcd381cd4d6c144869c"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_logoutButton_Hovered.png",
-      "Size": 32310,
-      "Sha256": "9c5c7e7611a2cd986cc713494324d93f3f258d64895501d4e7ce1e909e193e08"
+      "Size": 90457,
+      "Sha256": "54a2996d50c6056e565fc5340b9b14803e963408e5f4f55a3b518460a852a98a"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_logoutButton_Normal.png",
-      "Size": 30244,
-      "Sha256": "0a2f3291740fd43bf6f0403c670afbae9e2438e408f1eb52c5aa823f4c3d8495"
+      "Size": 87381,
+      "Sha256": "60ae35ac83d27cc23266ca82c7c0e4e74725c051e3b48203f78a2aff291b7890"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_openSettingsButton_Active.png",
-      "Size": 30740,
-      "Sha256": "147ac0e664103b9ea06e5acae6c1353731107a6b1878ccec6a5e6f20c502ebd2"
+      "Size": 87426,
+      "Sha256": "011350726b5727036d9e10c573841f2358aa9cb78905d022990683453c347bfc"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_openSettingsButton_Disabled.png",
-      "Size": 14586,
-      "Sha256": "4649f87beaf5d23546864bbb68f4e2ae4232fc484635a18153ad60c9b6e73d41"
+      "Size": 59448,
+      "Sha256": "f98799b701178f0b9bddfd2db7aece7b0746979cd818f496d5e9913e21fffeae"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_openSettingsButton_Hovered.png",
-      "Size": 30740,
-      "Sha256": "147ac0e664103b9ea06e5acae6c1353731107a6b1878ccec6a5e6f20c502ebd2"
+      "Size": 87591,
+      "Sha256": "64a953c1c2ff436736c185a7720f06dd7861f06ec66f0282776c41ae432ae6dd"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_openSettingsButton_Normal.png",
-      "Size": 29501,
-      "Sha256": "5a1986e610c14d3ef55d6b197e5484c20e2d544792a050c641eef4dc49cd5f9d"
+      "Size": 84814,
+      "Sha256": "65796a77b7cfedaa84475723d5864d7eafa5d8cade45d475dc0a54c30c0de421"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_returnToCharacterSelectionButton_Active.png",
-      "Size": 31582,
-      "Sha256": "06868d65faadf9f938ecc84d74f087f665bba946fa901583521927a7e351bae2"
+      "Size": 103776,
+      "Sha256": "108f31c64fc757279f8b507d07379485c22d05a666d93424da5b455e43d72488"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_returnToCharacterSelectionButton_Disabled.png",
-      "Size": 14473,
-      "Sha256": "0963dd1f132f3c899aceb1dd79b690ebb633d73dad6c24538fe2529f1cc96166"
+      "Size": 72594,
+      "Sha256": "a52bbb998135778c4a02b3859394989d9c822c114908859bc5d671c9f0175f4c"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_returnToCharacterSelectionButton_Hovered.png",
-      "Size": 31582,
-      "Sha256": "06868d65faadf9f938ecc84d74f087f665bba946fa901583521927a7e351bae2"
+      "Size": 103446,
+      "Sha256": "d71b39c58cb7902b7a6057d79f133aea096576b2b4b6f6500d8057312194d691"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_returnToCharacterSelectionButton_Normal.png",
-      "Size": 29487,
-      "Sha256": "d50d62760ff283d50e537dcb4c3cb00ecec73253a60835e08a677176068f2a49"
+      "Size": 100627,
+      "Sha256": "fa935db0403aa91b091d1713d79e8aaf68c8f5a6894f84491d3f210df54e4720"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_returnToGameButton_Active.png",
-      "Size": 29648,
-      "Sha256": "5a8ca9815ef2bdd335dd50367ccb74fb4c003b228c0e4132b0b7d4ae1adcad22"
+      "Size": 84939,
+      "Sha256": "4d2d720b345bbd76596ba99aa08fb522dfd906cbc34b8e4e60501c86be385c54"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_returnToGameButton_Disabled.png",
-      "Size": 13719,
-      "Sha256": "071dc456835c94106314551114678e8ea8ac516215e2b742599ae57b8b7ac007"
+      "Size": 57390,
+      "Sha256": "698aac6ed7ffde865d8d05e3a0905bfb715745ba02f40fcc6b77d43cb4ba6eb9"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_returnToGameButton_Hovered.png",
-      "Size": 29648,
-      "Sha256": "5a8ca9815ef2bdd335dd50367ccb74fb4c003b228c0e4132b0b7d4ae1adcad22"
+      "Size": 85414,
+      "Sha256": "42d86d79ee6412788786f49dd4b8dbef4714abffc41e1d38231ebb1cb5eedece"
     },
     {
       "Path": "resources/gui/EscapeMenuWindow_returnToGameButton_Normal.png",
-      "Size": 27721,
-      "Sha256": "c8101f409def0927f0a7a25f83ec93b8208886b793871ea53bb06f7d6eb84510"
+      "Size": 82201,
+      "Sha256": "dec805352192bbbc8a4e10e3d9860469f6378d38988baf2b1d6d84d908f14112"
     },
     {
       "Path": "resources/gui/SettingsWindow.icon.png",
@@ -4198,48 +4198,48 @@
     },
     {
       "Path": "resources/gui/character_creation_arrow_left_clicked.png",
-      "Size": 4811,
-      "Sha256": "95f0e262e41bfa1aae259b33b46333bb587755b889e42cd69d5fa52d453377c6"
+      "Size": 21377,
+      "Sha256": "0c4cbeb70dcdd25252b0781c5db3889b4bf8903713a9fd458e7b8b03045da8af"
     },
     {
       "Path": "resources/gui/character_creation_arrow_left_disabled.png",
-      "Size": 2848,
-      "Sha256": "3983b5207c9cbb05ad4d9f9bd5194896f18648ea5f400facce1124e8cd9dc5d8"
+      "Size": 15946,
+      "Sha256": "ea1c6af1645f040022aab75abdb5dafeaf5c825939c0c983784649b89229798b"
     },
     {
       "Path": "resources/gui/character_creation_arrow_left_hovered.png",
-      "Size": 4811,
-      "Sha256": "95f0e262e41bfa1aae259b33b46333bb587755b889e42cd69d5fa52d453377c6"
+      "Size": 21774,
+      "Sha256": "bed4029cc3fb72ea24bfafccf5687422f5dfd44906e8cf37e141841cc6868118"
     },
     {
       "Path": "resources/gui/character_creation_arrow_left_normal.png",
-      "Size": 4615,
-      "Sha256": "704dcfd1b8756c088f93c34e1b41aed4efb1936440c39a25bdf32c7ecec43e1c"
+      "Size": 21195,
+      "Sha256": "0976572a4350ab8a06b044a47d45e60e0e4bef8eacdf2b2012bd2efaa69e615e"
     },
     {
       "Path": "resources/gui/character_creation_arrow_right_clicked.png",
-      "Size": 4733,
-      "Sha256": "5bbcb160065e63d2647ec66d5061d122e7f12e5a0f829606a5ad31136ad7412b"
+      "Size": 22512,
+      "Sha256": "88ed248755b6adbc9998ff55fe8d34045d2e95517809acf71fb660ccb6a51b8d"
     },
     {
       "Path": "resources/gui/character_creation_arrow_right_disabled.png",
-      "Size": 2877,
-      "Sha256": "2c525d07226a4baadd2b34d8dce2ff94955779909caa9868e4fe364f4cd0caba"
+      "Size": 17287,
+      "Sha256": "e81594d90c1f20462954eef47a2f7d06fd88a49b710c93fd2478d146f41b466d"
     },
     {
       "Path": "resources/gui/character_creation_arrow_right_hovered.png",
-      "Size": 4733,
-      "Sha256": "5bbcb160065e63d2647ec66d5061d122e7f12e5a0f829606a5ad31136ad7412b"
+      "Size": 22864,
+      "Sha256": "7f5ca8884eda95b4ff25df99b45fa46f6e2066daa0622b0b72e98bd8a0962bf2"
     },
     {
       "Path": "resources/gui/character_creation_arrow_right_normal.png",
-      "Size": 4606,
-      "Sha256": "b9b2c263678591fa6900b4dd25739cf6af17794256d7465f89856cad2870870c"
+      "Size": 22339,
+      "Sha256": "748729badcd89220c008fe7547710f396bed325c81830d58c3d41ff47d5a4f00"
     },
     {
       "Path": "resources/gui/character_creation_frame.png",
-      "Size": 500083,
-      "Sha256": "4886cb29cc487a311c5e5d4d2823feb7c449dec5488b8ee4702366ee833e2b65"
+      "Size": 1716874,
+      "Sha256": "b26d6d07de1dc1784b733ab080b87d770d603a09e0dcb6e07989e7bfc2e221b1"
     },
     {
       "Path": "resources/gui/character_preview_background.png",
@@ -4248,48 +4248,48 @@
     },
     {
       "Path": "resources/gui/character_select_arrow_left_clicked.png",
-      "Size": 8570,
-      "Sha256": "d4c2447f7f77ac3cc2de289c87039d97396fae4b2a5ace4f5257c934415b462d"
+      "Size": 98374,
+      "Sha256": "7124141d8a98031af3e0bc156ddb5b7a19a2e090d5e7442f57a4e965505ccbf1"
     },
     {
       "Path": "resources/gui/character_select_arrow_left_disabled.png",
-      "Size": 8596,
-      "Sha256": "0b3fbb0534d5b809476e82727b1302e9b6538446fc18ea397e63fdfdd62f6072"
+      "Size": 102831,
+      "Sha256": "8a4c08dff6a2dc21b1d5d41988b0ffbf64ee055afbd60aa55b2ca1109fbe52f5"
     },
     {
       "Path": "resources/gui/character_select_arrow_left_hovered.png",
-      "Size": 8739,
-      "Sha256": "43017220298683cb2debd745a0fb3fac498671f5381e29703790d2c1c098dec8"
+      "Size": 111202,
+      "Sha256": "671b99babefcdc3b897cb23c2fe1e4f202cb92f1353a5b344c4e0abc50d15a39"
     },
     {
       "Path": "resources/gui/character_select_arrow_left_normal.png",
-      "Size": 8633,
-      "Sha256": "5c0e69fcd6659367959ad7a773b8c988e45ac106868bdd8b9e9df171cab1cbd5"
+      "Size": 104143,
+      "Sha256": "48c458cdf0c334433923393a10100441b9a5f22de833d0190a8b509041d4a68a"
     },
     {
       "Path": "resources/gui/character_select_arrow_right_clicked.png",
-      "Size": 8514,
-      "Sha256": "82a72556a49dd8594cd6120fa2b7da05ccb59d9f4f6f606ea5d4ab16329c64cf"
+      "Size": 98360,
+      "Sha256": "2ef8d08dcb0d8073b5c8f0b7bef15c9360fcb0ac03b55d113a21aaa44ed50417"
     },
     {
       "Path": "resources/gui/character_select_arrow_right_disabled.png",
-      "Size": 8603,
-      "Sha256": "4207e767f85756db05d2b16afcfd15e0434c30703aa32561d139b48b573b87cd"
+      "Size": 103006,
+      "Sha256": "e641bdc4d53cef3f643ad76704ecae21ecc40b79c252fae26b27aeb48e642984"
     },
     {
       "Path": "resources/gui/character_select_arrow_right_hovered.png",
-      "Size": 8820,
-      "Sha256": "5c7e98e09fe67763c5f13440ed2c9c14e789fd5ead0beb80b99db372ce7352d0"
+      "Size": 111198,
+      "Sha256": "9d6dd471c08d85bc52e7be636265188ef863aa09bcbd47d057703a23445baecf"
     },
     {
       "Path": "resources/gui/character_select_arrow_right_normal.png",
-      "Size": 8629,
-      "Sha256": "809cfd431cd65a14e1e0e75dd99ce048494e228dabf1a16b697a6afc2c8de283"
+      "Size": 104123,
+      "Sha256": "1ec714090c8e3cab38f026a4a3573d3a04705fe2e24f501ae61a791e38c1e5c3"
     },
     {
       "Path": "resources/gui/character_select_frame.png",
-      "Size": 329798,
-      "Sha256": "8921c53498d8e43e830163f8598e10f6378d74325e1a1a11122377d824b574d8"
+      "Size": 1453689,
+      "Sha256": "90958a0ce0b27cfaae647861e76ac88acdf50cc5f310d0e063ab47fdb1493aef"
     },
     {
       "Path": "resources/gui/character_window_fantasy.png",
@@ -4298,13 +4298,13 @@
     },
     {
       "Path": "resources/gui/charactericon.png",
-      "Size": 2416,
-      "Sha256": "9c4a7baba56c916a1c73c8b70f2f29ee970ac68fef6cd0841cde1bd76686968d"
+      "Size": 3589,
+      "Sha256": "e4d31532f528289382c1ea0afec5657042283fb37ee6980c2ad0c544532588ba"
     },
     {
       "Path": "resources/gui/charactericon_hovered.png",
-      "Size": 2361,
-      "Sha256": "51faf7ea2d34279b292a457a943d99c636acba756cfd8b4cd80018cd7f7b6687"
+      "Size": 5440,
+      "Sha256": "bb8cbcdae63b320bce5c248d348872f3651e76f71f164380ddaa19febdaf34c5"
     },
     {
       "Path": "resources/gui/chatbar.png",
@@ -4828,13 +4828,13 @@
     },
     {
       "Path": "resources/gui/friendsicon.png",
-      "Size": 2100,
-      "Sha256": "0f15125a2a80603c73f31e30ab2bd5d52ce92b0ab301999d49f7c645ba173450"
+      "Size": 3642,
+      "Sha256": "268e5b07a54e0fc3b678e2b4a1a9431029aafaa053e82a4290b22aaa6ba319c3"
     },
     {
       "Path": "resources/gui/friendsicon_hovered.png",
-      "Size": 2134,
-      "Sha256": "b35a5b97eca6187a9835652083f6d391803fd73c1009055136e8d5383452a656"
+      "Size": 5534,
+      "Sha256": "ba8dc9ea71ee997701f311c481f4380e4a4d90b3e2c3d1691c0bc64de0ae0332"
     },
     {
       "Path": "resources/gui/friendtell.png",
@@ -4848,8 +4848,8 @@
     },
     {
       "Path": "resources/gui/gamemenu.png",
-      "Size": 26499,
-      "Sha256": "228c2b5490c3bf5dee447506199150b211fb7502cc7a4f8a7f918b5b03b62469"
+      "Size": 613212,
+      "Sha256": "267366e770828fb5fd6f0e94920c93c7d7c93e276a1ae9b101ce46b60d0a3214"
     },
     {
       "Path": "resources/gui/guild.png",
@@ -4863,13 +4863,13 @@
     },
     {
       "Path": "resources/gui/guildicon.png",
-      "Size": 2435,
-      "Sha256": "94553644b77bb88b2b562ee7a1772ec663f5384d12502d8d920b005785612ca2"
+      "Size": 3154,
+      "Sha256": "af58e2b0048d22005e7f4b43d9a67fe93eb54a7567f26a8067c81894620641ec"
     },
     {
       "Path": "resources/gui/guildicon_hovered.png",
-      "Size": 2420,
-      "Sha256": "164fea21a98b90febd439b70caaf3b7d9699ceae4d059a62b6c532a12a614475"
+      "Size": 4926,
+      "Sha256": "6d6680fc35cac87284f951bcbc55a9289f28abb05738c67438676d5472f323ed"
     },
     {
       "Path": "resources/gui/hotbar.png",
@@ -5538,13 +5538,13 @@
     },
     {
       "Path": "resources/gui/inventoryicon.png",
-      "Size": 2254,
-      "Sha256": "83ada330c20ec8cc99a53b9874fc858bcdb318ce82cc5d0efcebf6a5b0da7719"
+      "Size": 3375,
+      "Sha256": "cb75acd298750f3f53c6d565052e2cd41553ff8368d591ee54cc807d71df6ef2"
     },
     {
       "Path": "resources/gui/inventoryicon_hovered.png",
-      "Size": 2252,
-      "Sha256": "367909ee20391a8fceb60ee7d904882b9784fd948ae1adfba2a33fc252d8b546"
+      "Size": 4917,
+      "Sha256": "171d70d0ae512dc73848cc4e4560c188e960e9238c153c4e8a8f63628155fe22"
     },
     {
       "Path": "resources/gui/inventoryitem.png",
@@ -5613,8 +5613,8 @@
     },
     {
       "Path": "resources/gui/layouts/game/ChatboxWindow.json",
-      "Size": 42183,
-      "Sha256": "ba934ff05b63336840412e0d9789b87a2f7d7aa5c8e315b35b50617d21bffae4"
+      "Size": 44072,
+      "Sha256": "4c9cd650c4605825c60c3939d3a9468376b307f327ca7d61f08cb3523dee62d7"
     },
     {
       "Path": "resources/gui/layouts/game/CraftedItem.json",
@@ -5693,8 +5693,8 @@
     },
     {
       "Path": "resources/gui/layouts/game/EscapeMenuWindow_online.json",
-      "Size": 12807,
-      "Sha256": "1ca36b12884b94900a6eea79cd921983aa5bad7ac0cf1da919b640935fa32476"
+      "Size": 12792,
+      "Sha256": "d4ab9ceb5b04b83eb8433028645b1244be602f55da79b2f8819f81676e951543"
     },
     {
       "Path": "resources/gui/layouts/game/EventDialogWindow_1Response.json",
@@ -5768,8 +5768,8 @@
     },
     {
       "Path": "resources/gui/layouts/game/MenuContainer.json",
-      "Size": 18190,
-      "Sha256": "4ff801fb67a2d953c79a27985ad02a87c4f234fdafa67cae36a941819bc5611c"
+      "Size": 18200,
+      "Sha256": "56ff21bb1c1c6e342d1ce77f0ffad821e5ff68f8e144aa9d72a500bf1a6189b1"
     },
     {
       "Path": "resources/gui/layouts/game/PartyHudContextMenu.json",
@@ -5918,8 +5918,8 @@
     },
     {
       "Path": "resources/gui/layouts/menu/CharacterCreationWindow.json",
-      "Size": 37310,
-      "Sha256": "a2e159e39e153b49895aa6e1118ab14124a3d9953b82e5bb3e90d46c410fc469"
+      "Size": 42460,
+      "Sha256": "e2acb0121c74c32a49b1cd951721c68cd00dfbf238f122c5b93d37082a047716"
     },
     {
       "Path": "resources/gui/layouts/menu/CharacterSelectionWindow.json",
@@ -5928,18 +5928,18 @@
     },
     {
       "Path": "resources/gui/layouts/menu/CreditsWindow.json",
-      "Size": 16666,
-      "Sha256": "391d2afaaf74af0af8ca2e8e376e3b7c39df70fdde14f3ec93289bb827e1fc15"
+      "Size": 17416,
+      "Sha256": "209e08b4ae78858a44f057c8370369b90fffdc5645efeae2ec9b4c79e2e7eb8f"
     },
     {
       "Path": "resources/gui/layouts/menu/ForgotPasswordWindow.json",
-      "Size": 25404,
-      "Sha256": "7f2c2d383bd07f98df84a915583a609a116adc5ab86f3a13e1a1ee431e31d4e0"
+      "Size": 25403,
+      "Sha256": "e6418421a65f8d348b40a3bf4f44bbb16263832c50b84283d635db58e55bea55"
     },
     {
       "Path": "resources/gui/layouts/menu/LoginWindow.json",
-      "Size": 42672,
-      "Sha256": "609722c851bdebe38e86b3dc4b6074c33da20c79ce1f49e3ff2e8ea8e7f2c054"
+      "Size": 45194,
+      "Sha256": "25ac6398908700f8b4a6a7188ac4300a7c25d0d58cd7530c393f64fe88b6464d"
     },
     {
       "Path": "resources/gui/layouts/menu/Logo.json",
@@ -5973,8 +5973,8 @@
     },
     {
       "Path": "resources/gui/layouts/menu/RegistrationWindow.json",
-      "Size": 43053,
-      "Sha256": "12ecac9186d793091e19163e26d6652ee1e181c87354580d25aec20d28bbf740"
+      "Size": 47957,
+      "Sha256": "f68bd9733f12ab1fe449d0a758c6e89ca87f749cf7837cae0af6599a3a28c823"
     },
     {
       "Path": "resources/gui/layouts/menu/ResetPasswordWindow.json",
@@ -5983,8 +5983,8 @@
     },
     {
       "Path": "resources/gui/layouts/menu/SelectCharacterWindow.json",
-      "Size": 28734,
-      "Sha256": "52ae3bf0d6c477ae89870439059070e8edc24c124b7538fd2c805b56251e1534"
+      "Size": 40217,
+      "Sha256": "588fca4cbe72bc638c24589c7b02024f49f40f9f6ef799d2f7d8e40d01196aa0"
     },
     {
       "Path": "resources/gui/layouts/menu/ServerStatusArea.json",
@@ -6043,8 +6043,8 @@
     },
     {
       "Path": "resources/gui/layouts/shared/SettingsWindow.json",
-      "Size": 324814,
-      "Sha256": "31a0b9d9235241fbc3972d38d7668f482bab1a1a81a2d8dd35ae5742e264b92f"
+      "Size": 333308,
+      "Sha256": "397f8f3857e2b989ae7a8d2199e8f6086ac74dcbaa73113dc44f7cd2ee0ca7df"
     },
     {
       "Path": "resources/gui/login_dropdown.png",
@@ -6073,18 +6073,18 @@
     },
     {
       "Path": "resources/gui/login_dropdown_item_clicked.png",
-      "Size": 402,
-      "Sha256": "cbcb09b6b6370f7528e9404954ed8101e5356584c4e4080e72c8c13d0f60befe"
+      "Size": 256,
+      "Sha256": "c92dd365b3da8948648ecc3697d6abe05e4520d1051963d0c5705c4bb9da4fba"
     },
     {
       "Path": "resources/gui/login_dropdown_item_disabled.png",
-      "Size": 309,
-      "Sha256": "ff2b54aebaf8fc6ace8508779210b30239638bf8a9d8b48e8c4e135327c415ab"
+      "Size": 241,
+      "Sha256": "e3345d19aebaafec99a2baab87b939c9077dd3676dc0a2fa1f629f0a5bb64910"
     },
     {
       "Path": "resources/gui/login_dropdown_item_hovered.png",
-      "Size": 438,
-      "Sha256": "061c34d71c4abf4d47ecbd456969f522dd52005dc707d6d4c53bce6d877638c8"
+      "Size": 257,
+      "Sha256": "0de6b3a0dc44d8585259c1eb84ba7a5db9312eb37b3dd7cbb18bf12d23b99966"
     },
     {
       "Path": "resources/gui/login_dropdown_menu.png",
@@ -6098,18 +6098,18 @@
     },
     {
       "Path": "resources/gui/login_text_button_clicked.png",
-      "Size": 494,
-      "Sha256": "e791f85a1734bd4e7f783d169f527223c736814e55a2b31cee7b19bdda19d022"
+      "Size": 448,
+      "Sha256": "9b16f3cb8da200376bfaf1c9d8a809bbdf262560dd4daf72cba73fe63acb595f"
     },
     {
       "Path": "resources/gui/login_text_button_disabled.png",
-      "Size": 438,
-      "Sha256": "1157872c6bed7e1aa6f18219afd331884213ce70b3284e8fc534c1917e40b949"
+      "Size": 417,
+      "Sha256": "afe1df22635fd847608349e48be13243309bf7c31043b2502ea3cc93fa35d7c6"
     },
     {
       "Path": "resources/gui/login_text_button_hovered.png",
-      "Size": 526,
-      "Sha256": "67a13435956e15494b19552ef6586d661cdbdcd7a23f9a4da90baf53226d62e1"
+      "Size": 447,
+      "Sha256": "883c2ca88832cb110baf2ba55a1cc97e4487582a717af06d971497a8aef02ff5"
     },
     {
       "Path": "resources/gui/logo.png",
@@ -6128,103 +6128,103 @@
     },
     {
       "Path": "resources/gui/mainmenu_buttonCredits.png",
-      "Size": 65898,
-      "Sha256": "8352cf6b8c6da8769926e8b996e725af8ae3b82ce928ac7332ba7fa177761c83"
+      "Size": 202136,
+      "Sha256": "e88ce19f690b50f58691f73bf04cbe382c31684694d70c567184adc20c2eee35"
     },
     {
       "Path": "resources/gui/mainmenu_buttonCredits_clicked.png",
-      "Size": 73519,
-      "Sha256": "343786ac42682752ecc319a9d40b9b3a25a8d55ae81cfc7576141b10c1f936ae"
+      "Size": 204310,
+      "Sha256": "b59707a3a3cd5ad5fd81c0f06b063fd469bc8c47053c591d46518065ed8fbafe"
     },
     {
       "Path": "resources/gui/mainmenu_buttonCredits_disabled.png",
-      "Size": 32572,
-      "Sha256": "eaec6183e602a289ad359d8c0cc30fc69f0155930b85cee38426066831f692a5"
+      "Size": 144596,
+      "Sha256": "06966aaf62f208cf43840cb72efbc80d3657bacac400d3c975ea196fd8fd87b0"
     },
     {
       "Path": "resources/gui/mainmenu_buttonCredits_hovered.png",
-      "Size": 73519,
-      "Sha256": "343786ac42682752ecc319a9d40b9b3a25a8d55ae81cfc7576141b10c1f936ae"
+      "Size": 203949,
+      "Sha256": "82efe7e166f8ab7bcb25eb9f6af630629163a675ced2a3f57aaa81e340c1eaf6"
     },
     {
       "Path": "resources/gui/mainmenu_buttonExit.png",
-      "Size": 66385,
-      "Sha256": "0d23c764f3f1b6a06c638f8e294bfea85d555b7cefae456fdec3a4a5693ef0a2"
+      "Size": 196591,
+      "Sha256": "c2b3d7e1f5dde66392ce02a9446378f2510fd0e4baafe2425529aeae7317b237"
     },
     {
       "Path": "resources/gui/mainmenu_buttonExit_clicked.png",
-      "Size": 73330,
-      "Sha256": "ff1bad5136a8704d73dd06230cdf147648260878e66f1d304226906cd64a068b"
+      "Size": 200324,
+      "Sha256": "df092cfee5914e778320091042d7f385bbd07d6c8204b0cb09395a9ee02fefb1"
     },
     {
       "Path": "resources/gui/mainmenu_buttonExit_disabled.png",
-      "Size": 33622,
-      "Sha256": "daf72040b3effda5526439fe6d50dfd702665596d61e589cce269b5cb8942e76"
+      "Size": 138399,
+      "Sha256": "431f0926ab6d2927ee29da09a074a38179a7e3f0f602ae780b36ad0eb8f8cfcc"
     },
     {
       "Path": "resources/gui/mainmenu_buttonExit_hovered.png",
-      "Size": 73330,
-      "Sha256": "ff1bad5136a8704d73dd06230cdf147648260878e66f1d304226906cd64a068b"
+      "Size": 198796,
+      "Sha256": "9e2e9adff51c65fd6e8807e6c460177080afee2c34b93b9833467d1363f05e6e"
     },
     {
       "Path": "resources/gui/mainmenu_buttonLogin.png",
-      "Size": 68547,
-      "Sha256": "e46a74fa1ec488a4b192571bedc1ac87c0069d5983153b34dbcd6f375fdf4d1c"
+      "Size": 194823,
+      "Sha256": "6312dec00fe277c08f12d74d5dcca90b42f6bc6b995ddb040fd77efbae8fd709"
     },
     {
       "Path": "resources/gui/mainmenu_buttonLogin_clicked.png",
-      "Size": 75217,
-      "Sha256": "b010fcd2ac98fdfd3f57040a978922910039b0522bfa6cf495cd58817e3a5ff9"
+      "Size": 198958,
+      "Sha256": "efbb255b3b4a739aa18535d0ba304ed5c04ec3dca5cc0518ea0af588472367fc"
     },
     {
       "Path": "resources/gui/mainmenu_buttonLogin_disabled.png",
-      "Size": 35062,
-      "Sha256": "f2ad35b6fcee8d3d68e68f171448236fd26dca0adf391d5d091be285d79d1571"
+      "Size": 139632,
+      "Sha256": "d67fbaa10c42799fc8b146e12d1f10aa6126f341b840c0336d7ff8ade1bcce17"
     },
     {
       "Path": "resources/gui/mainmenu_buttonLogin_hovered.png",
-      "Size": 75217,
-      "Sha256": "b010fcd2ac98fdfd3f57040a978922910039b0522bfa6cf495cd58817e3a5ff9"
+      "Size": 198449,
+      "Sha256": "f44291be4d6b9eca1a17b60ee9a696470aca80a86fa7bc6ec435225c62184d34"
     },
     {
       "Path": "resources/gui/mainmenu_buttonRegister.png",
-      "Size": 65215,
-      "Sha256": "e050f05ed0e526e8fadec1cc899220ff48665f2c6b4defb950dc788686bafb62"
+      "Size": 197281,
+      "Sha256": "1b85d9b0858ecd7d48454e41f921a3efa6bddd9333a7d5dd16652fce24ae2b9c"
     },
     {
       "Path": "resources/gui/mainmenu_buttonRegister_clicked.png",
-      "Size": 73850,
-      "Sha256": "ebd56ad78d5ccb9803be32d06468b8294c1e80bb58cd59ba922f91a0d9770f1a"
+      "Size": 199155,
+      "Sha256": "20a83d31eb8cf65755d1d6477906058aee24ac7cd3fe0e0aa5d6f5a152385565"
     },
     {
       "Path": "resources/gui/mainmenu_buttonRegister_disabled.png",
-      "Size": 32352,
-      "Sha256": "7e7e441f82bfa7596cdbac9edddd07b40235bd84c7f20d4a63c92c596cb77d45"
+      "Size": 138786,
+      "Sha256": "52e859a335974157212e6cc4885c088f29c13e688b9b527f4bd848dbddcbdea0"
     },
     {
       "Path": "resources/gui/mainmenu_buttonRegister_hovered.png",
-      "Size": 73850,
-      "Sha256": "ebd56ad78d5ccb9803be32d06468b8294c1e80bb58cd59ba922f91a0d9770f1a"
+      "Size": 197356,
+      "Sha256": "03cfa924942205c9d1105bcc3b064db77a1b665e07d03ee263583523becd2f64"
     },
     {
       "Path": "resources/gui/mainmenu_buttonSettings.png",
-      "Size": 65488,
-      "Sha256": "c73d451e9f433cb6c306d26d11a9a2459447928efb2f9a9a02acd7e9a96580b3"
+      "Size": 193483,
+      "Sha256": "c79aef7208d9cbdaa0b74c14e3757caff7ce69609baf191a56ddd3758f36f556"
     },
     {
       "Path": "resources/gui/mainmenu_buttonSettings_clicked.png",
-      "Size": 74072,
-      "Sha256": "d17e7430a08ef05234bcc59af07b7224204ab50b70be94d6835bdb086b800805"
+      "Size": 193812,
+      "Sha256": "a5870e3cb93dd2d05adbc9938b4aadb9fdb1f7fe87c16dff006a412ee355214d"
     },
     {
       "Path": "resources/gui/mainmenu_buttonSettings_disabled.png",
-      "Size": 33052,
-      "Sha256": "f1596b6d0c5d4e89ed21772b4c6c1d37688313433fec1f2e6e6ec55999c9368c"
+      "Size": 138811,
+      "Sha256": "d1704a2eb21227f1b563394d898ac2b24b047b29fffd60c78db7c7f3466910e2"
     },
     {
       "Path": "resources/gui/mainmenu_buttonSettings_hovered.png",
-      "Size": 74072,
-      "Sha256": "d17e7430a08ef05234bcc59af07b7224204ab50b70be94d6835bdb086b800805"
+      "Size": 193743,
+      "Sha256": "db3039768fed2a111a55367e32a98c0e914f54db740ebd7f11ad6cad62c88ffb"
     },
     {
       "Path": "resources/gui/mainmenu_buttonStart.png",
@@ -6233,18 +6233,18 @@
     },
     {
       "Path": "resources/gui/mainmenu_buttonStart_clicked.png",
-      "Size": 59148,
-      "Sha256": "3e593de88a177ab45df2a9634f2bacce083fe5aceb0f327ccf0c540f5752fdda"
+      "Size": 54081,
+      "Sha256": "a18a89c4b2a52e75119729a9ace5d1cce6fd2bf6dd19f83fbb55aca25cf9ddf9"
     },
     {
       "Path": "resources/gui/mainmenu_buttonStart_disabled.png",
-      "Size": 47128,
-      "Sha256": "a1ed81fea691ceafbbd18cd798a9395fbf2da2450d71ba09cc04e25c76bb0090"
+      "Size": 44471,
+      "Sha256": "b2e1b7bb566ab120b592831d6b2f558040e3be10fc7cbce1eb846d89ac40739b"
     },
     {
       "Path": "resources/gui/mainmenu_buttonStart_hovered.png",
-      "Size": 59527,
-      "Sha256": "b49b679657fe764d1f3f35b90c19072484c53e0f79e0a15a4d8ef43fa4e3209b"
+      "Size": 53926,
+      "Sha256": "a21e9c27d00851b11e1790051b40e8e00d6c9c6e422c291faf321cdc05c734eb"
     },
     {
       "Path": "resources/gui/mainmenu_window.png",
@@ -6263,18 +6263,18 @@
     },
     {
       "Path": "resources/gui/menuicon.png",
-      "Size": 2033,
-      "Sha256": "1d677d952ea18d55499675b029a9902b0d9ed29f5d8f4fce61f450a30dd7b538"
+      "Size": 2461,
+      "Sha256": "63f849f9305664051b93b2a693b33f1a901af2249ce9b24e6fbb607112bcba44"
     },
     {
       "Path": "resources/gui/menuicon_hovered.png",
-      "Size": 2425,
-      "Sha256": "e3826c92e786093268c4abf8ba23f85627a4163d70663fc6e5843ffc0dcc0f88"
+      "Size": 3471,
+      "Sha256": "77e2c26a9dd336369c6b209cdb5b6fabd893e0ac561599157d415bd57bf5e471"
     },
     {
       "Path": "resources/gui/menuitem.png",
-      "Size": 135,
-      "Sha256": "5fa4492bc8ff0ede09cf86aad076013b3a91a48cd5b73fadb738b8b72379b353"
+      "Size": 88,
+      "Sha256": "b0a78e5095d79f7cb384f8e12a88ff3aed39844b52d0f217d5104db496475f4b"
     },
     {
       "Path": "resources/gui/minimap_hud_frame.png",
@@ -6468,13 +6468,13 @@
     },
     {
       "Path": "resources/gui/partyicon.png",
-      "Size": 2107,
-      "Sha256": "f54900f1f83873c808b53ebebe18e6083eb2318cf22f28021ab1218647a8ebbe"
+      "Size": 3390,
+      "Sha256": "383da5478e4d0d8481fd910b1064e7bc8efcac7a3e1449df5309fae56d843683"
     },
     {
       "Path": "resources/gui/partyicon_hovered.png",
-      "Size": 2110,
-      "Sha256": "01e94f6f87f3b542437299d5f7c5d6f35b4caa58e3358cf06f8d57001ef543a7"
+      "Size": 5648,
+      "Sha256": "f9c27d1864c3a9fc8026f35c2a0af5b226aeaca0eb1a88ef46f3015683e02722"
     },
     {
       "Path": "resources/gui/player_window.png",
@@ -6498,13 +6498,13 @@
     },
     {
       "Path": "resources/gui/questsicon.png",
-      "Size": 2410,
-      "Sha256": "f09fc271f53400680e0ffd54f08692f89156128a4e3a69cab3abb1b06269c7a8"
+      "Size": 3315,
+      "Sha256": "530add3821fa7b17f3bb66d2d37ee0010d854ff7cc1637e6c6e42c68e6a6423f"
     },
     {
       "Path": "resources/gui/questsicon_hovered.png",
-      "Size": 2381,
-      "Sha256": "7b042eb99fce3e57125f90848551ea85193c53bbf8aa448cc4d73942e9023b5b"
+      "Size": 4965,
+      "Sha256": "0584d866fd948caa8ad82e127900dd0311d247407e6640ea47d5ae7ff29b8aa0"
     },
     {
       "Path": "resources/gui/quit_window_custom.png",
@@ -6638,13 +6638,13 @@
     },
     {
       "Path": "resources/gui/spellicon.png",
-      "Size": 2278,
-      "Sha256": "0d134fa007ab65268efa00d4c514c03a25117915e222dbccb106f18ac4b7468d"
+      "Size": 3936,
+      "Sha256": "3235e1b4f2c8df324bdd9dae1df9944b3925ed6f152816186667179fd4ac4ae7"
     },
     {
       "Path": "resources/gui/spellicon_hovered.png",
-      "Size": 2338,
-      "Sha256": "f1ad97d42db7b9a9973cc1c6ec64b46c3b8701150d653a8f73c70bc4bb32049b"
+      "Size": 4906,
+      "Sha256": "27b2154418a00be459f69b3c94a5f0f86f1f163971863b29929d7f9d411c3524"
     },
     {
       "Path": "resources/gui/spellitem.png",

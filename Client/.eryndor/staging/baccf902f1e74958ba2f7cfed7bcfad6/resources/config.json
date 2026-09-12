@@ -1,0 +1,69 @@
+﻿{
+  "Host": "localhost",
+  "Port": 5400,
+  "Servers": [
+    {
+      "Name": "Test",
+      "Host": "localhost",
+      "Port": 5400
+    }
+  ],
+  "SelectedServerIndex": 0,
+  "GameFont": "sourcesansproblack",
+  "EntityNameFont": "sourcesansproblack",
+  "ChatBubbleFont": "sourcesansproblack",
+  "ActionMsgFont": "sourcesansproblack",
+  "UIFont": "sourcesanspro,10",
+  "ChatLines": 100,
+  "MenuMusic": "Moonlit Save Point.ogg",
+  "MenuBackground": [
+    "menu_crystal_background.png"
+  ],
+  "MenuBackgroundDisplayMode": "Cover",
+  "MenuBackgroundFrameInterval": 50,
+  "IntroImages": [],
+  "UpdateUrl": null,
+  "MouseCursor": "cursor_default_0.png",
+  "MusicFadeTimer": 1500,
+  "FadeDurationMs": 3000.0,
+  "EnableContextMenus": true,
+  "EnableZebraStripedRows": true,
+  "UiSkin": "IntersectSkin",
+  "EntityBarDirections": [
+    "StartToEnd",
+    "StartToEnd",
+    "StartToEnd"
+  ],
+  "TypewriterEnabled": true,
+  "TypewriterFullStops": [
+    ".",
+    "!",
+    "?",
+    ":"
+  ],
+  "TypewriterFullStopDelay": 400,
+  "TypewriterPartDelay": 6,
+  "TypewriterPauses": [
+    ",",
+    ";",
+    "-"
+  ],
+  "TypewriterPauseDelay": 80,
+  "TypewriterResponseDelay": 600,
+  "TypewriterSoundFrequency": 5,
+  "TypewriterSounds": [
+    "octave-beep-tapped.wav"
+  ],
+  "DimmedEventWindowBackground": true,
+  "EnableMultiSampling": false,
+  "HideHairHelmets": [],
+  "FallbackHairHelmets": [],
+  "FallbackHairPokeTolerance": 3,
+  "ForceFallbackHairStyles": [],
+  "GatherAnimations": {
+    "Axe": "Woodcut",
+    "Pickaxe": "Mine",
+    "Shovel": "Mine",
+    "Fishing Rod": "Fish"
+  }
+}
