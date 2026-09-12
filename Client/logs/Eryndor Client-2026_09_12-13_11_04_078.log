@@ -1,0 +1,30 @@
+2026-09-12 13:11:04.241 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-12 13:11:04.539 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-12 13:11:04.542 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-12 13:11:04.543 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-12 13:11:05.046 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-09-12 13:11:06.567 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-12 13:11:06.576 +02:00 [INF] Connected [621751bf-cade-43ab-a9d8-8921808d09d2].
+2026-09-12 13:11:06.581 +02:00 [INF] Connection approved [621751bf-cade-43ab-a9d8-8921808d09d2].
+2026-09-12 13:11:06.687 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-12 13:11:06.687 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-12 13:11:10.604 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-12 13:11:13.079 +02:00 [WRN] 'Me' is null.
+2026-09-12 13:11:14.232 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Deep Forest' in 49.871ms
+2026-09-12 13:11:14.246 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 10.7217ms
+2026-09-12 13:11:14.265 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 15.1153ms
+2026-09-12 13:11:14.379 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 111.7205ms
+2026-09-12 13:11:14.437 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 52.6859ms
+2026-09-12 13:11:14.465 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 25.6837ms
+2026-09-12 13:11:31.949 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-09-12 13:11:31.953 +02:00 [INF] Disconnected [621751bf-cade-43ab-a9d8-8921808d09d2].
+2026-09-12 13:11:31.953 +02:00 [INF] Updating active permission set to 'default'
+2026-09-12 13:11:31.983 +02:00 [INF] Acquiring context lock... (0ms)
+2026-09-12 13:11:31.983 +02:00 [INF] Acquired. (0ms)
+2026-09-12 13:11:31.983 +02:00 [INF] Beginning context dispose. (0ms)
+2026-09-12 13:11:31.984 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-09-12 13:11:31.984 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-09-12 13:11:31.984 +02:00 [INF] Clearing instance... (1ms)
+2026-09-12 13:11:31.984 +02:00 [INF] Releasing context lock... (1ms)
+2026-09-12 13:11:31.984 +02:00 [INF] Released. (1ms)

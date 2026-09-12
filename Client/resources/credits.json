@@ -5,7 +5,12 @@
       "Font": "sourcesansproblack",
       "Size": 18,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 240,
+        "G": 200,
+        "B": 90
+      }
     },
     {
       "Text": "",
@@ -19,7 +24,12 @@
       "Font": "sourcesansproblack",
       "Size": 14,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 139,
+        "G": 239,
+        "B": 255
+      }
     },
     {
       "Text": "",
@@ -33,14 +43,24 @@
       "Font": "sourcesansproblack",
       "Size": 13,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Game Director & Lead Developer",
       "Font": "sourcesanspro",
       "Size": 11,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -54,14 +74,24 @@
       "Font": "sourcesansproblack",
       "Size": 13,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Lead Artist",
       "Font": "sourcesanspro",
       "Size": 11,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -75,14 +105,24 @@
       "Font": "sourcesansproblack",
       "Size": 13,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Narrative Designer",
       "Font": "sourcesanspro",
       "Size": 11,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -96,14 +136,24 @@
       "Font": "sourcesansproblack",
       "Size": 13,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Composer",
       "Font": "sourcesanspro",
       "Size": 11,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -117,7 +167,12 @@
       "Font": "sourcesansproblack",
       "Size": 14,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 139,
+        "G": 239,
+        "B": 255
+      }
     },
     {
       "Text": "",
@@ -131,21 +186,36 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Created by TheWiseHedgehog",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "https://thewisehedgehog.itch.io/hs2020",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
     },
     {
       "Text": "",
@@ -159,21 +229,36 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Created by TheWiseHedgehog",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "https://thewisehedgehog.itch.io/hs2021",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
     },
     {
       "Text": "",
@@ -187,21 +272,36 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Created by TheWiseHedgehog",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "https://thewisehedgehog.itch.io/hs2022",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
     },
     {
       "Text": "",
@@ -215,21 +315,36 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Created by TheWiseHedgehog",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "https://thewisehedgehog.itch.io/hs2023",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
     },
     {
       "Text": "",
@@ -243,21 +358,36 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Created by TheWiseHedgehog",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "https://thewisehedgehog.itch.io/hs2024",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
     },
     {
       "Text": "",
@@ -271,21 +401,36 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Created by TheWiseHedgehog",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "https://thewisehedgehog.itch.io/hs2025",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
     },
     {
       "Text": "",
@@ -299,35 +444,60 @@
       "Font": "sourcesansproblack",
       "Size": 11,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Creative Commons Attribution 4.0 International",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "CC BY 4.0",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "https://creativecommons.org/licenses/by/4.0/",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
     },
     {
       "Text": "Some assets may have been modified, resized, recolored, adapted, or otherwise altered for use in Eryndor.",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -341,28 +511,48 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Created by Kyrise",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "© 2018 Kyrise",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "https://kyrise.itch.io/kyrises-free-16x16-rpg-icon-pack",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
     },
     {
       "Text": "",
@@ -376,35 +566,60 @@
       "Font": "sourcesansproblack",
       "Size": 11,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Creative Commons Attribution 4.0 International",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "CC BY 4.0",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "https://creativecommons.org/licenses/by/4.0/",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
     },
     {
       "Text": "Some assets may have been modified, resized, recolored, adapted, or otherwise altered for use in Eryndor.",
       "Font": "sourcesanspro",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -418,7 +633,12 @@
       "Font": "sourcesansproblack",
       "Size": 14,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 139,
+        "G": 239,
+        "B": 255
+      }
     },
     {
       "Text": "",
@@ -432,21 +652,36 @@
       "Font": "sourcesansproblack",
       "Size": 16,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 240,
+        "G": 200,
+        "B": 90
+      }
     },
     {
       "Text": "www.freemmorpgmaker.com",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
     },
     {
       "Text": "Copyright 2022 (C) Ascension Game Dev",
       "Font": "sourcesansproblack",
       "Size": 10,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "",
@@ -460,7 +695,12 @@
       "Font": "sourcesansproblack",
       "Size": 14,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 139,
+        "G": 239,
+        "B": 255
+      }
     },
     {
       "Text": "",
@@ -474,21 +714,36 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Joe Bridges",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Robbie Lodico",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "",
@@ -502,7 +757,12 @@
       "Font": "sourcesansproblack",
       "Size": 14,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 139,
+        "G": 239,
+        "B": 255
+      }
     },
     {
       "Text": "",
@@ -516,7 +776,12 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "",
@@ -530,7 +795,12 @@
       "Font": "sourcesansproblack",
       "Size": 14,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 139,
+        "G": 239,
+        "B": 255
+      }
     },
     {
       "Text": "",
@@ -544,21 +814,36 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Fernando Arzola Lagos",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Weylon Santana",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "",
@@ -572,7 +857,12 @@
       "Font": "sourcesansproblack",
       "Size": 14,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 139,
+        "G": 239,
+        "B": 255
+      }
     },
     {
       "Text": "",
@@ -586,119 +876,204 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "AisenGaming",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "BabyLoves",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "blinkuz",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "celojevic",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "char32",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "DerekGooding",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "dhmello",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Dog from the Kash Shop",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "dudevelopement",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "jburditt",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "lucas-tardivo",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Magehernan",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Mighty-Professional",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Orinorii",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Shenmue (RedBandana)",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "TimtyG",
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "",
@@ -712,7 +1087,12 @@
       "Font": "sourcesansproblack",
       "Size": 14,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 139,
+        "G": 239,
+        "B": 255
+      }
     },
     {
       "Text": "",
@@ -726,14 +1106,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Item & Skill Icons",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -747,14 +1137,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Tilesets and Sprite Modifications",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -768,14 +1168,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Graphic Style, Original Tilesets, and Items",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -789,14 +1199,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Item Icons",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -810,14 +1230,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Tiles, Characters, Resources, Generator Components, Paperdolls, UI Icons, and so much more!",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -831,14 +1261,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Animations, Characters, Monsters, Paperdolls, and Tiles",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -852,7 +1292,12 @@
       "Font": "sourcesansproblack",
       "Size": 14,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 139,
+        "G": 239,
+        "B": 255
+      }
     },
     {
       "Text": "",
@@ -866,14 +1311,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Original UI Design",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -887,14 +1342,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "UI Icons",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -908,14 +1373,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Button Textures",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -929,7 +1404,12 @@
       "Font": "sourcesansproblack",
       "Size": 14,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 139,
+        "G": 239,
+        "B": 255
+      }
     },
     {
       "Text": "",
@@ -943,14 +1423,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Various RPG Sound Effects",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -964,14 +1454,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "RPG and UI Sound Effects",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -985,14 +1485,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "UI Sound Effects",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -1006,7 +1516,12 @@
       "Font": "sourcesansproblack",
       "Size": 14,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 139,
+        "G": 239,
+        "B": 255
+      }
     },
     {
       "Text": "",
@@ -1020,14 +1535,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "SoundImage.org",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -1041,7 +1566,12 @@
       "Font": "sourcesansproblack",
       "Size": 14,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 139,
+        "G": 239,
+        "B": 255
+      }
     },
     {
       "Text": "",
@@ -1055,14 +1585,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Source Sans Pro and Source Sans Pro Black",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -1076,7 +1616,12 @@
       "Font": "sourcesansproblack",
       "Size": 14,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 139,
+        "G": 239,
+        "B": 255
+      }
     },
     {
       "Text": "",
@@ -1090,14 +1635,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Acting as an incredible testing environment, and helping us conquer engine limitations!",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -1111,14 +1666,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Khaikaa, Zetasis, Niko, Raku, Mcadams, BiGG, Ainz Ooal Gown, davidsaid06, dxxknight, and hiroman!",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -1132,14 +1697,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "The amount of miscellaneous graphics he created for us on a whim, free of charge, and throughout all hours of the night is insane. Thanks Zeta!",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -1153,14 +1728,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "DarkUI library and various development consultations.",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -1174,14 +1759,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Engine rendering, input handling, audio playback systems, and more!",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",
@@ -1195,14 +1790,24 @@
       "Font": "sourcesansproblack",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
     },
     {
       "Text": "Moral support, financial support, alpha/beta testing, and so much more!",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",
-      "TextColor": null
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
     },
     {
       "Text": "",

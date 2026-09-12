@@ -1,0 +1,33 @@
+2026-09-11 18:21:45.564 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-11 18:21:45.857 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-11 18:21:45.860 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-11 18:21:45.861 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-11 18:21:46.324 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-09-11 18:21:48.728 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-11 18:21:48.736 +02:00 [INF] Connected [de6a9eca-1329-432d-a508-6db45cdb77af].
+2026-09-11 18:21:48.744 +02:00 [INF] Connection approved [de6a9eca-1329-432d-a508-6db45cdb77af].
+2026-09-11 18:21:48.835 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-11 18:21:48.835 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-11 18:21:53.406 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-11 18:26:08.417 +02:00 [INF] Disconnected [de6a9eca-1329-432d-a508-6db45cdb77af].
+2026-09-11 18:26:08.417 +02:00 [INF] Updating active permission set to 'default'
+2026-09-11 18:26:10.722 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-11 18:26:10.726 +02:00 [INF] Connected [c72af4a5-8849-411b-9c86-778bdc24bea5].
+2026-09-11 18:26:10.737 +02:00 [INF] Connection approved [c72af4a5-8849-411b-9c86-778bdc24bea5].
+2026-09-11 18:26:10.744 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-11 18:26:10.744 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-11 18:26:12.234 +02:00 [INF] Music volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 18:26:12.235 +02:00 [INF] Sound volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-09-11 18:26:12.235 +02:00 [INF] Weather sounds volume set to 80 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._weatherSoundsSlider._slider
+2026-09-11 18:26:14.189 +02:00 [INF] Disconnected [c72af4a5-8849-411b-9c86-778bdc24bea5].
+2026-09-11 18:26:14.189 +02:00 [INF] Updating active permission set to 'default'
+2026-09-11 18:26:32.834 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-09-11 18:26:32.868 +02:00 [INF] Acquiring context lock... (0ms)
+2026-09-11 18:26:32.868 +02:00 [INF] Acquired. (0ms)
+2026-09-11 18:26:32.868 +02:00 [INF] Beginning context dispose. (0ms)
+2026-09-11 18:26:32.869 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-09-11 18:26:32.869 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-09-11 18:26:32.869 +02:00 [INF] Clearing instance... (1ms)
+2026-09-11 18:26:32.869 +02:00 [INF] Releasing context lock... (1ms)
+2026-09-11 18:26:32.869 +02:00 [INF] Released. (2ms)

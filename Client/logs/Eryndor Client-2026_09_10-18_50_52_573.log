@@ -1,0 +1,56 @@
+2026-09-10 18:50:52.749 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-10 18:50:53.007 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-10 18:50:53.010 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-10 18:50:53.011 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-10 18:50:53.478 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-09-10 18:50:54.885 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-10 18:50:54.893 +02:00 [INF] Connected [7c858063-5e3b-496e-a118-780d0761b71d].
+2026-09-10 18:50:54.911 +02:00 [INF] Connection approved [7c858063-5e3b-496e-a118-780d0761b71d].
+2026-09-10 18:50:55.021 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-10 18:50:55.021 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-10 18:51:00.017 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-10 18:51:02.510 +02:00 [WRN] 'Me' is null.
+2026-09-10 18:51:03.350 +02:00 [INF] Built VBO for map 000bacda-f0e9-4a92-ab09-e55bd4ad15c1 'New Map' in 26.4035ms
+2026-09-10 18:51:03.362 +02:00 [INF] Built VBO for map f519d3ea-b6f4-4b17-b87a-1dcf003cd3ec 'New Map' in 8.8796ms
+2026-09-10 18:51:03.417 +02:00 [INF] Built VBO for map 79db075f-0b0f-4061-8f23-d301db793c61 'Beach' in 49.186ms
+2026-09-10 18:55:16.759 +02:00 [INF] Disconnected [7c858063-5e3b-496e-a118-780d0761b71d].
+2026-09-10 18:55:16.759 +02:00 [INF] Updating active permission set to 'default'
+2026-09-10 18:55:47.409 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-10 18:55:47.414 +02:00 [INF] Connected [bd82aea3-42d3-4dbf-880c-86119d5baff5].
+2026-09-10 18:55:47.429 +02:00 [INF] Connection approved [bd82aea3-42d3-4dbf-880c-86119d5baff5].
+2026-09-10 18:55:47.449 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-10 18:55:47.449 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-10 18:55:56.683 +02:00 [INF] Music volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-10 18:55:56.684 +02:00 [INF] Sound volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-09-10 18:55:56.684 +02:00 [INF] Weather sounds volume set to 80 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._weatherSoundsSlider._slider
+2026-09-10 18:55:57.180 +02:00 [INF] Disconnected [bd82aea3-42d3-4dbf-880c-86119d5baff5].
+2026-09-10 18:55:57.180 +02:00 [INF] Updating active permission set to 'default'
+2026-09-10 18:56:50.518 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-10 18:56:50.522 +02:00 [INF] Connected [5e196a64-0e97-420b-bb9f-8829d912740e].
+2026-09-10 18:56:50.526 +02:00 [INF] Connection approved [5e196a64-0e97-420b-bb9f-8829d912740e].
+2026-09-10 18:56:50.532 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-10 18:56:50.532 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-10 18:56:58.407 +02:00 [INF] Disconnected [5e196a64-0e97-420b-bb9f-8829d912740e].
+2026-09-10 18:56:58.407 +02:00 [INF] Updating active permission set to 'default'
+2026-09-10 18:56:59.502 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-10 18:56:59.506 +02:00 [INF] Connected [bf090794-ddc6-4f51-b1a4-935df5a430a6].
+2026-09-10 18:56:59.522 +02:00 [INF] Connection approved [bf090794-ddc6-4f51-b1a4-935df5a430a6].
+2026-09-10 18:56:59.533 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-10 18:56:59.533 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-10 18:57:09.417 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-10 18:57:14.393 +02:00 [WRN] 'Me' is null.
+2026-09-10 18:57:14.681 +02:00 [INF] Built VBO for map 000bacda-f0e9-4a92-ab09-e55bd4ad15c1 'New Map' in 8.8215ms
+2026-09-10 18:57:14.689 +02:00 [INF] Built VBO for map f519d3ea-b6f4-4b17-b87a-1dcf003cd3ec 'New Map' in 8.035ms
+2026-09-10 18:57:14.701 +02:00 [INF] Built VBO for map 79db075f-0b0f-4061-8f23-d301db793c61 'Beach' in 9.4223ms
+2026-09-10 19:10:02.032 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-09-10 19:10:02.032 +02:00 [INF] Disconnected [bf090794-ddc6-4f51-b1a4-935df5a430a6].
+2026-09-10 19:10:02.032 +02:00 [INF] Updating active permission set to 'default'
+2026-09-10 19:10:02.067 +02:00 [INF] Acquiring context lock... (0ms)
+2026-09-10 19:10:02.067 +02:00 [INF] Acquired. (0ms)
+2026-09-10 19:10:02.067 +02:00 [INF] Beginning context dispose. (0ms)
+2026-09-10 19:10:02.068 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-09-10 19:10:02.068 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-09-10 19:10:02.068 +02:00 [INF] Clearing instance... (1ms)
+2026-09-10 19:10:02.068 +02:00 [INF] Releasing context lock... (1ms)
+2026-09-10 19:10:02.068 +02:00 [INF] Released. (1ms)

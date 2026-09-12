@@ -1,0 +1,6 @@
+2026-09-10 15:46:30.277 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-10 15:46:30.581 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-10 15:46:30.584 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-10 15:46:30.585 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-10 15:46:31.072 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990

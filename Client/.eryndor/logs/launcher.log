@@ -46,3 +46,5 @@
 2026-09-09T21:05:15.8815852+00:00 System.IO.InvalidDataException: Downloaded file 'Eryndor Client.dll' did not match its official SHA-256 hash.
    at Eryndor.Updater.PatchEngine.UpdateAsync(String installRoot, IProgress`1 progress, CancellationToken cancellationToken) in F:\game code engine\Intersect_New\Eryndor.Updater.Core\PatchEngine.cs:line 69
    at Eryndor.Launcher.LauncherForm.UpdateAsync() in F:\game code engine\Intersect_New\Eryndor.Launcher\LauncherForm.cs:line 199
+2026-09-09T22:28:16.9439475+00:00 Update started.
+2026-09-09T22:29:01.3401085+00:00 Update complete: 2026.09.09.212329; downloaded=143; deleted=0; autoCorrected=0.

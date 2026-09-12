@@ -1,0 +1,47 @@
+2026-09-11 02:55:11.638 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-11 02:55:11.880 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-11 02:55:11.883 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-11 02:55:11.884 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-11 02:55:12.363 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-09-11 02:55:15.238 +02:00 [INF] Music volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:15.240 +02:00 [INF] Sound volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-09-11 02:55:15.240 +02:00 [INF] Weather sounds volume set to 80 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._weatherSoundsSlider._slider
+2026-09-11 02:55:26.592 +02:00 [INF] Music volume set to 21 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:26.675 +02:00 [INF] Music volume set to 23 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:26.691 +02:00 [INF] Music volume set to 25 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:26.708 +02:00 [INF] Music volume set to 27 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:26.724 +02:00 [INF] Music volume set to 29 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:26.742 +02:00 [INF] Music volume set to 30 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:26.758 +02:00 [INF] Music volume set to 32 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:26.775 +02:00 [INF] Music volume set to 33 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:26.808 +02:00 [INF] Music volume set to 34 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:26.842 +02:00 [INF] Music volume set to 35 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:26.891 +02:00 [INF] Music volume set to 36 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:26.925 +02:00 [INF] Music volume set to 37 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:27.308 +02:00 [INF] Music volume set to 36 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:27.342 +02:00 [INF] Music volume set to 34 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:27.358 +02:00 [INF] Music volume set to 33 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:27.375 +02:00 [INF] Music volume set to 32 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:27.391 +02:00 [INF] Music volume set to 31 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:27.408 +02:00 [INF] Music volume set to 30 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:27.424 +02:00 [INF] Music volume set to 29 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:27.458 +02:00 [INF] Music volume set to 28 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:27.475 +02:00 [INF] Music volume set to 27 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:27.491 +02:00 [INF] Music volume set to 26 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:27.526 +02:00 [INF] Music volume set to 25 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:27.558 +02:00 [INF] Music volume set to 24 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:27.591 +02:00 [INF] Music volume set to 23 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:27.658 +02:00 [INF] Music volume set to 22 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:27.708 +02:00 [INF] Music volume set to 21 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:55:28.041 +02:00 [INF] Music volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 02:58:37.890 +02:00 [INF] User clicked exit button.
+2026-09-11 02:58:38.066 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-09-11 02:58:38.106 +02:00 [INF] Acquiring context lock... (0ms)
+2026-09-11 02:58:38.106 +02:00 [INF] Acquired. (0ms)
+2026-09-11 02:58:38.106 +02:00 [INF] Beginning context dispose. (0ms)
+2026-09-11 02:58:38.107 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-09-11 02:58:38.107 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-09-11 02:58:38.107 +02:00 [INF] Clearing instance... (1ms)
+2026-09-11 02:58:38.107 +02:00 [INF] Releasing context lock... (1ms)
+2026-09-11 02:58:38.107 +02:00 [INF] Released. (1ms)

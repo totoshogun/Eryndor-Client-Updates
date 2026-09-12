@@ -1,0 +1,30 @@
+2026-09-10 18:32:38.494 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-10 18:32:38.795 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-10 18:32:38.798 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-10 18:32:38.799 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-10 18:32:39.278 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-09-10 18:33:02.657 +02:00 [INF] Music volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-10 18:33:02.658 +02:00 [INF] Sound volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-09-10 18:33:02.658 +02:00 [INF] Weather sounds volume set to 80 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._weatherSoundsSlider._slider
+2026-09-10 18:33:07.298 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-10 18:33:07.307 +02:00 [INF] Connected [b86d2bf7-6c10-46f0-abf8-553b7e30f937].
+2026-09-10 18:33:07.326 +02:00 [INF] Connection approved [b86d2bf7-6c10-46f0-abf8-553b7e30f937].
+2026-09-10 18:33:07.424 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-10 18:33:07.424 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-10 18:33:11.348 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-10 18:33:13.876 +02:00 [WRN] 'Me' is null.
+2026-09-10 18:33:14.707 +02:00 [INF] Built VBO for map 000bacda-f0e9-4a92-ab09-e55bd4ad15c1 'New Map' in 31.7076ms
+2026-09-10 18:33:14.719 +02:00 [INF] Built VBO for map f519d3ea-b6f4-4b17-b87a-1dcf003cd3ec 'New Map' in 9.5749ms
+2026-09-10 18:33:14.776 +02:00 [INF] Built VBO for map 79db075f-0b0f-4061-8f23-d301db793c61 'Beach' in 49.5597ms
+2026-09-10 18:38:23.141 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-09-10 18:38:23.145 +02:00 [INF] Disconnected [b86d2bf7-6c10-46f0-abf8-553b7e30f937].
+2026-09-10 18:38:23.146 +02:00 [INF] Updating active permission set to 'default'
+2026-09-10 18:38:23.195 +02:00 [INF] Acquiring context lock... (0ms)
+2026-09-10 18:38:23.195 +02:00 [INF] Acquired. (0ms)
+2026-09-10 18:38:23.196 +02:00 [INF] Beginning context dispose. (0ms)
+2026-09-10 18:38:23.197 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-09-10 18:38:23.197 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-09-10 18:38:23.197 +02:00 [INF] Clearing instance... (1ms)
+2026-09-10 18:38:23.197 +02:00 [INF] Releasing context lock... (1ms)
+2026-09-10 18:38:23.197 +02:00 [INF] Released. (1ms)

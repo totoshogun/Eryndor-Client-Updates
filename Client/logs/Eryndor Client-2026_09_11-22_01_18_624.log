@@ -1,0 +1,35 @@
+2026-09-11 22:01:18.785 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-11 22:01:19.020 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-11 22:01:19.023 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-11 22:01:19.024 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-11 22:01:19.491 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-09-11 22:01:21.447 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-11 22:01:21.456 +02:00 [INF] Connected [aec7e812-1d19-48c3-ad69-e872bd523d0d].
+2026-09-11 22:01:21.473 +02:00 [INF] Connection approved [aec7e812-1d19-48c3-ad69-e872bd523d0d].
+2026-09-11 22:01:21.579 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-11 22:01:21.579 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-11 22:01:31.164 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-11 22:05:51.412 +02:00 [INF] Disconnected [aec7e812-1d19-48c3-ad69-e872bd523d0d].
+2026-09-11 22:05:51.412 +02:00 [INF] Updating active permission set to 'default'
+2026-09-11 22:05:52.392 +02:00 [INF] Music volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 22:05:52.393 +02:00 [INF] Sound volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-09-11 22:05:52.393 +02:00 [INF] Weather sounds volume set to 80 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._weatherSoundsSlider._slider
+2026-09-11 22:06:16.696 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-11 22:06:16.702 +02:00 [INF] Connected [0e90a457-84b1-4631-a1e4-b25243970d72].
+2026-09-11 22:06:16.710 +02:00 [INF] Connection approved [0e90a457-84b1-4631-a1e4-b25243970d72].
+2026-09-11 22:06:16.721 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-11 22:06:16.721 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-11 22:06:20.591 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-11 22:09:42.449 +02:00 [INF] Disconnected [0e90a457-84b1-4631-a1e4-b25243970d72].
+2026-09-11 22:09:42.449 +02:00 [INF] Updating active permission set to 'default'
+2026-09-11 22:09:43.316 +02:00 [INF] User clicked exit button.
+2026-09-11 22:09:43.341 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-09-11 22:09:43.375 +02:00 [INF] Acquiring context lock... (0ms)
+2026-09-11 22:09:43.376 +02:00 [INF] Acquired. (0ms)
+2026-09-11 22:09:43.376 +02:00 [INF] Beginning context dispose. (0ms)
+2026-09-11 22:09:43.377 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-09-11 22:09:43.377 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-09-11 22:09:43.377 +02:00 [INF] Clearing instance... (1ms)
+2026-09-11 22:09:43.377 +02:00 [INF] Releasing context lock... (1ms)
+2026-09-11 22:09:43.377 +02:00 [INF] Released. (1ms)

@@ -1,0 +1,21 @@
+2026-09-11 02:26:12.702 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-11 02:26:12.945 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-11 02:26:12.948 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-11 02:26:12.949 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-11 02:26:13.411 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-09-11 02:26:21.060 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-11 02:26:21.068 +02:00 [INF] Connected [e481fb78-070f-4f5c-8205-19754e2b174c].
+2026-09-11 02:26:21.082 +02:00 [INF] Connection approved [e481fb78-070f-4f5c-8205-19754e2b174c].
+2026-09-11 02:26:21.188 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-11 02:27:45.439 +02:00 [INF] User clicked exit button.
+2026-09-11 02:27:45.461 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-09-11 02:27:45.464 +02:00 [INF] Disconnected [e481fb78-070f-4f5c-8205-19754e2b174c].
+2026-09-11 02:27:45.495 +02:00 [INF] Acquiring context lock... (0ms)
+2026-09-11 02:27:45.495 +02:00 [INF] Acquired. (0ms)
+2026-09-11 02:27:45.496 +02:00 [INF] Beginning context dispose. (0ms)
+2026-09-11 02:27:45.496 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-09-11 02:27:45.496 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-09-11 02:27:45.496 +02:00 [INF] Clearing instance... (1ms)
+2026-09-11 02:27:45.497 +02:00 [INF] Releasing context lock... (1ms)
+2026-09-11 02:27:45.497 +02:00 [INF] Released. (1ms)

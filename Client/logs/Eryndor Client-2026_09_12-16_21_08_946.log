@@ -1,0 +1,48 @@
+2026-09-12 16:21:09.121 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-12 16:21:09.376 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-12 16:21:09.379 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-12 16:21:09.380 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-12 16:21:09.862 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-09-12 16:21:11.425 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-12 16:21:11.433 +02:00 [INF] Connected [ed0dfc6d-d4be-4bd4-b06f-247050ef9bd9].
+2026-09-12 16:21:11.440 +02:00 [INF] Connection approved [ed0dfc6d-d4be-4bd4-b06f-247050ef9bd9].
+2026-09-12 16:21:11.537 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-12 16:21:11.537 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-12 16:21:15.021 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-12 16:21:17.946 +02:00 [WRN] 'Me' is null.
+2026-09-12 16:21:19.122 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Deep Forest' in 51.5752ms
+2026-09-12 16:21:19.137 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 11.5637ms
+2026-09-12 16:21:19.159 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 16.3032ms
+2026-09-12 16:21:19.280 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 118.2339ms
+2026-09-12 16:21:19.337 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 53.5612ms
+2026-09-12 16:21:19.366 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 26.3668ms
+2026-09-12 16:21:27.117 +02:00 [INF] Disconnected [ed0dfc6d-d4be-4bd4-b06f-247050ef9bd9].
+2026-09-12 16:21:27.117 +02:00 [INF] Updating active permission set to 'default'
+2026-09-12 16:21:27.360 +02:00 [WRN] 'Me' is null.
+2026-09-12 16:21:27.361 +02:00 [WRN] 'Me' is null.
+2026-09-12 16:21:27.361 +02:00 [WRN] 'Me' is null.
+2026-09-12 16:21:30.021 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-12 16:21:30.025 +02:00 [INF] Connected [0eebf05d-4268-4827-a5e4-76cc5d56d430].
+2026-09-12 16:21:30.040 +02:00 [INF] Connection approved [0eebf05d-4268-4827-a5e4-76cc5d56d430].
+2026-09-12 16:21:30.058 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-12 16:21:30.058 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-12 16:21:38.572 +02:00 [INF] Disconnected [0eebf05d-4268-4827-a5e4-76cc5d56d430].
+2026-09-12 16:21:38.572 +02:00 [INF] Updating active permission set to 'default'
+2026-09-12 16:21:39.000 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-12 16:21:39.004 +02:00 [INF] Connected [29d1275c-8550-4d42-9f4e-c1a9c29102bd].
+2026-09-12 16:21:39.005 +02:00 [INF] Connection approved [29d1275c-8550-4d42-9f4e-c1a9c29102bd].
+2026-09-12 16:21:39.022 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-12 16:21:39.022 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-12 16:21:47.736 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-12 16:22:49.444 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-09-12 16:22:49.445 +02:00 [INF] Disconnected [29d1275c-8550-4d42-9f4e-c1a9c29102bd].
+2026-09-12 16:22:49.445 +02:00 [INF] Updating active permission set to 'default'
+2026-09-12 16:22:49.483 +02:00 [INF] Acquiring context lock... (0ms)
+2026-09-12 16:22:49.484 +02:00 [INF] Acquired. (0ms)
+2026-09-12 16:22:49.484 +02:00 [INF] Beginning context dispose. (0ms)
+2026-09-12 16:22:49.485 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-09-12 16:22:49.485 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-09-12 16:22:49.485 +02:00 [INF] Clearing instance... (1ms)
+2026-09-12 16:22:49.485 +02:00 [INF] Releasing context lock... (1ms)
+2026-09-12 16:22:49.485 +02:00 [INF] Released. (1ms)

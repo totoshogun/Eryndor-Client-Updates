@@ -1,0 +1,30 @@
+2026-09-11 01:56:48.597 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-11 01:56:48.832 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-11 01:56:48.835 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-11 01:56:48.836 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-11 01:56:49.306 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-09-11 01:56:51.416 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-11 01:56:51.424 +02:00 [INF] Connected [41370395-0dff-424c-9056-20d0a73c8d08].
+2026-09-11 01:56:51.441 +02:00 [INF] Connection approved [41370395-0dff-424c-9056-20d0a73c8d08].
+2026-09-11 01:56:51.539 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-11 01:58:26.272 +02:00 [INF] Disconnected [41370395-0dff-424c-9056-20d0a73c8d08].
+2026-09-11 01:58:42.685 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-11 01:58:42.690 +02:00 [INF] Connected [c76877bf-c3d4-4e39-934a-d7894ae7410c].
+2026-09-11 01:58:42.703 +02:00 [INF] Connection approved [c76877bf-c3d4-4e39-934a-d7894ae7410c].
+2026-09-11 01:58:42.711 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-11 01:58:44.570 +02:00 [INF] Music volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 01:58:44.571 +02:00 [INF] Sound volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-09-11 01:58:44.572 +02:00 [INF] Weather sounds volume set to 80 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._weatherSoundsSlider._slider
+2026-09-11 01:58:46.091 +02:00 [INF] Disconnected [c76877bf-c3d4-4e39-934a-d7894ae7410c].
+2026-09-11 01:58:46.091 +02:00 [INF] Updating active permission set to 'default'
+2026-09-11 01:58:46.504 +02:00 [INF] User clicked exit button.
+2026-09-11 01:58:46.710 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-09-11 01:58:46.747 +02:00 [INF] Acquiring context lock... (0ms)
+2026-09-11 01:58:46.747 +02:00 [INF] Acquired. (0ms)
+2026-09-11 01:58:46.748 +02:00 [INF] Beginning context dispose. (0ms)
+2026-09-11 01:58:46.748 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-09-11 01:58:46.748 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-09-11 01:58:46.748 +02:00 [INF] Clearing instance... (1ms)
+2026-09-11 01:58:46.748 +02:00 [INF] Releasing context lock... (1ms)
+2026-09-11 01:58:46.748 +02:00 [INF] Released. (1ms)

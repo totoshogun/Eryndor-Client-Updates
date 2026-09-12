@@ -4795,6 +4795,21 @@
             <param name="height">New height.</param>
             <returns>True if bounds changed.</returns>
         </member>
+        <member name="T:Intersect.Client.Framework.Gwen.Control.ResizableImagePanel">
+            <summary>
+            An image panel with a single, unobtrusive top-right resize grip.
+            </summary>
+        </member>
+        <member name="P:Intersect.Client.Framework.Gwen.Control.ResizableImagePanel.ClampMovement">
+            <summary>
+            Keeps the panel inside its parent while it is being resized.
+            </summary>
+        </member>
+        <member name="E:Intersect.Client.Framework.Gwen.Control.ResizableImagePanel.Resized">
+            <summary>
+            Raised while the panel is being resized by the grip.
+            </summary>
+        </member>
         <member name="T:Intersect.Client.Framework.Gwen.Control.RichLabel">
             <summary>
                 Multiline label with text chunks having different color/font.

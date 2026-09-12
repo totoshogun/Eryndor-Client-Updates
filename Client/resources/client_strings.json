@@ -144,9 +144,10 @@
     "DeleteTitle": "Delete {00}",
     "Empty": "Empty Character Slot",
     "Info": "Level: {00}, Class: {01}",
+    "Level": "Level {00}",
     "Logout": "Logout",
     "Name": "{00}",
-    "New": "New",
+    "New": "Create Character",
     "Play": "Play",
     "Title": "Select a Character to Play"
   },
@@ -814,14 +815,14 @@
     "Back": "Back",
     "ForgotPassword": "Forgot Password?",
     "Login": "Login",
-    "Password": "Password",
+    "Password": "Password:",
     "SavePassword": "Save Password",
     "Title": "Login",
-    "Username": "Username",
-    "Server": "Server"
+    "Username": "Username:",
+    "Server": "Server:"
   },
   "Main": {
-    "GameName": "Intersect"
+    "GameName": "Eryndor Client"
   },
   "MainMenu": {
     "Credits": "Credits",
@@ -927,7 +928,7 @@
     "Register": "Register",
     "Title": "Register",
     "Username": "Username:",
-    "Server": "Server"
+    "Server": "Server:"
   },
   "Server": {
     "Connecting": "Connecting...",

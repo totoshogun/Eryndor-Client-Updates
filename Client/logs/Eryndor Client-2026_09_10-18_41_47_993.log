@@ -1,0 +1,27 @@
+2026-09-10 18:41:48.220 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-10 18:41:48.516 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-10 18:41:48.519 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-10 18:41:48.520 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-10 18:41:49.001 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-09-10 18:41:51.589 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-10 18:41:51.597 +02:00 [INF] Connected [53b46413-eaa9-49e4-95a8-125005a62993].
+2026-09-10 18:41:51.613 +02:00 [INF] Connection approved [53b46413-eaa9-49e4-95a8-125005a62993].
+2026-09-10 18:41:51.713 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-10 18:41:51.713 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-10 18:42:00.845 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-10 18:42:05.196 +02:00 [WRN] 'Me' is null.
+2026-09-10 18:42:05.904 +02:00 [INF] Built VBO for map 000bacda-f0e9-4a92-ab09-e55bd4ad15c1 'New Map' in 27.0378ms
+2026-09-10 18:42:05.916 +02:00 [INF] Built VBO for map f519d3ea-b6f4-4b17-b87a-1dcf003cd3ec 'New Map' in 9.4081ms
+2026-09-10 18:42:05.974 +02:00 [INF] Built VBO for map 79db075f-0b0f-4061-8f23-d301db793c61 'Beach' in 50.3776ms
+2026-09-10 18:49:37.286 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-09-10 18:49:37.289 +02:00 [INF] Disconnected [53b46413-eaa9-49e4-95a8-125005a62993].
+2026-09-10 18:49:37.290 +02:00 [INF] Updating active permission set to 'default'
+2026-09-10 18:49:37.316 +02:00 [INF] Acquiring context lock... (0ms)
+2026-09-10 18:49:37.316 +02:00 [INF] Acquired. (0ms)
+2026-09-10 18:49:37.317 +02:00 [INF] Beginning context dispose. (0ms)
+2026-09-10 18:49:37.317 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-09-10 18:49:37.318 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-09-10 18:49:37.318 +02:00 [INF] Clearing instance... (1ms)
+2026-09-10 18:49:37.318 +02:00 [INF] Releasing context lock... (1ms)
+2026-09-10 18:49:37.318 +02:00 [INF] Released. (1ms)

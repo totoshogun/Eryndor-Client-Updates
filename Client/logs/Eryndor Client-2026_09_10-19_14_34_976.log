@@ -1,0 +1,29 @@
+2026-09-10 19:14:35.201 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-10 19:14:35.437 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-10 19:14:35.441 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-10 19:14:35.442 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-10 19:14:35.911 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-09-10 19:14:37.631 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-10 19:14:37.639 +02:00 [INF] Connected [5820455e-9b41-4116-935e-62f9c9976126].
+2026-09-10 19:14:37.646 +02:00 [INF] Connection approved [5820455e-9b41-4116-935e-62f9c9976126].
+2026-09-10 19:14:37.744 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-10 19:14:37.744 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-10 19:14:41.662 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-10 19:14:46.040 +02:00 [WRN] 'Me' is null.
+2026-09-10 19:14:46.838 +02:00 [INF] Built VBO for map 000bacda-f0e9-4a92-ab09-e55bd4ad15c1 'New Map' in 26.8746ms
+2026-09-10 19:14:46.850 +02:00 [INF] Built VBO for map f519d3ea-b6f4-4b17-b87a-1dcf003cd3ec 'New Map' in 9.4089ms
+2026-09-10 19:14:46.904 +02:00 [INF] Built VBO for map 79db075f-0b0f-4061-8f23-d301db793c61 'Beach' in 48.5198ms
+2026-09-10 19:16:48.059 +02:00 [INF] Built VBO for map 000bacda-f0e9-4a92-ab09-e55bd4ad15c1 'New Map' in 9.0158ms
+2026-09-10 19:16:48.571 +02:00 [INF] Built VBO for map f519d3ea-b6f4-4b17-b87a-1dcf003cd3ec 'New Map' in 9.3673ms
+2026-09-10 19:20:01.400 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-09-10 19:20:01.403 +02:00 [INF] Disconnected [5820455e-9b41-4116-935e-62f9c9976126].
+2026-09-10 19:20:01.404 +02:00 [INF] Updating active permission set to 'default'
+2026-09-10 19:20:01.437 +02:00 [INF] Acquiring context lock... (0ms)
+2026-09-10 19:20:01.437 +02:00 [INF] Acquired. (0ms)
+2026-09-10 19:20:01.438 +02:00 [INF] Beginning context dispose. (0ms)
+2026-09-10 19:20:01.438 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-09-10 19:20:01.438 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-09-10 19:20:01.438 +02:00 [INF] Clearing instance... (1ms)
+2026-09-10 19:20:01.438 +02:00 [INF] Releasing context lock... (1ms)
+2026-09-10 19:20:01.438 +02:00 [INF] Released. (1ms)

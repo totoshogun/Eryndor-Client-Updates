@@ -1,0 +1,25 @@
+2026-09-11 13:32:23.892 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-11 13:32:24.191 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-11 13:32:24.194 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-11 13:32:24.195 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-11 13:32:24.655 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-09-11 13:32:28.252 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-11 13:32:28.260 +02:00 [INF] Connected [511db298-36fd-4f2a-a7c9-5206823416ab].
+2026-09-11 13:32:28.269 +02:00 [INF] Connection approved [511db298-36fd-4f2a-a7c9-5206823416ab].
+2026-09-11 13:32:28.384 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-11 13:32:28.384 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-11 13:32:37.664 +02:00 [INF] Music volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-11 13:32:37.665 +02:00 [INF] Sound volume set to 20 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-09-11 13:32:37.665 +02:00 [INF] Weather sounds volume set to 80 from MainMenu.SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._weatherSoundsSlider._slider
+2026-09-11 13:32:39.331 +02:00 [INF] Disconnected [511db298-36fd-4f2a-a7c9-5206823416ab].
+2026-09-11 13:32:55.164 +02:00 [INF] User clicked exit button.
+2026-09-11 13:32:55.361 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-09-11 13:32:55.385 +02:00 [INF] Acquiring context lock... (0ms)
+2026-09-11 13:32:55.385 +02:00 [INF] Acquired. (0ms)
+2026-09-11 13:32:55.386 +02:00 [INF] Beginning context dispose. (0ms)
+2026-09-11 13:32:55.386 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-09-11 13:32:55.386 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-09-11 13:32:55.386 +02:00 [INF] Clearing instance... (1ms)
+2026-09-11 13:32:55.387 +02:00 [INF] Releasing context lock... (1ms)
+2026-09-11 13:32:55.387 +02:00 [INF] Released. (1ms)
