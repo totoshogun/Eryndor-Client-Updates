@@ -1,0 +1,36 @@
+2026-09-12 19:45:03.536 +02:00 [INF] Starting Eryndor Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
+2026-09-12 19:45:03.856 +02:00 [INF] Discovered service type: Intersect.Plugins.PluginService
+2026-09-12 19:45:03.860 +02:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+2026-09-12 19:45:03.861 +02:00 [INF] Discovered 0 plugins:
+
+2026-09-12 19:45:04.339 +02:00 [INF] Graphics pacing configured: targetMode=0, vsync=true, fixedStep=false, backBuffer=1760x990
+2026-09-12 19:45:05.940 +02:00 [INF] Connecting to 127.0.0.1:5400...
+2026-09-12 19:45:05.950 +02:00 [INF] Connected [7dc7a2c0-a9f2-443c-857a-8fc8a792dab7].
+2026-09-12 19:45:05.955 +02:00 [INF] Connection approved [7dc7a2c0-a9f2-443c-857a-8fc8a792dab7].
+2026-09-12 19:45:06.057 +02:00 [INF] Updated PermissionSet 'default'
+2026-09-12 19:45:06.057 +02:00 [INF] Updated PermissionSet 'admin'
+2026-09-12 19:45:13.135 +02:00 [INF] Updating active permission set to 'admin'
+2026-09-12 19:45:20.592 +02:00 [WRN] 'Me' is null.
+2026-09-12 19:45:21.769 +02:00 [INF] Built VBO for map 9802b09c-f592-4d93-8e11-d3424500716c 'Deep Forest' in 52.468ms
+2026-09-12 19:45:21.784 +02:00 [INF] Built VBO for map 15601ad4-9f26-4abe-a6c9-3a7eebaa3045 'Forest' in 11.8437ms
+2026-09-12 19:45:21.807 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 16.2683ms
+2026-09-12 19:45:21.926 +02:00 [INF] Built VBO for map a31f210c-f5fb-48bf-9db2-45fab2293a4c 'Forest' in 116.755ms
+2026-09-12 19:45:21.982 +02:00 [INF] Built VBO for map 27c6a7b2-4e9f-4316-9a0f-e13ec8e16ba2 'Forest' in 52.42ms
+2026-09-12 19:45:22.009 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 25.0316ms
+2026-09-12 19:45:25.344 +02:00 [INF] Built VBO for map d490222a-af25-4a7f-bec3-7ca8016e08d7 'New Map' in 4.1599ms
+2026-09-12 19:45:25.864 +02:00 [INF] Built VBO for map e341d25d-5ff4-4cd6-bcd5-2f2cda710c86 'Greenfall Vale' in 4.3918ms
+2026-09-12 19:46:55.178 +02:00 [INF] Music volume set to 20 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._musicSlider._slider
+2026-09-12 19:46:55.179 +02:00 [INF] Sound volume set to 20 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._soundEffectsSlider._slider
+2026-09-12 19:46:55.179 +02:00 [INF] Weather sounds volume set to 80 from InGame..SettingsWindow._innerPanel._tabs._innerPanel._audioSettingsTab._scrollPanel._weatherSoundsSlider._slider
+2026-09-12 19:47:16.487 +02:00 [INF] Disconnected [7dc7a2c0-a9f2-443c-857a-8fc8a792dab7].
+2026-09-12 19:47:16.488 +02:00 [INF] Updating active permission set to 'default'
+2026-09-12 19:47:17.442 +02:00 [INF] User clicked exit button.
+2026-09-12 19:47:17.460 +02:00 [INF] System window closing (due to user interaction most likely).
+2026-09-12 19:47:17.487 +02:00 [INF] Acquiring context lock... (0ms)
+2026-09-12 19:47:17.487 +02:00 [INF] Acquired. (0ms)
+2026-09-12 19:47:17.488 +02:00 [INF] Beginning context dispose. (0ms)
+2026-09-12 19:47:17.488 +02:00 [INF] GC.SuppressFinalize (0ms)
+2026-09-12 19:47:17.488 +02:00 [INF] InternalDispose() completed. (0ms)
+2026-09-12 19:47:17.488 +02:00 [INF] Clearing instance... (1ms)
+2026-09-12 19:47:17.488 +02:00 [INF] Releasing context lock... (1ms)
+2026-09-12 19:47:17.488 +02:00 [INF] Released. (1ms)
