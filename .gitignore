@@ -2,3 +2,7 @@ Client.rar
 *.rar
 *.zip
 *.7z
+# Local publishing helper; never include it in the release repository.
+/PUBLISH-UPDATE.bat
+# Local backup created while changing the publisher; do not upload it.
+/_backups/publisher-before-exclusion-20260915/
