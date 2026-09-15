@@ -555,6 +555,13 @@
             </summary>
         </member>
         <!-- Badly formed XML comment ignored for member "M:Intersect.Framework.Core.GameObjects.Maps.MapDescriptor.DeserializeAttributes(System.String,Newtonsoft.Json.JsonSerializerSettings)" -->
+        <member name="P:Intersect.Framework.Core.GameObjects.Maps.MapDescriptor.EnvironmentSoundSyncGroupId">
+            <summary>
+            Identifies the maps that share a continuous map-wide weather/environment audio space.
+            This is deliberately separate from the automatic-weather synchronization group because
+            visual weather synchronization and audio continuity are independent editor choices.
+            </summary>
+        </member>
         <member name="P:Intersect.Framework.Core.GameObjects.Maps.MapDescriptor.SyncAutoEventsByName">
             <summary>
             When true, auto weather and auto atmosphere overlay events use a hash of the map name as their
@@ -610,6 +617,24 @@
         <member name="M:Intersect.Framework.Core.GameObjects.Maps.MapDescriptor.HasAttributes(System.Int32,System.Int32)">
             <summary>
             Returns true if the tile has any non-walkable attributes.
+            </summary>
+        </member>
+        <member name="T:Intersect.Framework.Core.GameObjects.Maps.MapEnvironmentSoundDescriptor">
+            <summary>
+            A map-wide environmental ambience layer. Unlike a tile-painted ambient sound zone,
+            this layer follows the player throughout the map and can be gated by world time,
+            map location, and weather.
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Maps.MapEnvironmentSoundDescriptor.Name">
+            <summary>
+            Editor-only name used to identify this layer in Map Properties.
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Maps.MapEnvironmentSoundDescriptor.Volume">
+            <summary>
+            A display-volume percentage on the Weather &amp; Ambience mixer.
+            Kept conservative by default because these sounds are background beds.
             </summary>
         </member>
         <member name="T:Intersect.Framework.Core.GameObjects.Maps.MapGroundMaterialStyle">
@@ -3598,6 +3623,13 @@
             Server validates points/level/prerequisites/cap authoritatively (see Player.TryUpgradePassive).
             </summary>
         </member>
+        <member name="T:Intersect.Network.Packets.CombatAction">
+            <summary>
+            Server-owned identity shared by an attack animation and its result messages. RequestId
+            is only an echo for local prediction; it never authorizes damage or bypasses cooldowns.
+            Appended to existing packets so combat needs no additional packet or round trip.
+            </summary>
+        </member>
         <member name="T:Intersect.Network.Packets.Server.AnnouncementPacket">
             <summary>
             Defines the layout for an AnnouncementPacket.
@@ -3922,6 +3954,9 @@
             <summary>
                 Makes no guarantees about anything.
             </summary>
+        </member>
+        <member name="F:Intersect.Network.TransmissionMode.Unordered">
+            <summary>Reliable delivery without waiting for older messages; consumers must handle reordering.</summary>
         </member>
         <member name="T:Intersect.Plugins.Interfaces.CreateLoggerOptions">
             <summary>

@@ -560,7 +560,7 @@
           "RightMouseClickSound": null
         },
         "_label": {
-          "Bounds": "0,0,300,35",
+          "Bounds": "4,0,300,35",
           "Dock": "Fill",
           "Padding": "4,4,4,4",
           "AlignmentEdgeDistances": "0,0,0,0",

@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 1,
-  "Version": "2026.09.12.205621",
+  "Version": "2026.09.15.183057",
   "Repository": "totoshogun/Eryndor-Client-Updates",
   "Branch": "main",
   "ProtectedPaths": [
@@ -44,7 +44,7 @@
     {
       "Path": "Eryndor Client.dll",
       "Size": 685056,
-      "Sha256": "382b4d1cf47fa7a0f134e5579118ab71dbb37bb80b5b9565e29c1e0914c93328"
+      "Sha256": "f411bbd5cec8253cb0e14eeaea5ed302ecbdd591a0ace4f9452ee3de16b4b00b"
     },
     {
       "Path": "Eryndor Client.exe",
@@ -78,18 +78,18 @@
     },
     {
       "Path": "Intersect Client Core.dll",
-      "Size": 17845248,
-      "Sha256": "5cab2412160a787516586a7d64f6ff0684a695a2bc9b53a1a1c7cb8c3f00a272"
+      "Size": 17886720,
+      "Sha256": "014578f0f27cd105fe1e581ea8032c389e38c0b1950ca20fbc23332eb6df0f50"
     },
     {
       "Path": "Intersect Client Core.xml",
-      "Size": 113407,
-      "Sha256": "77f43698e9ba6e6cdd200056017c8b8ab1001b5fe51008293ae59cbf1e88768e"
+      "Size": 120867,
+      "Sha256": "0d8dfeb2df854ee3e0fd5109b3e49f0af175f49faf9e8a549bb550b3054788f4"
     },
     {
       "Path": "Intersect Core.dll",
       "Size": 812544,
-      "Sha256": "405336f2951df1799f6379d875dec2bf9639c49aedc77eef23887875ee49384b"
+      "Sha256": "a85edd33f92888d7c67e15f262ea42bfec1cad3859a5220718e2cb64db3780cf"
     },
     {
       "Path": "Intersect Core.xml",
@@ -103,8 +103,8 @@
     },
     {
       "Path": "Intersect.Client.Framework.dll",
-      "Size": 1333760,
-      "Sha256": "5071ab6af5a8f3db14310a6537572949ac0acde08da5e031d49a19f6c5f9dced"
+      "Size": 1332736,
+      "Sha256": "3f0bb38c833cc4af6e3107aa46b300bb3c0395fef9c995dd49bc2750240f2179"
     },
     {
       "Path": "Intersect.Client.Framework.xml",
@@ -113,18 +113,18 @@
     },
     {
       "Path": "Intersect.Client.csproj",
-      "Size": 13944,
-      "Sha256": "9bc9f4394c594dd88169f64ad2aa0fb7ea54348b9d199bd4c7e2cd8ad1bf3b58"
+      "Size": 15100,
+      "Sha256": "552036628ed4c60381a655907bb0d0a5e685a71fb7a34b17d29e66739caf9f98"
     },
     {
       "Path": "Intersect.Framework.Core.dll",
-      "Size": 1612288,
-      "Sha256": "370b643ef504c576bf663ecdac4bcd17fd797364065a541b9413c5ecd94081fe"
+      "Size": 1618432,
+      "Sha256": "d4b0fb7ca7171823c254e8952823fbd7d286ea56753d2a2ef6ac5ab07e25101b"
     },
     {
       "Path": "Intersect.Framework.Core.xml",
-      "Size": 265998,
-      "Sha256": "680faa24a3564c35b09850ba9ed5aab4d417f250bc22501fd8b110f2bcd6f435"
+      "Size": 268050,
+      "Sha256": "9bc67ef9e312f6684ce5b81f8199f8c204aba5ceb6bc376c094e6161bda05d57"
     },
     {
       "Path": "Intersect.Framework.dll",
@@ -139,7 +139,7 @@
     {
       "Path": "Intersect.Network.dll",
       "Size": 670208,
-      "Sha256": "4670c7327ff426015bda930bfdd9c3f0e97f853df2ccb9d213c24fd6214bc448"
+      "Sha256": "df306ea24cdc8d7d81202262cdfd04027b1162c032d2774a9d73184a9d86b36a"
     },
     {
       "Path": "Intersect.Network.xml",
@@ -1487,516 +1487,6 @@
       "Sha256": "53d854d33c3f0e1bbccff4b5c4b89420daa66fa5f6603f6e5df20d6bbb7e00f4"
     },
     {
-      "Path": "obj/Any CPU/Release test/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-      "Size": 194,
-      "Sha256": "ae41ca1e67556e4b0622d82a2122a04f17722c0c19d3b2f1fbcab8a2aaf16d2e"
-    },
-    {
-      "Path": "obj/Any CPU/Release test/Intersec.3A182661.Up2Date",
-      "Size": 0,
-      "Sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "Path": "obj/Any CPU/Release test/Intersect Client.dll",
-      "Size": 691200,
-      "Sha256": "8fc33e9632810f533ecd238f5293a51db91ccd35004f145ef79365480e144099"
-    },
-    {
-      "Path": "obj/Any CPU/Release test/Intersect Client.xml",
-      "Size": 133,
-      "Sha256": "e32b5a51fd5ba681627d72e59f9643eb7340f8030c76e72346fe41776192c68d"
-    },
-    {
-      "Path": "obj/Any CPU/Release test/Intersect.Client.AssemblyInfo.cs",
-      "Size": 1730,
-      "Sha256": "d995249a2de8e2341509231549790d24ab435a25f7294981cb6bdd25a4fe6eef"
-    },
-    {
-      "Path": "obj/Any CPU/Release test/Intersect.Client.AssemblyInfoInputs.cache",
-      "Size": 65,
-      "Sha256": "740ea21fac5dbc3f1d5615db06d8cb59568be634f5426f0e25424bdd40e4ee78"
-    },
-    {
-      "Path": "obj/Any CPU/Release test/Intersect.Client.GeneratedMSBuildEditorConfig.editorconfig",
-      "Size": 990,
-      "Sha256": "2f4e7297cf5df4330f4cee892e31af5a1b6982c2949018a31bc0b98bb71272b9"
-    },
-    {
-      "Path": "obj/Any CPU/Release test/Intersect.Client.GlobalUsings.g.cs",
-      "Size": 231,
-      "Sha256": "8f86a2cbf00ff3eee0bda2bc0eb5e1fc19c8544d5dc650c53d0132325956b592"
-    },
-    {
-      "Path": "obj/Any CPU/Release test/Intersect.Client.assets.cache",
-      "Size": 68784,
-      "Sha256": "89c014846c134dab16014c085b1b0e6fdb40f241cbd8dd29dd5cd0725cc4546f"
-    },
-    {
-      "Path": "obj/Any CPU/Release test/Intersect.Client.csproj.AssemblyReference.cache",
-      "Size": 48282,
-      "Sha256": "adcebe7dc456dd3f8319b02d531df1f41ae16281ccb5311df23dc8823a4e5152"
-    },
-    {
-      "Path": "obj/Any CPU/Release test/Intersect.Client.csproj.CoreCompileInputs.cache",
-      "Size": 65,
-      "Sha256": "3acf2d3a55df8ce5b150bee8122b6d7de423e6118e63ca05144c494269c3c919"
-    },
-    {
-      "Path": "obj/Any CPU/Release test/Intersect.Client.csproj.FileListAbsolute.txt",
-      "Size": 24421,
-      "Sha256": "b811e12828eaee1dce10e45da3d58143665a2d867dce65a4c7282e17ce79786c"
-    },
-    {
-      "Path": "obj/Any CPU/Release test/Intersect.Client.genruntimeconfig.cache",
-      "Size": 65,
-      "Sha256": "02d0a7338a3c26096726499fbe231bc2505a8b7695845c687773c81e303ce5ba"
-    },
-    {
-      "Path": "obj/Any CPU/Release test/Intersect.Client.sourcelink.json",
-      "Size": 169,
-      "Sha256": "ddc894f371a00c54779b7d0ea88b6c04bb668640630ff87f6a0146477f38a072"
-    },
-    {
-      "Path": "obj/Any CPU/Release test/apphost.exe",
-      "Size": 457728,
-      "Sha256": "72782881d2d789c46b7113982729d30fee0cbf7342f0e173a4fd45b670c5cfcd"
-    },
-    {
-      "Path": "obj/Any CPU/Release test/ref/Intersect Client.dll",
-      "Size": 312320,
-      "Sha256": "064639811fef54f99c5bf6a8b0c2de37e6202641fa980641a89753b2b12dfc3d"
-    },
-    {
-      "Path": "obj/Any CPU/Release test/refint/Intersect Client.dll",
-      "Size": 312320,
-      "Sha256": "064639811fef54f99c5bf6a8b0c2de37e6202641fa980641a89753b2b12dfc3d"
-    },
-    {
-      "Path": "obj/Debug/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-      "Size": 194,
-      "Sha256": "ae41ca1e67556e4b0622d82a2122a04f17722c0c19d3b2f1fbcab8a2aaf16d2e"
-    },
-    {
-      "Path": "obj/Debug/Eryndor Client.dll",
-      "Size": 685056,
-      "Sha256": "8f6432e1edcd143c28496ceb7977bc589f894b42f0a1160bee15ce0d360cbff8"
-    },
-    {
-      "Path": "obj/Debug/Eryndor Client.xml",
-      "Size": 131,
-      "Sha256": "1c2ad556524fc612e4ca35685746524b24b1430e30b6b2ce2d4a2b3ff516bebb"
-    },
-    {
-      "Path": "obj/Debug/Intersec.3A182661.Up2Date",
-      "Size": 0,
-      "Sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "Path": "obj/Debug/Intersect.Client.AssemblyInfo.cs",
-      "Size": 1677,
-      "Sha256": "7fde98f1938e525c117eb8562c613c79e184e2e1307a9cf99b5cac6c44e6f4bf"
-    },
-    {
-      "Path": "obj/Debug/Intersect.Client.AssemblyInfoInputs.cache",
-      "Size": 65,
-      "Sha256": "5600e8e876a667ab2f1a8f8819a9616c71255d90a0c9fec69174497fd9b4a519"
-    },
-    {
-      "Path": "obj/Debug/Intersect.Client.GeneratedMSBuildEditorConfig.editorconfig",
-      "Size": 592,
-      "Sha256": "e675f45f68dc185d3bb00cadf8ba6c812c702311172e985003dc0eafb59ef825"
-    },
-    {
-      "Path": "obj/Debug/Intersect.Client.GlobalUsings.g.cs",
-      "Size": 287,
-      "Sha256": "addb143f8c43b95f1bb73a0cba7c793281935c4ab8ccabbdf6b04d3e0f809e0e"
-    },
-    {
-      "Path": "obj/Debug/Intersect.Client.assets.cache",
-      "Size": 68677,
-      "Sha256": "941c268d153a2d8934f4c069a7c56321df0d5bfe7782e7cdac453e1507f290ff"
-    },
-    {
-      "Path": "obj/Debug/Intersect.Client.csproj.AssemblyReference.cache",
-      "Size": 48732,
-      "Sha256": "bd1956a57297b0403492d00e87b4966cceecda61e5cf6f0f6ef4aa4b46b21afb"
-    },
-    {
-      "Path": "obj/Debug/Intersect.Client.csproj.CoreCompileInputs.cache",
-      "Size": 65,
-      "Sha256": "fbfc17b887951aec5284bc9e853773a10a22845bef138448e2888a882e1a0539"
-    },
-    {
-      "Path": "obj/Debug/Intersect.Client.csproj.FileListAbsolute.txt",
-      "Size": 12002,
-      "Sha256": "7e08ce0102462453b9843e9a052ff7185e43353b45a2234981e124135a3f59ef"
-    },
-    {
-      "Path": "obj/Debug/Intersect.Client.genruntimeconfig.cache",
-      "Size": 65,
-      "Sha256": "8c52a2afcb8b9836131af15000f17f19e9a34b46c0779eb9bd94c452b5c7a2b1"
-    },
-    {
-      "Path": "obj/Debug/Intersect.Client.sourcelink.json",
-      "Size": 169,
-      "Sha256": "ddc894f371a00c54779b7d0ea88b6c04bb668640630ff87f6a0146477f38a072"
-    },
-    {
-      "Path": "obj/Debug/apphost.exe",
-      "Size": 254976,
-      "Sha256": "7ac2d79a7b2fcf5ba27a9e213841ac178dfb6ff4e27c8bfc4d172016dcb579b3"
-    },
-    {
-      "Path": "obj/Debug/ref/Eryndor Client.dll",
-      "Size": 109568,
-      "Sha256": "38063970c3aef93c9f27002890397f7e5bbe90069df4bed74d07961748bdb89a"
-    },
-    {
-      "Path": "obj/Debug/refint/Eryndor Client.dll",
-      "Size": 109568,
-      "Sha256": "38063970c3aef93c9f27002890397f7e5bbe90069df4bed74d07961748bdb89a"
-    },
-    {
-      "Path": "obj/Intersect.Client.csproj.nuget.dgspec.json",
-      "Size": 52387,
-      "Sha256": "0078aee836f4fb506e76cff5b3185f54cb57b1e96406e11c5d44eae2e0ae0c3e"
-    },
-    {
-      "Path": "obj/Intersect.Client.csproj.nuget.g.props",
-      "Size": 1889,
-      "Sha256": "87fcf5576a1589f09b542380195631d8ff723a086aa36c43d532fa0a595eadd8"
-    },
-    {
-      "Path": "obj/Intersect.Client.csproj.nuget.g.targets",
-      "Size": 1421,
-      "Sha256": "025cb0e16f9365b673a60184bd79ce734a747ea64eb7c191b5a02ee8733adf46"
-    },
-    {
-      "Path": "obj/Release test/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-      "Size": 194,
-      "Sha256": "ae41ca1e67556e4b0622d82a2122a04f17722c0c19d3b2f1fbcab8a2aaf16d2e"
-    },
-    {
-      "Path": "obj/Release test/Eryndor Client.dll",
-      "Size": 685056,
-      "Sha256": "382b4d1cf47fa7a0f134e5579118ab71dbb37bb80b5b9565e29c1e0914c93328"
-    },
-    {
-      "Path": "obj/Release test/Eryndor Client.xml",
-      "Size": 131,
-      "Sha256": "1c2ad556524fc612e4ca35685746524b24b1430e30b6b2ce2d4a2b3ff516bebb"
-    },
-    {
-      "Path": "obj/Release test/Intersec.3A182661.Up2Date",
-      "Size": 0,
-      "Sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "Path": "obj/Release test/Intersect Client.deps.json",
-      "Size": 78438,
-      "Sha256": "578abdaa3aacfa98dc89d1d0e902e2c2daf4ff32f11bed21e64503f7be0914fe"
-    },
-    {
-      "Path": "obj/Release test/Intersect.Client.AssemblyInfo.cs",
-      "Size": 1684,
-      "Sha256": "61c1b8cfd9e45c76f2d2d4a65228821a8878798b0ecec1b73653a2facbdcac53"
-    },
-    {
-      "Path": "obj/Release test/Intersect.Client.AssemblyInfoInputs.cache",
-      "Size": 65,
-      "Sha256": "4ffdaf4ddbbbe57070c11dbed595c397b2dea9f126f558f6ceb84430ad2e33a3"
-    },
-    {
-      "Path": "obj/Release test/Intersect.Client.GeneratedMSBuildEditorConfig.editorconfig",
-      "Size": 762,
-      "Sha256": "20e32d416a6768fdab7b12e826e1e4f74a1e32d14808a51567f6f3e5e1604418"
-    },
-    {
-      "Path": "obj/Release test/Intersect.Client.GlobalUsings.g.cs",
-      "Size": 287,
-      "Sha256": "addb143f8c43b95f1bb73a0cba7c793281935c4ab8ccabbdf6b04d3e0f809e0e"
-    },
-    {
-      "Path": "obj/Release test/Intersect.Client.assets.cache",
-      "Size": 68784,
-      "Sha256": "181eeb375bffc4406856d538369ef5a1c416cca3306adc72ed2404d66659af6d"
-    },
-    {
-      "Path": "obj/Release test/Intersect.Client.csproj.AssemblyReference.cache",
-      "Size": 50873,
-      "Sha256": "41b6e9ee8305a27eee494409634caa2ab896a6145d8ec7ca14d26fa9d2cba9eb"
-    },
-    {
-      "Path": "obj/Release test/Intersect.Client.csproj.CoreCompileInputs.cache",
-      "Size": 65,
-      "Sha256": "a85f6a72373d17e4fce9299e4a906f308c6b5fc69c6ee1aa98e94c1167b920a1"
-    },
-    {
-      "Path": "obj/Release test/Intersect.Client.csproj.FileListAbsolute.txt",
-      "Size": 58204,
-      "Sha256": "3a53c03bcf5c8911bcdbe0a8da66b31f2d8c96588b5e7c8e29767bdb160e185d"
-    },
-    {
-      "Path": "obj/Release test/Intersect.Client.genbundle.cache",
-      "Size": 65,
-      "Sha256": "b72eb4b78e380f78d382ba71079556af725ed9c8abbd81c5143c155a26ec99a7"
-    },
-    {
-      "Path": "obj/Release test/Intersect.Client.genpublishdeps.cache",
-      "Size": 65,
-      "Sha256": "046e9b56dc47c9f7112d566bd6c615f6bcbba2ac94085186270ee3bc71b671c4"
-    },
-    {
-      "Path": "obj/Release test/Intersect.Client.genruntimeconfig.cache",
-      "Size": 65,
-      "Sha256": "02d0a7338a3c26096726499fbe231bc2505a8b7695845c687773c81e303ce5ba"
-    },
-    {
-      "Path": "obj/Release test/Intersect.Client.sourcelink.json",
-      "Size": 169,
-      "Sha256": "ddc894f371a00c54779b7d0ea88b6c04bb668640630ff87f6a0146477f38a072"
-    },
-    {
-      "Path": "obj/Release test/PublishOutputs.445c8a084a.txt",
-      "Size": 10504,
-      "Sha256": "772dac14a0fdf8dc80bbc7eb6a0acee01635fbaa9b13faf821c770c75135889c"
-    },
-    {
-      "Path": "obj/Release test/PublishOutputs.820861a547.txt",
-      "Size": 857,
-      "Sha256": "13a3ab745bee2021f3be9e96c6453584752a17d1514d8f0792d7aee7b482ae4d"
-    },
-    {
-      "Path": "obj/Release test/PublishOutputs.e704754f6b.txt",
-      "Size": 88,
-      "Sha256": "79b412a58d9904d9fe212642c141cacda4d9db654a76bab4aae72b9c6dd41139"
-    },
-    {
-      "Path": "obj/Release test/apphost.exe",
-      "Size": 457728,
-      "Sha256": "0c517e66b3f18322fbcf7cb05151fa6ca1ba0a5baebf60043dcbf47206323719"
-    },
-    {
-      "Path": "obj/Release test/ref/Eryndor Client.dll",
-      "Size": 109568,
-      "Sha256": "bb6e4e40e345675beb2335c3e46fcaba6960fe83b98a9ae9949243395e23ac47"
-    },
-    {
-      "Path": "obj/Release test/refint/Eryndor Client.dll",
-      "Size": 109568,
-      "Sha256": "bb6e4e40e345675beb2335c3e46fcaba6960fe83b98a9ae9949243395e23ac47"
-    },
-    {
-      "Path": "obj/Release test/singlefilehost.exe",
-      "Size": 9747456,
-      "Sha256": "1c4b90ef71434523eadd6da7e4cf6cbd80e4628ea1e5d9fab7c3da7523701884"
-    },
-    {
-      "Path": "obj/Release/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-      "Size": 194,
-      "Sha256": "ae41ca1e67556e4b0622d82a2122a04f17722c0c19d3b2f1fbcab8a2aaf16d2e"
-    },
-    {
-      "Path": "obj/Release/Eryndor Client.dll",
-      "Size": 685056,
-      "Sha256": "dd8d00726bcab40945bbd4e71a50605887e026bc46d76c06777a588ac7e60b5e"
-    },
-    {
-      "Path": "obj/Release/Eryndor Client.xml",
-      "Size": 131,
-      "Sha256": "1c2ad556524fc612e4ca35685746524b24b1430e30b6b2ce2d4a2b3ff516bebb"
-    },
-    {
-      "Path": "obj/Release/Intersec.3A182661.Up2Date",
-      "Size": 0,
-      "Sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "Path": "obj/Release/Intersect Client.deps.json",
-      "Size": 78438,
-      "Sha256": "4d0cb9e9232c329b6aaf4adf597ba345f6724badd54940310c97c5fe1cf6c578"
-    },
-    {
-      "Path": "obj/Release/Intersect.Client.AssemblyInfo.cs",
-      "Size": 1679,
-      "Sha256": "a755ef69c013e76c6bc35275ff2505eca46fa441b72fee882f224244e8d052aa"
-    },
-    {
-      "Path": "obj/Release/Intersect.Client.AssemblyInfoInputs.cache",
-      "Size": 65,
-      "Sha256": "96ea955116d1a26eb0773a2e80ba38ab4be88a77c5ff18f86d58b96cbecf1f27"
-    },
-    {
-      "Path": "obj/Release/Intersect.Client.GeneratedMSBuildEditorConfig.editorconfig",
-      "Size": 762,
-      "Sha256": "20e32d416a6768fdab7b12e826e1e4f74a1e32d14808a51567f6f3e5e1604418"
-    },
-    {
-      "Path": "obj/Release/Intersect.Client.GlobalUsings.g.cs",
-      "Size": 287,
-      "Sha256": "addb143f8c43b95f1bb73a0cba7c793281935c4ab8ccabbdf6b04d3e0f809e0e"
-    },
-    {
-      "Path": "obj/Release/Intersect.Client.assets.cache",
-      "Size": 68784,
-      "Sha256": "196b1a6ef8572a18b1b1989727aa60b7ae413c0bfa54be177a0d483309297114"
-    },
-    {
-      "Path": "obj/Release/Intersect.Client.csproj.AssemblyReference.cache",
-      "Size": 48559,
-      "Sha256": "c0e73f89e1928c543a7e61861390dbe36b3750cf905eaa79d3d96382bb417f1a"
-    },
-    {
-      "Path": "obj/Release/Intersect.Client.csproj.CoreCompileInputs.cache",
-      "Size": 65,
-      "Sha256": "060da12972c89fac1077a3bd79be0346a4035732cfa7a8d0432ae16a6fde0aa7"
-    },
-    {
-      "Path": "obj/Release/Intersect.Client.csproj.FileListAbsolute.txt",
-      "Size": 24247,
-      "Sha256": "1fc29a62a792bfdab2b7c2c5339e6a9d5054517d233e11e052d853ec53b520d8"
-    },
-    {
-      "Path": "obj/Release/Intersect.Client.genbundle.cache",
-      "Size": 65,
-      "Sha256": "ae54738d9b695c19ffa1ff433e6a936018c0cce69ff29ac618f83136374345c6"
-    },
-    {
-      "Path": "obj/Release/Intersect.Client.genpublishdeps.cache",
-      "Size": 65,
-      "Sha256": "0a267aa0d13b9333b1375c3feff2f84dac15c2d776925354c0dc7627d2029744"
-    },
-    {
-      "Path": "obj/Release/Intersect.Client.genruntimeconfig.cache",
-      "Size": 65,
-      "Sha256": "5fa3eb48b56a16f26c1c8e1a73f1537580466b501e3d8a172438ec72dad96209"
-    },
-    {
-      "Path": "obj/Release/Intersect.Client.sourcelink.json",
-      "Size": 169,
-      "Sha256": "ddc894f371a00c54779b7d0ea88b6c04bb668640630ff87f6a0146477f38a072"
-    },
-    {
-      "Path": "obj/Release/PublishOutputs.445c8a084a.txt",
-      "Size": 1049,
-      "Sha256": "cb11e3a5572a085c99ab3a8c6ca124904fb03a5a6dbc31d24f24ad406ffc35cd"
-    },
-    {
-      "Path": "obj/Release/apphost.exe",
-      "Size": 457728,
-      "Sha256": "72782881d2d789c46b7113982729d30fee0cbf7342f0e173a4fd45b670c5cfcd"
-    },
-    {
-      "Path": "obj/Release/ref/Eryndor Client.dll",
-      "Size": 109568,
-      "Sha256": "e6f7dc5edaa99166c7483613280696ebd5501492ee1c416735f83388934b27ce"
-    },
-    {
-      "Path": "obj/Release/refint/Eryndor Client.dll",
-      "Size": 109568,
-      "Sha256": "e6f7dc5edaa99166c7483613280696ebd5501492ee1c416735f83388934b27ce"
-    },
-    {
-      "Path": "obj/Release/singlefilehost.exe",
-      "Size": 9747456,
-      "Sha256": "1c4b90ef71434523eadd6da7e4cf6cbd80e4628ea1e5d9fab7c3da7523701884"
-    },
-    {
-      "Path": "obj/project.assets.json",
-      "Size": 672452,
-      "Sha256": "ab6e4e3e8589de4e55830e11e0780e3db0f85defc45cd4a17ae22c1c19d7962c"
-    },
-    {
-      "Path": "obj/project.nuget.cache",
-      "Size": 23135,
-      "Sha256": "21247178755fca895d378664dbb11b466c3471efd792346630358603b1f94c48"
-    },
-    {
-      "Path": "obj/x64/Release test/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-      "Size": 194,
-      "Sha256": "ae41ca1e67556e4b0622d82a2122a04f17722c0c19d3b2f1fbcab8a2aaf16d2e"
-    },
-    {
-      "Path": "obj/x64/Release test/Intersec.3A182661.Up2Date",
-      "Size": 0,
-      "Sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "Path": "obj/x64/Release test/Intersect Client.dll",
-      "Size": 691200,
-      "Sha256": "78131e19ffb7c29a18ea01cf0cab1e7bee2b9d9b0504d5b098494517d014c3bb"
-    },
-    {
-      "Path": "obj/x64/Release test/Intersect Client.xml",
-      "Size": 133,
-      "Sha256": "e32b5a51fd5ba681627d72e59f9643eb7340f8030c76e72346fe41776192c68d"
-    },
-    {
-      "Path": "obj/x64/Release test/Intersect.Client.AssemblyInfo.cs",
-      "Size": 1730,
-      "Sha256": "d995249a2de8e2341509231549790d24ab435a25f7294981cb6bdd25a4fe6eef"
-    },
-    {
-      "Path": "obj/x64/Release test/Intersect.Client.AssemblyInfoInputs.cache",
-      "Size": 65,
-      "Sha256": "740ea21fac5dbc3f1d5615db06d8cb59568be634f5426f0e25424bdd40e4ee78"
-    },
-    {
-      "Path": "obj/x64/Release test/Intersect.Client.GeneratedMSBuildEditorConfig.editorconfig",
-      "Size": 990,
-      "Sha256": "2f4e7297cf5df4330f4cee892e31af5a1b6982c2949018a31bc0b98bb71272b9"
-    },
-    {
-      "Path": "obj/x64/Release test/Intersect.Client.GlobalUsings.g.cs",
-      "Size": 231,
-      "Sha256": "8f86a2cbf00ff3eee0bda2bc0eb5e1fc19c8544d5dc650c53d0132325956b592"
-    },
-    {
-      "Path": "obj/x64/Release test/Intersect.Client.assets.cache",
-      "Size": 68784,
-      "Sha256": "422163db332edba43c88d5446a80efbaa61bbebabe45303e9b48579a0763146c"
-    },
-    {
-      "Path": "obj/x64/Release test/Intersect.Client.csproj.AssemblyReference.cache",
-      "Size": 48349,
-      "Sha256": "b803dc84117b3d0bf66662e18fa063c1b2a7e1b4c966337418624ad651f04030"
-    },
-    {
-      "Path": "obj/x64/Release test/Intersect.Client.csproj.CoreCompileInputs.cache",
-      "Size": 65,
-      "Sha256": "f1c2037fbcf06d1b3962dd1e2fcf71a8f6492e21df84f9249dc05e2ded85874d"
-    },
-    {
-      "Path": "obj/x64/Release test/Intersect.Client.csproj.FileListAbsolute.txt",
-      "Size": 24373,
-      "Sha256": "939901123376a8b3a98c4896a375679db96f26ee9b14c5fa8fcb346872db1b89"
-    },
-    {
-      "Path": "obj/x64/Release test/Intersect.Client.genruntimeconfig.cache",
-      "Size": 65,
-      "Sha256": "02d0a7338a3c26096726499fbe231bc2505a8b7695845c687773c81e303ce5ba"
-    },
-    {
-      "Path": "obj/x64/Release test/Intersect.Client.sourcelink.json",
-      "Size": 169,
-      "Sha256": "ddc894f371a00c54779b7d0ea88b6c04bb668640630ff87f6a0146477f38a072"
-    },
-    {
-      "Path": "obj/x64/Release test/apphost.exe",
-      "Size": 457728,
-      "Sha256": "72782881d2d789c46b7113982729d30fee0cbf7342f0e173a4fd45b670c5cfcd"
-    },
-    {
-      "Path": "obj/x64/Release test/ref/Intersect Client.dll",
-      "Size": 312320,
-      "Sha256": "ed5b2bd596dd5ee5106e475aab9d39d74e0b00bb3d9ccafceb9e68838a4fe508"
-    },
-    {
-      "Path": "obj/x64/Release test/refint/Intersect Client.dll",
-      "Size": 312320,
-      "Sha256": "ed5b2bd596dd5ee5106e475aab9d39d74e0b00bb3d9ccafceb9e68838a4fe508"
-    },
-    {
       "Path": "pl/Microsoft.VisualStudio.Validation.resources.dll",
       "Size": 14760,
       "Sha256": "1e018a4bfa279657bfaef3e2960bc375614013aee4fa5324d29f8f14ef72f0d8"
@@ -2148,8 +1638,8 @@
     },
     {
       "Path": "resources/credits.json",
-      "Size": 35840,
-      "Sha256": "29f9176d5b7f1772a007202f20197f7ae5085b4237b07e6592ce8003a736844a"
+      "Size": 63210,
+      "Sha256": "19c722c99935a55156909bfa32521a02fa5b5568a4d601eed0736f3145d1497b"
     },
     {
       "Path": "resources/cursors/editor_brush.json",
@@ -6178,8 +5668,8 @@
     },
     {
       "Path": "resources/gui/layouts/game/SpellsWindow.json",
-      "Size": 39064,
-      "Sha256": "5a457839fcc193b215085d5fd9c39fb1e1ab7859e81907fd1f45df426651cf8e"
+      "Size": 148998,
+      "Sha256": "6183804cc580416431a0f5418c3f2a8eb1978f1d505a9a4dd09afb403223aa67"
     },
     {
       "Path": "resources/gui/layouts/game/TargetBox.1024x720.json",
@@ -6228,23 +5718,23 @@
     },
     {
       "Path": "resources/gui/layouts/game/TheirTradeItem.json",
-      "Size": 2130,
-      "Sha256": "1a77a8c0a824ae9a8b6007c107958b629cb7e0d652453d4244c772798f7bdf49"
+      "Size": 2415,
+      "Sha256": "22b5dfe4333243192e7270df4e67805035c67da9adc880a64675485576aad576"
     },
     {
       "Path": "resources/gui/layouts/game/TradeContextMenu.json",
-      "Size": 8423,
-      "Sha256": "709786ec498c6f7433ed5658a0dca724f9d9c98a6bdce6eef30d2af8d71c0eac"
+      "Size": 8565,
+      "Sha256": "45304b1997ec0caa518e264478efa7be912531b745de6361856ad21f15b7e69e"
     },
     {
       "Path": "resources/gui/layouts/game/TradeWindow.json",
-      "Size": 30002,
-      "Sha256": "3c2b4367f982e57fd0adad7d29166c774d8b3b09f8c003cd8f4e2ed4ca1bcf98"
+      "Size": 30863,
+      "Sha256": "786a82801bbeb120d4beb720b776d404bd61ce95293b840679b1a406790c52b2"
     },
     {
       "Path": "resources/gui/layouts/game/YourTradeItem.json",
-      "Size": 2183,
-      "Sha256": "6a81f6d84156bce19f746ecb4baf302178a8418af7cca9ee3a86c6e273664e82"
+      "Size": 2435,
+      "Sha256": "5babd784a7b50735922e6318ef335371d599af8354ca7d746cc34add6456c736"
     },
     {
       "Path": "resources/gui/layouts/menu/CharacterCreationWindow.json",
@@ -6329,7 +5819,7 @@
     {
       "Path": "resources/gui/layouts/shared/AlertWindow_YesNo.json",
       "Size": 22648,
-      "Sha256": "f6285ffe83d17328502268afd183f387c3f074358e50f0ce5b413f1625f9ffe8"
+      "Sha256": "709d0b80ce478b5a807773baa02106fd89627ef19da05c7b41174eedf5c17b64"
     },
     {
       "Path": "resources/gui/layouts/shared/InputBox.json",
@@ -14032,6 +13522,16 @@
       "Sha256": "5ec40756e4eed0442f1f77016a69d68f894adccace3142d21188404ed87ae67d"
     },
     {
+      "Path": "resources/music/mossy_gate_steps.ogg",
+      "Size": 2174835,
+      "Sha256": "c35428cfce36c9da3ed8d3f3e01ee893e6e93d6bdf038a7ab0dcadf0bb8fc183"
+    },
+    {
+      "Path": "resources/music/streamside_drift.ogg",
+      "Size": 4170475,
+      "Sha256": "da6724ff89c3e4f9cde667abb11d5f5e585ad895dff3acefecf2ffc88cfb786a"
+    },
+    {
       "Path": "resources/paperdolls/_intersect_default/Armor_1 Black.png",
       "Size": 935,
       "Sha256": "b8ac00101aa9cae602f6549c1bc18145bc9125f294104512929ab43df1efc7c5"
@@ -16427,6 +15927,11 @@
       "Sha256": "2dac26b41758db45234b71f62716e8832eccbb7cb51c13366d1b49116c2bc2a0"
     },
     {
+      "Path": "resources/paperdolls/boots_raven_leather_boots_2_kneel.png",
+      "Size": 341,
+      "Sha256": "d669ae69886d1940f37bc61f7ee2da5f4e3233aa58305783b63b9872446c4be9"
+    },
+    {
       "Path": "resources/paperdolls/boots_raven_leather_boots_2_lunge.png",
       "Size": 779,
       "Sha256": "22c86f60d555dd801b8413827bcf0b34f8cafaddd7766bb47406cd8d42b79b56"
@@ -16530,6 +16035,11 @@
       "Path": "resources/paperdolls/boots_raven_leather_boots_idle.png",
       "Size": 657,
       "Sha256": "9b26575782d7fb4c49db8a7ab7392510e0e6024d0e0aa872326d47250540803d"
+    },
+    {
+      "Path": "resources/paperdolls/boots_raven_leather_boots_kneel.png",
+      "Size": 347,
+      "Sha256": "5f9ef412ac577eeda713129218554be8819d91613e250955c756b870e357ca2e"
     },
     {
       "Path": "resources/paperdolls/boots_raven_leather_boots_lunge.png",
@@ -16643,8 +16153,8 @@
     },
     {
       "Path": "resources/paperdolls/chest_ironwatch_quilted_jack_kneel.png",
-      "Size": 815,
-      "Sha256": "007938dcb3523dd6acb53c1a9fa3053bd97964b4a5990642f050a5d7b26237ea"
+      "Size": 764,
+      "Sha256": "cbd0149333112865c5fc2e638defe964fc94a8ab4025554cca186c429b950398"
     },
     {
       "Path": "resources/paperdolls/chest_ironwatch_quilted_jack_lunge.png",
@@ -16757,6 +16267,11 @@
       "Sha256": "76b84e76444fd6dfbb9b52bbce162d0e6c1c2e629d764d99cb6f459fef818a83"
     },
     {
+      "Path": "resources/paperdolls/chest_raven_blue_shirt_kneel.png",
+      "Size": 560,
+      "Sha256": "ba8d546c1263297594077d7c0e93909b397fbe08d276f1d3b504cf36c2e2a03f"
+    },
+    {
       "Path": "resources/paperdolls/chest_raven_blue_shirt_lunge.png",
       "Size": 1614,
       "Sha256": "bab3aeffe3fad59d467396cc0ce7be119c2d358b81158853fd089f8dc33545d8"
@@ -16808,18 +16323,18 @@
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_attack.png",
-      "Size": 867,
-      "Sha256": "6d46b41e1bca3c58569799c601ee2097118bb32f5927112e2e9cad8889609a20"
+      "Size": 828,
+      "Sha256": "f6cd204db867b2c02ab5a08dda5c778912aba717131e88c4f3ee86c91633a5b7"
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_bash.png",
-      "Size": 805,
-      "Sha256": "b837600a87e3d6155097af9ded8bde8bf8e3dbf1df47ce96706779064c8f288b"
+      "Size": 799,
+      "Sha256": "3a3d86d44415c2675fdae2e81db9ac31e57eaf958e020b15d0a8d07363ced73d"
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_bowready.png",
-      "Size": 653,
-      "Sha256": "098c1c0172fa8e997e270ed30a1b6789ba1e53e30113f1d6682b9b4b04d57d04"
+      "Size": 637,
+      "Sha256": "7d230dc8eff459f1141d6fe93b18b5049416bd089e827fe649a11f8853454409"
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_cast.png",
@@ -16828,13 +16343,13 @@
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_castrelease.png",
-      "Size": 806,
-      "Sha256": "861f1a1e1a1d3c4b3bc63d10ebf27fb61277c5a8436fb5bf2af1b15eb074a7a6"
+      "Size": 784,
+      "Sha256": "bed9f9414521edf93a24b66deff82f8d0d02abb1e587a6d0bec03d4a9e65cae7"
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_combatidle.png",
-      "Size": 676,
-      "Sha256": "d2241ec49d3cfc8400aad5a993cdff5748ffe9e7a8dbc6d892ffe7e66d2db2b5"
+      "Size": 667,
+      "Sha256": "8ce6fc4f5ebc50cda01f88e6037e09ebc5ec50689e8c00ef7139e74ed86d6a6a"
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_combatwalk.png",
@@ -16843,18 +16358,18 @@
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_corpse.png",
-      "Size": 319,
-      "Sha256": "4391ff60063b00e2151c9392fdf6bc8d4a7551f2488d7d55bb638e7519047a92"
+      "Size": 313,
+      "Sha256": "199b75a51fdc35055e52577db07f10350ad050dd2f95036deddf48d876557c02"
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_death.png",
-      "Size": 760,
-      "Sha256": "a7acebb19c957003fe5caff93399082a930af701254d79cd7e623c6a1dce9eb1"
+      "Size": 738,
+      "Sha256": "fe4488cf32815e4b8de11d3c9b77a62ce517b5c091fec0320de8a17fe90afe5e"
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_fish.png",
-      "Size": 775,
-      "Sha256": "4a7ef085cf956c29a93fc34f37d66abddf6816916f8989b2287ef966a6b9ce3b"
+      "Size": 753,
+      "Sha256": "2f5d59f61ea7570a46b7f0b5325f571974d1c474249f826767660774c805345f"
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_hurt.png",
@@ -16863,8 +16378,8 @@
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_idle.png",
-      "Size": 815,
-      "Sha256": "60ac8dbe077190cc5aa72be257b4bd245d53820d7d6229e4d15bf8ecc57f4036"
+      "Size": 781,
+      "Sha256": "50e96a69a0de08f4894d09d1a0c2a711b7b957b4ab4ba5728a97afd34c375d1f"
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_kneel.png",
@@ -16873,13 +16388,18 @@
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_lunge.png",
-      "Size": 867,
-      "Sha256": "6d46b41e1bca3c58569799c601ee2097118bb32f5927112e2e9cad8889609a20"
+      "Size": 841,
+      "Sha256": "6f7804d0c872ebb51c27403e47a8a3c4b2d9869d2af2d5eff012de80a72dce67"
+    },
+    {
+      "Path": "resources/paperdolls/chest_raven_default_grey_bra_magic.png",
+      "Size": 822,
+      "Sha256": "5abdd5e44f39e7ce9b9bd00f1d4941a762e093e1de5542bc12503f79062f53a7"
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_mine.png",
-      "Size": 775,
-      "Sha256": "4a7ef085cf956c29a93fc34f37d66abddf6816916f8989b2287ef966a6b9ce3b"
+      "Size": 753,
+      "Sha256": "2f5d59f61ea7570a46b7f0b5325f571974d1c474249f826767660774c805345f"
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_run.png",
@@ -16888,8 +16408,8 @@
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_shoot.png",
-      "Size": 1167,
-      "Sha256": "b913d06944e31c91b5e36f2a04cb7de8bb684fcca842e27207171164e14dd01d"
+      "Size": 1133,
+      "Sha256": "a331d0cb129dd661b9a7d98c506772ee3d7564052aee83f79b344ffa98c41811"
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_stand.png",
@@ -16898,13 +16418,13 @@
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_weapon.png",
-      "Size": 716,
-      "Sha256": "e1f885febf8f7483272059ea55bf4926278792d627c0cec2a0fe74ebdf67683b"
+      "Size": 700,
+      "Sha256": "548287fdc30dc35e9b8967ef6a18763240d1e0cc24ac96002496856f12999733"
     },
     {
       "Path": "resources/paperdolls/chest_raven_default_grey_bra_woodcut.png",
-      "Size": 764,
-      "Sha256": "a72d8d80d9efa4fdebf1f66ac1283b05c0aa5bc9960fe2f4589c2ac1d4f39483"
+      "Size": 743,
+      "Sha256": "ba711bcd677dbd20660a77f639b2b940df3099746edc494cc8478d23e5cad075"
     },
     {
       "Path": "resources/paperdolls/chest_raven_green_shirt.png",
@@ -16970,6 +16490,11 @@
       "Path": "resources/paperdolls/chest_raven_green_shirt_idle.png",
       "Size": 1338,
       "Sha256": "cd36b1f22dadb4b9d7e67aa403528da75edaea70a92555569c2560c9a80bb79c"
+    },
+    {
+      "Path": "resources/paperdolls/chest_raven_green_shirt_kneel.png",
+      "Size": 556,
+      "Sha256": "b8d075b265388bda66d56cd8f802483d16ae8cac015674426455f7b3b44066dc"
     },
     {
       "Path": "resources/paperdolls/chest_raven_green_shirt_lunge.png",
@@ -17083,8 +16608,8 @@
     },
     {
       "Path": "resources/paperdolls/chest_trailward_travel_tunic_kneel.png",
-      "Size": 787,
-      "Sha256": "d17ec7bb9164cc49e116270e0a2170f31257060e4421721f8770c1c5a18ffba5"
+      "Size": 743,
+      "Sha256": "a2fa3609b24ef2cb34f0e355c8290754e94f73f49f71f02a2b8e715211c5c30f"
     },
     {
       "Path": "resources/paperdolls/chest_trailward_travel_tunic_lunge.png",
@@ -17198,8 +16723,8 @@
     },
     {
       "Path": "resources/paperdolls/chest_wildhide_ravager_harness_kneel.png",
-      "Size": 386,
-      "Sha256": "636fde857e1c8bf148edc154ff480d9a3343048b7939320cb00e3116d2447dc5"
+      "Size": 424,
+      "Sha256": "d008c504d59dffeeef73b912e9334b2f6fc5becd4ed0520d35572b6b8c28eb88"
     },
     {
       "Path": "resources/paperdolls/chest_wildhide_ravager_harness_lunge.png",
@@ -17418,8 +16943,8 @@
     },
     {
       "Path": "resources/paperdolls/feet_ironwatch_marching_boots_kneel.png",
-      "Size": 451,
-      "Sha256": "38fa44da52406c53b027f02f0728b91e8b2cee9dc09526d5d2cd67852af34f4c"
+      "Size": 472,
+      "Sha256": "03e69b44b91090f3a6f51f17a7c2756dd04a2727bbc41cc0e2f6e55001522525"
     },
     {
       "Path": "resources/paperdolls/feet_ironwatch_marching_boots_lunge.png",
@@ -17533,8 +17058,8 @@
     },
     {
       "Path": "resources/paperdolls/feet_trailward_walking_boots_kneel.png",
-      "Size": 420,
-      "Sha256": "19385bf3d6693847a03afdf017118f0d8c787969ff05ca40dce15d0526f260af"
+      "Size": 436,
+      "Sha256": "71f8553fdddcc3db3a3719da2aa2d011bf07bae31ffc54b4bd92757db204300d"
     },
     {
       "Path": "resources/paperdolls/feet_trailward_walking_boots_lunge.png",
@@ -17583,118 +17108,118 @@
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals.png",
-      "Size": 979,
-      "Sha256": "43fb688a6d9b59fba2abaf8b8df6e7e82dfa7251c834b3430c4aab08de556011"
+      "Size": 881,
+      "Sha256": "630c0ae2f2c8a6b70f60ee222be02d111826e4b01693adaf4ae7b4b3b5554602"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_attack.png",
-      "Size": 654,
-      "Sha256": "95cb7df368182f5a7b366eac3cdd47202e77727bd0d1138258befa5505f605e3"
+      "Size": 686,
+      "Sha256": "f135a8c9134d99098f67542a8e332d7d586520cd6b573998554af9d192cb916b"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_bash.png",
-      "Size": 727,
-      "Sha256": "f5b9d91d6dd1f909d74384579a09605e5d6c07e363ee0111ccbca44e2618f09b"
+      "Size": 741,
+      "Sha256": "831eff9bf33a1c515be73e8e83aa36aaeceb8a9e98a162afc22e5104a9d1f8b7"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_bowready.png",
-      "Size": 583,
-      "Sha256": "55de409a910a16d7efc2d5ffe5791c3c27737b00470c26c2debd323601697b16"
+      "Size": 615,
+      "Sha256": "df191d9ee51c39ead805218b757e4730215513486d1d609c553894337ab7b624"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_cast.png",
-      "Size": 592,
-      "Sha256": "ee2e2221c0a4f92de56fba5b21e6c6e5ebb3b3276bc6f730d7dc6b4b6b610b79"
+      "Size": 591,
+      "Sha256": "5da1dded0efa4b09a17bd1cf400338a2039a8900e9ef983f083ae561562e9111"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_castrelease.png",
-      "Size": 615,
-      "Sha256": "28fbc0c017391a7977ab3675df9e5ba15e7fa58199791f90b3bb90f4aae7c790"
+      "Size": 604,
+      "Sha256": "794497a0207d51c85f5db205869502f89aeae5c09cc9b765439ebb30c8f670df"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_combatidle.png",
-      "Size": 583,
-      "Sha256": "2795b26ce929cc2245e66e308bfbf33630af9a9064da6f6b351752c6260c06a6"
+      "Size": 603,
+      "Sha256": "e85f29b8122da2f3c7dee3c2ce85c6a58bbeab73d3ea5ac9e08ef66cc7fa7dcd"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_combatwalk.png",
-      "Size": 737,
-      "Sha256": "e01cae218035df0a84e592ee27493ca113c28f178a6a9f5422d41657aa6a6930"
+      "Size": 695,
+      "Sha256": "d64a79f45c9741c8005576006925c452fa584e707e9e5cc3977096c6ba38c7d5"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_corpse.png",
-      "Size": 330,
-      "Sha256": "7c5167a9fb1813b9d572a532e425ef7e51b58afde93d81dc18f3dbd46fc63681"
+      "Size": 308,
+      "Sha256": "5b8d0d911ffcb4efd74486387b7988a6d5196470e23e8f0e79a5064d80caf42a"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_death.png",
-      "Size": 644,
-      "Sha256": "15bd049915e1742cde3ba2e73f0970ff6ebba138a317cb8752fb1d65c3181ebb"
+      "Size": 630,
+      "Sha256": "8f617edb8ecdae4d64ac25332868632de2e504388ca4b853c932a1c501908a07"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_fish.png",
-      "Size": 682,
-      "Sha256": "198c966df688ed8494779974a95ca43163477ea46592ddf64af77efcf0cbdc14"
+      "Size": 699,
+      "Sha256": "fefe3fd873e3c898bb96cb4dce555612c0f620078fe8d0a2e64983315b7f01ba"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_hurt.png",
-      "Size": 300,
-      "Sha256": "5790534c25a99540eae6b39912a4606bbcbf9e68d4db2a04ccfe346f2ca340b2"
+      "Size": 285,
+      "Sha256": "d1a2c9e0819026ba9da7eba7755e7de7145e0da2cb560918ec9ccbfb2dfb04d0"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_idle.png",
-      "Size": 630,
-      "Sha256": "e459c03170ad749148e97d70b45f36a8da5ff98d0c31431989794d8cffde9eaf"
+      "Size": 593,
+      "Sha256": "8e13e53ca986c02645d252f4336f932ad1426c9a0eb6c25a60a72041a8551748"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_kneel.png",
-      "Size": 253,
-      "Sha256": "f3df27a8ff7239b021954dea97530f6b8b998bc5e8a6f55277cd8204882a709e"
+      "Size": 322,
+      "Sha256": "2de7d24bca0e0b87b799a5cc3fc1b118852c6b8c88157bbf77a76f4feb6fd431"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_lunge.png",
-      "Size": 708,
-      "Sha256": "2b5b101a9c640544e831a6b381a22d125c91ede3a6d459df848becb82c162f82"
+      "Size": 694,
+      "Sha256": "1c471397e8abbf7810384dc0d5c78b45fa8224e97fc0d6a77c5dd9d4730d8051"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_magic.png",
-      "Size": 721,
-      "Sha256": "18ebd94346fc389a19512ab88427e7a682e4b71a20c78f06be5a47653bf97ac1"
+      "Size": 697,
+      "Sha256": "fc531ead9b23ace9b4ad93ce3540a180f8ba2b77266f35e231dc4793ca58e454"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_mine.png",
-      "Size": 679,
-      "Sha256": "9968fc12ae51bf8e25a3d1b854f3f8396dde370ab783639883a3e96d282d02ae"
+      "Size": 699,
+      "Sha256": "fefe3fd873e3c898bb96cb4dce555612c0f620078fe8d0a2e64983315b7f01ba"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_run.png",
-      "Size": 968,
-      "Sha256": "de0e426468f5873793347120b1342f50a4d1fde38fe11bd2924180114bca4c4f"
+      "Size": 888,
+      "Sha256": "e4f167ea2f931a0bf968ac646be1473432d29d611a1d663d70e475ba00cce636"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_shoot.png",
-      "Size": 1042,
-      "Sha256": "0d3dc5989ce1dacf936f2ea7f7f368d954e0d5c76ee2193f1778d0bea14bbfa3"
+      "Size": 1026,
+      "Sha256": "840c39dc294a1c0e839b34510925b55c3b4736b00dc7a00c6c3285141a5d4fb9"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_sit.png",
-      "Size": 422,
-      "Sha256": "81ef30d87671da789237cbcf3f2102a2a302703aa573bad6ea88449c9e59fd69"
+      "Size": 406,
+      "Sha256": "0943c436a31c0cb47d22ac24090d4563568be6e165da64383c9e721fea30a475"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_stand.png",
-      "Size": 309,
-      "Sha256": "d488fe20ad43572dff54246c44566cf5725c1ed5654ed2db1e5970d9fcde865a"
+      "Size": 304,
+      "Sha256": "f6c29c48879fb0821ea48562c9d7466192506532e961877c5f0fb9d29873ae7c"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_weapon.png",
-      "Size": 671,
-      "Sha256": "0bf6b9948e66e933903cd7e8e5d8f45c1dc70fe0278c1fd1ed2b3f4fd7cc2cbb"
+      "Size": 680,
+      "Sha256": "063996bc8fab5959629038a3c9a0adfca551137c2dbf4073bd3be021bd584ec5"
     },
     {
       "Path": "resources/paperdolls/feet_wildhide_trail_sandals_woodcut.png",
-      "Size": 677,
-      "Sha256": "1840ae69d1f817f74448e1a1becfc3cf7bb6657327c62329e69889547e6d2ba6"
+      "Size": 699,
+      "Sha256": "fefe3fd873e3c898bb96cb4dce555612c0f620078fe8d0a2e64983315b7f01ba"
     },
     {
       "Path": "resources/paperdolls/female_skin_1.png",
@@ -17817,11 +17342,6 @@
       "Sha256": "1985f4f099cb892b26104c33d223118e117075a86e4f5f8a017b05520de15eb8"
     },
     {
-      "Path": "resources/paperdolls/female_skin_2.png.broken.bak",
-      "Size": 1964,
-      "Sha256": "ea8c607445fd7893d698fd983d6fa8ed00ee87c405da50fac67808d61921834a"
-    },
-    {
       "Path": "resources/paperdolls/female_skin_2_attack.png",
       "Size": 4552,
       "Sha256": "38651633a9477bcadd9fd5250043bd2b74efa4ce477d72b21982f6c60d3b4b93"
@@ -17935,11 +17455,6 @@
       "Path": "resources/paperdolls/female_skin_3.png",
       "Size": 4961,
       "Sha256": "37d958e9f5702bb0ca49de8126d8b5df06447e6008072772f09f77962edf3f85"
-    },
-    {
-      "Path": "resources/paperdolls/female_skin_3.png.broken.bak",
-      "Size": 1964,
-      "Sha256": "19bc8bb007077654b235cd1eca6b47163135be8b2717d782fe282a112bc6dd81"
     },
     {
       "Path": "resources/paperdolls/female_skin_3_attack.png",
@@ -20847,6 +20362,11 @@
       "Sha256": "438ffb4b1d3b1dbd329616697a31d571529b2908d16572f9c175f90d15320702"
     },
     {
+      "Path": "resources/paperdolls/legs_raven_brown_pants_kneel.png",
+      "Size": 504,
+      "Sha256": "d944b5e74b970aa9b112c46bcb16d3a6d56018e0803ec3326b7903a4636df8a5"
+    },
+    {
       "Path": "resources/paperdolls/legs_raven_brown_pants_lunge.png",
       "Size": 901,
       "Sha256": "e5673d3b782afe400fee6dbe7b8cdc4abbe353c1e47d7a824cfffb58eda753fc"
@@ -20955,6 +20475,11 @@
       "Path": "resources/paperdolls/legs_raven_jeans_pants_idle.png",
       "Size": 760,
       "Sha256": "c46ace1c22b75bfdda739c18c80b9844fde69035439b9db15aac6e0bc2d67485"
+    },
+    {
+      "Path": "resources/paperdolls/legs_raven_jeans_pants_kneel.png",
+      "Size": 500,
+      "Sha256": "878b946fc19eceff871c5ee260c1fd532e6d060a1a5b69f82a55d0dc7cfe8b60"
     },
     {
       "Path": "resources/paperdolls/legs_raven_jeans_pants_lunge.png",
@@ -21357,11 +20882,6 @@
       "Sha256": "1985f4f099cb892b26104c33d223118e117075a86e4f5f8a017b05520de15eb8"
     },
     {
-      "Path": "resources/paperdolls/male_skin_2.png.broken.bak",
-      "Size": 1953,
-      "Sha256": "3c77133b412468d8374e9246779d5a223c346c737e93b634c92e69c3c40e63d6"
-    },
-    {
       "Path": "resources/paperdolls/male_skin_2_attack.png",
       "Size": 4552,
       "Sha256": "38651633a9477bcadd9fd5250043bd2b74efa4ce477d72b21982f6c60d3b4b93"
@@ -21477,11 +20997,6 @@
       "Sha256": "37d958e9f5702bb0ca49de8126d8b5df06447e6008072772f09f77962edf3f85"
     },
     {
-      "Path": "resources/paperdolls/male_skin_3.png.broken.bak",
-      "Size": 1952,
-      "Sha256": "27543c52a946c74b040045bdebb5fbc811b923221b9db908a112451ec810a55b"
-    },
-    {
       "Path": "resources/paperdolls/male_skin_3_attack.png",
       "Size": 4479,
       "Sha256": "8a824eec79e5b4ca13946b63d4626f1539dd5065c470f960f3fc3d17e379bc71"
@@ -21593,68 +21108,68 @@
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey.png",
-      "Size": 1210,
-      "Sha256": "1aa3f5e89aa096125a63f77128e306402e2ebc03c334f0b729a8ec38ba1e320f"
+      "Size": 1038,
+      "Sha256": "4995830e0780dfe42017cec2a2dedd88aec3cee90fafa3a70dc7c42c10fc75db"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_attack.png",
-      "Size": 898,
-      "Sha256": "a32ee66b9bd99b9cf1376c237602221b1535eeda893a9d6f570928e487e5f554"
+      "Size": 753,
+      "Sha256": "7ad80cdaf793318b9bf46c0c947e13d1b42b91fbd082e830ea3f7044a779f93f"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_bash.png",
-      "Size": 865,
-      "Sha256": "27f4f1e3f411dc330d5340fc175ebaad98e5d37800246d3384b0570b4fa84caa"
+      "Size": 786,
+      "Sha256": "a8b95334c3aaabe85ed9febd1c906d0fdaeb860e1af2d3dbcae05953ff77073b"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_bowready.png",
-      "Size": 698,
-      "Sha256": "f470597a206c136dbc66053fcd930836162c062175ed1ab47f88d5ca3adce9bf"
+      "Size": 582,
+      "Sha256": "1071737de8c353f1aaeb0cac544cb9f23f5c34bae63b5482440619cb91f67c5a"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_cast.png",
-      "Size": 683,
-      "Sha256": "eb5a3b264675ea0064a0bdc9a099c5ab9f7db606d04c75bbb7d83bc77856f78b"
+      "Size": 579,
+      "Sha256": "335efbd33f0a7f4551a0c36c56c4c03819e83d044ca7c5360b0250615af1b957"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_castrelease.png",
-      "Size": 797,
-      "Sha256": "0c2bf558ba19c6498d5d60e6cef1d82f8a776453bfba7651f41ad60c26854d4a"
+      "Size": 734,
+      "Sha256": "b4c33a70199689ae272ca0f7c787c8db9d2b94afc056f0594adbedc66b091309"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_combatidle.png",
-      "Size": 692,
-      "Sha256": "4b68eba4b871ad1c749473d6ba31cb9e65e41605575a82765bcc1e57572116b0"
+      "Size": 684,
+      "Sha256": "5993fa08336e4946e7bb1a1a805159cf95f390a134141dd2640a7ad00870b9b5"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_combatwalk.png",
-      "Size": 939,
-      "Sha256": "9e1e155276f81599f3756af6079c4742d9e1392e95a527145413ddfc408fd660"
+      "Size": 803,
+      "Sha256": "a1097e0ec27991899457c5a4f5c57c1a19f916d403254dbdcfb80fec42aeed59"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_corpse.png",
-      "Size": 414,
-      "Sha256": "8df1e1ceb1b59ad48d60b377fa344075040db2d0df7529ad4361b5b0753adea2"
+      "Size": 347,
+      "Sha256": "2c18e3b2547304c8316baf1fba6160e262093cd6d60a24e61545767f18be176b"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_death.png",
-      "Size": 831,
-      "Sha256": "954d0af70f406b6d16ffe444e43f515b54d4b1f982b6497797cea42dc339d5e2"
+      "Size": 724,
+      "Sha256": "d85ebe1a5b498003aa6fc9fbd3417f538482f23da0dc5ef9eb0f1426046db6af"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female.png",
-      "Size": 1021,
-      "Sha256": "1244653af36d6c0357e6dad59994f2fc978d2966290920c3882dae4d28ec2d1b"
+      "Size": 1038,
+      "Sha256": "4995830e0780dfe42017cec2a2dedd88aec3cee90fafa3a70dc7c42c10fc75db"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_attack.png",
-      "Size": 763,
-      "Sha256": "8b00c4b6f807b11c6e8b6706a0477393d3ac08f7848f6df5cea912562e04d8f1"
+      "Size": 753,
+      "Sha256": "7ad80cdaf793318b9bf46c0c947e13d1b42b91fbd082e830ea3f7044a779f93f"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_bash.png",
-      "Size": 747,
-      "Sha256": "423b408a60d5b9562fb8bfe189df479d8d58820ddf8d1209c54c1358ac91d88d"
+      "Size": 786,
+      "Sha256": "a8b95334c3aaabe85ed9febd1c906d0fdaeb860e1af2d3dbcae05953ff77073b"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_bowready.png",
@@ -21663,18 +21178,18 @@
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_cast.png",
-      "Size": 534,
-      "Sha256": "68597cf73eccb013036290dd33fd9153d85346be53a22e72d29d99fae3011ae2"
+      "Size": 579,
+      "Sha256": "335efbd33f0a7f4551a0c36c56c4c03819e83d044ca7c5360b0250615af1b957"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_castrelease.png",
-      "Size": 706,
-      "Sha256": "2f8dcf97fdc338cdbf87495d2e5becc8e9a40ba5d87d95ae2285796b41085ff1"
+      "Size": 734,
+      "Sha256": "b4c33a70199689ae272ca0f7c787c8db9d2b94afc056f0594adbedc66b091309"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_combatidle.png",
-      "Size": 637,
-      "Sha256": "0c6fa9fdfb798db0540c58c1887ce45165a36ef5645e67b305e577185900a305"
+      "Size": 684,
+      "Sha256": "5993fa08336e4946e7bb1a1a805159cf95f390a134141dd2640a7ad00870b9b5"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_combatwalk.png",
@@ -21688,23 +21203,23 @@
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_death.png",
-      "Size": 685,
-      "Sha256": "f26a58d8e3e16a6a7469f97c179bfc97befb3e42a477eb42d4a1be125dd4dfa8"
+      "Size": 724,
+      "Sha256": "d85ebe1a5b498003aa6fc9fbd3417f538482f23da0dc5ef9eb0f1426046db6af"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_fish.png",
-      "Size": 678,
-      "Sha256": "9e7d8e3157c9858c04ddcb53f6520ee1803d2b389c24bbb75ad11d1255e8f78b"
+      "Size": 711,
+      "Sha256": "be54d16051dd0c5734f809002372445d9ba20db81f7c49a4a8f22507fbf35a3f"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_hurt.png",
-      "Size": 346,
-      "Sha256": "39502319f1a65fd29262f2a46cd60625a47192d2aa1e003758e9d192cd6ce163"
+      "Size": 357,
+      "Sha256": "55fd4265e8952b2ad8872cb58fc00a0c41f865b2c146fb205982de32085b72ac"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_idle.png",
-      "Size": 660,
-      "Sha256": "925726fc117f1a34fc8fea5f4b216720fb93d35f7d06ac518110f5884786f944"
+      "Size": 723,
+      "Sha256": "8bb43e00ecbf67e7ba3092b2e5a48a91f0f196533eae479d0bfdd4c65a2f3945"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_kneel.png",
@@ -21717,74 +21232,84 @@
       "Sha256": "8b00c4b6f807b11c6e8b6706a0477393d3ac08f7848f6df5cea912562e04d8f1"
     },
     {
+      "Path": "resources/paperdolls/pants_raven_default_grey_female_magic.png",
+      "Size": 729,
+      "Sha256": "f883582cf49c35ccc0094d069964d25b0c98417620ddfb016d2218b974be1809"
+    },
+    {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_mine.png",
-      "Size": 676,
-      "Sha256": "2377c2e17eaf4723691d83004938da63a78beb61abea3cf0e7b60fb03166eef4"
+      "Size": 709,
+      "Sha256": "06da6a1ff507b8a6566fba46c5a9a68937943655da661e6d4e73258b7f50c771"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_run.png",
-      "Size": 1058,
-      "Sha256": "f8ea575096bdefa2562ccbcbece333e56e82f2140326aa60d46b7d8a7bd7b6d3"
+      "Size": 1100,
+      "Sha256": "8d805ab677c67f9a808792889e84f1e3f24199521270de1213dcd0a7dbd7dc8e"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_shoot.png",
-      "Size": 1037,
-      "Sha256": "a05c5be672711516b90608a79ebf775be6816faf377bedd112133be19d849dd9"
+      "Size": 1105,
+      "Sha256": "725e1a1180fe54f18eddcb906543fb503a196bbed7e915023a6829a9126e76ee"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_stand.png",
-      "Size": 317,
-      "Sha256": "a5eda7f22068fc2c242c537431aa0f7c02a046f7f27d62e94d9ee10f59fa4d6d"
+      "Size": 337,
+      "Sha256": "2c5dc168d5bd9294eb6472b5e396e410a2f9de7692fbeb04d8133eb21e5205b7"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_weapon.png",
-      "Size": 696,
-      "Sha256": "204450d3f8da37a90dee74d0f7a351f53dbfa726ca6b3ba3116138be2687be2f"
+      "Size": 736,
+      "Sha256": "b2ea8fceecd2d5d85eab45f9c2146399d326f444de5a8c30984a55fd2f79a61e"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_female_woodcut.png",
-      "Size": 683,
-      "Sha256": "8a7f8e41670be86248c0e589c292d681d770d2925d45ea0941a03ac846a4f951"
+      "Size": 714,
+      "Sha256": "1a5bdcf4c589c17f67659af620992257eaf4a40e07e0edc4ca0c6074032ff22f"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_fish.png",
-      "Size": 780,
-      "Sha256": "346101e890e5e1250e64300881d78f28f87b9402b220eeda788e0be7d98d90a7"
+      "Size": 711,
+      "Sha256": "be54d16051dd0c5734f809002372445d9ba20db81f7c49a4a8f22507fbf35a3f"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_hurt.png",
-      "Size": 375,
-      "Sha256": "fc6ddeceed70a9eea589627694d86db868f49410862db53a24df8cec79aa56cb"
+      "Size": 357,
+      "Sha256": "55fd4265e8952b2ad8872cb58fc00a0c41f865b2c146fb205982de32085b72ac"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_idle.png",
-      "Size": 660,
-      "Sha256": "925726fc117f1a34fc8fea5f4b216720fb93d35f7d06ac518110f5884786f944"
+      "Size": 723,
+      "Sha256": "8bb43e00ecbf67e7ba3092b2e5a48a91f0f196533eae479d0bfdd4c65a2f3945"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_kneel.png",
-      "Size": 366,
-      "Sha256": "ffe48dbff68a0b242d669e41144005133a0022d422d94628b9913633950c1155"
+      "Size": 850,
+      "Sha256": "10bdcb36f7244e8424b81e4282ce0f177844bcfe255df24869a385e8130ff909"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_lunge.png",
-      "Size": 898,
-      "Sha256": "a32ee66b9bd99b9cf1376c237602221b1535eeda893a9d6f570928e487e5f554"
-    },
-    {
-      "Path": "resources/paperdolls/pants_raven_default_grey_male.png",
-      "Size": 1021,
-      "Sha256": "1244653af36d6c0357e6dad59994f2fc978d2966290920c3882dae4d28ec2d1b"
-    },
-    {
-      "Path": "resources/paperdolls/pants_raven_default_grey_male_attack.png",
       "Size": 763,
       "Sha256": "8b00c4b6f807b11c6e8b6706a0477393d3ac08f7848f6df5cea912562e04d8f1"
     },
     {
+      "Path": "resources/paperdolls/pants_raven_default_grey_magic.png",
+      "Size": 729,
+      "Sha256": "f883582cf49c35ccc0094d069964d25b0c98417620ddfb016d2218b974be1809"
+    },
+    {
+      "Path": "resources/paperdolls/pants_raven_default_grey_male.png",
+      "Size": 1038,
+      "Sha256": "4995830e0780dfe42017cec2a2dedd88aec3cee90fafa3a70dc7c42c10fc75db"
+    },
+    {
+      "Path": "resources/paperdolls/pants_raven_default_grey_male_attack.png",
+      "Size": 753,
+      "Sha256": "7ad80cdaf793318b9bf46c0c947e13d1b42b91fbd082e830ea3f7044a779f93f"
+    },
+    {
       "Path": "resources/paperdolls/pants_raven_default_grey_male_bash.png",
-      "Size": 747,
-      "Sha256": "423b408a60d5b9562fb8bfe189df479d8d58820ddf8d1209c54c1358ac91d88d"
+      "Size": 786,
+      "Sha256": "a8b95334c3aaabe85ed9febd1c906d0fdaeb860e1af2d3dbcae05953ff77073b"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_male_bowready.png",
@@ -21793,18 +21318,18 @@
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_male_cast.png",
-      "Size": 534,
-      "Sha256": "68597cf73eccb013036290dd33fd9153d85346be53a22e72d29d99fae3011ae2"
+      "Size": 579,
+      "Sha256": "335efbd33f0a7f4551a0c36c56c4c03819e83d044ca7c5360b0250615af1b957"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_male_castrelease.png",
-      "Size": 706,
-      "Sha256": "2f8dcf97fdc338cdbf87495d2e5becc8e9a40ba5d87d95ae2285796b41085ff1"
+      "Size": 734,
+      "Sha256": "b4c33a70199689ae272ca0f7c787c8db9d2b94afc056f0594adbedc66b091309"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_male_combatidle.png",
-      "Size": 637,
-      "Sha256": "0c6fa9fdfb798db0540c58c1887ce45165a36ef5645e67b305e577185900a305"
+      "Size": 684,
+      "Sha256": "5993fa08336e4946e7bb1a1a805159cf95f390a134141dd2640a7ad00870b9b5"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_male_combatwalk.png",
@@ -21818,23 +21343,23 @@
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_male_death.png",
-      "Size": 685,
-      "Sha256": "f26a58d8e3e16a6a7469f97c179bfc97befb3e42a477eb42d4a1be125dd4dfa8"
+      "Size": 724,
+      "Sha256": "d85ebe1a5b498003aa6fc9fbd3417f538482f23da0dc5ef9eb0f1426046db6af"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_male_fish.png",
-      "Size": 678,
-      "Sha256": "9e7d8e3157c9858c04ddcb53f6520ee1803d2b389c24bbb75ad11d1255e8f78b"
+      "Size": 711,
+      "Sha256": "be54d16051dd0c5734f809002372445d9ba20db81f7c49a4a8f22507fbf35a3f"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_male_hurt.png",
-      "Size": 346,
-      "Sha256": "39502319f1a65fd29262f2a46cd60625a47192d2aa1e003758e9d192cd6ce163"
+      "Size": 357,
+      "Sha256": "55fd4265e8952b2ad8872cb58fc00a0c41f865b2c146fb205982de32085b72ac"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_male_idle.png",
-      "Size": 660,
-      "Sha256": "925726fc117f1a34fc8fea5f4b216720fb93d35f7d06ac518110f5884786f944"
+      "Size": 723,
+      "Sha256": "8bb43e00ecbf67e7ba3092b2e5a48a91f0f196533eae479d0bfdd4c65a2f3945"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_male_kneel.png",
@@ -21847,59 +21372,69 @@
       "Sha256": "8b00c4b6f807b11c6e8b6706a0477393d3ac08f7848f6df5cea912562e04d8f1"
     },
     {
+      "Path": "resources/paperdolls/pants_raven_default_grey_male_magic.png",
+      "Size": 729,
+      "Sha256": "f883582cf49c35ccc0094d069964d25b0c98417620ddfb016d2218b974be1809"
+    },
+    {
       "Path": "resources/paperdolls/pants_raven_default_grey_male_mine.png",
-      "Size": 676,
-      "Sha256": "2377c2e17eaf4723691d83004938da63a78beb61abea3cf0e7b60fb03166eef4"
+      "Size": 709,
+      "Sha256": "06da6a1ff507b8a6566fba46c5a9a68937943655da661e6d4e73258b7f50c771"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_male_run.png",
-      "Size": 1058,
-      "Sha256": "f8ea575096bdefa2562ccbcbece333e56e82f2140326aa60d46b7d8a7bd7b6d3"
+      "Size": 1100,
+      "Sha256": "8d805ab677c67f9a808792889e84f1e3f24199521270de1213dcd0a7dbd7dc8e"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_male_shoot.png",
-      "Size": 1037,
-      "Sha256": "a05c5be672711516b90608a79ebf775be6816faf377bedd112133be19d849dd9"
+      "Size": 1105,
+      "Sha256": "725e1a1180fe54f18eddcb906543fb503a196bbed7e915023a6829a9126e76ee"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_male_stand.png",
-      "Size": 317,
-      "Sha256": "a5eda7f22068fc2c242c537431aa0f7c02a046f7f27d62e94d9ee10f59fa4d6d"
+      "Size": 337,
+      "Sha256": "2c5dc168d5bd9294eb6472b5e396e410a2f9de7692fbeb04d8133eb21e5205b7"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_male_weapon.png",
-      "Size": 696,
-      "Sha256": "204450d3f8da37a90dee74d0f7a351f53dbfa726ca6b3ba3116138be2687be2f"
+      "Size": 736,
+      "Sha256": "b2ea8fceecd2d5d85eab45f9c2146399d326f444de5a8c30984a55fd2f79a61e"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_male_woodcut.png",
-      "Size": 683,
-      "Sha256": "8a7f8e41670be86248c0e589c292d681d770d2925d45ea0941a03ac846a4f951"
+      "Size": 714,
+      "Sha256": "1a5bdcf4c589c17f67659af620992257eaf4a40e07e0edc4ca0c6074032ff22f"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_mine.png",
-      "Size": 780,
-      "Sha256": "57f773e79716ce3893d1c870d24706fc1e6de5229ab9cd02fbf7adde19c581f4"
+      "Size": 709,
+      "Sha256": "06da6a1ff507b8a6566fba46c5a9a68937943655da661e6d4e73258b7f50c771"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_run.png",
-      "Size": 1182,
-      "Sha256": "f158cbcb5fefc65cfb4b07b58230491771b80c3783cf23a57917191f61cc8d38"
+      "Size": 1100,
+      "Sha256": "8d805ab677c67f9a808792889e84f1e3f24199521270de1213dcd0a7dbd7dc8e"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_shoot.png",
-      "Size": 1298,
-      "Sha256": "89291ca7d80e2e58398d852e94a110428f0038c468eda777055c69e2c8e1dc43"
+      "Size": 1105,
+      "Sha256": "725e1a1180fe54f18eddcb906543fb503a196bbed7e915023a6829a9126e76ee"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_stand.png",
-      "Size": 355,
-      "Sha256": "fb4abea80dfe157ca890c1149081862196c9e839de7007635e784f9cccf60dfd"
+      "Size": 337,
+      "Sha256": "2c5dc168d5bd9294eb6472b5e396e410a2f9de7692fbeb04d8133eb21e5205b7"
+    },
+    {
+      "Path": "resources/paperdolls/pants_raven_default_grey_weapon.png",
+      "Size": 736,
+      "Sha256": "b2ea8fceecd2d5d85eab45f9c2146399d326f444de5a8c30984a55fd2f79a61e"
     },
     {
       "Path": "resources/paperdolls/pants_raven_default_grey_woodcut.png",
-      "Size": 786,
-      "Sha256": "5e626cff4de67d6bd74e19448e1dd49ab7e87535262a7997f1b0ac55fe54e796"
+      "Size": 714,
+      "Sha256": "1a5bdcf4c589c17f67659af620992257eaf4a40e07e0edc4ca0c6074032ff22f"
     },
     {
       "Path": "resources/paperdolls/pickaxe.png",
@@ -23397,6 +22932,26 @@
       "Sha256": "2ccea19682ac92a72956fe865e9a2173a60afd6496b9729f4288d7229b28f9c6"
     },
     {
+      "Path": "resources/sounds/environment_beach_calm_ocean_samsterbirdies.wav",
+      "Size": 31700950,
+      "Sha256": "f7a342443bde3db45d17b7eddfcc193964c8ee031d3a006a3c037b3051befd05"
+    },
+    {
+      "Path": "resources/sounds/environment_forest_day_birds_magnesus.wav",
+      "Size": 4771994,
+      "Sha256": "28524551db6e0260d521cf02e3c7aa331619ef0289c870ad4e04953c140b77c6"
+    },
+    {
+      "Path": "resources/sounds/environment_forest_night_crickets_wolfgang.wav",
+      "Size": 2020222,
+      "Sha256": "f1a36d749cdc2e8b17f6fbe4ee5e0c8722ee3b2eebefb3195623a1165811ec48"
+    },
+    {
+      "Path": "resources/sounds/environment_forest_night_owl_breviceps.wav",
+      "Size": 775082,
+      "Sha256": "9b24b91088c49320ed83b2a4a01630d8a7b20ed99e7876689349d07904ad2b57"
+    },
+    {
       "Path": "resources/sounds/footstep00.wav",
       "Size": 49486,
       "Sha256": "57bef7a26b5f6dd00962a7396eb8bd3701889f26494fa34533ce87d158de1764"
@@ -23490,6 +23045,236 @@
       "Path": "resources/sounds/handleSmallLeather2.wav",
       "Size": 59726,
       "Sha256": "22f8e1f82566dd47d5e43e75bb7425b91cadb622337744746d2c63fb34c9017b"
+    },
+    {
+      "Path": "resources/sounds/hit_beetle.wav",
+      "Size": 62486,
+      "Sha256": "0bec0df466862a2f10ab44bcb85cc12b81b1e036a9693360afe55560793a83a5"
+    },
+    {
+      "Path": "resources/sounds/hit_blade_01.wav",
+      "Size": 51398,
+      "Sha256": "0229fcbc0f30b2971ae797f0322aa183b04e28972be91dd22e5eaf007dead0d8"
+    },
+    {
+      "Path": "resources/sounds/hit_blade_02.wav",
+      "Size": 55362,
+      "Sha256": "1ba94aaaf70db1ef36bdab8a6163723a7b343f161ea3e89243bf3aff908428e2"
+    },
+    {
+      "Path": "resources/sounds/hit_blade_03.wav",
+      "Size": 69914,
+      "Sha256": "3d254615f660c45c1c16ba462bc15b10dba968c6e864806d1d637971d5abd0e9"
+    },
+    {
+      "Path": "resources/sounds/hit_boar.wav",
+      "Size": 35406,
+      "Sha256": "842ff84a36e423fd486ff4c87c8e510c319888a03d0805384ba6eb78d25c6502"
+    },
+    {
+      "Path": "resources/sounds/hit_calf.wav",
+      "Size": 105918,
+      "Sha256": "e79593f474aa8b8e46052948074be9e39b217e9ea994f41801049912518ad405"
+    },
+    {
+      "Path": "resources/sounds/hit_chick.wav",
+      "Size": 51710,
+      "Sha256": "1c58d30865499344c8120954f3e34b1b6127d7d3703a03e7d39147914c0a35ab"
+    },
+    {
+      "Path": "resources/sounds/hit_cow.wav",
+      "Size": 176478,
+      "Sha256": "55f22a9a529238a5a33f3947c76e050554523ea18c03ca47c78df5f8a3ca15fa"
+    },
+    {
+      "Path": "resources/sounds/hit_deer.wav",
+      "Size": 66834,
+      "Sha256": "341a4fae742d9574e60af3db08021e975fe6da4e1496d1c59a25d549bf6af5d8"
+    },
+    {
+      "Path": "resources/sounds/hit_fist_01.wav",
+      "Size": 26538,
+      "Sha256": "566798b7f4279939b131e9cd6ced2089f223602350f5f40c8006f79b142136a8"
+    },
+    {
+      "Path": "resources/sounds/hit_fist_02.wav",
+      "Size": 26538,
+      "Sha256": "2e275225e5d9ddec0927249497227946ec536dfbd2a6c6a8680de1ebbc8a1230"
+    },
+    {
+      "Path": "resources/sounds/hit_fist_03.wav",
+      "Size": 26538,
+      "Sha256": "ed1d9470c04441df61d535a460007a5c856341991037acee3c0ddd6db16f9c85"
+    },
+    {
+      "Path": "resources/sounds/hit_fist_04.wav",
+      "Size": 26538,
+      "Sha256": "009939ba714152a2fd7f5092cc1acaa60b939e739f2db264e1532e283197c727"
+    },
+    {
+      "Path": "resources/sounds/hit_fist_05.wav",
+      "Size": 26538,
+      "Sha256": "c262a0f9e8527860503710d24f5bcf588fd2871ed4c4248824da8cf69786de05"
+    },
+    {
+      "Path": "resources/sounds/hit_fist_06.wav",
+      "Size": 26538,
+      "Sha256": "cd6e868d2c0901b0ac7ca33933a070e57c1d52d52bc071fdeb0be297377550e5"
+    },
+    {
+      "Path": "resources/sounds/hit_fox.wav",
+      "Size": 70350,
+      "Sha256": "6055db97bfde37d441f850d33b38db0166c3ecde63a6411cdaa6bb5aec1513d3"
+    },
+    {
+      "Path": "resources/sounds/hit_hare.wav",
+      "Size": 67774,
+      "Sha256": "ec82302c695f208f7d6f6015cdf27c297b40107a3843863efda07b6d67bed583"
+    },
+    {
+      "Path": "resources/sounds/hit_human_01.wav",
+      "Size": 87398,
+      "Sha256": "6110f171fb212c0cbe2345df8725a2384e5f79250f82c3052536f982917cfef7"
+    },
+    {
+      "Path": "resources/sounds/hit_human_02.wav",
+      "Size": 84794,
+      "Sha256": "7e8d1baacdec986005bcfb9fd09cd038474a2cb46253b9ab349b2623e4575a80"
+    },
+    {
+      "Path": "resources/sounds/hit_human_03.wav",
+      "Size": 80878,
+      "Sha256": "52907c5a4fb63ed6722198012b0c69bfe687c08503938199a593df56a895a18c"
+    },
+    {
+      "Path": "resources/sounds/hit_human_04.wav",
+      "Size": 61662,
+      "Sha256": "5e7fe633c218312a387f2e879b806dd13c9230e3edcd5f10af09a971ef8323b1"
+    },
+    {
+      "Path": "resources/sounds/hit_human_05.wav",
+      "Size": 79538,
+      "Sha256": "e3bf66c1a621938dda252f3dc689fa6136110f81f623e74e88ba8e6011ecccef"
+    },
+    {
+      "Path": "resources/sounds/hit_lamb.wav",
+      "Size": 95702,
+      "Sha256": "0563c2201d201bd78256e9f635602af9de88b08db02d4d139af9e865bf6993d7"
+    },
+    {
+      "Path": "resources/sounds/hit_mushroom.wav",
+      "Size": 85038,
+      "Sha256": "ea124077a0fed9171bf323d6cfbf7f13a55e7e39bd044cce3a4f85ff5cd3189d"
+    },
+    {
+      "Path": "resources/sounds/hit_orc_01.wav",
+      "Size": 94446,
+      "Sha256": "00c276b2e6c9fcbb18659abea8c279aa70a36b2c7c358db11b4f0ad03008de4e"
+    },
+    {
+      "Path": "resources/sounds/hit_orc_02.wav",
+      "Size": 107842,
+      "Sha256": "4759ba6dc04d5d648683c226a311559fe66798d94bb48ffcd4482e186db95cc4"
+    },
+    {
+      "Path": "resources/sounds/hit_orc_03.wav",
+      "Size": 114726,
+      "Sha256": "48429655fb92132ae8fbc4b7381ea835dcf239b04bfb56413ccf06810c6f9d10"
+    },
+    {
+      "Path": "resources/sounds/hit_pig.wav",
+      "Size": 63566,
+      "Sha256": "219824ad7e6b39fa780c52d663412ba12ad82913151ab89750d4ebf3cee85558"
+    },
+    {
+      "Path": "resources/sounds/hit_pobble.wav",
+      "Size": 68922,
+      "Sha256": "a0fc83240e990326fbf6f7c8b51ebd230819fb746677860c622f6e674231deb9"
+    },
+    {
+      "Path": "resources/sounds/hit_punch_01.wav",
+      "Size": 76026,
+      "Sha256": "0fde4ce360d0243b6c4d675a50051002cd2374e3c4559faed65bccd842387cf0"
+    },
+    {
+      "Path": "resources/sounds/hit_punch_02.wav",
+      "Size": 70938,
+      "Sha256": "bec3f3bd5050fb01e7e0efd4c3958199c6ffddc44f5666e5be9d0eb51e995e38"
+    },
+    {
+      "Path": "resources/sounds/hit_punch_03.wav",
+      "Size": 95582,
+      "Sha256": "49c36d2e493e599be7a14aad5aeb1317be8a7b953d7776b1c4099be6f3e1005a"
+    },
+    {
+      "Path": "resources/sounds/hit_punch_04.wav",
+      "Size": 80386,
+      "Sha256": "30a4b66b4196a005a1f4fb995bf60aff1a8f174a588787075106d8ca2d05addd"
+    },
+    {
+      "Path": "resources/sounds/hit_punch_05.wav",
+      "Size": 95850,
+      "Sha256": "818ccd3700e5218d7464f2aaa01dcbb5c20a72f5e67a5ab1ff091d29cced2ed3"
+    },
+    {
+      "Path": "resources/sounds/hit_rooster.wav",
+      "Size": 90722,
+      "Sha256": "a65c271777e6c2425ce7b313029fddff678ee52b9edd86a81fc169fb507be9bb"
+    },
+    {
+      "Path": "resources/sounds/hit_sheep.wav",
+      "Size": 158838,
+      "Sha256": "4068c2c8cb2fc121d485dd988fbff7a0a184ec97fc78d2a91a6b372f632c4fb7"
+    },
+    {
+      "Path": "resources/sounds/hit_soft_01.wav",
+      "Size": 20382,
+      "Sha256": "83db3cd390e16b85eebe0bf8e19f3f783ca7b15109b93fda7cca1e069a98c0ce"
+    },
+    {
+      "Path": "resources/sounds/hit_soft_02.wav",
+      "Size": 31898,
+      "Sha256": "861b24ce89b139aebf9e7104c5559352c1755a8e408831ba28b1ec0f30b1a75d"
+    },
+    {
+      "Path": "resources/sounds/hit_soft_03.wav",
+      "Size": 23414,
+      "Sha256": "c4c3754535c8f40eb4771ba7b8db7142aec25c70ad5c48a9b08a5f7dc757c33a"
+    },
+    {
+      "Path": "resources/sounds/hit_soft_04.wav",
+      "Size": 24302,
+      "Sha256": "d5e738366a254837e1e9fa3ed4fd8aaabbd7b1d1fe6733d341719c31e25984fd"
+    },
+    {
+      "Path": "resources/sounds/hit_soft_05.wav",
+      "Size": 25522,
+      "Sha256": "cb1cecbde8cc4ee9d673573d0b4dacce46b14af8b4c4572f7087e1fd038a2f61"
+    },
+    {
+      "Path": "resources/sounds/hit_sword_1h_01.wav",
+      "Size": 26870,
+      "Sha256": "99eb53ab93cc4efb40e97b08f5a9c964ca77b966c76c3e908694133f09ed98f2"
+    },
+    {
+      "Path": "resources/sounds/hit_sword_2h_01.wav",
+      "Size": 213350,
+      "Sha256": "8ae5bdd0d7735970c04f7526edcd8f158e32f93cc0f7f2b3a6adefc048f0775d"
+    },
+    {
+      "Path": "resources/sounds/hit_turkey.wav",
+      "Size": 89574,
+      "Sha256": "8484d2c625b3ffc3b46bf1ac6d1ad818667002fb4a80db888a5e13406e9efbc9"
+    },
+    {
+      "Path": "resources/sounds/hurt_player_f.wav",
+      "Size": 49998,
+      "Sha256": "1954dd7d12ec2b5e5113aaf1df496c98557fccfed0399823dbac2cc80de12cd5"
+    },
+    {
+      "Path": "resources/sounds/hurt_player_m.wav",
+      "Size": 15578,
+      "Sha256": "8f17a077f1d38e186f23c9fe83317119346b78b2dc19554a68862972e0b2ada2"
     },
     {
       "Path": "resources/sounds/interface1.wav",
@@ -23655,6 +23440,26 @@
       "Path": "resources/sounds/mnstr9.wav",
       "Size": 217780,
       "Sha256": "a316d05d02e1afff715426280017baeebbe54a0820f276f7e8087bdb6ea4691c"
+    },
+    {
+      "Path": "resources/sounds/mob_pobble_attack.wav",
+      "Size": 26038,
+      "Sha256": "5fd1965bdf04f2170a480c385bbce76a805303130b715e3a3abe8cb277b828a2"
+    },
+    {
+      "Path": "resources/sounds/mob_pobble_death.wav",
+      "Size": 27564,
+      "Sha256": "03bda5f550e423379cb054e71813bd3d712a243dbd499e7c093cc9f0143b8b3e"
+    },
+    {
+      "Path": "resources/sounds/mob_pobble_hurt.wav",
+      "Size": 19482,
+      "Sha256": "f6370dab08efbfb806dcb31d0b3949daf321865b0324a6aeddfc4c1751be2d5b"
+    },
+    {
+      "Path": "resources/sounds/mob_pobble_move.wav",
+      "Size": 8016,
+      "Sha256": "2f8a1cbfa6e9c1c9521ff2f26c89884e181daa9793867dc069136eabf2e05637"
     },
     {
       "Path": "resources/sounds/mouseclick1.wav",
@@ -23902,6 +23707,186 @@
       "Sha256": "61d79416a7cbb04e1f46618ded72386f82bb6bd9dc170170480d271f4efb3958"
     },
     {
+      "Path": "resources/sounds/step_dirt_01.wav",
+      "Size": 16454,
+      "Sha256": "65a2617a382fd24345eec0c12ad70e6159f5b34cca31fca60e1440eb0f0b7d0e"
+    },
+    {
+      "Path": "resources/sounds/step_dirt_02.wav",
+      "Size": 9212,
+      "Sha256": "972ae5dfa0488ae75e80ae415e6e3b6ef86b297c32cd0e58932bbfd122cf3bf0"
+    },
+    {
+      "Path": "resources/sounds/step_dirt_03.wav",
+      "Size": 21966,
+      "Sha256": "db7b622486544d59ce5249e3b7ac0103fa10c8e47bf4d43a97d34d20e11d0ad7"
+    },
+    {
+      "Path": "resources/sounds/step_dirt_04.wav",
+      "Size": 13750,
+      "Sha256": "edbbfe5a81a440854228830dc858a6d45af5dbf2a07cb69edff588aa4ae15d8f"
+    },
+    {
+      "Path": "resources/sounds/step_dirt_05.wav",
+      "Size": 21338,
+      "Sha256": "f23e888c07e8e1ff8f74aa27f8315dafd3f465d755601759594b850689bd10d6"
+    },
+    {
+      "Path": "resources/sounds/step_dirt_06.wav",
+      "Size": 20054,
+      "Sha256": "6ca4ecc56df24c94f9588b3c75e0514e26a2d63ee7b10bd9ffa672474d549e1f"
+    },
+    {
+      "Path": "resources/sounds/step_grass_01.wav",
+      "Size": 21542,
+      "Sha256": "fa265852d50a1a3d67821d85f4c533ca34f39a47c94e69242c0c299f26294a0d"
+    },
+    {
+      "Path": "resources/sounds/step_grass_02.wav",
+      "Size": 21542,
+      "Sha256": "104b486e509d6c60a9c47d5b8a8f7d134007dd2fde21fe959b8192b9b3c99782"
+    },
+    {
+      "Path": "resources/sounds/step_grass_03.wav",
+      "Size": 21542,
+      "Sha256": "5afb7d2d469dcde82f82a9cb9d8604a533458d1dbfdb7de2d43fcca3a80fa5a6"
+    },
+    {
+      "Path": "resources/sounds/step_grass_04.wav",
+      "Size": 21542,
+      "Sha256": "dc4867a29f05c435218ed9d03ba7e723547f7ab4a7780a7b9eb0b0293be927c8"
+    },
+    {
+      "Path": "resources/sounds/step_grass_05.wav",
+      "Size": 21544,
+      "Sha256": "cbe1016a0cbee2857e1ad8e156d5540765588a0ce1d0593c4fec87b3eeefdf27"
+    },
+    {
+      "Path": "resources/sounds/step_grass_06.wav",
+      "Size": 21542,
+      "Sha256": "7f7e107782df9da0884778f948d6a5a7bf0a0653dad800cf260be4aceb73db89"
+    },
+    {
+      "Path": "resources/sounds/step_grass_07.wav",
+      "Size": 21542,
+      "Sha256": "3562a036350bb6c27d678654675e79ef532214e995a1f231846329cbf5324e7f"
+    },
+    {
+      "Path": "resources/sounds/step_grass_08.wav",
+      "Size": 21542,
+      "Sha256": "030ee9d9a3d1102143bccf6a78c537e1ea62a9e8765380aebc00b94ce5d2d241"
+    },
+    {
+      "Path": "resources/sounds/step_grass_09.wav",
+      "Size": 21542,
+      "Sha256": "f9dbdc3a4b2b740beeebb8be957da997a9458ee47231d68e31af1affb28b17b7"
+    },
+    {
+      "Path": "resources/sounds/step_sand_01.wav",
+      "Size": 78142,
+      "Sha256": "6f125e43dd597998b9642c326d596c5ff58b0ba17296f9f9d54be934e8eef7d6"
+    },
+    {
+      "Path": "resources/sounds/step_sand_02.wav",
+      "Size": 56454,
+      "Sha256": "539cf5c949dc3a1d96f94fbfa7b99fa2183d324a33a3432e48489df7f2f4d077"
+    },
+    {
+      "Path": "resources/sounds/step_sand_03.wav",
+      "Size": 53326,
+      "Sha256": "2c7853464b6fe47aedf39a1077d8ee4e5328763a00779b821a5a8917f90e7f3f"
+    },
+    {
+      "Path": "resources/sounds/step_sand_04.wav",
+      "Size": 71654,
+      "Sha256": "a10928f509f890a071780e183a52af39f05ef429b06c8f35851c887158100505"
+    },
+    {
+      "Path": "resources/sounds/step_sand_05.wav",
+      "Size": 60086,
+      "Sha256": "86d955f5e2850c36edba30872a826574f1851412b9a402d2c823fc93e8d65d6f"
+    },
+    {
+      "Path": "resources/sounds/step_sand_06.wav",
+      "Size": 58194,
+      "Sha256": "794c9709881dc2c4a32d86314a1fe828b8a34696de376ef1be04656dcb75d7ac"
+    },
+    {
+      "Path": "resources/sounds/step_snow_01.wav",
+      "Size": 65578,
+      "Sha256": "518a4acf0cc404ce6d69bd4c5c43e49dd5e36537c86be4d9ca0ac5208db4035b"
+    },
+    {
+      "Path": "resources/sounds/step_snow_02.wav",
+      "Size": 65578,
+      "Sha256": "d2396b32a51297c4b231f6c80bfdba2dcc7b78a57b47ab06b338ff54f5025d6d"
+    },
+    {
+      "Path": "resources/sounds/step_snow_03.wav",
+      "Size": 65578,
+      "Sha256": "41342cb075d33f2de61e97dd59abb6936b54ebb8fc4d6e6c94250dfb8efc8a9f"
+    },
+    {
+      "Path": "resources/sounds/step_snow_04.wav",
+      "Size": 65578,
+      "Sha256": "cd56e605144ba43383a10274c5e9988dff3bb97d96e784167d59aa34d42c4118"
+    },
+    {
+      "Path": "resources/sounds/step_snow_05.wav",
+      "Size": 65578,
+      "Sha256": "0d5c9d4efcd63d8f7279893fd5f39311aa92a0f6be5487b09146eb21b912100a"
+    },
+    {
+      "Path": "resources/sounds/step_stone_01.wav",
+      "Size": 18250,
+      "Sha256": "48cb17d6184fdef175794fee7c65fd8835896e28536817a006de8378c998b504"
+    },
+    {
+      "Path": "resources/sounds/step_stone_02.wav",
+      "Size": 18554,
+      "Sha256": "e87c3a7557d74d18c5b4358d3e482854cbd9e1d4635b266c171a3876cfd6c2c7"
+    },
+    {
+      "Path": "resources/sounds/step_stone_03.wav",
+      "Size": 19462,
+      "Sha256": "4fb59e1a513b2f1d0f1046e4eb456f523be166a0dd44fb4e3610aac918cb0aeb"
+    },
+    {
+      "Path": "resources/sounds/step_stone_04.wav",
+      "Size": 19058,
+      "Sha256": "95faa1e21e5b94f62c2c29f8a2b283fa96bab62640cb7a97b0d8adc4958a9e14"
+    },
+    {
+      "Path": "resources/sounds/step_stone_05.wav",
+      "Size": 19738,
+      "Sha256": "41f0359ad1245d00afb27cceed2cf746f642b0186914c229151c873759478940"
+    },
+    {
+      "Path": "resources/sounds/step_water_01.wav",
+      "Size": 23708,
+      "Sha256": "6f5d545a40fcb9afdb5556a9fecd95f0cfeb0ae14796ab7eca2bc196c3ebd25e"
+    },
+    {
+      "Path": "resources/sounds/step_water_02.wav",
+      "Size": 23708,
+      "Sha256": "293baeac676e43a0e850b98d71a4f35c03d07a08f258fc15d805e544545b89e6"
+    },
+    {
+      "Path": "resources/sounds/step_water_03.wav",
+      "Size": 23158,
+      "Sha256": "28946eeced129ecf9890483bc7e025c9d74f672e6234199b1d46b9a25f3ec95d"
+    },
+    {
+      "Path": "resources/sounds/step_water_04.wav",
+      "Size": 20412,
+      "Sha256": "c0b398f5eaafb097c7d636664cc487762482ed783347ec4adfbe667764502f8b"
+    },
+    {
+      "Path": "resources/sounds/step_water_05.wav",
+      "Size": 21274,
+      "Sha256": "f3d12e545dabe807c0be8bc006d335e5775772820d13389b369f2c4fbe09b9c1"
+    },
+    {
       "Path": "resources/sounds/swing.wav",
       "Size": 61462,
       "Sha256": "c7d50b9cb20ccda5aee6c023f4450915594061e36f3f9e78af241ca9fde0f817"
@@ -23915,6 +23900,16 @@
       "Path": "resources/sounds/swing3.wav",
       "Size": 37316,
       "Sha256": "d725421956c9958de6d7a17c4fca299abe583a1800c59eaec358ec2e82d79bae"
+    },
+    {
+      "Path": "resources/sounds/swing_dodge.wav",
+      "Size": 12294,
+      "Sha256": "04d655596840bf63b4ed215bfc6b5a2d6352f704723b04583301fb8008536be3"
+    },
+    {
+      "Path": "resources/sounds/swing_miss.wav",
+      "Size": 12982,
+      "Sha256": "19ec9192551ee1f493836fc860d7b71dad6051df5b0b75ff19a4f90ee1d35b19"
     },
     {
       "Path": "resources/sounds/switch1.wav",
@@ -24130,6 +24125,16 @@
       "Path": "resources/sounds/sword-unsheathe5.wav",
       "Size": 123006,
       "Sha256": "7a6a08b555cd0948a7460b26f411448fbd28c03d0ef1baa3443008c0fb52efb7"
+    },
+    {
+      "Path": "resources/sounds/weather_light_wind.wav",
+      "Size": 3887514,
+      "Sha256": "fb815a0baa70f8f56162accae5542331f760aa4a5d6383ce09b1ee00802c2d9e"
+    },
+    {
+      "Path": "resources/sounds/weather_rain.wav",
+      "Size": 16295202,
+      "Sha256": "8120585c714007cb849cc3c441867219d557ffa7f1437ba442108ee35b6eda84"
     },
     {
       "Path": "resources/sounds/wolfman.wav",

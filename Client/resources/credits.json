@@ -629,6 +629,1352 @@
       "TextColor": null
     },
     {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 16,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "SOUND EFFECTS",
+      "Font": "sourcesansproblack",
+      "Size": 14,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 139,
+        "G": 239,
+        "B": 255
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Kenney Audio Packs (RPG Audio, Impact Sounds)",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Created by Kenney - kenney.nl",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://kenney.nl/assets",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Creative Commons Zero (CC0)",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "Public Domain",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Some assets may have been modified or converted for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "80 CC0 RPG SFX & 80 CC0 Creature SFX",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Created by rubberduck - OpenGameArt.org",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://opengameart.org/users/rubberduck",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Creative Commons Zero (CC0)",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "Public Domain",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Some assets may have been modified or converted for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "RPG Sound Pack",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Created by artisticdude - OpenGameArt.org",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://opengameart.org/content/rpg-sound-pack",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Creative Commons Zero (CC0)",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "Public Domain",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Some assets may have been modified or converted for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Farm Animal Sounds (Mudchute City Farm)",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Recorded by Secretlondon - OpenGameArt.org",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://lpc.opengameart.org/content/farm-animals",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Creative Commons Attribution-ShareAlike 3.0",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "CC BY-SA 3.0",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Some assets may have been modified or converted for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Spell Sounds Starter Pack",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Created by p0ss - OpenGameArt.org",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://opengameart.org/content/spell-sounds-starter-pack",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Creative Commons Attribution-ShareAlike 3.0",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "CC BY-SA 3.0",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Some assets may have been modified or converted for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Yo Frankie! Ambient Sounds",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Created by the Blender Foundation - OpenGameArt.org",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://opengameart.org/content/ambient-mountain-river-wind-and-forest-and-waterfall",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Creative Commons Attribution 3.0",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "CC BY 3.0",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://creativecommons.org/licenses/by/3.0/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Some assets may have been modified or converted for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Footsteps on Different Surfaces",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "C-Dogs SDL / congusbongus - OpenGameArt.org",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://opengameart.org/content/footsteps-on-different-surfaces",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Creative Commons Attribution 3.0",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "CC BY 3.0",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://creativecommons.org/licenses/by/3.0/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Some assets may have been modified or converted for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Bow & Arrow Shot (FLARE)",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Created by Claus Larsson - OpenGameArt.org",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://opengameart.org/content/bow-arrow-shot",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Creative Commons Attribution-ShareAlike 3.0",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "CC BY-SA 3.0",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Some assets may have been modified or converted for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Rain (Loopable), Beach Waves, Forest Ambience, Fantozzi Footsteps",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Ylmir, jasinski, TinyWorlds, Fantozzi - OpenGameArt.org",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://opengameart.org",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Creative Commons Zero (CC0)",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "Public Domain",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Some assets may have been modified or converted for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Octave Sounds - UI Element Sound Effects",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "raisedbeaches.com/octave",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "http://raisedbeaches.com/octave/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Custom License",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "Free for commercial and non-commercial use",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "http://raisedbeaches.com/octave/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Bundled with the Intersect engine stock asset pack.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Hurt Voice Effects (Male & Female)",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "EZduzziteh & AuraVoice - OpenGameArt.org",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://opengameart.org",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Creative Commons Zero (CC0)",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "Public Domain",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Some assets may have been modified or converted for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "37 Hits & Punches",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "independent_nu_ljudbank - OpenGameArt.org",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://opengameart.org/content/37-hitspunches",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Creative Commons Zero (CC0)",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "Public Domain",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Some assets may have been modified or converted for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
       "Text": "INTERSECT ENGINE CREDITS",
       "Font": "sourcesansproblack",
       "Size": 14,

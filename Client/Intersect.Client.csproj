@@ -90,6 +90,20 @@
     />
   </Target>
 
+  <!-- Music is discovered dynamically by filename at runtime. Keep authored OGG
+       tracks in regular builds instead of relying on the default wildcard items. -->
+  <Target Name="CopyAuthoredMusicResources" AfterTargets="Build">
+    <ItemGroup>
+      <AuthoredMusicResource Include="resources\music\*.ogg" />
+    </ItemGroup>
+    <MakeDir Directories="$(TargetDir)resources\music" />
+    <Copy
+      SourceFiles="@(AuthoredMusicResource)"
+      DestinationFiles="@(AuthoredMusicResource->'$(TargetDir)resources\music\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+  </Target>
+
   <!-- Purse denominations are runtime item textures seeded by stable descriptor IDs. -->
   <Target Name="CopyAuthoredCurrencyIcons" AfterTargets="Build">
     <ItemGroup>
@@ -243,6 +257,19 @@
   <!-- Tips/help buttons load their GUI textures by filename at runtime. Keep
        every authored state in self-contained publishes so an older icon cannot
        survive in a deployment directory when the client is rebuilt. -->
+  <!-- Keep dynamically discovered authored music in self-contained publishes. -->
+  <Target Name="CopyAuthoredMusicResourcesToPublish" AfterTargets="Publish">
+    <ItemGroup>
+      <PublishedAuthoredMusicResource Include="resources\music\*.ogg" />
+    </ItemGroup>
+    <MakeDir Directories="$(PublishDir)resources\music" />
+    <Copy
+      SourceFiles="@(PublishedAuthoredMusicResource)"
+      DestinationFiles="@(PublishedAuthoredMusicResource->'$(PublishDir)resources\music\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+  </Target>
+
   <Target Name="CopyTipsIconResourcesToPublish" AfterTargets="Publish">
     <ItemGroup>
       <PublishedTipsIcon Include="resources\gui\tips_help_icon*.png" />

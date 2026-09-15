@@ -6,3 +6,12 @@ Client.rar
 /PUBLISH-UPDATE.bat
 # Local backup created while changing the publisher; do not upload it.
 /_backups/publisher-before-exclusion-20260915/
+# Client-local runtime/build state and server-only data; never publish these.
+/Client/.eryndor/
+/Client/logs/
+/Client/obj/
+/Client/bin/
+/Client/screenshots/
+/Client/crash-reports/
+/Client/resources/gamedata.db
+/Client/resources/*.bak

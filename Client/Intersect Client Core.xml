@@ -32,6 +32,13 @@
             Plays levelup.wav (or equivalent) from the sounds folder when present.
             </summary>
         </member>
+        <member name="M:Intersect.Client.Core.Audio.StopAllWeatherAmbientSounds">
+            <summary>
+            Stops weather ambience immediately when leaving the live game world.
+            Weather sounds are global game-sound instances, so changing the music
+            track alone does not stop them.
+            </summary>
+        </member>
         <member name="T:Intersect.Client.Core.ClientContext">
             <summary>
             Implements <see cref="T:Intersect.Client.Core.IClientContext"/>.
@@ -39,6 +46,9 @@
         </member>
         <member name="M:Intersect.Client.Core.ClientContext.InternalStart">
             <inheritdoc />
+        </member>
+        <member name="T:Intersect.Client.Core.CombatAnimationTiming">
+            <summary>One duration for the rendered melee swing and its contact feedback.</summary>
         </member>
         <member name="T:Intersect.Client.Core.FootstepSounds">
             <summary>
@@ -124,6 +134,41 @@
             <param name="rotationDegrees">How much to rotate the texture in degrees</param>
             <param name="drawImmediate">If true, the texture will be drawn immediately. If false, it will be queued for drawing.</param>
         </member>
+        <member name="T:Intersect.Client.Core.Sounds.MapEnvironmentAudioSync">
+            <summary>
+            Owns continuous weather and map-wide environment audio for the current client session.
+            It intentionally lives above MapInstance so a map object can be replaced while crossing
+            a boundary without restarting an equivalent loop.
+            </summary>
+        </member>
+        <member name="T:Intersect.Client.Core.Sounds.NpcVoiceCatalog">
+            <summary>
+            Per-species NPC voices (RO-style: each mob family gets an attack cry and a movement/idle
+            blip). Keyed by NPC display name - the same lookup convention used for the descriptor's
+            HitSound. Add one entry per mob family.
+            </summary>
+        </member>
+        <member name="F:Intersect.Client.Core.Sounds.NpcVoiceCatalog.MoveVoiceMinGapMs">
+            <summary>Minimum gap between an entity's movement/idle blips so chained step packets or
+            a fast idle loop can't machine-gun the sample.</summary>
+        </member>
+        <member name="M:Intersect.Client.Core.Sounds.NpcVoiceCatalog.PlayMoveVoice(Intersect.Client.Entities.Entity)">
+            <summary>Plays the entity's move/idle blip at its position if the per-entity cooldown has
+            elapsed. Shared by step packets and the idle-bounce loop so the two can't double-fire.</summary>
+        </member>
+        <member name="M:Intersect.Client.Core.Sounds.NpcVoiceCatalog.PlayDeathVoice(Intersect.Client.Entities.Entity)">
+            <summary>Plays the configured one-shot death cue at the exact start of the entity's
+            client death visual. The catalog lookup keeps this role per-species and excludes players.</summary>
+        </member>
+        <member name="T:Intersect.Client.Core.Sounds.SoundBalance">
+             <summary>
+             Client-side mix levels for short gameplay sound effects.
+            
+             These values are intentionally kept in one place because the source assets do not have
+             consistent recording levels. They are linear VolumeScale percentages applied after map
+             distance attenuation and before the player's global sound-volume setting.
+             </summary>
+        </member>
         <member name="T:Intersect.Client.Core.Sounds.WeatherAmbientSound">
             <summary>
             Looping or one-shot weather/ambient audio with a dedicated weather volume setting.
@@ -137,6 +182,21 @@
         <member name="M:Intersect.Client.Core.Sounds.WeatherAmbientSoundCatalog.ResolveLevelUp">
             <summary>
             Resolves the level-up sound when a file like levelup.wav exists in the sounds folder.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:Intersect.Client.Core.Sounds.WeatherAudioMix" -->
+        <member name="T:Intersect.Client.Core.Sounds.WeatherAudioState">
+            <summary>
+            The effective weather layers used by both the renderer and the continuous audio mixer.
+            Keeping this as a small value snapshot prevents the audio system from re-implementing
+            automatic-weather selection rules.
+            </summary>
+        </member>
+        <member name="M:Intersect.Client.Core.Sounds.WeatherAudioState.#ctor(Intersect.Framework.Core.GameObjects.Maps.MapWeatherShaderMode,System.Single,System.Single,System.Single,Intersect.Framework.Core.GameObjects.Maps.MapWeatherLightningMode,System.Single,System.Single)">
+            <summary>
+            The effective weather layers used by both the renderer and the continuous audio mixer.
+            Keeping this as a small value snapshot prevents the audio system from re-implementing
+            automatic-weather selection rules.
             </summary>
         </member>
         <member name="T:Intersect.Client.Core.Sounds.WeatherLightningFlashSync">
@@ -214,7 +274,7 @@
             height so the vertical gradient runs head→feet within each cell, not across the whole sheet.
             </param>
         </member>
-        <member name="M:Intersect.Client.Core.XraySilhouetteTextureCache.GetOrCreate(Intersect.Client.Framework.Graphics.IGameTexture,System.Int32,Intersect.Client.Core.XraySilhouetteProfile)">
+        <member name="M:Intersect.Client.Core.XraySilhouetteTextureCache.GetOrCreate(Intersect.Client.Framework.Graphics.IGameTexture,System.Int32,Intersect.Client.Core.XraySilhouetteProfile,Intersect.Color)">
             <param name="source">The source texture to remmap into an x-ray silhouette copy.</param>
             <param name="directions">
             Number of direction rows in the sheet (Options.Sprites.Directions). Used to find the per-cell
@@ -224,6 +284,12 @@
             Which opacity curve to use. Body is the original ghostly curve; Gear is more opaque so
             drawn-over equipment still hides the layers beneath it.
             </param>
+            <param name="tint">
+            Optional draw-time tint (e.g. hair/eye colour). Hair/eye paperdolls are grayscale textures
+            tinted at draw time, so the SOURCE pixel brightness is meaningless — a white-bright hair
+            texel tinted dark brown must still bake as DARK (opaque), or the scalp shows through.
+            When provided, luminance is measured on the tinted colour and the tint joins the cache key.
+            </param>
         </member>
         <member name="M:Intersect.Client.Entities.Animation.SetRenderLayer(System.Boolean)">
             <summary>
@@ -232,6 +298,15 @@
             Used by projectiles (e.g. arrows) that need to draw behind the shooter when travelling
             "up"/away from the camera and in front otherwise. Requires both Lower and Upper sprites to
             be configured on the descriptor so the chosen layer actually has art to draw.
+            </summary>
+        </member>
+        <member name="P:Intersect.Client.Entities.Entity.LatestMap">
+            <summary>
+            The map instance this entity is rendered against. Self-healing: re-resolves on read when
+            <see cref="P:Intersect.Client.Entities.Entity.MapId"/> has moved on or the cached instance was disposed. MapId can change
+            mid-tick (client-side crossing prediction or a position packet) AFTER this entity's
+            Update() already ran — without this the next rendered frame computes the origin against
+            the OLD map and the camera/entity jump ~one map for a frame (the zone-crossing flash).
             </summary>
         </member>
         <member name="M:Intersect.Client.Entities.Entity.HasVisibleSpritePixelAt(System.Single,System.Single)">
@@ -483,7 +558,7 @@
              new swing starts.
             
              WHY a flag and not an AttackTimer adjustment: the swing animation's progress is DERIVED
-             from AttackTimer (timeInAttack = CalculateAttackTime() - (AttackTimer - now)), so ANY
+             from AttackTimer (using the duration captured at swing start), so ANY
              mutation of AttackTimer mid-swing teleports the animation forward and visibly truncates
              the killing blow — the exact regression a previous fix caused (playtest 2026-07-16) and
              the exact reason the 2026-07-01 fix forbids snapping it. The flag leaves the timer (and
@@ -845,6 +920,20 @@
             <summary>
             Small world-space footstep effects. Manual colors come from resources/footstep_particles.json;
             auto terrain effects are opt-in per map through Map Properties.
+            </summary>
+        </member>
+        <member name="M:Intersect.Client.General.FootstepParticles.TryResolveSurface(Intersect.Client.Maps.MapInstance,System.Int32,System.Int32,Intersect.Client.General.FootstepParticles.GroundSurface@)">
+            <summary>
+            Resolves the ground surface under a tile using the map's footstep-effect mode — the same
+            painted water-zone, tileset-name, and tile-color detection the step particles use. Manual
+            modes return false (manual sounds come from painted MapFootstepAttributes instead).
+            </summary>
+        </member>
+        <member name="M:Intersect.Client.General.FootstepParticles.TryGetTopObjectSurface(Intersect.Client.Maps.MapInstance,System.Collections.Generic.List{Intersect.Framework.Core.GameObjects.Maps.MapObjectDescriptor},System.Single,System.Single,System.Int32,System.Int32,System.Func{Intersect.Framework.Core.GameObjects.Maps.MapObjectDescriptor,System.Boolean},Intersect.Client.General.FootstepParticles.GroundTileInfo@)">
+            <summary>
+            Finds the topmost eligible map object covering the pixel point, returning a surface sample
+            for the source cell under that point. Objects whose sample is mostly transparent (cutout
+            edges, patchy blend holes) fall through so the tile/object below still counts.
             </summary>
         </member>
         <member name="F:Intersect.Client.General.Globals.WorldLoadProgress">
@@ -1422,6 +1511,13 @@
         <member name="P:Intersect.Client.Maps.MapGrid.Width">
             <inheritdoc />
         </member>
+        <member name="P:Intersect.Client.Maps.MapInstance.AmbientSoundCluster.OneShotTriggered">
+            <summary>
+            Prevents a non-looping zone sound (for example, a single owl call) from being
+            re-created every update while the player remains inside its range. The trigger is
+            reset when the zone becomes inactive, so re-entering the zone can play it again.
+            </summary>
+        </member>
         <member name="F:Intersect.Client.Maps.MapInstance.sWaterReflectionColor">
             <summary>
             Reusable water reflection tint. RGB is constant; alpha is set per draw.
@@ -1597,6 +1693,12 @@
             True when this map can be painted on the world map / minimap.
             </summary>
         </member>
+        <member name="T:Intersect.Client.Maps.MapInstance.MapSoundAttributeCluster">
+            <summary>
+            A single playing source shared by all identical painted Map Sound attributes.
+            This prevents a large painted water area from starting one wave loop per tile.
+            </summary>
+        </member>
         <member name="M:Intersect.Client.MonoGame.Audio.MonoAudioInstance`2.#ctor(Intersect.Client.Framework.Audio.GameAudioSource,`1)">
             <inheritdoc />
         </member>
@@ -1656,6 +1758,12 @@
         </member>
         <member name="M:Intersect.Client.Networking.PacketHandler.VirtualPacketSender.Send(Intersect.Network.IPacket)">
             <inheritdoc />
+        </member>
+        <member name="T:Intersect.Client.Networking.MeleeSwingFeedback">
+            <summary>
+            A visible swing, including retries of that swing, can consume exactly one server outcome.
+            This records presentation only: it never applies, invents, or rolls back server damage.
+            </summary>
         </member>
         <member name="M:Intersect.Client.Networking.PacketSender.SendNeedMapsForWorldGrid">
             <summary>
