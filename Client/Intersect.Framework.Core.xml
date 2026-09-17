@@ -507,7 +507,45 @@
             A stackable visual zone used for local ambience without placing hidden marker tiles.
             </summary>
         </member>
+        <member name="T:Intersect.Framework.Core.GameObjects.Maps.MapAmbientSoundPlayMode">
+            <summary>
+            How an ambient sound source repeats while its conditions are met.
+            Shared by painted Ambient Sound zones and map-wide Environment Sound layers.
+            </summary>
+        </member>
+        <member name="F:Intersect.Framework.Core.GameObjects.Maps.MapAmbientSoundPlayMode.Loop">
+            <summary>
+            Continuous playback while active. Zones additionally support a fixed
+            retrigger gap through <c>LoopInterval</c>.
+            </summary>
+        </member>
+        <member name="F:Intersect.Framework.Core.GameObjects.Maps.MapAmbientSoundPlayMode.Once">
+            <summary>
+            Play a single time each time the source becomes active; it re-arms once
+            the player leaves the zone or its conditions stop being met.
+            </summary>
+        </member>
+        <member name="F:Intersect.Framework.Core.GameObjects.Maps.MapAmbientSoundPlayMode.Random">
+            <summary>
+            Play once, then re-trigger after a random delay inside
+            [MinDelayMs, MaxDelayMs] while the source stays active — the natural
+            pattern for bird calls, owls, and other occasional creature sounds.
+            </summary>
+        </member>
+        <member name="F:Intersect.Framework.Core.GameObjects.Maps.MapAmbientSoundPlayMode.Interval">
+            <summary>
+            Fire a one-shot every <c>IntervalMs</c> on the shared animation clock,
+            shifted by <c>PhaseOffsetMs</c>. Painted zones only: used to land a sound
+            on a repeating visual beat (ripple rings, pulsing crystals, machinery).
+            </summary>
+        </member>
         <!-- Badly formed XML comment ignored for member "T:Intersect.Framework.Core.GameObjects.Maps.MapAmbientSoundZoneDescriptor" -->
+        <!-- Badly formed XML comment ignored for member "P:Intersect.Framework.Core.GameObjects.Maps.MapAmbientSoundZoneDescriptor.PlayMode" -->
+        <!-- Badly formed XML comment ignored for member "P:Intersect.Framework.Core.GameObjects.Maps.MapAmbientSoundZoneDescriptor.MinDelayMs" -->
+        <!-- Badly formed XML comment ignored for member "P:Intersect.Framework.Core.GameObjects.Maps.MapAmbientSoundZoneDescriptor.MaxDelayMs" -->
+        <!-- Badly formed XML comment ignored for member "P:Intersect.Framework.Core.GameObjects.Maps.MapAmbientSoundZoneDescriptor.IntervalMs" -->
+        <!-- Badly formed XML comment ignored for member "P:Intersect.Framework.Core.GameObjects.Maps.MapAmbientSoundZoneDescriptor.PhaseOffsetMs" -->
+        <!-- Badly formed XML comment ignored for member "M:Intersect.Framework.Core.GameObjects.Maps.MapAmbientSoundZoneDescriptor.GetEffectivePlayMode" -->
         <member name="P:Intersect.Framework.Core.GameObjects.Maps.MapAttribute.OffsetX">
             <summary>
             Pixel offset from the attribute storage tile's top-left corner.
@@ -546,6 +584,14 @@
             <summary>
             Returns the bit mask used by PathNode.BlockedEdges for a cardinal direction.
             Bit 0 = Up, 1 = Down, 2 = Left, 3 = Right.
+            </summary>
+        </member>
+        <member name="M:Intersect.Framework.Core.GameObjects.Maps.MapAttributePlacement.TryGetAtTile(System.Collections.Generic.List{Intersect.Framework.Core.GameObjects.Maps.MapAttribute}[0:,0:],System.Int32,System.Int32,System.Int32,System.Int32,Intersect.Framework.Core.GameObjects.Maps.MapAttributeType,Intersect.Framework.Core.GameObjects.Maps.MapAttribute@,System.Int32@,System.Int32@)">
+            <summary>
+            Returns the first attribute of the given <paramref name="type"/> at or overlapping the tile.
+            Uses the same search order as <see cref="M:Intersect.Framework.Core.GameObjects.Maps.MapAttributePlacement.TryGetAtTile(System.Collections.Generic.List{Intersect.Framework.Core.GameObjects.Maps.MapAttribute}[0:,0:],System.Int32,System.Int32,System.Int32,System.Int32,Intersect.Framework.Core.GameObjects.Maps.MapAttribute@,System.Int32@,System.Int32@)"/> — the tile's own list first, then
+            offset-overlapping neighbours — but skips every other type, so stacked attributes do not
+            hide each other.
             </summary>
         </member>
         <member name="M:Intersect.Framework.Core.GameObjects.Maps.MapAttributePlacement.GetAllAtTile(System.Collections.Generic.List{Intersect.Framework.Core.GameObjects.Maps.MapAttribute}[0:,0:],System.Int32,System.Int32,System.Int32,System.Int32)">
@@ -609,6 +655,13 @@
             Returns true if an attribute was removed.
             </summary>
         </member>
+        <member name="M:Intersect.Framework.Core.GameObjects.Maps.MapDescriptor.RemoveAttributeInstance(System.Int32,System.Int32,Intersect.Framework.Core.GameObjects.Maps.MapAttribute)">
+            <summary>
+            Removes a specific attribute instance from a tile. Unlike the type-keyed
+            <c>RemoveAttribute</c>, this removes exactly the given object, which matters
+            when several attributes are stacked on one tile.
+            </summary>
+        </member>
         <member name="M:Intersect.Framework.Core.GameObjects.Maps.MapDescriptor.ClearAttributes(System.Int32,System.Int32)">
             <summary>
             Removes all attributes from a tile.
@@ -635,6 +688,23 @@
             <summary>
             A display-volume percentage on the Weather &amp; Ambience mixer.
             Kept conservative by default because these sounds are background beds.
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Maps.MapEnvironmentSoundDescriptor.PlayMode">
+            <summary>
+            How this layer repeats while its conditions are met. Layers authored before
+            this field existed deserialize as <see cref="F:Intersect.Framework.Core.GameObjects.Maps.MapAmbientSoundPlayMode.Loop"/>,
+            which is the historic always-loop behavior.
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Maps.MapEnvironmentSoundDescriptor.MinDelayMs">
+            <summary>
+            Minimum silence between calls in Random mode (milliseconds).
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Maps.MapEnvironmentSoundDescriptor.MaxDelayMs">
+            <summary>
+            Maximum silence between calls in Random mode (milliseconds).
             </summary>
         </member>
         <member name="T:Intersect.Framework.Core.GameObjects.Maps.MapGroundMaterialStyle">
@@ -725,6 +795,15 @@
             Default = use the tile layer the object was painted on (original behaviour).
             Lower / Middle / Upper = always draw on that pass regardless of painted layer.
             </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Maps.MapObjectDescriptor.ReactiveSound">
+            <summary>Sound file played once at the object's position when a new entity starts touching it (requires <see cref="P:Intersect.Framework.Core.GameObjects.Maps.MapObjectDescriptor.Reactive"/>). Empty/null = silent.</summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Maps.MapObjectDescriptor.ReactiveSoundVolume">
+            <summary>Reactive sound loudness, 0-100.</summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Maps.MapObjectDescriptor.ReactiveSoundRange">
+            <summary>How far the reactive sound carries, in tiles.</summary>
         </member>
         <member name="P:Intersect.Framework.Core.GameObjects.Maps.MapObjectDescriptor.ShadowSizePercent">
             <summary>Circle shadow scale relative to the auto-calculated size. 100 = default, 50 = half, 200 = double.</summary>

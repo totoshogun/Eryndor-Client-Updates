@@ -103,6 +103,31 @@
       SkipUnchangedFiles="true"
     />
   </Target>
+  <!-- WAV filenames are discovered dynamically by the client and editor.
+       Keep authored sound assets synchronized in regular and publish outputs. -->
+  <Target Name="CopyAuthoredSoundResources" AfterTargets="Build">
+    <ItemGroup>
+      <AuthoredSoundResource Include="resources\sounds\*.wav" />
+    </ItemGroup>
+    <MakeDir Directories="$(TargetDir)resources\sounds" />
+    <Copy
+      SourceFiles="@(AuthoredSoundResource)"
+      DestinationFiles="@(AuthoredSoundResource->'$(TargetDir)resources\sounds\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+  </Target>
+
+  <Target Name="CopyAuthoredSoundResourcesToPublish" AfterTargets="Publish">
+    <ItemGroup>
+      <PublishedAuthoredSoundResource Include="resources\sounds\*.wav" />
+    </ItemGroup>
+    <MakeDir Directories="$(PublishDir)resources\sounds" />
+    <Copy
+      SourceFiles="@(PublishedAuthoredSoundResource)"
+      DestinationFiles="@(PublishedAuthoredSoundResource->'$(PublishDir)resources\sounds\%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true"
+    />
+  </Target>
 
   <!-- Purse denominations are runtime item textures seeded by stable descriptor IDs. -->
   <Target Name="CopyAuthoredCurrencyIcons" AfterTargets="Build">
