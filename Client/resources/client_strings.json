@@ -122,7 +122,8 @@
     "StatLabelValue": "{00}: {01}",
     "Stats": "Stats:",
     "Tenacity": "Tenacity: {00}%",
-    "Title": "Character Information"
+    "Title": "Character Information",
+    "Level": "Level {00}"
   },
   "CharacterCreation": {
     "Back": "Back",
@@ -154,12 +155,14 @@
   "ChatContextMenu": {
     "FriendInvite": "Send Friend request to {00}",
     "GuildInvite": "Invite {00} to Guild",
-    "PM": "Send Private Message to {00}",
+    "PM": "Whisper {00}",
     "PartyInvite": "Invite {00} to Party"
   },
   "Chatbox": {
     "Channel": "Channel:",
     "ChannelAdmin": "admin",
+    "ChannelWhisper": "whisper",
+    "ChannelTrade": "trade",
     "Channels": {
       "0": "local",
       "1": "global",
@@ -172,6 +175,8 @@
       "Guild": "Guild",
       "Local": "Local",
       "Party": "Party",
+      "Whisper": "Whisper",
+      "Trade": "Trade",
       "System": "System",
       "Combat": "Combat Log"
     },
@@ -437,7 +442,7 @@
     "NotInGuild": "You are not currently in a guild!",
     "OfflineListEntry": "[{00}] {01} - {02}",
     "OnlineListEntry": "[{00}] {01} - {02}",
-    "PM": "PM",
+    "PM": "Whisper",
     "Promote": "Promote to {00}",
     "PromotePrompt": "Are you sure you want to promote {00} to rank {01}?",
     "PromoteTitle": "Promote Guild Member",
@@ -956,6 +961,7 @@
     "ControlsTab": "Controls",
     "EnableLighting": "Enable Light Effects",
     "EnableScrollingWorldZoom": "Enable scrolling to change World Scale in game",
+    "ExtraActionBar": "Show extra action bar",
     "FPS": "FPS",
     "FormatResolution": "{00}x{01}",
     "FormatZoom": "{00}x",
@@ -984,6 +990,7 @@
     "ShowHealthAsPercentage": "Show health as percentage",
     "ShowManaAsPercentage": "Show mana as percentage",
     "ShowMyOverheadInformation": "Show my own HP/mana/rage bar",
+    "ShowMyOverheadName": "Show my own name",
     "ShowNpcOverheadHpBar": "Show NPC HP bars",
     "ShowNpcOverheadInformation": "Show NPC names",
     "ShowPartyOverheadHpBar": "Show party member HP bars",

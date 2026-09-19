@@ -3825,6 +3825,19 @@
             whether to draw Blind dust, Bleed contact, or a Haste surge; gameplay remains authoritative.
             </summary>
         </member>
+        <member name="P:Intersect.Network.Packets.Server.FriendsPacket.Appearances">
+            <summary>
+            Character appearance for every friend (online AND offline), keyed by <see cref="P:Intersect.Network.Packets.Server.FriendAppearance.Name"/>.
+            Lets the friends list render each player's actual face/hair/eyes instead of the
+            generic status icons. Offline entries come from the player database.
+            </summary>
+        </member>
+        <member name="T:Intersect.Network.Packets.Server.FriendAppearance">
+            <summary>
+            The character-appearance slice of a player record needed to composite a friends-list
+            portrait. Mirrors the appearance fields of <see cref="T:Intersect.Network.Packets.Server.PartyMemberPacket"/>.
+            </summary>
+        </member>
         <member name="M:Intersect.Network.Packets.Server.GuildInvitePacket.#ctor">
             <summary>
             Parameterless Constructor for MessagePack

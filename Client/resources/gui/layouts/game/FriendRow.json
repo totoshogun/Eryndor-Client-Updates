@@ -1,5 +1,5 @@
 {
-  "Bounds": "0,0,373,22",
+  "Bounds": "0,0,310,22",
   "Dock": "None",
   "Padding": "0,0,0,0",
   "AlignmentEdgeDistances": "0,0,0,0",
@@ -24,6 +24,32 @@
   "LeftMouseClickSound": null,
   "RightMouseClickSound": null,
   "Children": {
+    "Portrait": {
+      "Bounds": "2,1,20,20",
+      "Dock": "None",
+      "Padding": "0,0,0,0",
+      "AlignmentEdgeDistances": "0,0,0,0",
+      "AlignmentTransform": "0,0",
+      "Margin": "0,0,0,0",
+      "RenderColor": "255,255,255,255",
+      "Alignments": "",
+      "DrawBackground": false,
+      "MinimumSize": "1,1",
+      "MaximumSize": "4096,4096",
+      "Disabled": false,
+      "Hidden": true,
+      "RestrictToParent": false,
+      "MouseInputEnabled": false,
+      "HideToolTip": false,
+      "ToolTipBackground": null,
+      "ToolTipFont": null,
+      "TooltipTextColor": null,
+      "Texture": null,
+      "TextureNinePatchMargin": "0,0,0,0",
+      "HoverSound": null,
+      "LeftMouseClickSound": null,
+      "RightMouseClickSound": null
+    },
     "OnlineSymbol": {
       "Bounds": "3,3,16,16",
       "Dock": "None",
@@ -108,7 +134,7 @@
       "TextScale": 1.0
     },
     "Status": {
-      "Bounds": "182,3,1,20",
+      "Bounds": "160,3,1,20",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -139,7 +165,7 @@
       "TextScale": 1.0
     },
     "Tell": {
-      "Bounds": "314,3,16,16",
+      "Bounds": "270,3,16,16",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -179,7 +205,7 @@
       "CenterImage": false
     },
     "Remove": {
-      "Bounds": "332,3,16,16",
+      "Bounds": "290,3,16,16",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",

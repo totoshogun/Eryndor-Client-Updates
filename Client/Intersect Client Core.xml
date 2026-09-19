@@ -4,6 +4,14 @@
         <name>Intersect Client Core</name>
     </assembly>
     <members>
+        <member name="T:Intersect.Client.Core.ClassIcons">
+            <summary>
+            Resolves a player's class to its badge icon texture (<c>class_*.png</c> in the GUI
+            texture set). Icon files are named after the class with the name normalized to
+            lowercase snake_case — "The Thread Weaver" maps to <c>class_the_thread_weaver.png</c>.
+            Returns null for classless entities or when no icon file exists for the class name.
+            </summary>
+        </member>
         <member name="M:Intersect.Client.Core.Audio.PlayMusic(System.String,System.Int32,System.Int32,System.Boolean)">
             <summary>
             Play a music track, automatically fading out the old track with the configured values.
@@ -54,6 +62,13 @@
             <summary>
             Plays footstep sounds based on MapFootstepAttribute placed on tiles.
             Call Update() every frame from the main game loop.
+            </summary>
+        </member>
+        <member name="F:Intersect.Client.Core.FootstepSounds.RemoteStepVolumeScale">
+            <summary>
+            Remote entities' steps play the same surface table as the local player's, but scaled
+            down so someone walking beside you never sounds as loud as your own feet. Positional
+            falloff over <see cref="F:Intersect.Client.Core.FootstepSounds.RemoteStepDistance"/> does the rest.
             </summary>
         </member>
         <member name="F:Intersect.Client.Core.FootstepSounds.RemoteStepIntervalMs">
@@ -263,6 +278,25 @@
              distance attenuation and before the player's global sound-volume setting.
              </summary>
         </member>
+        <member name="F:Intersect.Client.Core.Sounds.SoundBalance.AmbientVolumeScales">
+            <summary>
+            Authored ambient zone/layer volumes were painted against different reference levels and
+            are not internally consistent — forest birdsong sat at 5 while waterfall zones ran at 70,
+            so wildlife was inaudible under water. This table normalizes each known ambient source
+            into one mix before it reaches playback: wildlife stays audible above
+            <see cref="F:Intersect.Client.Core.Sounds.SoundBalance.NpcMoveVolume"/>, water and fire sit under it as beds, and positional details
+            never compete with combat feedback. Values are multipliers on the authored volume so
+            intentional per-zone differences (such as denser cricket areas) keep their relationship.
+            Unknown files pass through unchanged.
+            </summary>
+        </member>
+        <member name="M:Intersect.Client.Core.Sounds.SoundBalance.GetAmbientVolume(System.String,System.Int32)">
+            <summary>
+            Applies <see cref="F:Intersect.Client.Core.Sounds.SoundBalance.AmbientVolumeScales"/> normalization to an authored ambient volume.
+            Accepts file names with or without the .wav extension. Ambient clusters are keyed on
+            the extension-less name; environment layers keep the extension.
+            </summary>
+        </member>
         <member name="T:Intersect.Client.Core.Sounds.WeatherAmbientSound">
             <summary>
             Looping or one-shot weather/ambient audio with a dedicated weather volume setting.
@@ -297,6 +331,20 @@
             <summary>
             Mirrors Weather.fx lightning flash timing so thunder audio can sync to visible flashes.
             Does not modify any weather rendering code.
+            </summary>
+        </member>
+        <member name="T:Intersect.Client.Core.FriendPortraitCache">
+            <summary>
+            Bakes a friend's head portrait (body + tinted eyes + tinted hair) into a single
+            <see cref="F:Intersect.Client.Core.FriendPortraitCache.PortraitSize"/>x<see cref="F:Intersect.Client.Core.FriendPortraitCache.PortraitSize"/> runtime texture for the friends
+            list. Online friends show in colour; offline friends get the same composite
+            desaturated. Results are cached by full appearance + online state.
+            </summary>
+        </member>
+        <member name="M:Intersect.Client.Core.FriendPortraitCache.GetOrCreate(Intersect.Client.Framework.Entities.IFriendInstance)">
+            <summary>
+            Returns the baked head portrait, or null when no usable body/face art exists
+            (callers should fall back to the static online/offline icons).
             </summary>
         </member>
         <member name="P:Intersect.Client.Core.General.ExplorationManager.Revision">

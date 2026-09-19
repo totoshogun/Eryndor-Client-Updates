@@ -2195,6 +2195,116 @@
       "TextColor": null
     },
     {
+      "Text": "Staff Hit Sound",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Created by Artninja + Kinoton - Freesound.org",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://freesound.org/people/Artninja/sounds/780518/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Creative Commons Attribution 4.0 International",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "CC BY 4.0",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://creativecommons.org/licenses/by/4.0/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Some assets may have been modified or converted for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
       "Text": "INTERSECT ENGINE CREDITS",
       "Font": "sourcesansproblack",
       "Size": 14,
