@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 1,
-  "Version": "2026.10.19.101822",
+  "Version": "2026.10.19.114205",
   "Repository": "totoshogun/Eryndor-Client-Updates",
   "Branch": "main",
   "ProtectedPaths": [
@@ -1393,13 +1393,13 @@
     },
     {
       "Path": "eryndor-news.md",
-      "Size": 1769,
-      "Sha256": "19e889c9a583a33a0eeb6626aa80126948c884112061aa7b98c28b8e3cd84d59"
+      "Size": 97,
+      "Sha256": "f9506800bcbaaece9b9b23ff75a44a840f866bb91cb771080d0d7519ed690621"
     },
     {
       "Path": "eryndor-news.txt",
-      "Size": 1769,
-      "Sha256": "19e889c9a583a33a0eeb6626aa80126948c884112061aa7b98c28b8e3cd84d59"
+      "Size": 97,
+      "Sha256": "f9506800bcbaaece9b9b23ff75a44a840f866bb91cb771080d0d7519ed690621"
     },
     {
       "Path": "es/Microsoft.VisualStudio.Validation.resources.dll",
