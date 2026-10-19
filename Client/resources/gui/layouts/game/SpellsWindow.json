@@ -1447,7 +1447,7 @@
                                 "ToolTipBackground": null,
                                 "ToolTipFont": null,
                                 "TooltipTextColor": null,
-                                "Texture": "passive_arcane_mind.png",
+                                "Texture": "passive_wayfarer.png",
                                 "TextureNinePatchMargin": null,
                                 "HoverSound": null,
                                 "LeftMouseClickSound": null,
@@ -1563,7 +1563,7 @@
                                 "ToolTipBackground": null,
                                 "ToolTipFont": null,
                                 "TooltipTextColor": null,
-                                "Texture": "passive_spell_power.png",
+                                "Texture": "passive_trailhardened.png",
                                 "TextureNinePatchMargin": null,
                                 "HoverSound": null,
                                 "LeftMouseClickSound": null,
@@ -1679,7 +1679,7 @@
                                 "ToolTipBackground": null,
                                 "ToolTipFont": null,
                                 "TooltipTextColor": null,
-                                "Texture": "passive_quick_weave.png",
+                                "Texture": "passive_trail_step.png",
                                 "TextureNinePatchMargin": null,
                                 "HoverSound": null,
                                 "LeftMouseClickSound": null,
@@ -1750,7 +1750,7 @@
                             "TextScale": 1.0
                           },
                           "PassiveNode8": {
-                            "Bounds": "22,412,34,34",
+                            "Bounds": "166,314,34,34",
                             "Dock": "None",
                             "Padding": "0,0,0,0",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -1795,7 +1795,7 @@
                                 "ToolTipBackground": null,
                                 "ToolTipFont": null,
                                 "TooltipTextColor": null,
-                                "Texture": "passive_mana_flow.png",
+                                "Texture": "passive_practical_guard.png",
                                 "TextureNinePatchMargin": null,
                                 "HoverSound": null,
                                 "LeftMouseClickSound": null,
@@ -1804,7 +1804,7 @@
                             }
                           },
                           "SkillTreeNodeLabel8": {
-                            "Bounds": "4,448,70,28",
+                            "Bounds": "148,350,70,28",
                             "Dock": "None",
                             "Padding": "0,0,0,0",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -1835,7 +1835,7 @@
                             "TextScale": 1.0
                           },
                           "SkillTreeRank8": {
-                            "Bounds": "36,433,28,15",
+                            "Bounds": "180,335,28,15",
                             "Dock": "None",
                             "Padding": "1,1,1,1",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -1866,7 +1866,7 @@
                             "TextScale": 1.0
                           },
                           "PassiveNode9": {
-                            "Bounds": "94,412,34,34",
+                            "Bounds": "238,314,34,34",
                             "Dock": "None",
                             "Padding": "0,0,0,0",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -1911,7 +1911,7 @@
                                 "ToolTipBackground": null,
                                 "ToolTipFont": null,
                                 "TooltipTextColor": null,
-                                "Texture": "passive_threaded_ward.png",
+                                "Texture": "passive_resourceful.png",
                                 "TextureNinePatchMargin": null,
                                 "HoverSound": null,
                                 "LeftMouseClickSound": null,
@@ -1920,7 +1920,7 @@
                             }
                           },
                           "SkillTreeNodeLabel9": {
-                            "Bounds": "76,448,70,28",
+                            "Bounds": "220,350,70,28",
                             "Dock": "None",
                             "Padding": "0,0,0,0",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -1951,7 +1951,7 @@
                             "TextScale": 1.0
                           },
                           "SkillTreeRank9": {
-                            "Bounds": "108,433,28,15",
+                            "Bounds": "252,335,28,15",
                             "Dock": "None",
                             "Padding": "1,1,1,1",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -1982,7 +1982,7 @@
                             "TextScale": 1.0
                           },
                           "PassiveNode10": {
-                            "Bounds": "94,510,34,34",
+                            "Bounds": "94,412,34,34",
                             "Dock": "None",
                             "Padding": "0,0,0,0",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -2027,7 +2027,7 @@
                                 "ToolTipBackground": null,
                                 "ToolTipFont": null,
                                 "TooltipTextColor": null,
-                                "Texture": "passive_still_mind.png",
+                                "Texture": "passive_watchful.png",
                                 "TextureNinePatchMargin": null,
                                 "HoverSound": null,
                                 "LeftMouseClickSound": null,
@@ -2036,7 +2036,7 @@
                             }
                           },
                           "SkillTreeNodeLabel10": {
-                            "Bounds": "76,546,70,28",
+                            "Bounds": "76,448,70,28",
                             "Dock": "None",
                             "Padding": "0,0,0,0",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -2067,7 +2067,7 @@
                             "TextScale": 1.0
                           },
                           "SkillTreeRank10": {
-                            "Bounds": "108,531,28,15",
+                            "Bounds": "108,433,28,15",
                             "Dock": "None",
                             "Padding": "1,1,1,1",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -2098,7 +2098,7 @@
                             "TextScale": 1.0
                           },
                           "PassiveNode11": {
-                            "Bounds": "22,608,34,34",
+                            "Bounds": "166,412,34,34",
                             "Dock": "None",
                             "Padding": "0,0,0,0",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -2143,7 +2143,7 @@
                                 "ToolTipBackground": null,
                                 "ToolTipFont": null,
                                 "TooltipTextColor": null,
-                                "Texture": "passive_grand_weaver.png",
+                                "Texture": "passive_seasoned_hand.png",
                                 "TextureNinePatchMargin": null,
                                 "HoverSound": null,
                                 "LeftMouseClickSound": null,
@@ -2152,7 +2152,7 @@
                             }
                           },
                           "SkillTreeNodeLabel11": {
-                            "Bounds": "4,644,70,28",
+                            "Bounds": "148,448,70,28",
                             "Dock": "None",
                             "Padding": "0,0,0,0",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -2183,7 +2183,7 @@
                             "TextScale": 1.0
                           },
                           "SkillTreeRank11": {
-                            "Bounds": "36,629,28,15",
+                            "Bounds": "180,433,28,15",
                             "Dock": "None",
                             "Padding": "1,1,1,1",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -2214,7 +2214,7 @@
                             "TextScale": 1.0
                           },
                           "PassiveNode12": {
-                            "Bounds": "238,314,34,34",
+                            "Bounds": "238,412,34,34",
                             "Dock": "None",
                             "Padding": "0,0,0,0",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -2259,7 +2259,7 @@
                                 "ToolTipBackground": null,
                                 "ToolTipFont": null,
                                 "TooltipTextColor": null,
-                                "Texture": "passive_kindled_focus.png",
+                                "Texture": "passive_steady_nerves.png",
                                 "TextureNinePatchMargin": null,
                                 "HoverSound": null,
                                 "LeftMouseClickSound": null,
@@ -2268,7 +2268,7 @@
                             }
                           },
                           "SkillTreeNodeLabel12": {
-                            "Bounds": "220,350,70,28",
+                            "Bounds": "220,448,70,28",
                             "Dock": "None",
                             "Padding": "0,0,0,0",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -2299,7 +2299,7 @@
                             "TextScale": 1.0
                           },
                           "SkillTreeRank12": {
-                            "Bounds": "252,335,28,15",
+                            "Bounds": "252,433,28,15",
                             "Dock": "None",
                             "Padding": "1,1,1,1",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -2330,7 +2330,7 @@
                             "TextScale": 1.0
                           },
                           "PassiveNode13": {
-                            "Bounds": "238,412,34,34",
+                            "Bounds": "94,510,34,34",
                             "Dock": "None",
                             "Padding": "0,0,0,0",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -2375,7 +2375,7 @@
                                 "ToolTipBackground": null,
                                 "ToolTipFont": null,
                                 "TooltipTextColor": null,
-                                "Texture": "passive_staff_mastery.png",
+                                "Texture": "passive_hardy.png",
                                 "TextureNinePatchMargin": null,
                                 "HoverSound": null,
                                 "LeftMouseClickSound": null,
@@ -2384,7 +2384,7 @@
                             }
                           },
                           "SkillTreeNodeLabel13": {
-                            "Bounds": "220,448,70,28",
+                            "Bounds": "76,546,70,28",
                             "Dock": "None",
                             "Padding": "0,0,0,0",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -2415,7 +2415,7 @@
                             "TextScale": 1.0
                           },
                           "SkillTreeRank13": {
-                            "Bounds": "252,433,28,15",
+                            "Bounds": "108,531,28,15",
                             "Dock": "None",
                             "Padding": "1,1,1,1",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -2446,7 +2446,7 @@
                             "TextScale": 1.0
                           },
                           "PassiveNode14": {
-                            "Bounds": "310,412,34,34",
+                            "Bounds": "166,510,34,34",
                             "Dock": "None",
                             "Padding": "0,0,0,0",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -2491,7 +2491,7 @@
                                 "ToolTipBackground": null,
                                 "ToolTipFont": null,
                                 "TooltipTextColor": null,
-                                "Texture": "passive_piercing_cast.png",
+                                "Texture": "passive_quick_reflexes.png",
                                 "TextureNinePatchMargin": null,
                                 "HoverSound": null,
                                 "LeftMouseClickSound": null,
@@ -2500,7 +2500,7 @@
                             }
                           },
                           "SkillTreeNodeLabel14": {
-                            "Bounds": "292,448,70,28",
+                            "Bounds": "148,546,70,28",
                             "Dock": "None",
                             "Padding": "0,0,0,0",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -2531,7 +2531,7 @@
                             "TextScale": 1.0
                           },
                           "SkillTreeRank14": {
-                            "Bounds": "324,433,28,15",
+                            "Bounds": "180,531,28,15",
                             "Dock": "None",
                             "Padding": "1,1,1,1",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -2607,7 +2607,7 @@
                                 "ToolTipBackground": null,
                                 "ToolTipFont": null,
                                 "TooltipTextColor": null,
-                                "Texture": "passive_overload.png",
+                                "Texture": "passive_second_wind.png",
                                 "TextureNinePatchMargin": null,
                                 "HoverSound": null,
                                 "LeftMouseClickSound": null,
@@ -2678,7 +2678,7 @@
                             "TextScale": 1.0
                           },
                           "PassiveNode16": {
-                            "Bounds": "310,608,34,34",
+                            "Bounds": "166,608,34,34",
                             "Dock": "None",
                             "Padding": "0,0,0,0",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -2723,7 +2723,7 @@
                                 "ToolTipBackground": null,
                                 "ToolTipFont": null,
                                 "TooltipTextColor": null,
-                                "Texture": "passive_archmage_s_fury.png",
+                                "Texture": "passive_veteran_s_rhythm.png",
                                 "TextureNinePatchMargin": null,
                                 "HoverSound": null,
                                 "LeftMouseClickSound": null,
@@ -2732,7 +2732,7 @@
                             }
                           },
                           "SkillTreeNodeLabel16": {
-                            "Bounds": "292,644,70,28",
+                            "Bounds": "148,644,70,28",
                             "Dock": "None",
                             "Padding": "0,0,0,0",
                             "AlignmentEdgeDistances": "0,0,0,0",
@@ -2763,7 +2763,7 @@
                             "TextScale": 1.0
                           },
                           "SkillTreeRank16": {
-                            "Bounds": "324,629,28,15",
+                            "Bounds": "180,629,28,15",
                             "Dock": "None",
                             "Padding": "1,1,1,1",
                             "AlignmentEdgeDistances": "0,0,0,0",

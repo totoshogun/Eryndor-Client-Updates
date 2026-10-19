@@ -13,7 +13,7 @@
   "Disabled": false,
   "Hidden": false,
   "RestrictToParent": true,
-  "MouseInputEnabled": true,
+  "MouseInputEnabled": false,
   "HideToolTip": false,
   "ToolTipBackground": null,
   "ToolTipFont": null,
@@ -108,7 +108,7 @@
           "RightMouseClickSound": null
         },
         "PlayerHudHpLabel": {
-          "Bounds": "0,0,100,10",
+          "Bounds": "30,10,208,18",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -132,10 +132,10 @@
           "HoveredTextColor": null,
           "ClickedTextColor": null,
           "DisabledTextColor": null,
-          "TextAlign": "Left, Top",
-          "AutoSizeToContents": true,
-          "FontName": null,
-          "FontSize": null,
+          "TextAlign": "Center",
+          "AutoSizeToContents": false,
+          "FontName": "sourcesansproblack",
+          "FontSize": 10,
           "TextScale": 1.0
         }
       }
@@ -193,7 +193,7 @@
           "RightMouseClickSound": null
         },
         "PlayerHudMpLabel": {
-          "Bounds": "0,0,100,10",
+          "Bounds": "30,10,208,18",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -217,10 +217,10 @@
           "HoveredTextColor": null,
           "ClickedTextColor": null,
           "DisabledTextColor": null,
-          "TextAlign": "Left, Top",
-          "AutoSizeToContents": true,
-          "FontName": null,
-          "FontSize": null,
+          "TextAlign": "Center",
+          "AutoSizeToContents": false,
+          "FontName": "sourcesansproblack",
+          "FontSize": 10,
           "TextScale": 1.0
         }
       }
@@ -278,7 +278,7 @@
           "RightMouseClickSound": null
         },
         "PlayerHudExpLabel": {
-          "Bounds": "0,0,100,10",
+          "Bounds": "0,2,460,18",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -302,10 +302,10 @@
           "HoveredTextColor": null,
           "ClickedTextColor": null,
           "DisabledTextColor": null,
-          "TextAlign": "Left, Top",
-          "AutoSizeToContents": true,
-          "FontName": null,
-          "FontSize": null,
+          "TextAlign": "Center",
+          "AutoSizeToContents": false,
+          "FontName": "sourcesansproblack",
+          "FontSize": 8,
           "TextScale": 1.0
         }
       }

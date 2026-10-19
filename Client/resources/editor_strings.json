@@ -245,7 +245,7 @@
       "1": "Ability Power",
       "2": "Defense",
       "3": "Magic Resist",
-      "4": "Speed"
+      "4": "Agility"
     },
     "vitals": {
       "0": "Health",
@@ -1496,7 +1496,8 @@
       "5": "EXP",
       "6": "Mana Steal",
       "7": "Cast Time Reduction",
-      "8": "Cast Interrupt Resist"
+      "8": "Cast Interrupt Resist",
+      "9": "Move Speed"
     },
     "bonuses": "Stat Bonuses",
     "bonusrange": "Stat Bonus Range (+-):",

@@ -1410,6 +1410,10 @@
             <summary>Generates a random Direction using a synchronized random number generator.</summary>
             <returns>A Direction between Direction.None (inclusive) and the maximum available Direction (exclusive).</returns>
         </member>
+        <member name="M:Intersect.Utilities.Randomization.NextCardinalDirection">
+            <summary>Generates a random cardinal (non-diagonal) Direction.</summary>
+            <returns>One of Up, Down, Left, or Right.</returns>
+        </member>
         <member name="M:Intersect.Utilities.Randomization.NextDouble">
             <summary>Returns a random floating-point number that is greater than or equal to 0.0, and less than 1.0.</summary>
             <returns>A double-precision floating point number that is greater than or equal to 0.0, and less than 1.0.</returns>

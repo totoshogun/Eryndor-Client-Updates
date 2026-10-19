@@ -611,7 +611,7 @@
           "TextScale": 1.0
         },
         "CloseButton": {
-          "Bounds": "181,1,34,34",
+          "Bounds": "181,4,34,34",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",

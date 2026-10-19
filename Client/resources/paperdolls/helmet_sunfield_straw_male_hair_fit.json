@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "helmet_base": "helmet_sunfield_straw_male",
+  "design_id": "raven_sunfield_straw_hat",
+  "gender": "male",
+  "head_cells_checked": 316,
+  "selection_scope": "one choice for the entire animation set, not per frame",
+  "unknown_hairstyle": "fitted_hair_2",
+  "hair_decisions": {
+    "hair_1": {
+      "selected_display": "fitted_hair_2",
+      "saved_hairstyle": "hair_1",
+      "original_max_pokes": 60,
+      "original_failing_cells": 316,
+      "hair_2_max_pokes": 2,
+      "selected_max_pokes": 0,
+      "selection_scope": "one choice for all poses/directions; never per-frame"
+    },
+    "hair_2": {
+      "selected_display": "fitted_hair_2",
+      "saved_hairstyle": "hair_2",
+      "original_max_pokes": 2,
+      "original_failing_cells": 312,
+      "hair_2_max_pokes": 2,
+      "selected_max_pokes": 0,
+      "selection_scope": "one choice for all poses/directions; never per-frame"
+    },
+    "hair_3": {
+      "selected_display": "fitted_hair_2",
+      "saved_hairstyle": "hair_3",
+      "original_max_pokes": 20,
+      "original_failing_cells": 316,
+      "hair_2_max_pokes": 2,
+      "selected_max_pokes": 0,
+      "selection_scope": "one choice for all poses/directions; never per-frame"
+    },
+    "hair_4": {
+      "selected_display": "fitted_hair_2",
+      "saved_hairstyle": "hair_4",
+      "original_max_pokes": 58,
+      "original_failing_cells": 314,
+      "hair_2_max_pokes": 2,
+      "selected_max_pokes": 0,
+      "selection_scope": "one choice for all poses/directions; never per-frame"
+    },
+    "hair_5": {
+      "selected_display": "fitted_hair_2",
+      "saved_hairstyle": "hair_5",
+      "original_max_pokes": 10,
+      "original_failing_cells": 316,
+      "hair_2_max_pokes": 2,
+      "selected_max_pokes": 0,
+      "selection_scope": "one choice for all poses/directions; never per-frame"
+    },
+    "hair_6": {
+      "selected_display": "fitted_hair_2",
+      "saved_hairstyle": "hair_6",
+      "original_max_pokes": 12,
+      "original_failing_cells": 4,
+      "hair_2_max_pokes": 2,
+      "selected_max_pokes": 0,
+      "selection_scope": "one choice for all poses/directions; never per-frame"
+    },
+    "hair_7": {
+      "selected_display": "fitted_hair_2",
+      "saved_hairstyle": "hair_7",
+      "original_max_pokes": 60,
+      "original_failing_cells": 316,
+      "hair_2_max_pokes": 2,
+      "selected_max_pokes": 0,
+      "selection_scope": "one choice for all poses/directions; never per-frame"
+    },
+    "hair_8": {
+      "selected_display": "fitted_hair_2",
+      "saved_hairstyle": "hair_8",
+      "original_max_pokes": 60,
+      "original_failing_cells": 316,
+      "hair_2_max_pokes": 2,
+      "selected_max_pokes": 0,
+      "selection_scope": "one choice for all poses/directions; never per-frame"
+    },
+    "hair_9": {
+      "selected_display": "fitted_hair_2",
+      "saved_hairstyle": "hair_9",
+      "original_max_pokes": 2,
+      "original_failing_cells": 312,
+      "hair_2_max_pokes": 2,
+      "selected_max_pokes": 0,
+      "selection_scope": "one choice for all poses/directions; never per-frame"
+    }
+  },
+  "approved_original_styles": [],
+  "bake_report": "generated_assets/raven_headgear_lab/straw_hat_trial_20260930_v2/baked/build_report.json",
+  "bake_report_sha256": "9807785be8d644a511f60899ee9e55cc3bf8329eca5e946735bb5b61b9d458b8"
+}

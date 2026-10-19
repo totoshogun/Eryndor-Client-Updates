@@ -257,6 +257,12 @@
             2=Haste/Frenzy speed surge. Direction is expressed as an angle in radians.
             </summary>
         </member>
+        <member name="M:Intersect.Client.Framework.Graphics.GameRenderer.DrawDeathVeilEffect(System.Single)">
+            <summary>
+                Fallback grey veil drawn over the world while the local player is a ghost,
+                used only when the combined world post-process shader is unavailable.
+            </summary>
+        </member>
         <member name="T:Intersect.Client.Framework.Graphics.GameRenderer.WorldPostProcessArgs">
             <summary>
                 Input parameters for the combined world post-processing pass.
@@ -264,7 +270,7 @@
                 full shader uniform values and runs the 4-pass WorldPostProcess effect.
             </summary>
         </member>
-        <member name="M:Intersect.Client.Framework.Graphics.GameRenderer.WorldPostProcessArgs.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Int32,System.Single,System.Int32,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Single,System.Single)">
+        <member name="M:Intersect.Client.Framework.Graphics.GameRenderer.WorldPostProcessArgs.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Int32,System.Single,System.Int32,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Single,System.Single,System.Single)">
             <summary>
                 Input parameters for the combined world post-processing pass.
                 <see cref="!:MonoRenderer" /> expands the mode-based settings into the

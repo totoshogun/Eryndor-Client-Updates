@@ -1112,7 +1112,7 @@
           "TextScale": 1.0
         },
         "CloseButton": {
-          "Bounds": "0,0,32,32",
+          "Bounds": "0,4,32,32",
           "Dock": "Right",
           "Padding": "3,3,3,3",
           "AlignmentEdgeDistances": "0,0,0,0",

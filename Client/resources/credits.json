@@ -2305,6 +2305,568 @@
       "TextColor": null
     },
     {
+      "Text": "Spider Chattering (Crab Scuttle)",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Created by spookymodem - OpenGameArt.org",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://opengameart.org/content/spider-chattering",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Creative Commons Attribution 3.0",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "CC BY 3.0",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://creativecommons.org/licenses/by/3.0/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Some assets may have been modified or converted for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Crab Voice Effects",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Free sound effects - SoundDino.com",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://sounddino.com/en/effects/crab/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "SoundDino Free License",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "Royalty-free for commercial use",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://sounddino.com/en/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Some assets may have been modified or converted for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Freesound Ambience Contributors",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Magnesus, Wolfgang_, Breviceps, SamsterBirdies,",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "RandomMind, Visionear, mario1298 - Freesound.org",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://freesound.org",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Creative Commons Zero (CC0)",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "Public Domain",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Some assets may have been modified or converted for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Mixkit Free Sound Effects",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Water bubble, heavy grass step - mixkit.co",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://mixkit.co/license/#sfxFree",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Mixkit Stock Free License",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "Free for commercial use, no attribution",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://mixkit.co/license/#sfxFree",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Some assets may have been modified or converted for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Slimy Monster Sounds (Pobble Death)",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Created by pauliuw - OpenGameArt.org",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://opengameart.org/content/slimy-monster-or-murder-sounds9",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 7,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "License:",
+      "Font": "sourcesansproblack",
+      "Size": 11,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Creative Commons Zero (CC0)",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "Public Domain",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 120,
+        "G": 190,
+        "B": 215
+      }
+    },
+    {
+      "Text": "Some assets may have been modified or converted for use in Eryndor.",
+      "Font": "sourcesanspro",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 8,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
       "Text": "INTERSECT ENGINE CREDITS",
       "Font": "sourcesansproblack",
       "Size": 14,
@@ -3170,6 +3732,68 @@
     },
     {
       "Text": "UI Sound Effects",
+      "Font": "sourcesanspro",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "TheVeoMammoth11",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Wild Boar Grunting/Growling sound recordings (Freesound)",
+      "Font": "sourcesanspro",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 165,
+        "G": 180,
+        "B": 198
+      }
+    },
+    {
+      "Text": "",
+      "Font": "sourcesansproblack",
+      "Size": 10,
+      "Alignment": "center",
+      "TextColor": null
+    },
+    {
+      "Text": "Vinrax",
+      "Font": "sourcesansproblack",
+      "Size": 12,
+      "Alignment": "center",
+      "TextColor": {
+        "A": 255,
+        "R": 246,
+        "G": 238,
+        "B": 214
+      }
+    },
+    {
+      "Text": "Pig SFX Pack (OpenGameArt)",
       "Font": "sourcesanspro",
       "Size": 12,
       "Alignment": "center",

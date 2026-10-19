@@ -604,7 +604,7 @@
       },
       "CenterImage": false
     },
-    "GlobalTabButton": {
+    "ZoneTabButton": {
       "Bounds": "285,17,54,22",
       "Dock": "None",
       "Padding": "1,0,1,1",

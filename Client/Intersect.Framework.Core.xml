@@ -196,6 +196,65 @@
         <member name="P:Intersect.Framework.Core.GameObjects.Events.EventDescriptor.Folder">
             <inheritdoc />
         </member>
+        <member name="T:Intersect.Framework.Core.GameObjects.Interactables.InteractableObjectDescriptor">
+            <summary>
+            Reusable world-object definition for tile-based interaction (crystals, chests, shrines...).
+            Painted onto map tiles via <see cref="T:Intersect.Framework.Core.GameObjects.Maps.Attributes.MapInteractableAttribute"/>; the server
+            grants <see cref="P:Intersect.Framework.Core.GameObjects.Interactables.InteractableObjectDescriptor.ItemId"/> x <see cref="P:Intersect.Framework.Core.GameObjects.Interactables.InteractableObjectDescriptor.Quantity"/> on interact, depletes the tile for
+            <see cref="P:Intersect.Framework.Core.GameObjects.Interactables.InteractableObjectDescriptor.RespawnSeconds"/>, then runs <see cref="P:Intersect.Framework.Core.GameObjects.Interactables.InteractableObjectDescriptor.EventId"/> when set for advanced behavior.
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Interactables.InteractableObjectDescriptor.Folder">
+            <inheritdoc />
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Interactables.InteractableObjectDescriptor.ItemId">
+            <summary>
+            Item granted automatically on a successful interaction. <see cref="F:System.Guid.Empty"/> disables
+            the quick-grant so the object only runs its common event (or just labels the tile).
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Interactables.InteractableObjectDescriptor.Quantity">
+            <summary>How many of <see cref="P:Intersect.Framework.Core.GameObjects.Interactables.InteractableObjectDescriptor.ItemId"/> the player receives per interaction.</summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Interactables.InteractableObjectDescriptor.RespawnSeconds">
+            <summary>
+            Seconds the tile stays depleted after a successful interaction before it can be looted
+            again. Values &lt;= 0 respawn the object almost immediately.
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Interactables.InteractableObjectDescriptor.EventId">
+            <summary>
+            Optional common event run after the item grant succeeds (conditions, extra rewards, quest
+            logic). Runs for the interacting player only.
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Interactables.InteractableObjectDescriptor.InteractSound">
+            <summary>Optional sound played at the tile when the object is collected.</summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Interactables.InteractableObjectDescriptor.AnimationId">
+            <summary>
+            Optional animation played at the tile when the object is successfully collected (sparkle,
+            poof). Fires alongside the fade-out of overlapping map objects.
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Interactables.InteractableObjectDescriptor.RespawnAnimationId">
+            <summary>
+            Optional animation played at the tile when the object respawns — a shimmer cue so players
+            notice it returned. Empty = silent reappearance (objects still fade back in).
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Interactables.InteractableObjectDescriptor.GatherTimeMs">
+            <summary>
+            Channel time in milliseconds — the gather bar fills over this before the interact request
+            fires and the reward lands. 0 = instant collection (no bar).
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Interactables.InteractableObjectDescriptor.RequiredQuestId">
+            <summary>
+            Optional quest gate: only players with this quest accepted and in progress may collect.
+            <see cref="F:System.Guid.Empty"/> = anyone can interact.
+            </summary>
+        </member>
         <member name="T:Intersect.Framework.Core.GameObjects.Items.CurrencyDenominations">
             <summary>
             Stable identities and conversion values for the ordinary player purse. The purse is stored in
@@ -295,11 +354,27 @@
             family and TwoHanded flag.
             </summary>
         </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Items.ItemDescriptor.WeaponSkill">
+            <summary>
+            The trainable weapon skill this item exercises when swung (WoW Classic subtype semantics —
+            a one-handed sword trains One-Handed Swords, a greataxe trains Two-Handed Axes). Set
+            explicitly per item in the editor; independent from <see cref="P:Intersect.Framework.Core.GameObjects.Items.ItemDescriptor.WeaponFamily"/> (class
+            access) and <see cref="P:Intersect.Framework.Core.GameObjects.Items.ItemDescriptor.WeaponAnimationProfile"/> (visual pose). <see cref="F:Intersect.Framework.Core.GameObjects.Items.WeaponSkillType.Unarmed"/>
+            is the default and also the correct tag for tools/generic items that shouldn't train a
+            weapon skill.
+            </summary>
+        </member>
         <member name="P:Intersect.Framework.Core.GameObjects.Items.ItemDescriptor.CurrencyValue">
             <summary>
             Value of one unit in base copper. A positive value makes this a purse-backed currency:
             pickups deposit directly into the player purse and never consume an inventory slot.
             Currency items with a value of zero retain the legacy item-stack behavior for event tokens.
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Items.ItemDescriptor.IconTintMode">
+            <summary>
+            How <see cref="P:Intersect.Framework.Core.GameObjects.Items.ItemDescriptor.Color"/> is applied to the item's inventory/map icon. LegacyMultiply keeps the
+            original whole-texture multiply; generated modes recolor the icon while preserving shading.
             </summary>
         </member>
         <member name="P:Intersect.Framework.Core.GameObjects.Items.ItemDescriptor.JsonColor">
@@ -344,6 +419,21 @@
             The server sums equipped values and applies the result through the central threat funnel.
             </summary>
         </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Items.ItemDescriptor.WeaponSkillBonus">
+            <summary>
+            WoW-style "+weapon skill" bonus (Edgemaster's): while equipped, adds this many points to
+            the wielder's effective skill for THIS item's tagged <see cref="P:Intersect.Framework.Core.GameObjects.Items.ItemDescriptor.WeaponSkill"/>
+            (e.g. +5 on a one-handed axe boosts One-Handed Axes). Stacks with the trained skill and may exceed the
+            level-based cap — that excess is the whole point of +skill gear.
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Items.ItemDescriptor.DefenseBonus">
+            <summary>
+            WoW-style "+defense" bonus: while equipped, adds this many points to the wearer's
+            effective Defense skill. Tank gear territory — reduces enemy hit/crit and improves
+            dodge/block through the defense-skill differential.
+            </summary>
+        </member>
         <member name="P:Intersect.Framework.Core.GameObjects.Items.ItemDescriptor.DespawnTime">
             <summary>
             Time in which this item will remain on a map before despawning. Set to 0 to use server configured default value.
@@ -363,6 +453,12 @@
             <summary>
             Returns the paperdoll authored for the requested gender. If an item only supplies one
             paperdoll, treat that sheet as unisex so the runtime matches the editor previews.
+            </summary>
+        </member>
+        <member name="F:Intersect.Framework.Core.GameObjects.Items.ItemEffect.MoveSpeed">
+            <summary>
+            Percentage movement-speed bonus while the item is equipped. Reserved for deliberate
+            rare items — the strongest equipped instance wins rather than stacking.
             </summary>
         </member>
         <member name="T:Intersect.Framework.Core.GameObjects.Items.ItemHandling">
@@ -455,6 +551,61 @@
         <member name="F:Intersect.Framework.Core.GameObjects.Items.WeaponFamily.Book">
             <summary>Off-hand stat-bearing book. Priest identity; Book Mastery boosts healing.</summary>
         </member>
+        <member name="T:Intersect.Framework.Core.GameObjects.Items.WeaponSkillType">
+             <summary>
+             Trainable combat skills (WoW-Classic style). Weapon skills level by swinging a weapon tagged
+             with the matching skill via <see cref="P:Intersect.Framework.Core.GameObjects.Items.ItemDescriptor.WeaponSkill"/>; <see cref="F:Intersect.Framework.Core.GameObjects.Items.WeaponSkillType.Defense"/>
+             levels by taking physical hits. Each skill caps at
+             level * <c>CombatOptions.WeaponSkillPerLevel</c> (default 5/level, 250 at the level-50 cap).
+            
+             Skills follow WoW's per-subtype model — one-handed swords and daggers are separate skills
+             even though both are <see cref="F:Intersect.Framework.Core.GameObjects.Items.WeaponFamily.OneHandedMelee"/> for class access. The item
+             declares its skill explicitly; nothing is derived from name, sprite, family, or pose.
+             </summary>
+        </member>
+        <member name="F:Intersect.Framework.Core.GameObjects.Items.WeaponSkillType.Unarmed">
+            <summary>No weapon equipped, or a weapon deliberately tagged Unarmed (tools, fists).</summary>
+        </member>
+        <member name="F:Intersect.Framework.Core.GameObjects.Items.WeaponSkillType.OneHandedSwords">
+            <summary>One-handed swords.</summary>
+        </member>
+        <member name="F:Intersect.Framework.Core.GameObjects.Items.WeaponSkillType.TwoHandedSwords">
+            <summary>Two-handed swords — greatswords, long blades.</summary>
+        </member>
+        <member name="F:Intersect.Framework.Core.GameObjects.Items.WeaponSkillType.OneHandedAxes">
+            <summary>One-handed axes.</summary>
+        </member>
+        <member name="F:Intersect.Framework.Core.GameObjects.Items.WeaponSkillType.TwoHandedAxes">
+            <summary>Two-handed axes — greataxes.</summary>
+        </member>
+        <member name="F:Intersect.Framework.Core.GameObjects.Items.WeaponSkillType.Daggers">
+            <summary>Daggers and knives.</summary>
+        </member>
+        <member name="F:Intersect.Framework.Core.GameObjects.Items.WeaponSkillType.Staves">
+            <summary>Two-handed caster staves.</summary>
+        </member>
+        <member name="F:Intersect.Framework.Core.GameObjects.Items.WeaponSkillType.Bows">
+            <summary>Bows and other projectile weapons.</summary>
+        </member>
+        <member name="F:Intersect.Framework.Core.GameObjects.Items.WeaponSkillType.Defense">
+            <summary>Trained by taking physical hits; hardens dodge/block/crit-avoidance.</summary>
+        </member>
+        <member name="T:Intersect.Framework.Core.GameObjects.Items.WeaponSkillTypes">
+            <summary>
+            Resolves which trainable skill an equipped weapon uses, and the display name for combat-log
+            skill-up messages and the character sheet.
+            </summary>
+        </member>
+        <member name="F:Intersect.Framework.Core.GameObjects.Items.WeaponSkillTypes.WeaponTypes">
+            <summary>Every weapon skill plus Unarmed, in character-sheet display order.</summary>
+        </member>
+        <member name="M:Intersect.Framework.Core.GameObjects.Items.WeaponSkillTypes.ResolveSkill(Intersect.Framework.Core.GameObjects.Items.ItemDescriptor)">
+            <summary>
+            The skill an item trains and is checked against — whatever the item is explicitly tagged
+            with in the editor. <see cref="F:Intersect.Framework.Core.GameObjects.Items.WeaponSkillType.Unarmed"/> is both the untagged default
+            and the correct tag for tools/weapons that shouldn't train a weapon skill.
+            </summary>
+        </member>
         <member name="M:Intersect.Framework.Core.GameObjects.Lighting.LightDescriptor.GetHashCode">
             <summary>
             Only checks for matching colors, intensity, and expand values... so we know if we can group lights and render them with the same shader values to boost performance.
@@ -474,9 +625,68 @@
             of the tile. Entities can stand on the tile but cannot cross the line.
             </summary>
         </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Maps.Attributes.MapBlockedAttribute.CoverHeight">
+            <summary>
+            Sight profile of this blocked tile. Auto infers cover from the contiguous vertical
+            stack of blocked tiles at this column (1 tall = Low, 2+ = Tall). Low cover (fence,
+            shrub, waist-high rock) still blocks movement and flat shots, but projectiles that
+            arc clear it. Tall blocks all sight. Never blocks movement only — sight passes.
+            </summary>
+        </member>
+        <member name="T:Intersect.Framework.Core.GameObjects.Maps.Attributes.MapInteractableAttribute">
+            <summary>
+            Painted tile attribute that marks a world object (crystal, chest, shrine...) as interactable.
+            The reusable <see cref="T:Intersect.Framework.Core.GameObjects.Interactables.InteractableObjectDescriptor"/> carries the reward/respawn/event so one
+            definition can be painted onto many tiles; depletion state is per map instance + tile.
+            </summary>
+        </member>
+        <member name="T:Intersect.Framework.Core.GameObjects.Maps.Attributes.MapRestZoneAttribute">
+            <summary>
+            Marker attribute for rest zones (inns, towns). Players standing on or logging out on these
+            tiles accrue rested experience at the accelerated rate.
+            </summary>
+        </member>
+        <member name="F:Intersect.Framework.Core.GameObjects.Maps.Attributes.MapRestZoneAttribute.NightStartHour">
+            <summary>Night window start (inclusive) for <see cref="P:Intersect.Framework.Core.GameObjects.Maps.Attributes.MapRestZoneAttribute.NightOnly"/> zones, game-time hour.</summary>
+        </member>
+        <member name="F:Intersect.Framework.Core.GameObjects.Maps.Attributes.MapRestZoneAttribute.NightEndHour">
+            <summary>Night window end (exclusive) for <see cref="P:Intersect.Framework.Core.GameObjects.Maps.Attributes.MapRestZoneAttribute.NightOnly"/> zones, game-time hour.</summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Maps.Attributes.MapRestZoneAttribute.NightOnly">
+            <summary>
+            When true the tile only grants rest during the night window (20:00–06:00 game time) —
+            for campfires that are only "lit" after dark. Leave off for inns/beds.
+            </summary>
+        </member>
+        <member name="M:Intersect.Framework.Core.GameObjects.Maps.Attributes.MapRestZoneAttribute.IsActiveNow(System.DateTime)">
+            <summary>Whether this zone is currently granting rest at the given game time.</summary>
+        </member>
         <member name="P:Intersect.Framework.Core.GameObjects.Maps.Attributes.MapSafeZoneAttribute.ResetToSpawn">
             <summary>
             If true, NPCs/mobs that somehow enter this tile return to their original spawn point.
+            </summary>
+        </member>
+        <member name="T:Intersect.Framework.Core.GameObjects.Maps.Attributes.MapSurfaceLevelAttribute">
+            <summary>
+            Marks a tile with a logical sight level. Levels are used by NPC perception and targeting;
+            they do not affect movement or collision. Unmarked tiles are level 0.
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Maps.Attributes.MapSurfaceLevelAttribute.Level">
+            <summary>
+            Sight group identifier. Level 0 is the default ground sight level.
+            </summary>
+        </member>
+        <member name="T:Intersect.Framework.Core.GameObjects.Maps.Attributes.MapSurfaceLevels">
+            <summary>
+            Resolves logical sight levels consistently for maps, players, and NPCs.
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Maps.Attributes.MapRespawnPointAttribute.BoundMapId">
+            <summary>
+            Optional map this respawn point is bound to. Players who die on that map — or on a
+            same-named sibling of it — revive here even when the maps have different names.
+            <see cref="F:System.Guid.Empty"/> means the point only serves its own name-group.
             </summary>
         </member>
         <member name="F:Intersect.Framework.Core.GameObjects.Maps.GameBorderStyle.Seamless">
@@ -598,6 +808,16 @@
             <summary>
             Gets all non-walkable attributes at or overlapping the given tile.
             Returns multiple attributes when stacking is used.
+            </summary>
+        </member>
+        <member name="T:Intersect.Framework.Core.GameObjects.Maps.MapCoverHeight">
+            <summary>
+            How much a blocking tile or map object obscures line of sight.
+            Auto defers to context: painted blocked tiles measure their contiguous vertical
+            stack (1 tall = Low, 2+ = Tall), map objects read their tile Height.
+            Low cover (fences, shrubs) blocks movement and flat shots but arcing projectiles
+            clear it. Tall always blocks sight. Never blocks movement only — sight passes
+            through. Shadow objects are never evaluated for cover at all.
             </summary>
         </member>
         <!-- Badly formed XML comment ignored for member "M:Intersect.Framework.Core.GameObjects.Maps.MapDescriptor.DeserializeAttributes(System.String,Newtonsoft.Json.JsonSerializerSettings)" -->
@@ -844,6 +1064,14 @@
         <member name="P:Intersect.Framework.Core.GameObjects.Maps.MapObjectDescriptor.FlipH">
             <summary>Mirror the object sprite horizontally (e.g. a chair facing the other way).</summary>
         </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Maps.MapObjectDescriptor.SightHeight">
+            <summary>
+            How much of the sight line this object occupies on the tiles it covers.
+            Auto reads the object's tile Height (2+ = Tall, 1 = Low). Tall blocks all sight;
+            Low only stops flat shots; Never means this object does not figure into sight.
+            Shadow-only objects and shadow companions are always skipped regardless.
+            </summary>
+        </member>
         <member name="P:Intersect.Framework.Core.GameObjects.Maps.MapObjectDescriptor.DrawLayer">
             <summary>
             Which render pass this object draws on.
@@ -1044,6 +1272,12 @@
         <member name="M:Intersect.Framework.Core.GameObjects.Maps.MapWindowLightZoneDescriptor.ApplyRecommendedDefaults">
             <summary>Restores recommended beam settings; keeps tile position and <see cref="P:Intersect.Framework.Core.GameObjects.Maps.MapWindowLightZoneDescriptor.Id"/>.</summary>
         </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.Maps.NpcSpawn.SurfaceLevel">
+            <summary>
+            Sight level the NPC should use when it spawns. Map tiles without an explicit sight level
+            are level 0 (ground).
+            </summary>
+        </member>
         <member name="T:Intersect.Framework.Core.GameObjects.Maps.WindowLightGeometryHelper">
             <summary>
             Shared beam/floor sizing for window light — keeps client and editor previews aligned.
@@ -1173,6 +1407,12 @@
             close contact believable and prevents trivial point-blank back-walking exploits.
             </summary>
         </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.NPCs.NPCDescriptor.PreferCardinalMovement">
+            <summary>
+            When true, the pathfinder prefers 4-directional (cardinal) movement for natural 2D appearance.
+            Diagonal movement is only used as a fallback when no cardinal path exists.
+            </summary>
+        </member>
         <member name="P:Intersect.Framework.Core.GameObjects.NPCs.NPCDescriptor.RequireLineOfSight">
             <summary>
             Whether blocking map attributes and blocking tile edges occlude fresh passive aggro.
@@ -1214,6 +1454,20 @@
         <member name="P:Intersect.Framework.Core.GameObjects.NPCs.NPCDescriptor.CastInterruptionResistance">
             <summary>
             Chance for incoming HP damage to avoid interrupting this NPC's cast-time spell.
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.NPCs.NPCDescriptor.WeaponSkill">
+            <summary>
+            WoW-style attack skill override: what this NPC's melee attacks roll against a player's
+            Defense skill. 0 = automatic level * CombatOptions.WeaponSkillPerLevel. Bosses/elites can
+            run higher values so player defense matters less against them.
+            </summary>
+        </member>
+        <member name="P:Intersect.Framework.Core.GameObjects.NPCs.NPCDescriptor.DefenseSkill">
+            <summary>
+            WoW-style defense skill override: what player weapon skill rolls against when attacking
+            this NPC. 0 = automatic level * CombatOptions.WeaponSkillPerLevel. Raise it to make a
+            mob genuinely harder to hit than its level suggests (WoW raid bosses behave this way).
             </summary>
         </member>
         <member name="P:Intersect.Framework.Core.GameObjects.NPCs.NPCDescriptor.QuestGiver">
@@ -1614,6 +1868,18 @@
             poses instead of always reusing the generic attack swing.
             </summary>
         </member>
+        <member name="F:Intersect.Enums.SkillAnimation.Unarmed">
+            <summary>Attack swing with the equipped weapon hidden (unarmed throws/strikes like Toss Sand).</summary>
+        </member>
+        <member name="F:Intersect.Enums.SkillAnimation.Strike">
+            <summary>Attack swing with the equipped weapon drawn (armed strikes like Open Wound).</summary>
+        </member>
+        <member name="F:Intersect.Enums.SkillAnimation.Sharpen">
+            <summary>Working/tool motion (mine sheet) for weapon-maintenance buffs like Sharpen.</summary>
+        </member>
+        <member name="F:Intersect.Enums.SkillAnimation.Nimble">
+            <summary>Agile ready-stance shift (combatidle sheet) for reflex buffs like Nimble.</summary>
+        </member>
         <member name="F:Intersect.Enums.SpellEffect.Bleed">
             <summary>
             A hostile damage-over-time wound. The damage and tick interval remain authored through the
@@ -1623,6 +1889,18 @@
         <member name="F:Intersect.Enums.SpellEffect.Haste">
             <summary>
             A temporary attack-speed increase. EffectPower is the percentage of attack-rate increase.
+            </summary>
+        </member>
+        <member name="F:Intersect.Enums.SpellEffect.SpeedBoost">
+            <summary>
+            A friendly movement-speed increase. EffectPower is the percent faster the target moves;
+            the strongest active instance wins (same rule as <see cref="F:Intersect.Enums.SpellEffect.Haste"/>).
+            </summary>
+        </member>
+        <member name="F:Intersect.Enums.SpellEffect.Slow">
+            <summary>
+            A hostile movement-speed decrease. EffectPower is the percent slower the target moves.
+            Use <see cref="F:Intersect.Enums.SpellEffect.Snare"/> for a full immobilize; Slow is the graduated debuff.
             </summary>
         </member>
         <member name="T:Intersect.Compression.GzipCompression">
@@ -2166,6 +2444,76 @@
             <summary>
             Percentage REDUCTION to outgoing damage dealt while Defensive Stance is active (the tank's
             tradeoff for the threat/defense gain - the classic "tank stance does less damage" rule).
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.CombatOptions.WeaponSkillPerLevel">
+            <summary>
+            Trained weapon/defense skill cap per character level. WoW-Classic parity: 5 per level
+            (250 at the level-50 cap). Gear/passive bonuses may exceed the cap; training cannot.
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.CombatOptions.WeaponSkillUpChanceScale">
+            <summary>
+            Multiplier on the base skill-up chance (cap - current) / cap per qualifying swing or hit
+            taken. 1.0 = WoW pacing (~100% at low skill, ~50% at 10% below cap, slow near cap).
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.CombatOptions.WeaponSkillMissWithinTenPerPoint">
+            <summary>
+            Extra miss chance per point the target's defense exceeds the attacker's weapon skill,
+            while the gap stays within 10 (WoW: 0.1%/point).
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.CombatOptions.WeaponSkillMissBeyondTenPerPoint">
+            <summary>
+            Extra miss chance per point of skill gap beyond the first 10 (WoW: ~0.4%/point past 10).
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.CombatOptions.WeaponSkillDodgePerPoint">
+            <summary>
+            Dodge chance the DEFENDER gains per point of (defense - attack) skill gap (WoW: 0.1%/point).
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.CombatOptions.WeaponSkillCritPerPoint">
+            <summary>
+            Crit chance the ATTACKER loses per point of (defense - attack) skill gap (WoW: 0.04%/point).
+            Negative gaps (attacker out-skills defender) invert this into a small crit bonus.
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.CombatOptions.WeaponSkillGlancingPenaltyPerPoint">
+            <summary>
+            Extra glancing damage PENALTY per point of positive skill gap (attacker under-skilled).
+            WoW's low-skill glancing blows hit softer; 0.5% less damage per point of gap.
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.CombatOptions.WeaponSkillGlancingPenaltyMaxGap">
+            <summary>
+            Skill gap cap for the glancing damage penalty so absurdly under-skilled swings have a floor.
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.CombatOptions.DefenseSkillBlockPerPoint">
+            <summary>
+            Block chance the defender gains per point of (defense - attack) skill gap when shield-
+            blocking (WoW defense feeding block: 0.04%/point).
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.CombatOptions.ResurrectionSicknessDurationMs">
+            <summary>
+            How long Resurrection Sickness lasts after a Spirit Healer revive, in milliseconds.
+            Default 300000 = 5 minutes — meaningful but lighter than WoW's 10.
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.CombatOptions.ResurrectionSicknessStatReductionPercent">
+            <summary>
+            Percentage reduction applied to stats while Resurrection Sickness is active (movement
+            speed is exempt — Speed is excluded in Stat.Value). Default 50 = half stats.
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.CombatOptions.ResurrectionSicknessMinLevel">
+            <summary>
+            Minimum character level for Resurrection Sickness to apply. WoW Classic rule: the
+            penalty only kicks in at level 10+ — below this the spirit-healer revive costs only
+            the half health/mana, no stat penalty.
             </summary>
         </member>
         <member name="P:Intersect.Config.DatabaseOptions.Server">
@@ -2854,6 +3202,49 @@
             / quests (Phase 3). Auto Attack is seeded separately and is unaffected by this flag.
             </summary>
         </member>
+        <member name="P:Intersect.Config.PlayerOptions.RestedBubblePercentOfLevel">
+            <summary>
+            Rested XP (WoW Classic model): one "bubble" = this percent of the player's current level,
+            earned per <see cref="P:Intersect.Config.PlayerOptions.RestedHoursPerBubbleInZone"/> hours spent in a rest zone.
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.PlayerOptions.RestedHoursPerBubbleInZone">
+            <summary>
+            Hours of rest-zone time (online standing on a rest tile, or offline logged out on one)
+            to earn one rested bubble.
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.PlayerOptions.RestedHoursPerBubbleOfflineOutside">
+            <summary>
+            Hours offline OUTSIDE a rest zone to earn one bubble (WoW Classic: quarter rate = 32h).
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.PlayerOptions.RestedMaxBubbles">
+            <summary>
+            Maximum stored bubbles — WoW Classic caps at 30 = 150% of a level.
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.PlayerOptions.RestedHoursPerBubbleCampfire">
+            <summary>
+            Hours of ONLINE time standing on a NightOnly rest zone (campfire) to earn one bubble.
+            Campfires never accrue offline — 0.25 = 15 minutes per bubble.
+            </summary>
+        </member>
+        <member name="P:Intersect.Config.PlayerOptions.RestedCampfireCapByLevel">
+            <summary>
+            Campfire cap tiers: minimum level → how many bubbles a campfire can fill the pool to.
+            The highest tier whose min-level the player has reached applies; a pool already above
+            the cap is untouched (the campfire simply adds nothing). Empty table disables campfires.
+            </summary>
+        </member>
+        <member name="M:Intersect.Config.PlayerOptions.GetCampfireMaxBubbles(System.Int32)">
+            <summary>The bubble cap a campfire can fill the pool to for a character of <paramref name="level"/>.</summary>
+        </member>
+        <member name="P:Intersect.Config.PlayerOptions.RestedXpMultiplier">
+            <summary>
+            Kill-XP multiplier while rested (2 = double). The bonus portion drains the pool 1:1.
+            </summary>
+        </member>
         <member name="P:Intersect.Config.PlayerOptions.RequestTimeout">
             <summary>
             How long a player must wait before sending a trade/party/friend.
@@ -3350,6 +3741,13 @@
             from the normal class-change quest/trainer path so testing never weakens the player-facing rules.
             </summary>
         </member>
+        <member name="P:Intersect.GameObjects.ProjectileDescriptor.ArcsOverLowCover">
+            <summary>
+            The projectile travels on an arc: low cover (fences, shrubs, 1-tile cover) does not
+            break its cast-time line of sight and does not stop it in flight. Tall blockers
+            (walls, pillars, buildings) still do both.
+            </summary>
+        </member>
         <member name="P:Intersect.GameObjects.ProjectileDescriptor.Folder">
             <inheritdoc />
         </member>
@@ -3654,6 +4052,16 @@
             Parameterless Constructor for MessagePack
             </summary>
         </member>
+        <member name="T:Intersect.Network.Packets.Client.InteractTilePacket">
+            <summary>
+            Sent when the player attempts to interact with a tile carrying a
+            <see cref="F:Intersect.Framework.Core.GameObjects.Maps.MapAttributeType.Interactable"/> attribute (E key or
+            click-to-interact). The server re-validates adjacency, facing, and depletion state.
+            </summary>
+        </member>
+        <member name="P:Intersect.Network.Packets.Client.InteractTilePacket.TileIndex">
+            <summary>Tile index within the map grid (y * MapWidth + x).</summary>
+        </member>
         <member name="T:Intersect.Network.Packets.Client.PassiveRespecRequestPacket">
             <summary>
             Client -> server request to reset passive skill ranks at a specific NPC trainer.
@@ -3689,6 +4097,21 @@
             Client -> server: buy/learn a specific skill rank from a trainer NPC. The server revalidates the
             trainer flag, proximity, class lock, that the spell is actually the player's next trainable rank,
             the level requirement, and the currency cost before granting it.
+            </summary>
+        </member>
+        <member name="T:Intersect.Network.Packets.Client.SpiritHealerInteractPacket">
+            <summary>
+            Client -> server: a released spirit "talking" to a Spirit Healer (click/E-key poke, like the
+            attack-packet poke living players use for interact NPCs — but a dedicated packet so ghosts
+            never need the attack packet allowlisted). The server validates ghost state, the NPC's
+            SpiritHealer flag, and proximity, then sends back a SpiritHealerOfferPacket.
+            </summary>
+        </member>
+        <member name="T:Intersect.Network.Packets.Client.SpiritHealerResurrectPacket">
+            <summary>
+            Client -> server: the ghost accepts a Spirit Healer's resurrection. Server-authoritative —
+            ghost state, the NPC's SpiritHealer flag, and proximity are all revalidated before reviving
+            the player in place at the healer with Resurrection Sickness.
             </summary>
         </member>
         <member name="M:Intersect.Network.Packets.Client.UpdateGuildMemberPacket.#ctor">
@@ -3825,6 +4248,11 @@
             whether to draw Blind dust, Bleed contact, or a Haste surge; gameplay remains authoritative.
             </summary>
         </member>
+        <member name="P:Intersect.Network.Packets.Server.ExperiencePacket.RestedExperience">
+            <summary>
+            Stored rested XP pool — the client tints the XP bar and reports it in the tooltip.
+            </summary>
+        </member>
         <member name="P:Intersect.Network.Packets.Server.FriendsPacket.Appearances">
             <summary>
             Character appearance for every friend (online AND offline), keyed by <see cref="P:Intersect.Network.Packets.Server.FriendAppearance.Name"/>.
@@ -3863,6 +4291,35 @@
             <summary>
             Parameterless constructor for messagepack
             </summary>
+        </member>
+        <member name="T:Intersect.Network.Packets.Server.MapInteractableStatePacket">
+            <summary>
+            Broadcast to players on a map instance when an interactable tile depletes or respawns. Clients
+            use it to hide the label/highlight while the object is collected. Players entering a map get a
+            full depleted-tile snapshot via <see cref="T:Intersect.Network.Packets.Server.MapInteractableSyncPacket"/> instead.
+            </summary>
+        </member>
+        <member name="P:Intersect.Network.Packets.Server.MapInteractableStatePacket.TileIndex">
+            <summary>Tile index within the map grid (y * MapWidth + x).</summary>
+        </member>
+        <member name="P:Intersect.Network.Packets.Server.MapInteractableStatePacket.Available">
+            <summary>True once the object can be interacted with again, false while depleted.</summary>
+        </member>
+        <member name="P:Intersect.Network.Packets.Server.MapInteractableStatePacket.ActorId">
+            <summary>
+            Entity that collected the tile — lets clients play the collect pose on the right player.
+            Empty on respawns.
+            </summary>
+        </member>
+        <member name="T:Intersect.Network.Packets.Server.MapInteractableSyncPacket">
+            <summary>
+            Full depletion snapshot for one map, sent to a player when they enter a map instance. The client
+            replaces its whole depleted set for that map, which also self-heals stale depletion left over
+            from cached map data.
+            </summary>
+        </member>
+        <member name="P:Intersect.Network.Packets.Server.MapInteractableSyncPacket.DepletedTiles">
+            <summary>Tile indices (y * MapWidth + x) currently depleted on this map instance.</summary>
         </member>
         <member name="P:Intersect.Network.Packets.Server.NpcEntityPacket.Scale">
             <summary>
@@ -3951,6 +4408,14 @@
         <member name="P:Intersect.Network.Packets.Server.NpcEntityPacket.NpcDescriptorId">
             <summary>Stable NPC descriptor identity used for local quest-objective matching.</summary>
         </member>
+        <member name="P:Intersect.Network.Packets.Server.NpcEntityPacket.SpiritHealer">
+            <summary>
+            True if this NPC is a Spirit Healer — a ghost-only resurrection NPC. The client hides the
+            entity entirely for living players (body, name, bars, minimap dot) and treats a ghost's
+            interact as a "talk" poke that requests the revive offer. Revive itself is validated
+            server-side on the ghost state.
+            </summary>
+        </member>
         <member name="T:Intersect.Network.Packets.Server.NpcQuestListPacket">
             <summary>
             Sent by the server when a player interacts with a multi-quest NPC.
@@ -4027,6 +4492,31 @@
             Server -> client: the full contents of a skill trainer window (class-locked, next-rank-only).
             Sent when the player interacts with a trainer and re-sent after a successful purchase so the row
             advances to the following rank.
+            </summary>
+        </member>
+        <member name="T:Intersect.Network.Packets.Server.SpiritHealerOfferPacket">
+            <summary>
+            Server -> client: a Spirit Healer's resurrection offer, sent when a ghost interacts with one.
+            The client opens the revive dialog; accepting sends back a SpiritHealerResurrectPacket which
+            the server revalidates (ghost state + healer flag + proximity) before reviving.
+            </summary>
+        </member>
+        <member name="P:Intersect.Network.Packets.Server.SpiritHealerOfferPacket.AppliesSickness">
+            <summary>
+            Whether accepting would apply Resurrection Sickness (server computes the level gate —
+            the client's config copy may differ). Drives the dialog's cost text.
+            </summary>
+        </member>
+        <member name="P:Intersect.Network.Packets.Server.SpiritHealerOfferPacket.SicknessMinutes">
+            <summary>How long the sickness would last, in whole minutes (for display).</summary>
+        </member>
+        <member name="P:Intersect.Network.Packets.Server.SpiritHealerOfferPacket.SicknessStatPercent">
+            <summary>The stat reduction percentage that would apply (for display).</summary>
+        </member>
+        <member name="T:Intersect.Network.Packets.Server.WeaponSkillsPacket">
+            <summary>
+            The player's trained weapon/defense skills (WoW-Classic style). Sent on login and after each
+            skill-up; the client adds equipped +skill/+defense bonuses for the character-sheet display.
             </summary>
         </member>
         <member name="F:Intersect.Network.TransmissionMode.All">
