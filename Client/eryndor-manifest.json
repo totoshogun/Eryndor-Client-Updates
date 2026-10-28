@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 1,
-  "Version": "2026.10.28.210548",
+  "Version": "2026.10.28.211819",
   "Repository": "totoshogun/Eryndor-Client-Updates",
   "Branch": "main",
   "ProtectedPaths": [
@@ -325,11 +325,6 @@
       "Path": "Newtonsoft.Json.dll",
       "Size": 712464,
       "Sha256": "22c649f75fce5be7c7ccda8880473b634ef69ecf33f5d1ab8ad892caf47d5a07"
-    },
-    {
-      "Path": "Program.cs",
-      "Size": 337,
-      "Sha256": "43c08f0da4901264d02cdd2d87ca33c417272d9c9c50ebd91980b5450989953b"
     },
     {
       "Path": "SDL2.dll",

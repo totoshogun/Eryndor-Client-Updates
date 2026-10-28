@@ -4,6 +4,8 @@ Client.rar
 *.7z
 # Local publishing helper; never include it in the release repository.
 /PUBLISH-UPDATE.bat
+# Local cleanup script; never include it in the release repository.
+/CleanupClient.bat
 # Local backup created while changing the publisher; do not upload it.
 /_backups/publisher-before-exclusion-20260915/
 # Client-local runtime/build state and server-only data; never publish these.
