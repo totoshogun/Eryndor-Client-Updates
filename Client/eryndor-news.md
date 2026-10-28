@@ -2,5 +2,5 @@
 
 ## Update - 19 September 2026
 
-Nothing to see here, press Play you dumbass.
+Nothing to see here, press Play.
 

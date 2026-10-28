@@ -26,7 +26,7 @@
   "InactiveColor": "255,191,191,191",
   "IsClosable": true,
   "InnerPanel": {
-    "Bounds": "0,32,620,1282",
+    "Bounds": "0,32,620,1352",
     "Dock": "Fill",
     "Padding": "8,8,8,8",
     "AlignmentEdgeDistances": "0,0,0,0",
@@ -47,7 +47,7 @@
     "TooltipTextColor": null,
     "Children": {
       "_contentScroll": {
-        "Bounds": "8,8,544,1266",
+        "Bounds": "8,8,544,1336",
         "Dock": "Fill",
         "Padding": "0,0,0,0",
         "AlignmentEdgeDistances": "0,0,0,0",
@@ -333,7 +333,7 @@
           }
         },
         "InnerPanel": {
-          "Bounds": "0,0,544,1266",
+          "Bounds": "0,0,544,1336",
           "Dock": "None",
           "Padding": "4,4,4,4",
           "AlignmentEdgeDistances": "0,0,0,0",

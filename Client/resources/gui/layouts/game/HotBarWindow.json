@@ -1,5 +1,5 @@
 {
-  "Bounds": "0,0,404,44",
+  "Bounds": "0,0,720,130",
   "Dock": "None",
   "Padding": "0,0,0,0",
   "AlignmentEdgeDistances": "0,0,0,4",
@@ -18,14 +18,14 @@
   "ToolTipBackground": null,
   "ToolTipFont": null,
   "TooltipTextColor": null,
-  "Texture": "hotbar.png",
-  "TextureNinePatchMargin": "3,3,3,3",
+  "Texture": "hud_web_clear.png",
+  "TextureNinePatchMargin": null,
   "HoverSound": null,
   "LeftMouseClickSound": null,
   "RightMouseClickSound": null,
   "Children": {
     "PlayerHudLevelLabel": {
-      "Bounds": "0,0,100,10",
+      "Bounds": "8,24,64,18",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -37,7 +37,7 @@
       "MinimumSize": "0,0",
       "MaximumSize": "0,0",
       "Disabled": false,
-      "Hidden": false,
+      "Hidden": true,
       "RestrictToParent": false,
       "MouseInputEnabled": false,
       "HideToolTip": false,
@@ -49,14 +49,14 @@
       "HoveredTextColor": null,
       "ClickedTextColor": null,
       "DisabledTextColor": null,
-      "TextAlign": "Left, Top",
+      "TextAlign": "Center",
       "AutoSizeToContents": true,
       "FontName": null,
       "FontSize": null,
       "TextScale": 1.0
     },
     "PlayerHudHpBackground": {
-      "Bounds": "0,0,10,10",
+      "Bounds": "88,14,264,40",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -75,14 +75,14 @@
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hud_bar_empty.png",
+      "Texture": "hud_web_hp_frame.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "PlayerHudHpFill": {
-          "Bounds": "0,0,10,10",
+          "Bounds": "30,13,208,14",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -101,7 +101,7 @@
           "ToolTipBackground": null,
           "ToolTipFont": null,
           "TooltipTextColor": null,
-          "Texture": "hud_hp_fill.png",
+          "Texture": "hud_web_hp_fill.png",
           "TextureNinePatchMargin": null,
           "HoverSound": null,
           "LeftMouseClickSound": null,
@@ -120,7 +120,7 @@
           "MinimumSize": "0,0",
           "MaximumSize": "0,0",
           "Disabled": false,
-          "Hidden": false,
+          "Hidden": true,
           "RestrictToParent": false,
           "MouseInputEnabled": false,
           "HideToolTip": false,
@@ -141,7 +141,7 @@
       }
     },
     "PlayerHudMpBackground": {
-      "Bounds": "0,0,10,10",
+      "Bounds": "370,14,264,40",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -160,14 +160,14 @@
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hud_bar_empty.png",
+      "Texture": "hud_web_mp_frame.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "PlayerHudMpFill": {
-          "Bounds": "0,0,10,10",
+          "Bounds": "30,13,208,14",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -186,7 +186,7 @@
           "ToolTipBackground": null,
           "ToolTipFont": null,
           "TooltipTextColor": null,
-          "Texture": "hud_mp_fill.png",
+          "Texture": "hud_web_mp_fill.png",
           "TextureNinePatchMargin": null,
           "HoverSound": null,
           "LeftMouseClickSound": null,
@@ -205,7 +205,7 @@
           "MinimumSize": "0,0",
           "MaximumSize": "0,0",
           "Disabled": false,
-          "Hidden": false,
+          "Hidden": true,
           "RestrictToParent": false,
           "MouseInputEnabled": false,
           "HideToolTip": false,
@@ -226,7 +226,7 @@
       }
     },
     "PlayerHudExpBackground": {
-      "Bounds": "0,0,10,10",
+      "Bounds": "150,116,460,24",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -245,14 +245,14 @@
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hud_exp_empty.png",
+      "Texture": "hud_web_exp_frame.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "PlayerHudExpFill": {
-          "Bounds": "0,0,10,10",
+          "Bounds": "35,9,390,5",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -271,7 +271,7 @@
           "ToolTipBackground": null,
           "ToolTipFont": null,
           "TooltipTextColor": null,
-          "Texture": "hud_exp_fill.png",
+          "Texture": "hud_web_exp_fill.png",
           "TextureNinePatchMargin": null,
           "HoverSound": null,
           "LeftMouseClickSound": null,
@@ -290,7 +290,7 @@
           "MinimumSize": "0,0",
           "MaximumSize": "0,0",
           "Disabled": false,
-          "Hidden": false,
+          "Hidden": true,
           "RestrictToParent": false,
           "MouseInputEnabled": false,
           "HideToolTip": false,
@@ -311,7 +311,7 @@
       }
     },
     "HotbarDefensiveStanceButton": {
-      "Bounds": "0,0,10,10",
+      "Bounds": "638,0,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -337,7 +337,7 @@
       "RightMouseClickSound": null,
       "Children": {
         "HotbarDefensiveStanceAura": {
-          "Bounds": "0,0,10,10",
+          "Bounds": "0,0,52,52",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -358,7 +358,7 @@
           "TooltipTextColor": null
         },
         "HotbarDefensiveStanceIcon": {
-          "Bounds": "0,0,10,10",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -386,7 +386,7 @@
       }
     },
     "HotbarContainer0": {
-      "Bounds": "4,4,36,36",
+      "Bounds": "88,56,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -405,14 +405,14 @@
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem0": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -438,7 +438,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel0": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -469,7 +469,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel0": {
-          "Bounds": "18,16,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -500,7 +500,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel0": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -531,7 +531,7 @@
           "TextScale": 1.0
         },
         "KeyLabel0": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -564,7 +564,7 @@
       }
     },
     "HotbarContainer1": {
-      "Bounds": "44,4,36,36",
+      "Bounds": "150,56,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -583,14 +583,14 @@
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem1": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -616,7 +616,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel1": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -647,7 +647,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel1": {
-          "Bounds": "18,16,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -678,7 +678,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel1": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -709,7 +709,7 @@
           "TextScale": 1.0
         },
         "KeyLabel1": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -742,7 +742,7 @@
       }
     },
     "HotbarContainer2": {
-      "Bounds": "84,4,36,36",
+      "Bounds": "212,56,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -761,14 +761,14 @@
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem2": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -794,7 +794,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel2": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -825,7 +825,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel2": {
-          "Bounds": "18,16,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -856,7 +856,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel2": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -887,7 +887,7 @@
           "TextScale": 1.0
         },
         "KeyLabel2": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -920,7 +920,7 @@
       }
     },
     "HotbarContainer3": {
-      "Bounds": "124,4,36,36",
+      "Bounds": "274,56,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -939,14 +939,14 @@
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem3": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -972,7 +972,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel3": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1003,7 +1003,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel3": {
-          "Bounds": "18,16,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1034,7 +1034,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel3": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1065,7 +1065,7 @@
           "TextScale": 1.0
         },
         "KeyLabel3": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1098,7 +1098,7 @@
       }
     },
     "HotbarContainer4": {
-      "Bounds": "164,4,36,36",
+      "Bounds": "336,56,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -1117,14 +1117,14 @@
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem4": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1150,7 +1150,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel4": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1181,7 +1181,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel4": {
-          "Bounds": "18,16,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1212,7 +1212,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel4": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1243,7 +1243,7 @@
           "TextScale": 1.0
         },
         "KeyLabel4": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1276,7 +1276,7 @@
       }
     },
     "HotbarContainer5": {
-      "Bounds": "204,4,36,36",
+      "Bounds": "398,56,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -1295,14 +1295,14 @@
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem5": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1328,7 +1328,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel5": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1359,7 +1359,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel5": {
-          "Bounds": "18,16,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1390,7 +1390,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel5": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1421,7 +1421,7 @@
           "TextScale": 1.0
         },
         "KeyLabel5": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1454,7 +1454,7 @@
       }
     },
     "HotbarContainer6": {
-      "Bounds": "244,4,36,36",
+      "Bounds": "460,56,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -1473,14 +1473,14 @@
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem6": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1506,7 +1506,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel6": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1537,7 +1537,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel6": {
-          "Bounds": "18,16,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1568,7 +1568,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel6": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1599,7 +1599,7 @@
           "TextScale": 1.0
         },
         "KeyLabel6": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1632,7 +1632,7 @@
       }
     },
     "HotbarContainer7": {
-      "Bounds": "284,4,36,36",
+      "Bounds": "522,56,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -1651,14 +1651,14 @@
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem7": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1684,7 +1684,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel7": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1715,7 +1715,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel7": {
-          "Bounds": "18,16,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1746,7 +1746,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel7": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1777,7 +1777,7 @@
           "TextScale": 1.0
         },
         "KeyLabel7": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1810,7 +1810,7 @@
       }
     },
     "HotbarContainer8": {
-      "Bounds": "324,4,36,36",
+      "Bounds": "584,56,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -1829,14 +1829,14 @@
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem8": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1862,7 +1862,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel8": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1893,7 +1893,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel8": {
-          "Bounds": "18,16,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1924,7 +1924,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel8": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1955,7 +1955,7 @@
           "TextScale": 1.0
         },
         "KeyLabel8": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -1988,7 +1988,7 @@
       }
     },
     "HotbarContainer9": {
-      "Bounds": "364,4,36,36",
+      "Bounds": "646,56,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -2007,14 +2007,14 @@
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem9": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2040,7 +2040,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel9": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2071,7 +2071,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel9": {
-          "Bounds": "18,16,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2102,7 +2102,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel9": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2133,7 +2133,7 @@
           "TextScale": 1.0
         },
         "KeyLabel9": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2166,7 +2166,7 @@
       }
     },
     "HotbarContainer10": {
-      "Bounds": "4,44,36,36",
+      "Bounds": "88,-4,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -2178,21 +2178,21 @@
       "MinimumSize": "34,34",
       "MaximumSize": "0,0",
       "Disabled": false,
-      "Hidden": false,
+      "Hidden": true,
       "RestrictToParent": false,
       "MouseInputEnabled": true,
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem10": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2218,7 +2218,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel10": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2249,7 +2249,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel10": {
-          "Bounds": "36,0,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2280,7 +2280,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel10": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2311,7 +2311,7 @@
           "TextScale": 1.0
         },
         "KeyLabel10": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2344,7 +2344,7 @@
       }
     },
     "HotbarContainer11": {
-      "Bounds": "44,44,36,36",
+      "Bounds": "150,-4,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -2356,21 +2356,21 @@
       "MinimumSize": "34,34",
       "MaximumSize": "0,0",
       "Disabled": false,
-      "Hidden": false,
+      "Hidden": true,
       "RestrictToParent": false,
       "MouseInputEnabled": true,
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem11": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2396,7 +2396,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel11": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2427,7 +2427,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel11": {
-          "Bounds": "36,0,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2458,7 +2458,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel11": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2489,7 +2489,7 @@
           "TextScale": 1.0
         },
         "KeyLabel11": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2522,7 +2522,7 @@
       }
     },
     "HotbarContainer12": {
-      "Bounds": "84,44,36,36",
+      "Bounds": "212,-4,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -2534,21 +2534,21 @@
       "MinimumSize": "34,34",
       "MaximumSize": "0,0",
       "Disabled": false,
-      "Hidden": false,
+      "Hidden": true,
       "RestrictToParent": false,
       "MouseInputEnabled": true,
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem12": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2574,7 +2574,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel12": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2605,7 +2605,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel12": {
-          "Bounds": "36,0,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2636,7 +2636,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel12": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2667,7 +2667,7 @@
           "TextScale": 1.0
         },
         "KeyLabel12": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2700,7 +2700,7 @@
       }
     },
     "HotbarContainer13": {
-      "Bounds": "124,44,36,36",
+      "Bounds": "274,-4,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -2712,21 +2712,21 @@
       "MinimumSize": "34,34",
       "MaximumSize": "0,0",
       "Disabled": false,
-      "Hidden": false,
+      "Hidden": true,
       "RestrictToParent": false,
       "MouseInputEnabled": true,
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem13": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2752,7 +2752,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel13": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2783,7 +2783,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel13": {
-          "Bounds": "36,0,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2814,7 +2814,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel13": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2845,7 +2845,7 @@
           "TextScale": 1.0
         },
         "KeyLabel13": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2878,7 +2878,7 @@
       }
     },
     "HotbarContainer14": {
-      "Bounds": "164,44,36,36",
+      "Bounds": "336,-4,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -2890,21 +2890,21 @@
       "MinimumSize": "34,34",
       "MaximumSize": "0,0",
       "Disabled": false,
-      "Hidden": false,
+      "Hidden": true,
       "RestrictToParent": false,
       "MouseInputEnabled": true,
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem14": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2930,7 +2930,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel14": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2961,7 +2961,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel14": {
-          "Bounds": "36,0,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -2992,7 +2992,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel14": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3023,7 +3023,7 @@
           "TextScale": 1.0
         },
         "KeyLabel14": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3056,7 +3056,7 @@
       }
     },
     "HotbarContainer15": {
-      "Bounds": "204,44,36,36",
+      "Bounds": "398,-4,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -3068,21 +3068,21 @@
       "MinimumSize": "34,34",
       "MaximumSize": "0,0",
       "Disabled": false,
-      "Hidden": false,
+      "Hidden": true,
       "RestrictToParent": false,
       "MouseInputEnabled": true,
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem15": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3108,7 +3108,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel15": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3139,7 +3139,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel15": {
-          "Bounds": "36,0,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3170,7 +3170,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel15": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3201,7 +3201,7 @@
           "TextScale": 1.0
         },
         "KeyLabel15": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3234,7 +3234,7 @@
       }
     },
     "HotbarContainer16": {
-      "Bounds": "244,44,36,36",
+      "Bounds": "460,-4,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -3246,21 +3246,21 @@
       "MinimumSize": "34,34",
       "MaximumSize": "0,0",
       "Disabled": false,
-      "Hidden": false,
+      "Hidden": true,
       "RestrictToParent": false,
       "MouseInputEnabled": true,
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem16": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3286,7 +3286,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel16": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3317,7 +3317,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel16": {
-          "Bounds": "36,0,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3348,7 +3348,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel16": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3379,7 +3379,7 @@
           "TextScale": 1.0
         },
         "KeyLabel16": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3412,7 +3412,7 @@
       }
     },
     "HotbarContainer17": {
-      "Bounds": "284,44,36,36",
+      "Bounds": "522,-4,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -3424,21 +3424,21 @@
       "MinimumSize": "34,34",
       "MaximumSize": "0,0",
       "Disabled": false,
-      "Hidden": false,
+      "Hidden": true,
       "RestrictToParent": false,
       "MouseInputEnabled": true,
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem17": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3464,7 +3464,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel17": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3495,7 +3495,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel17": {
-          "Bounds": "36,0,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3526,7 +3526,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel17": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3557,7 +3557,7 @@
           "TextScale": 1.0
         },
         "KeyLabel17": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3590,7 +3590,7 @@
       }
     },
     "HotbarContainer18": {
-      "Bounds": "324,44,36,36",
+      "Bounds": "584,-4,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -3602,21 +3602,21 @@
       "MinimumSize": "34,34",
       "MaximumSize": "0,0",
       "Disabled": false,
-      "Hidden": false,
+      "Hidden": true,
       "RestrictToParent": false,
       "MouseInputEnabled": true,
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem18": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3642,7 +3642,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel18": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3673,7 +3673,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel18": {
-          "Bounds": "36,0,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3704,7 +3704,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel18": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3735,7 +3735,7 @@
           "TextScale": 1.0
         },
         "KeyLabel18": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3768,7 +3768,7 @@
       }
     },
     "HotbarContainer19": {
-      "Bounds": "364,44,36,36",
+      "Bounds": "646,-4,52,52",
       "Dock": "None",
       "Padding": "0,0,0,0",
       "AlignmentEdgeDistances": "0,0,0,0",
@@ -3780,21 +3780,21 @@
       "MinimumSize": "34,34",
       "MaximumSize": "0,0",
       "Disabled": false,
-      "Hidden": false,
+      "Hidden": true,
       "RestrictToParent": false,
       "MouseInputEnabled": true,
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
       "TooltipTextColor": null,
-      "Texture": "hotbaritem.png",
+      "Texture": "hud_web_slot.png",
       "TextureNinePatchMargin": null,
       "HoverSound": null,
       "LeftMouseClickSound": null,
       "RightMouseClickSound": null,
       "Children": {
         "HotbarItem19": {
-          "Bounds": "2,2,32,32",
+          "Bounds": "10,10,32,32",
           "Dock": "None",
           "Padding": "0,0,0,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3820,7 +3820,7 @@
           "RightMouseClickSound": null
         },
         "EquipLabel19": {
-          "Bounds": "0,0,14,14",
+          "Bounds": "40,1,10,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3851,7 +3851,7 @@
           "TextScale": 1.0
         },
         "QuantityLabel19": {
-          "Bounds": "36,0,0,20",
+          "Bounds": "34,1,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3882,7 +3882,7 @@
           "TextScale": 1.0
         },
         "CooldownLabel19": {
-          "Bounds": "18,8,0,20",
+          "Bounds": "24,20,4,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
@@ -3913,7 +3913,7 @@
           "TextScale": 1.0
         },
         "KeyLabel19": {
-          "Bounds": "36,16,0,20",
+          "Bounds": "39,39,5,11",
           "Dock": "None",
           "Padding": "4,0,4,0",
           "AlignmentEdgeDistances": "0,0,0,0",
