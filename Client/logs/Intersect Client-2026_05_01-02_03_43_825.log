@@ -1,9 +1,0 @@
-2026-05-01 02:03:44.155 +06:00 [INF] Starting Intersect Client v0.8.0.0-custom+32d39132dace1351f63375b261f241297dd35be8-dirty
-2026-05-01 02:03:44.525 +06:00 [INF] Discovered service type: Intersect.Plugins.PluginService
-2026-05-01 02:03:44.530 +06:00 [WRN] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
-2026-05-01 02:03:44.531 +06:00 [INF] Discovered 0 plugins:
-
-2026-05-01 02:04:23.785 +06:00 [INF] Connecting to 127.0.0.1:5400...
-2026-05-01 02:04:23.803 +06:00 [INF] Connected [50088885-a097-4f9d-959d-dc507084458b].
-2026-05-01 02:04:23.818 +06:00 [INF] Connection approved [50088885-a097-4f9d-959d-dc507084458b].
-2026-05-01 02:04:23.911 +06:00 [INF] Updated PermissionSet 'default'
